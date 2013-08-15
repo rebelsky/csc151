@@ -1,0 +1,5 @@
+# Ignore the various forms of files created from the .sects.
+*.html
+*.ps
+*.pdf
+*.docbook
