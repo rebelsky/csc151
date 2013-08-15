@@ -7,20 +7,20 @@ and directories.
 Files
 -----
 
-COPYRIGHT.md
+`COPYRIGHT.md` -
   A short copyright notice, giving Creative Commons license to the work.
 
-MANIFEST.md
+`MANIFEST.md` -
   This file.  A list of the primary files in the system.
 
-README.md
+`README.md` -
   Everyone's favorite starting point.
 
-index.html
+`index.html` -
   In the end, this repo is for building Web sites.  The home page is
   stored in the home directory; this page redirects to there.
 
-Makefile
+`Makefile` -
   Basic instructions for building the site.  Currently supports just the
   default and clean targets.
 
