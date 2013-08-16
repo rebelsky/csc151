@@ -3,3 +3,11 @@
 *.ps
 *.pdf
 *.docbook
+
+# Ignore files created by random editors
+*~
+*.swp
+
+# Ignore some standard temporary files
+*.o
+*.class
