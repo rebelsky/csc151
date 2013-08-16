@@ -1,0 +1,44 @@
+#!/usr/bin/perl
+
+# sect2docbook file
+
+my $id = $ARGV[0];
+
+print <<"WRAPPER_TOP";
+<?xml version="1.0"?>
+<!DOCTYPE section[
+  <!ENTITY % GroupEntities SYSTEM "group.ent">
+  %GroupEntities;
+  <!ENTITY % CourseEntities SYSTEM "../resources/course.ent">
+  %CourseEntities;
+  <!ENTITY % ProfEntities SYSTEM "../resources/prof.ent">
+  %ProfEntities;
+  <!ENTITY % CustomEntities SYSTEM "../resources/custom.ent">
+  %CustomEntities;
+  <!ENTITY % CommonEntities SYSTEM "../resources/common.ent">
+  %CommonEntities;
+]>
+WRAPPER_TOP
+
+print readFile("$id.sect");
+
+print <<"WRAPPER_BOTTOM";
+WRAPPER_BOTTOM
+
+# +-------------+------------------------------------------------------
+# | Subroutines |
+# +-------------+
+
+# Read in the contents of  file.
+sub readFile
+{
+  my $filename = shift;
+  my $linesep = $/; # Save for later
+  undef $/; # When $/ is undefined, read reads the wholefile
+  open(TMPFILE, "< $filename");
+  my $contents = <TMPFILE>;
+  close(TMPFILE);
+  $/ = $linesep; # Restore
+  return $contents;
+} # readFile
+

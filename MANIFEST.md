@@ -27,7 +27,7 @@ Files
 The resources directory
 -----------------------
 
-###XML Entities
+### XML Entities
 
 `resources/common.ent` -
   Common entities, used by all sites.
@@ -41,7 +41,7 @@ The resources directory
 `resources/prof.ent` -
   Information about the professor
 
-###XML Style Sheets
+### XML Style Sheets
 
 `resources/common.xsl` -
   The common style sheet.  (I don't know why I decided to call this common.)
@@ -53,13 +53,21 @@ The resources directory
 `resources/stylesheet.xsl` -
   The primary style sheet used to convert XML to HTML.
 
-###Miscellaneous
+### Programs
+
+`resources/sect2docbook` -
+  A tool that wraps a .sect file to produce a docbook that includes
+  the appropriate entities.
+
+`resources/wrap-md-html` -
+  A tool that takes a formatted Markdown file (traditionally, really
+  simple HTML) and wraps it into a page that looks like the formatted
+  .sect files.
+
+### Miscellaneous
 
 `resources/Makefile` -
   A simple Makefile.
-
-`resources/sect2docbook` -
-  A tool that wraps a .sect file to produce a docbook.
 
 `resources/section.mk` -
   A shared Makefile for the various document directories.
@@ -102,3 +110,7 @@ These sections tend to get filled in as the semester progresses.
 
 `examples` -
   Examples generated during the semester (or prepared in advance).
+
+`sandbox` -
+  A place to play with things, mostly to try new approaches and to
+  get things working.
