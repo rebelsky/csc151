@@ -1,5 +1,7 @@
 <section id="index-&group;"><title>List of &group;</title>
 
-<para id="{$group}"></para>
+<itemizedlist>
+<listitem><ulink url="disabilities.html">Notes on Students with Disabilities</ulink></listitem>
+</itemizedlist>
 
 </section> <!-- index-&group; -->
