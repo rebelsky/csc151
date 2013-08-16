@@ -27,7 +27,7 @@ Files
 The resources directory
 -----------------------
 
-==XML Entities==
+###XML Entities
 
 `resources/common.ent` -
   Common entities, used by all sites.
@@ -41,7 +41,7 @@ The resources directory
 `resources/prof.ent` -
   Information about the professor
 
-==XML Style Sheets==
+###XML Style Sheets
 
 `resources/common.xsl` -
   The common style sheet.  (I don't know why I decided to call this common.)
@@ -53,7 +53,7 @@ The resources directory
 `resources/stylesheet.xsl` -
   The primary style sheet used to convert XML to HTML.
 
-==Miscellaneous==
+###Miscellaneous
 
 `resources/Makefile` -
   A simple Makefile.
