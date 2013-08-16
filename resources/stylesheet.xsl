@@ -18,7 +18,7 @@
 
 <xsl:template name="user.header.content">
 <p class="course">
-  &coursename; : &group;
+  &courseid; (&coursename;) : &group;
 <br/>
 </p>
 <div class="head">
