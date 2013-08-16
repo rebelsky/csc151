@@ -27,59 +27,78 @@ Files
 The resources directory
 -----------------------
 
-resources/common.ent
+==XML Entities==
 
-resources/common.xsl
+`resources/common.ent` -
+  Common entities, used by all sites.
 
-resources/course.ent
+`resources/course.ent` -
+  Course-related entitities (e.g., the course name and number).
 
-resources/custom.ent
+`resources/custom.ent` -
+  Custom entities for each course.
 
-resources/documents.mk
+`resources/prof.ent` -
+  Information about the professor
 
-resources/entities.ent
+==XML Style Sheets==
 
-resources/links.xsl
+`resources/common.xsl` -
+  The common style sheet.  (I don't know why I decided to call this common.)
 
-resources/Makefile
+`resources/links.xsl` -
+  HTML for the links that appear at the top and bottom of each page, at 
+  least in the current style.
 
-resources/mkwrapper
+`resources/stylesheet.xsl` -
+  The primary style sheet used to convert XML to HTML.
 
-resources/prefix.txt
+==Miscellaneous==
 
-resources/prof.ent
+`resources/Makefile` -
+  A simple Makefile.
 
-resources/stylesheet.css
+`resources/sect2docbook` -
+  A tool that wraps a .sect file to produce a docbook.
 
-resources/stylesheet.css.old
+`resources/section.mk` -
+  A shared Makefile for the various document directories.
 
-resources/stylesheet.xsl
+`resources/stylesheet.css` -
+  The stylesheet used by all of the pages.
 
 Standard Sections
 -----------------
 These are the standard collections of documents for the course web.
 
-assignments
+`assignments` - 
+  Assignments, typically homework assignments.
 
-handouts
+`handouts` - 
+  Standard handouts - schedule of courses, etc.
 
-home
+`home` - 
+  The starting point.  Contains the front door.
 
-labs
+`labs` - 
+  Laboratories, if we have them.
 
-misc
+`misc` - 
+  Things that don't fit anywhere else. Rarely used.
 
-outlines
+`outlines` - 
+  Daily outlines.
 
-readings
+`readings` - 
+  Daily readings, for courses in which I write readings.
 
 Additional Sections
 -------------------
 These sections tend to get filled in as the semester progresses.
 
-eboards
+`eboards` -
   My daily notes.  I may try to work on making these in markdown
   format.
 
-examples
+`examples` -
   Examples generated during the semester (or prepared in advance).
