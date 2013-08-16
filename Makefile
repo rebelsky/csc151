@@ -51,3 +51,11 @@ status:
 # Update the repository.  (Yeah, I still think in terms of Subversion)
 update:
 	git pull 
+
+# Create a branch for the generic courses repository (somewhat upstream)
+.PHONY: generic
+generic:
+	@if [ ! `git remote | grep '^generic$$'` ]; then \
+	  git remote add generic https://github.com/rebelsky/courses; \
+	fi
+
