@@ -1,12 +1,31 @@
 #!/usr/bin/perl
 
 # sect2docbook file
+#   A simple script to convert a .sect file (intended for inclusion
+#   in broader documents) into a docbook file.  Addes appropriate
+#   entities as well as the appropriate DOCTYPE and xml stuff.
 
+# Grab the name of the file
 my $id = $ARGV[0];
+
+# Grab the prefix of the file
+my $prefix = $ARGV[0];
+$prefix =~ s/.sect//g;
+
+# If there's an entity file associated with this file, create text
+# to add it.
+my $file_entities = "";
+if (-e "$prefix.ent") {
+  print STDERR "File exists\n";
+  $file_entities = "<!ENTITY % ${prefix}Entities SYSTEM \"$prefix.ent\"> %${prefix}Entities;\n";
+}
+
+print STDERR "[$file_entities]\n";
 
 print <<"WRAPPER_TOP";
 <?xml version="1.0"?>
 <!DOCTYPE section[
+  $file_entities
   <!ENTITY % GroupEntities SYSTEM "group.ent">
   %GroupEntities;
   <!ENTITY % CourseEntities SYSTEM "../resources/course.ent">
