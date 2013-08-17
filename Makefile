@@ -1,3 +1,7 @@
+# rebelsky/[course]/Makefile
+#   Instructions for building Course Web sites using SamR's hybrid
+#   of Markdown and DocBook.
+
 # +-----------------+-------------------------------------------------
 # | Groups of Files |
 # +-----------------+
@@ -56,6 +60,11 @@ update:
 .PHONY: generic
 generic:
 	@if [ ! `git remote | grep '^generic$$'` ]; then \
-	  git remote add generic https://github.com/rebelsky/courses; \
+	  git remote add generic https://github.com/rebelsky/generic-course; \
 	fi
+
+# Pull from the generic course
+pull-generic: generic
+	git fetch generic master
+	git merge upstream/master
 
