@@ -43,7 +43,50 @@ Pushing Updates to the Generic Course
 My initial experiments at pushing a limited number of updates from a 
 fork back to the main branch were not particularly successful.  For now,
 the best strategy seems to be to make generic updates in the generic
-course.
+course.  
+
+Some quick notes on what should work.  (I haven't gotten these instructions
+to work, so they need some more experimentation.)
+
+1. Create two branches, one immediately before the change that should
+   be pushed, one immediately after.  We'll call them 'base' and 'update'.
+        git branch HEAD~[n] base
+        git branch HEAD~[n-1] update
+
+2. Make sure that you're in the update branch
+	git checkout update
+
+3. Get the master branch from the generic site.
+	make generic
+	git fetch generic master
+
+4. Rebase onto the generic.  This should move *just* the changes for update
+   onto the generic.
+	git rebase --onto generic/master base update
+
+5. Push this update to the generic-course repository.
+	git push generic update
+
+6. Switch to the directory for the generic course (often in another window)
+        cd /home/rebelsky/Web/Courses/generic
+
+7. Pull the changes
+        git pull 
+        git fetch origin update
+
+8. Merge the changes.  *Here's where things start to go wrong.  Since
+we rebased to generic/master, this should be a fast-forward merge.  But
+it doesn't seem to work that way.  Maybe rebasing the master?  (Ouch)*
+        git merge
+
+9. Get rid of the update branch
+        git branch -d update
+
+10. Switch back to the course repository
+
+11. Get rid of the update and base branches
+        git branch -d base update
+
 
 At the Beginning of the Semester
 --------------------------------
