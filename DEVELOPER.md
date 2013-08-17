@@ -48,15 +48,27 @@ course.
 Some quick notes on what should work.  (I haven't gotten these instructions
 to work, so they need some more experimentation.)
 
-1. Create two branches, one immediately before the change that should
-   be pushed, one immediately after.  We'll call them 'base' and 'update'.
-        git branch HEAD~[n] base
-        git branch HEAD~[n-1] update
+1. Make sure that everything from the generic repository has been pushed
+   back to the server.
 
-2. Make sure that you're in the update branch
+2. Make sure that you have the latest version of the generic course.
+        make generic
+        git fetch generic master
+        git merge generic/master
+
+3. Create two branches, one immediately before the change that should
+   be pushed, one immediately after.  We'll call them 'base' and 'update'.
+        git branch base
+        git checkout base
+        git reset <commit>
+        git branch update
+        git checkout update
+        git reset <commit>
+
+4. Make sure that you're in the update branch
 	git checkout update
 
-3. Get the master branch from the generic site.
+5. Get the master branch from the generic site.
 	make generic
 	git fetch generic master
 
@@ -74,19 +86,26 @@ to work, so they need some more experimentation.)
         git pull 
         git fetch origin update
 
-8. Merge the changes.  *Here's where things start to go wrong.  Since
-we rebased to generic/master, this should be a fast-forward merge.  But
-it doesn't seem to work that way.  Maybe rebasing the master?  (Ouch)*
-        git merge
+8. Rebase again.  (Yeah, this shouldn't be necessary.  But I can't get
+   a fast-forward unless I do this.)
+        git rebase --onto master origin/master origin/update
 
-9. Get rid of the update branch
-        git branch -d update
+9. You will now be in a new branch.  Find the identifier of the last commit
+   in that branch.
 
-10. Switch back to the course repository
+10. Switch back to the master branch.
+        git checkout master
 
-11. Get rid of the update and base branches
+11. Merge the commit.  If all goes well, we'll get a fast forward.
+        git merge <commit>
+
+12. Get rid of the update branch.  (Isn't this ugly?)
+        git push origin --delete update
+
+13. Switch back to the course repository
+
+14. Get rid of the update and base branches
         git branch -d base update
-
 
 At the Beginning of the Semester
 --------------------------------
