@@ -1,14 +1,18 @@
-rebelsky/courses
-================
-A repository that may eventually hold the Web sites for all of my
-courses (starting in Fall 2013).  In essence, this is an experiment 
-in branching using git.
+rebelsky/generic-course
+=======================
+A github repository that will eventually hold the Web sites for all of
+my courses (starting in Fall 2013).  The repository also serves as a
+type of sandbox for me learning a bit more about git (particularly ways
+to manage forks and branches).  Others should feel free to use whatever
+they find (see LICENSE.md).
 
-Implementation notes
---------------------
-I try to have a different directory for each "section" of the site 
-(assignments, readings, etc.).  Right now, I have a hack for getting
-custom settings for each section - I link the main XSL stylesheets to
-the current directory.  That way, we can load some files in the current
-directory (e.g., the entities).
+Known Forks
+-----------
+* rebelsky/csc151 - 
+  Functional Problem Solving, Grinnell's First Course
+* rebelsky/csc207 - 
+  Object-Oriented Problem Solving and Algorithms, Grinnell's
+  third course
+* rebelsky/learning-from-alumni - 
+  A special course with that subject
 
