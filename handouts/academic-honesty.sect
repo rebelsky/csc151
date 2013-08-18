@@ -1,0 +1,362 @@
+<section id="academic-honesty"><title>Academic Honesty</title>
+
+<para>
+  <emphasis>This document describes my general approach to academic honesty. I
+  may modify it for individual courses to better fit the structure and style
+  of those courses.</emphasis>
+</para>
+
+<para>
+  An important characteristic of the academic endeavor is the notion
+  that academics (students, faculty, researchers, staff) must follow high
+  standards of honesty in their academic work.  One component of academic
+  honesty is that academics must clearly indicate which work (ideas,
+  writing, etc.) is theirs and which belongs to others.
+</para>
+
+<para>
+  Grinnell's student handbook has included the following statement:
+</para>
+
+<blockquote>
+<para>
+  When you study at the College, you join a conversation among scholars,
+  professors, and students, one that helps sustain both the intellectual
+  community here and the larger world of thinkers, researchers, and
+  writers. The tests you take, the research you do, the writing you
+  submit - all these are ways you participate in this conversation.
+</para>
+
+<para>
+  The College presumes that your work for any course is your own
+  contribution to that scholarly conversation, and it expects you to
+  take responsibility for that contribution.  That is, you should
+  acknowledge what is your own individual work and what you have derived
+  from others so that other members of the community can trace the
+  evolution of your ideas.  
+</para>
+
+<para>
+  (Grinnell College 2008-2009 Student Handbook,
+p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffairs/shb/includes/ACADEMIC%20POLICIES%20AND%20PROCEDURES.pdf"><code>http://www.grinnell.edu/offices/studentaffairs/shb/includes/ACADEMIC%20POLICIES%20AND%20PROCEDURES.pdf</code></ulink> on 19 August 2009.)
+</para>
+
+</blockquote>
+
+<para>
+  However, there is much more to academic honesty than just making sure to
+  cite work you've used.  In particular, you are expected to provide a true
+  and accurate representation of your work in experimental endeavors (e.g.,
+  it is academically dishonest to invent or modify experimental results).
+  It is also academically dishonest to aid another in an academically
+  dishonest act (e.g., to provide aid on a no-aid exam, to write a paper
+  for another student).
+</para>
+
+<para>
+  Why do we care so much about academic honesty?  As the Student Handbook
+  suggests, the advancement of knowledge requires that a trail of ideas
+  be available so that successes and failures can be traced backward.
+  More importantly, your own personal integrity should require you to
+  be academically honest.
+</para>
+
+<para>
+  In Fall 2000, I had my first serious encounters with academic dishonesty
+  at Grinnell. Since that time, I have tried to be careful in spelling
+  out what I expect from my students.  What follows are some general
+  expectations.
+</para>
+
+<para>
+  I expect you to follow the highest principles of academic honesty.
+  Among other things, this means that any work you turn in should be your
+  own or should have the work of others clearly documented.  However, when
+  you explicitly work as part of a group or team, you need not identify
+  the work of each individual (unless I specify otherwise).
+</para>
+
+<para>
+  You should never <quote>give away</quote> answers to homework assignments
+  or examinations.  You may, however, work together in developing an
+  approach for most homework assignments - design, general algorithms,
+  etc.  Except as specified on individual assignments, each student
+  should develop his or her own final version of the assignment.  On most
+  written assignments, each student should write up an individual version
+  of the assignment and cite the discussion.  On non-group programming
+  assignments, each student should do his or her own programming,
+  although students may help each other with design and debugging.
+  If someone else (e.g., a classmate or class mentor) helps you on an
+  assignment, please include a note in the assignment that indicates
+  that you received such help and summarizes the help you received.
+</para>
+
+<para>
+  When working on examinations, you generally should not use people
+  (other than me) as resources.  In most cases, I will allow you to look
+  up things on the Web, but you should read the examination guidlines
+  to be sure.  In most examinations, I will not allow you to ask tutors
+  and mentors anything pertaining to the exam, not even general syntax
+  questions.  If you need help, you'll need to talk to me or a colleague.
+</para>
+
+<para>
+  If you have a question as to whether a particular action may violate
+  academic standards, please discuss it with me (preferably before you
+  undertake that action).
+</para>
+
+<section id="collaborative-work"><title>Collaborative Work</title>
+
+<para>
+  Most of my teaching involves <emphasis>collaborative work</emphasis>.
+  I believe (and have found) that students learn better when they
+  can consult with each other.  There are few better ways to learn
+  something than to explain that thing to someone else.  In computer
+  science, collaboration is particularly important because you often
+  encounter small problems that a second set of eyes can easily identify
+  and fix and because <quote>real world</quote> computer science is
+  almost always a collaborative activity.  For example, <emphasis>pair
+  programming</emphasis> is a key aspect of many forms of the software
+  design methodology known as agile programming.
+</para>
+
+<para>
+  In each assignment I give, I do my best to make it clear whether
+  the assignment is intended to be a group assignment or an individual
+  assignment. When it's an individual assignment, I do my best to indicate
+  whether parts of the assignment can be approached collaboratively.
+  If you're not sure, ask.
+</para>
+
+<para>
+  For most of my courses, almost all non-exam work will permit
+  collaboration.  That is, if I don't specify otherwise on an individual
+  assignment, you may assume that you can talk about design together,
+  should code individually, and can help each other look for bugs (in
+  design, code, implementation, whateer).
+</para>
+
+</section>  <!-- collaborative-work -->
+
+<section id="kinds-of-work"><title>Categories of Work</title>
+
+<para>
+  In my classes, I assign a variety of types of work.  Different categories
+  have different expectations.
+</para>
+
+<para>
+  <emphasis>Laboratories</emphasis> are almost always collaborative.
+  You should generally plan to work on laboratories with at least one
+  other student.  When you're stuck on a problem, you should feel free to
+  ask for help from almost anyone (me, the class mentor, another student,
+  a TC, a friend, etc.), but include a note that you received such help.
+  If I ask you to write up a laboratory, you and your partner or partners
+  should do only one writeup.  You should not copy text from another
+  group's writeup.
+</para>
+
+<para>
+  <emphasis>Homework assignments</emphasis> may be individual or group
+  assignments.  For either kind, you should feel free to ask for help from
+  almost anyone (me, the class mentor, another student, a TC, a friend).
+  If I give an individual homework, I expect each individual to write
+  up his or her answers individually (no copying!).  However, you may
+  certainly ask a colleague to proofread or comment on your answers,
+  provided you cite that person.  If I give collaborative homework,
+  each group of students should write and turn in its own single set
+  of answers.  However, you can still ask colleagues in other groups
+  to proofread or comment on your answers.  (Once again, you should
+  cite them.)
+</para>
+
+<para>
+  <emphasis>Take-home examinations</emphasis> are always individual work.
+  You may refer to any written materials (e.g., textbooks, Web pages,
+  your personal notes) that you wish.  However, you may not talk to
+  anyone (except me or other faculty teaching the same course) about
+  the examination or related issues.  I'm very strict about this issue;
+  I want you to avoid <emphasis>all</emphasis> discussion about the exam,
+  not just questions about the material on the exam.  You certainly can't
+  ask someone how to do a problem.  But you can't ask about other things,
+  either.  For example, you may not even ask a tutor or mentor how to use
+  the programming language for the exam.  Similarly, you may not ask a
+  colleague how much they've done on the exam or whether they've finished
+  a problem (and you can't brag about finishing a problem either).
+  At times, I may give you permission to talk to the course mentor about
+  an exam, but please make sure that you have explicit permission.
+</para>
+
+<para>
+  <emphasis>In-class quizzes and examinations</emphasis> are also always
+  individual work.  You may not talk during class or discuss the exam with
+  anyone in class.  You may ask me questions.  My in-class examinations
+  are typically closed-book and closed computer.  However, I typically
+  allow students to bring one sheet (8.5 x 11 inches) of hand-written
+  notes to the exam.
+</para>
+
+</section>  <!-- kinds-of-work -->
+
+<section id="citing-code"><title>Citing Program Code</title>
+
+<para>
+  Note that computer programming shares with normal writing a need to
+  cite work taken from elsewhere.  It is certainly acceptable practice
+  to borrow other code for your assignments.  However, you must cite any
+  code that you use from elsewhere, including your own code.  You are
+  also responsible for the quality of code you submit and there's a lot
+  of mediocre code on the Web.
+</para>
+
+<para>
+  Each piece of code you take from elsewhere must include a comment 
+  that specifies:
+</para>
+
+<itemizedlist>
+  <listitem>
+    the author of the original code;
+  </listitem>
+
+  <listitem>
+    the date the original code was written and the version of the
+    code (if available);
+  </listitem>
+
+  <listitem>
+    the date you incorporated the code into your program;
+  </listitem>
+
+  <listitem>
+    a summary of the modifications (if any) you made to the code; and
+  </listitem>
+
+  <listitem>
+    instructions for getting the original code (e.g., a URL).
+  </listitem>
+</itemizedlist>
+
+<para>
+  These guidelines apply not only to the code you get from the Web and
+  elsewhere; they also apply to code you get from me and from the textbook.
+</para>
+
+<para>
+  You need not cite the libraries you use, as the command to include
+  libraries within a program provides sufficient citation.
+</para>
+
+</section> <!-- citing-code -->
+
+<section id="citing-web-pages"><title>Citing Web Pages</title>
+
+<para>
+  The advances of the Internet and the World Wide Web have led to
+  challenges in citation.  Some seem to believe that it is acceptable
+  for a citation to consist of a URL.  However, a citation should
+  provide much more information.  Consider what a typical citation to
+  the printed literature contains: Author, Date, Publisher, Title of
+  Article, Publisher, etc.  Your Web citations should contain at least as
+  much detail.  That is, you must include not just the URL, but also the
+  author of the page (using <quote>Anonymous</quote> or an institutional
+  author, if necessary), the title of the page, the publisher (the site),
+  and the date.
+</para>
+
+<para>
+  The date is particularly important.  Unlike printed sources, which
+  have new editions when they change, electronic resources often change
+  unexpectedly.  By including the date the page was accessed and modified,
+  you at least provide some indication of when the ideas you were using
+  were available at the specified location.
+</para>
+
+<para>
+  Here is a sample citation for my academic honesty policy, using a slight
+  variant of the APA format.
+</para>
+
+<blockquote>
+<para>
+Rebelsky, Samuel (2013).  Academic Honesty.  Grinnell College Department
+of Computer Science.  Available at
+&url;/handouts/academic-honesty.html (Last modified 17 August 2013;
+Visited 17 August 2013).
+</para>
+</blockquote>
+
+</section> <!-- citing-web-pages -->
+
+<section id="sample-takehome-policies"><title>Sample Take-Home Examination Policies</title>
+
+<para>
+  <emphasis>These are my typical policies for take-home examinations.
+  They are included to give you a sense as to what I expect.</emphasis>
+</para>
+
+<para>
+  This examination is open book, open notes, open mind, open computer,
+  open Web. However, it is closed person. That means you should not talk to
+  other people about the exam. Other than as restricted by that limitation,
+  you should feel free to use all reasonable resources available to you.
+</para>
+
+<para>
+  As always, you are expected to turn in your own work. If you find ideas
+  in a book or on the Web, be sure to cite them appropriately. If you use
+  code that you wrote for a previous lab or homework, cite that lab or
+  homework and the other members of your group. If you use code that you
+  found on the course Web site, be sure to cite that code. You need not
+  cite the code provided in the body of the examination.
+</para>
+
+<para>
+  Although you may use the Web for this exam, you may not post your
+  answers to this examination on the Web. And, in case it's not clear,
+  you may not ask others (in person, via email, via IM, by posting a
+  <quote>please help</quote> message, or in any other way) to put answers
+  on the Web.
+</para>
+
+<para>
+  Because different students may be taking the exam at different times,
+  you are not permitted to discuss the exam with anyone until after I have
+  returned it. If you must say something about the exam, you are allowed
+  to say <quote>This is among the hardest exams I have ever taken. If
+  you don't start it early, you will have no chance of finishing the
+  exam.</quote> You may also summarize these policies. You may not tell
+  other students which problems you've finished. You may not tell other
+  students how long you've spent on the exam.
+</para>
+
+<para>
+  You must include both of the following statements on the cover sheet of
+  the examination.
+</para>
+
+<orderedlist>
+  <listitem>
+    I have neither received nor given inappropriate assistance on this
+    examination.
+  </listitem>
+
+  <listitem>
+    I am not aware of any other students who have given or received
+    inappropriate assistance on this examination.
+  </listitem>
+</orderedlist>
+
+<para>
+  Please sign and date each statement. Note that the statements must be
+  true; if you are unable to sign either statement, please talk to me
+  at your earliest convenience. You need not reveal the particulars of
+  the dishonesty, simply that it happened. Note also that inappropriate
+  assistance is assistance from (or to) anyone other than Professor Rebelsky
+  (that's me).
+</para>
+
+</section> <!-- sample-takehome-policies -->
+
+</section> <!-- academic-honesty -->
