@@ -1,0 +1,47 @@
+<section id="email"><title>Thoughts About Email and Encryption</title>
+
+<para>
+  Most of us, myself included, don't think much about email, other
+  than that it's a convenient way to communicate.  But a few recent 
+  events suggest that we should be a bit more thoughtful.  Hence,
+  I encourage you to consider using mail encryption software,
+  particularly the <ulink url="http://www.gnupg.org/">GNU Privacy 
+  Guard (GPG)</ulink>.
+</para>
+
+<para>
+  There are a host of useful introductions to and tutorials about GPG, 
+  so I'm not going to write much here, other than to recommend that
+  you learn about using GPG and to tell you that I use GPG.  Depending
+  on what email package I'm using and who I'm communicating with, encryption
+  is either trivial (one click and one password when I'm using Mail.app
+  and sending email) or a slight pain (saving the encrypted message as
+  a file and then running a decryption program when I'm receiving an
+  encrypted message via Webmail).
+</para>
+
+<itemizedlist>
+  <listitem>
+    On the Mac, I use <ulink url="https://gpgtools.org/">GPGMail 2</ulink>.
+    I find it simple and straightforward.
+  </listitem>
+  <listitem>
+    I don't use Microsoft Windows, but I hear that 
+    <ulink url="http://www.gpg4win.org/">gpg4win</ulink>
+    works pretty well.
+  </listitem>
+  <listitem>
+    On the Linux workstations in the MathLAN, GPG is installed as
+    a command line tool.   
+  </listitem>
+</itemizedlist>
+
+<para>
+  If you send me your public (or a link to your public key) and ask me to
+  encrypt email to do you, I will do my best to remember (although I may
+  not always succeed).   You can find my public key at 
+  <ulink url="http://www.cs.grinnell.edu/~rebelsky/rebelsky.gpg">http://www.cs.grinnell.edu/~rebelsky/rebelsky.gpg</ulink> or at the MIT key server,
+  <ulink url="http://pgp.mit.edu/">http://pgp.mit.edu/</ulink>.  
+</para>
+
+</section> <!-- email -->

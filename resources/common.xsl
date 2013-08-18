@@ -26,7 +26,7 @@
   </xsl:variable>
   &title-prefix;  
   <xsl:value-of select="normalize-space($title)"/>
-  (&courseid; : &group;)
+  (&group;, &courseid; &semester;)
 </xsl:template>
 
 <!-- SECTIONS -->

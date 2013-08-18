@@ -43,69 +43,8 @@ Pushing Updates to the Generic Course
 My initial experiments at pushing a limited number of updates from a 
 fork back to the main branch were not particularly successful.  For now,
 the best strategy seems to be to make generic updates in the generic
-course.  
-
-Some quick notes on what should work.  (I haven't gotten these instructions
-to work, so they need some more experimentation.)
-
-1. Make sure that everything from the generic repository has been pushed
-   back to the server.
-
-2. Make sure that you have the latest version of the generic course.
-        make generic
-        git fetch generic master
-        git merge generic/master
-
-3. Create two branches, one immediately before the change that should
-   be pushed, one immediately after.  We'll call them 'base' and 'update'.
-        git branch base
-        git checkout base
-        git reset <commit>
-        git branch update
-        git checkout update
-        git reset <commit>
-
-4. Make sure that you're in the update branch
-	git checkout update
-
-5. Get the master branch from the generic site.
-	make generic
-	git fetch generic master
-
-4. Rebase onto the generic.  This should move *just* the changes for update
-   onto the generic.
-	git rebase --onto generic/master base update
-
-5. Push this update to the generic-course repository.
-	git push generic update
-
-6. Switch to the directory for the generic course (often in another window)
-        cd /home/rebelsky/Web/Courses/generic
-
-7. Pull the changes
-        git pull 
-        git fetch origin update
-
-8. Rebase again.  (Yeah, this shouldn't be necessary.  But I can't get
-   a fast-forward unless I do this.)
-        git rebase --onto master origin/master origin/update
-
-9. You will now be in a new branch.  Find the identifier of the last commit
-   in that branch.
-
-10. Switch back to the master branch.
-        git checkout master
-
-11. Merge the commit.  If all goes well, we'll get a fast forward.
-        git merge <commit>
-
-12. Get rid of the update branch.  (Isn't this ugly?)
-        git push origin --delete update
-
-13. Switch back to the course repository
-
-14. Get rid of the update and base branches
-        git branch -d base update
+course.   I've put some quick notes on the basic structure of what I've
+tried at the end.
 
 At the Beginning of the Semester
 --------------------------------
@@ -121,14 +60,17 @@ At the Beginning of the Semester
 
 2. Clone the course repository into the directory you plan to use for the 
    course.  E.g.,
+
         cd /home/rebelsky/Web/Courses/CSC000/
         git clone https://github.com/rebelsky/csc000 2013F
         cd 2013F
 
 3. Edit `resources/course.ent`, which has the course-specific information.
+
         vi resources/course.ent
 
 4. Run Make at the top level, just to make sure that things are okay
+
         make
 
 5. Look at a page on the Web
@@ -148,15 +90,18 @@ It goes something like this.
    I'm using csc000.
 
 2. Clone the original repository onto your local machine
+
         git clone http://github.com/rebelsky/generic-course csc000
 
 3. Edit the Git config file
+
         cd csc000
         vi .git/config
         :1,$s/generic-course/csc000/g
         :wq
 
 4. Push the changes back to the repository
+
         git push -u origin master
 
 5. Check on github to see that everything worked.
@@ -164,4 +109,89 @@ It goes something like this.
 6. Update the generic site with a link to this fork.
 
 7. Do the normal start of semester activities.
+
+An Incomplete Strategy for Pushing Updates from Forks
+-----------------------------------------------------
+The difficulty in pushing updates from forks is that you've usually
+changed and added lots of files, but only a few of those changes really
+need to be propagated back.  These are my quick notes on what should work.
+I haven't gotten these instructions to work completely, and they are a
+bit messy, so they need some more experimentation.
+
+In the instructions below, code prefixed with `generic$` should be
+done in the directory for the generic course and code prefixed with
+`course$` should be done in the directory for the specific course
+(the fork).
+
+1. Make sure that everything from the generic repository has been pushed
+   back to the server.
+
+        generic$ git push
+
+2. Make sure that you have the latest version of the generic course.
+
+        course$ make generic
+        course$ git fetch generic master
+        course$ git merge generic/master
+
+3. Create two branches, one immediately before the change that should
+   be pushed, one immediately after.  We'll call them 'base' and 'update'.
+
+        course$ git checkout -b base
+        course$ git reset <commit>
+        course$ git checkout -b update
+        course$ git reset <commit>
+
+4. Make sure that you're in the update branch
+
+	course$ git checkout update
+
+5. Stash changes (I don't know why this is necessary, but it seems to be).
+
+        course$ git stash
+
+6. Rebase onto the generic.  The -i lets you select which changes you want.
+   (If you select only a few changes, git may need you to do some extra
+   things other than just the stash above.)
+
+	course$ git rebase -i --onto generic/master base update
+
+7. Push this update to the generic-course repository.
+
+	course$ git push generic update
+
+8. In the generic directory pull the changes.  (I'm not sure if the 
+   fetch is necessary.)
+
+        generic$ git pull 
+        generic$ git fetch origin update 
+
+8. Rebase again.  (Yeah, this shouldn't be necessary.  But I can't get
+   a fast-forward unless I do this.)
+
+        generic$ git rebase --onto master origin/master origin/update
+
+9. Name the new branch created by rebasing
+
+        generic$ git checkout -b temp
+
+10. Switch back to the master branch.
+
+        generic$ git checkout master
+
+11. Merge the temporary branch
+
+        generic$ git merge temp
+
+12. Get rid of the temporary branch
+
+        generic$ git branch -d temp
+
+13. Get rid of the update branch.  (Isn't this ugly?)
+
+        generic$ git push origin --delete update
+
+14. In the course repository, get rid of the update and base branches
+
+        course$ git branch -d base update
 
