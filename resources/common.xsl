@@ -68,4 +68,9 @@
   <strike><xsl:apply-templates/></strike>
 </xsl:template>
 
+<!-- Noprint text, for use with html2ps -->
+<xsl:template match="noprint">
+  <div class="noprint"><xsl:apply-templates/></div>
+</xsl:template>
+
 </xsl:stylesheet>

@@ -1,0 +1,13 @@
+<section class="noprint"><title>Experiments with non-printing text</title>
+
+<noprint>
+<para>
+  This paragraph should appear onscreen, but not in the PDF.
+</para>
+</noprint>
+
+<para>
+  This paragraph should appear onscreen and in the PDF.
+</para>
+
+</section>
