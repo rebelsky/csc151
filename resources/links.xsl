@@ -16,6 +16,9 @@
   [<a href="../handouts/schedule.html">Schedule</a>] 
   -
   [<a href="../handouts/academic-honesty.html">Academic Honesty</a>]
+  [<a href="../handouts/disabilities.html">Disabilities</a>]
+  [<a href="../handouts/email.html">EMail</a>]
+  [<a href="../handouts/teaching.html">Teaching &amp; Learning</a>]
 </p>
 <p class="links"><b>Current:</b>
   [<a href="../outlines/current.html">Outline</a>] 
