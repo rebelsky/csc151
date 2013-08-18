@@ -65,7 +65,7 @@
 
 <!-- Strikethrough text -->
 <xsl:template match="strike">
-  <strike>><xsl:apply-templates/></strike>
+  <strike><xsl:apply-templates/></strike>
 </xsl:template>
 
 </xsl:stylesheet>
