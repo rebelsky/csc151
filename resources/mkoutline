@@ -1,0 +1,130 @@
+#!/usr/bin/perl
+
+# mkoutline NN 
+#   Create the outline for date NN. 
+#
+# Note: 
+#   Requires that ../resources/subjects.ent exist and contain an
+#   entity for abbrevNN
+
+# +---------+---------------------------------------------------------
+# | Globals |
+# +---------+
+
+# $NN - The number of the outline (taken from the command line)
+my $NN = shift;
+
+# $subjects - The file that stores the entites for the daily subjects.
+my $subjects = "../resources/subjects.ent";
+
+# $PREFIX - The prefix used for all the files for this day
+
+
+# +------+------------------------------------------------------------
+# | Main |
+# +------+
+
+# Sanity check
+if (! -f $subjects) {
+  print STDERR "Could not find $subjects\n";
+  exit 1;
+}
+
+# Grab the prefix
+my $PREFIX = lookup("abbrev$NN", $subjects);
+if (! $PREFIX) {
+  print STDERR "Could not find abbreviation for $NN in $subjects.\n";
+  exit 1;
+}
+
+# Print the start of the page
+print <<"TOP";
+<section id="outline-$NN"><title>Outline $NN: &title$NN;</title>
+
+<para class="date">&date$NN;</para>
+
+<noprint>
+TOP
+
+# Print links to the previous and next pages
+print "<para class='foo'>\n";
+my $prev = twodigits($NN - 1);
+my $next = twodigits($NN + 1);
+my $prevtitle = lookup("title$prev", $subjects);
+my $nexttitle = lookup("title$next", $subjects);
+if ($prevtitle) { 
+  print "Back to <ulink url=\"outline.$prev.html\">Outline $prev - $prevtitle</ulink>.\n";
+}
+if ($nexttitle) { 
+  print "On to <ulink url=\"outline.$next.html\">Outline $next - $nexttitle</ulink>.\n";
+}
+print "<\/para>\n\n";
+
+print <<"END_NOPRINT";
+</noprint>
+
+END_NOPRINT
+
+my $pre = "<emphasis type=\"strong\">";
+my $post = "</emphasis>";
+
+includeOptionalXMLFile("$PREFIX-summary.xml", "${pre}Summary${post}");
+includeOptionalXMLFile("$PREFIX-overview.list", "${pre}Overview${post}");
+includeOptionalXMLFile("$PREFIX-admin.list", "${pre}Administrivia${post}");
+includeOptionalXMLFile("$PREFIX-body.xml");
+
+print <<"BOTTOM";
+
+</section> <!-- outline-$NN -->
+BOTTOM
+
+# +-------------+-----------------------------------------------------
+# | Subroutines |
+# +-------------+
+
+# includeOptionalXMLFile(filename,prelim)
+#   Add code to include the file, but only if it exists.  Also includes
+#   the prelim
+sub includeOptionalXMLFile()
+{
+  my $file = shift;
+  my $prelim = shift;
+  if (-f $file) {
+    if ("$prelim") {
+      print "$prelim\n";
+    }
+    print <<"INCLUDE";
+<xi:include href="$file" parse="xml" 
+  xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+INCLUDE
+  }
+} # includeOptionalXMLFile
+    
+# lookup(entity,file)
+#   Look up the entity in an entity file.
+sub lookup()
+{
+  my $entity = shift;
+  my $file = shift;
+  my $result = `grep $entity $subjects`;
+  chomp($result);
+  $result =~ s/^[^"]*"//;
+  $result =~ s/".*$//;
+  return $result;
+} # lookup()
+
+# twodigits(num)
+#   Express a number as two (or more) digits)
+#   Pre: 0 <= num < 100
+sub twodigits()
+{
+  my $n = shift;
+  $n = $n + 0; # remove leading 0's
+  if ($n < 10) {
+    return "0$n";
+  }
+  else {
+    return "$n";
+  }
+} # twodigits()
