@@ -14,7 +14,10 @@
 default: html
 
 clean: 
-	rm -rf common.xsl stylesheet.xsl *.docbook *.html *.ps *.pdf
+	rm -rf common.xsl stylesheet.xsl \
+                *.docbook *.html *.ps *.pdf \
+                *.list \
+                outline.*
 
 
 # +-----------------------+-------------------------------------------
@@ -43,6 +46,12 @@ clean:
 
 %.html: %-md.html template.html
 	../resources/wrap-md-html $^ > $@
+
+%.list: %.bullets
+	../resources/bullets2list $< > $@
+
+%.text: %.bullets
+	../resources/bullets2text $< > $@
 
 
 # +---------------+---------------------------------------------------
