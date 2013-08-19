@@ -1,0 +1,14 @@
++week
+<!ENTITY week{$week} "Getting Started">
+
++day
+<!ENTITY title{$day} "An Introduction to the Course">
+<!ENTITY abbrev{$day} "course-intro">
+
++day
+<!ENTITY title{$day} "Introduction, continued">
+<!ENTITY abbrev{$day} "intro-continued">
+
++day
+<!ENTITY title{$day} "Real Work">
+<!ENTITY abbrev{$day} "real-work">
