@@ -1,5 +1,4 @@
-default:
-	subjects.ent
+default: subjects.ent
 
 clean: 
 	rm -rf subjects.ent
