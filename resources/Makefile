@@ -1,9 +1,10 @@
 default:
-	@echo "Nothing to make here."
+	subjects.ent
 
 clean: 
-	@echo "Nothing to remove."
+	rm -rf subjects.ent
 
-
+subjects.ent: subjects.var
+	../resources/process-variables < $< > $@
 
 

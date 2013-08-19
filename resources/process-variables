@@ -1,0 +1,37 @@
+#!/usr/bin/perl
+
+# subjects file
+#   Does simple process of one of the files that I use to keep track
+#   of the daily subjects of the class.  
+
+my %values;
+
+while (<STDIN>) {
+  # A + sign at the beginning of a line increments a variable
+  if (s/^\+//) {
+    chomp;
+    $var = $_;
+    $values{$var} = twodigits($values{$var} + 1);
+  }
+  # foo=bar stores a value
+  elsif (m/^([a-zA-Z0-9_]*)=(.*)$/) {
+    $values{$1} = $2;
+  }
+  # Everything else potentially uses variables
+  else {
+    # Here we look for use of the variable, using the form {$xxx}
+    # and replace it with its value.  
+    s/{\$([a-zA-Z0-9_]*)}/$values{$1}/ge;
+    print $_;
+  } # else
+} # while <STDIN>
+
+sub twodigits
+{
+  my $val = shift;
+  $val = $val + 0;
+  if ($val < 10) { return "0$val"; }
+  else { return $val; }
+}
+    
+
