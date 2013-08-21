@@ -44,6 +44,7 @@
   [<a href="http://www.cs.grinnell.edu/glimmer/">Glimmer Labs</a>]
   [<a href="http://www.cs.grinnell.edu/">CS@Grinnell</a>]
   [<a href="http://www.grinnell.edu/">Grinnell</a>]
+  [<a href="https://github.com/rebelsky/generic-course/issues">Issue Tracker</a>]
 </p>
 
 </div><!--noprint-->
