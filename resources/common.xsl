@@ -10,6 +10,12 @@
   %CustomEntities;
   <!ENTITY % CommonEntities SYSTEM "../resources/common.ent">
   %CommonEntities;
+  <!ENTITY % SubjectEntities SYSTEM "../resources/subjects.ent">
+  %SubjectEntities;
+  <!ENTITY % CalendarEntities SYSTEM "../resources/calendar.ent">
+  %CalendarEntities;
+  <!ENTITY % DateEntities SYSTEM "../resources/dates.ent">
+  %DateEntities;
 ]>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version='1.0'
@@ -65,7 +71,12 @@
 
 <!-- Strikethrough text -->
 <xsl:template match="strike">
-  <strike>><xsl:apply-templates/></strike>
+  <strike><xsl:apply-templates/></strike>
+</xsl:template>
+
+<!-- Noprint text, for use with html2ps -->
+<xsl:template match="noprint">
+  <div class="noprint"><xsl:apply-templates/></div>
 </xsl:template>
 
 </xsl:stylesheet>

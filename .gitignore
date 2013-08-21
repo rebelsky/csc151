@@ -29,3 +29,6 @@ labs/stylesheet.xsl
 misc/stylesheet.xsl
 outlines/stylesheet.xsl
 readings/stylesheet.xsl
+
+# Ignore everything in the sandbox
+sandbox/*

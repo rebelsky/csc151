@@ -26,6 +26,7 @@ DIRTY = $(SECTIONS) \
 # +-----------------+
 
 default: 
+	cd resources; make
 	for dir in $(SECTIONS); do cd $$dir; make; cd ..; done
 
 clean:

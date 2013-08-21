@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+
+# bullets2text
+#   A simple script to convert a .bullets file (lines that start with
+#   asterisks/bullets) to plain text without any markup, useful for
+#   including in things like the syllabus.
+
+my $contents = readFile($ARGV[0]);
+$contents =~ s/^\* //gm;
+
+print "$contents";
+
+# +-------------+------------------------------------------------------
+# | Subroutines |
+# +-------------+
+
+# Read in the contents of  file.
+sub readFile
+{
+  my $filename = shift;
+  my $linesep = $/; # Save for later
+  undef $/; # When $/ is undefined, read reads the wholefile
+  open(TMPFILE, "< $filename");
+  my $contents = <TMPFILE>;
+  close(TMPFILE);
+  $/ = $linesep; # Restore
+  return $contents;
+} # readFile
+

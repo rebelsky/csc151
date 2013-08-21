@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+
+# bullets2list
+#   A simple script to convert a .bullets file (lines that start with
+#   asterisks/bullets) to a .list file, which gives Docbook XML for an
+#   itemized list.
+
+my $contents = readFile($ARGV[0]);
+$contents =~ s/^\* (.*)$/  <listitem>\1<\/listitem>/gm;
+
+print "<itemizedlist>\n$contents<\/itemizedlist>\n";
+
+# +-------------+------------------------------------------------------
+# | Subroutines |
+# +-------------+
+
+# Read in the contents of  file.
+sub readFile
+{
+  my $filename = shift;
+  my $linesep = $/; # Save for later
+  undef $/; # When $/ is undefined, read reads the wholefile
+  open(TMPFILE, "< $filename");
+  my $contents = <TMPFILE>;
+  close(TMPFILE);
+  $/ = $linesep; # Restore
+  return $contents;
+} # readFile
+
