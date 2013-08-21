@@ -66,6 +66,9 @@ generic:
 
 # Pull from the generic course
 pull-generic: generic
+	git pull generic master
+
+pull-generic-old: generic
 	git fetch generic master
-	git merge upstream/master
+	git merge generic /master
 
