@@ -1,0 +1,144 @@
+#!/usr/bin/perl
+
+# mkschedule TYPE
+#   Creates a schedule of a particular type
+#     mtwf-fall: Meets Monday, Tuesday, Wednesday, and Friday in the fall
+
+# +-----------+-------------------------------------------------------
+# | Variables |
+# +-----------+
+
+# The current day of the course
+my $DAY = 0;
+
+# The current week of the course
+my $WEEK = 0;
+
+# +------+------------------------------------------------------------
+# | Main |
+# +------+
+
+my $type = shift;
+
+if ($type eq "mtwf-fall") {
+  top();
+  week(); day(); day(); day(); day(); day();
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  break("Fall Break");
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  bottom();
+}
+
+else {
+  print STDERR "Unknown type of schedule: $type\n";
+  exit 1;
+}
+
+# +-------------+-----------------------------------------------------
+# | Subroutines |
+# +-------------+
+
+# break(txt)
+#   Prints a break week
+sub break()
+{
+  my $txt = shift;
+  print <<"BREAK";
+    <tr class="break">
+      <th colspan="6">
+        $txt
+      </th>
+    </tr>
+BREAK
+}
+
+# week()
+#   Prints the header for the next week
+sub week()
+{
+  $WEEK++;
+  $WEEK = twoDigits($WEEK);
+  print<<"WEEK";
+
+    <tr class="week">
+      <th colspan="6">
+        Week $WEEK: &week$WEEK;
+      </th>
+    </tr>
+WEEK
+} # week
+
+# day()
+#   Prints the next day.
+#   Note: Uses global variable $DAY
+sub day()
+{
+  $DAY++;
+  $DAY = twoDigits($DAY);
+  print<<"DAY";
+      <tr>
+        <td>$DAY</td>
+        <td>&date$DAY;</td>
+        <td><emphasis role="strong">&title$DAY;</emphasis></td>
+        <td>&reading$DAY;</td>
+        <td>&lab$DAY;</td>
+        <td>&due$DAY;</td>
+      </tr>
+DAY
+} # print_day
+
+# twoDigits(n)
+#   Print an integer value with two digits.
+sub twoDigits(n)
+{
+  my $val = shift;
+  $val = $val + 0;
+  if ($val < 10) { return "0$val"; }
+  else { return $val; }
+}
+  
+# top()
+#   Print the text at the top of the page
+sub top()
+{
+  print <<"TOP";
+<section id="schedule"><title>Schedule</title>
+
+<table class="schedule">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Date</th>
+      <th>Topic</th>
+      <th>Reading</th>
+      <th>Lab</th>
+      <th>Work Due</th>
+    </tr>
+  </thead>
+  <tbody>
+TOP
+} # top
+
+# bottom()
+#   Print the text at the bottom of the page
+sub bottom()
+{
+  print <<"BOTTOM";
+
+  </tbody>
+</table>
+
+</section> <!-- schedule -->
+BOTTOM
+} # bottom
