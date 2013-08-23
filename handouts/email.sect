@@ -10,14 +10,20 @@
 </para>
 
 <para>
-  There are a host of useful introductions to and tutorials about GPG, 
+  Since I use GPG, I've written <ulink url="http://www.cs.grinnell.edu/~rebelsky/gpg.html">a really brief introduction</ulink>.
+  There are a host of more useful and more comphrensive introductions to and tutorials about GPG, 
   so I'm not going to write much here, other than to recommend that
-  you learn about using GPG and to tell you that I use GPG.  Depending
-  on what email package I'm using and who I'm communicating with, encryption
-  is either trivial (one click and one password when I'm using Mail.app
-  and sending email) or a slight pain (saving the encrypted message as
-  a file and then running a decryption program when I'm receiving an
-  encrypted message via Webmail).
+  you learn about using GPG.  I will say that, depending on what email
+  package I'm using and who I'm communicating with, encryption is either
+  trivial (one click and one password when I'm using Mail.app and sending
+  email) or a slight pain (saving the encrypted message as a file and
+  then running a decryption program when I'm receiving an encrypted
+  message via Webmail).
+</para>
+
+<para>
+  GPG is available for all three major operating systems (and probably
+  for others, too).
 </para>
 
 <itemizedlist>
