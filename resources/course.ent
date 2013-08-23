@@ -4,3 +4,4 @@
 <!ENTITY coursename "COURSE NAME">
 <!ENTITY school "Grinnell College">
 <!ENTITY url "http://www.cs.grinnell.edu/~rebelsky/Courses/courses/">
+<!ENTITY courseurl "&url;">
