@@ -5,7 +5,7 @@
 
 $dir = shift;
 
-$FILES = `ls $dir`;
+$FILES = `ls $dir/*`;
 @FILES = split /\n/, $FILES;
 foreach $path (@FILES) {
   # Get just the file name from the path
