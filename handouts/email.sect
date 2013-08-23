@@ -11,7 +11,7 @@
 
 <para>
   Since I use GPG, I've written <ulink url="http://www.cs.grinnell.edu/~rebelsky/gpg.html">a really brief introduction</ulink>.
-  There are a host of more useful and more comphrensive introductions to and tutorials about GPG, 
+  There are a host of more useful and more comprehensive introductions to and tutorials about GPG, 
   so I'm not going to write much here, other than to recommend that
   you learn about using GPG.  I will say that, depending on what email
   package I'm using and who I'm communicating with, encryption is either
@@ -48,6 +48,17 @@
   not always succeed).   You can find my public key at 
   <ulink url="http://www.cs.grinnell.edu/~rebelsky/rebelsky.gpg">http://www.cs.grinnell.edu/~rebelsky/rebelsky.gpg</ulink> or at the MIT key server,
   <ulink url="http://pgp.mit.edu/">http://pgp.mit.edu/</ulink>.  
+</para>
+
+<para>
+  You may find it a bit strange that I'm giving you instructions for
+  encrypting your email when I'm encouraging you to use a public IRC
+  channel to discuss homework.  But the combination is intentional.  
+  IRC channels are supposed to be public.  I ask you to use an IRC channel
+  to remind you of the benefits of working in public.  In contrast, email
+  is supposed to be private.  I teach you about GPG to help you ensure
+  that your remail remains private.  You are free to judge the best
+  balance between the two.
 </para>
 
 </section> <!-- email -->
