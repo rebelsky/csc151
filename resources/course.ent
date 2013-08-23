@@ -5,3 +5,4 @@
 <!ENTITY school "Grinnell College">
 <!ENTITY url "http://www.cs.grinnell.edu/~rebelsky/Courses/courses/">
 <!ENTITY courseurl "&url;">
+<!ENTITY grader "grader@cs.grinenll.edu">
