@@ -1,0 +1,556 @@
+<section id="schedule"><title>Schedule</title>
+
+<table class="schedule">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Date</th>
+      <th>Topic</th>
+      <th>Reading</th>
+      <th>Lab</th>
+      <th>Work Due</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 01: &week01;
+      </th>
+    </tr>
+      <tr>
+        <td>01</td>
+        <td>&date01;</td>
+        <td><emphasis role="strong">&title01;</emphasis></td>
+        <td>&reading01;</td>
+        <td>&lab01;</td>
+        <td>&due01;</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>&date02;</td>
+        <td><emphasis role="strong">&title02;</emphasis></td>
+        <td>&reading02;</td>
+        <td>&lab02;</td>
+        <td>&due02;</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>&date03;</td>
+        <td><emphasis role="strong">&title03;</emphasis></td>
+        <td>&reading03;</td>
+        <td>&lab03;</td>
+        <td>&due03;</td>
+      </tr>
+      <tr>
+        <td>04</td>
+        <td>&date04;</td>
+        <td><emphasis role="strong">&title04;</emphasis></td>
+        <td>&reading04;</td>
+        <td>&lab04;</td>
+        <td>&due04;</td>
+      </tr>
+      <tr>
+        <td>05</td>
+        <td>&date05;</td>
+        <td><emphasis role="strong">&title05;</emphasis></td>
+        <td>&reading05;</td>
+        <td>&lab05;</td>
+        <td>&due05;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 02: &week02;
+      </th>
+    </tr>
+      <tr>
+        <td>06</td>
+        <td>&date06;</td>
+        <td><emphasis role="strong">&title06;</emphasis></td>
+        <td>&reading06;</td>
+        <td>&lab06;</td>
+        <td>&due06;</td>
+      </tr>
+      <tr>
+        <td>07</td>
+        <td>&date07;</td>
+        <td><emphasis role="strong">&title07;</emphasis></td>
+        <td>&reading07;</td>
+        <td>&lab07;</td>
+        <td>&due07;</td>
+      </tr>
+      <tr>
+        <td>08</td>
+        <td>&date08;</td>
+        <td><emphasis role="strong">&title08;</emphasis></td>
+        <td>&reading08;</td>
+        <td>&lab08;</td>
+        <td>&due08;</td>
+      </tr>
+      <tr>
+        <td>09</td>
+        <td>&date09;</td>
+        <td><emphasis role="strong">&title09;</emphasis></td>
+        <td>&reading09;</td>
+        <td>&lab09;</td>
+        <td>&due09;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 03: &week03;
+      </th>
+    </tr>
+      <tr>
+        <td>10</td>
+        <td>&date10;</td>
+        <td><emphasis role="strong">&title10;</emphasis></td>
+        <td>&reading10;</td>
+        <td>&lab10;</td>
+        <td>&due10;</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>&date11;</td>
+        <td><emphasis role="strong">&title11;</emphasis></td>
+        <td>&reading11;</td>
+        <td>&lab11;</td>
+        <td>&due11;</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>&date12;</td>
+        <td><emphasis role="strong">&title12;</emphasis></td>
+        <td>&reading12;</td>
+        <td>&lab12;</td>
+        <td>&due12;</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>&date13;</td>
+        <td><emphasis role="strong">&title13;</emphasis></td>
+        <td>&reading13;</td>
+        <td>&lab13;</td>
+        <td>&due13;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 04: &week04;
+      </th>
+    </tr>
+      <tr>
+        <td>14</td>
+        <td>&date14;</td>
+        <td><emphasis role="strong">&title14;</emphasis></td>
+        <td>&reading14;</td>
+        <td>&lab14;</td>
+        <td>&due14;</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>&date15;</td>
+        <td><emphasis role="strong">&title15;</emphasis></td>
+        <td>&reading15;</td>
+        <td>&lab15;</td>
+        <td>&due15;</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>&date16;</td>
+        <td><emphasis role="strong">&title16;</emphasis></td>
+        <td>&reading16;</td>
+        <td>&lab16;</td>
+        <td>&due16;</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>&date17;</td>
+        <td><emphasis role="strong">&title17;</emphasis></td>
+        <td>&reading17;</td>
+        <td>&lab17;</td>
+        <td>&due17;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 05: &week05;
+      </th>
+    </tr>
+      <tr>
+        <td>18</td>
+        <td>&date18;</td>
+        <td><emphasis role="strong">&title18;</emphasis></td>
+        <td>&reading18;</td>
+        <td>&lab18;</td>
+        <td>&due18;</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>&date19;</td>
+        <td><emphasis role="strong">&title19;</emphasis></td>
+        <td>&reading19;</td>
+        <td>&lab19;</td>
+        <td>&due19;</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>&date20;</td>
+        <td><emphasis role="strong">&title20;</emphasis></td>
+        <td>&reading20;</td>
+        <td>&lab20;</td>
+        <td>&due20;</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>&date21;</td>
+        <td><emphasis role="strong">&title21;</emphasis></td>
+        <td>&reading21;</td>
+        <td>&lab21;</td>
+        <td>&due21;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 06: &week06;
+      </th>
+    </tr>
+      <tr>
+        <td>22</td>
+        <td>&date22;</td>
+        <td><emphasis role="strong">&title22;</emphasis></td>
+        <td>&reading22;</td>
+        <td>&lab22;</td>
+        <td>&due22;</td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>&date23;</td>
+        <td><emphasis role="strong">&title23;</emphasis></td>
+        <td>&reading23;</td>
+        <td>&lab23;</td>
+        <td>&due23;</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>&date24;</td>
+        <td><emphasis role="strong">&title24;</emphasis></td>
+        <td>&reading24;</td>
+        <td>&lab24;</td>
+        <td>&due24;</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>&date25;</td>
+        <td><emphasis role="strong">&title25;</emphasis></td>
+        <td>&reading25;</td>
+        <td>&lab25;</td>
+        <td>&due25;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 07: &week07;
+      </th>
+    </tr>
+      <tr>
+        <td>26</td>
+        <td>&date26;</td>
+        <td><emphasis role="strong">&title26;</emphasis></td>
+        <td>&reading26;</td>
+        <td>&lab26;</td>
+        <td>&due26;</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td>&date27;</td>
+        <td><emphasis role="strong">&title27;</emphasis></td>
+        <td>&reading27;</td>
+        <td>&lab27;</td>
+        <td>&due27;</td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td>&date28;</td>
+        <td><emphasis role="strong">&title28;</emphasis></td>
+        <td>&reading28;</td>
+        <td>&lab28;</td>
+        <td>&due28;</td>
+      </tr>
+      <tr>
+        <td>29</td>
+        <td>&date29;</td>
+        <td><emphasis role="strong">&title29;</emphasis></td>
+        <td>&reading29;</td>
+        <td>&lab29;</td>
+        <td>&due29;</td>
+      </tr>
+    <tr class="break">
+      <th colspan="6">
+        Fall Break
+      </th>
+    </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 08: &week08;
+      </th>
+    </tr>
+      <tr>
+        <td>30</td>
+        <td>&date30;</td>
+        <td><emphasis role="strong">&title30;</emphasis></td>
+        <td>&reading30;</td>
+        <td>&lab30;</td>
+        <td>&due30;</td>
+      </tr>
+      <tr>
+        <td>31</td>
+        <td>&date31;</td>
+        <td><emphasis role="strong">&title31;</emphasis></td>
+        <td>&reading31;</td>
+        <td>&lab31;</td>
+        <td>&due31;</td>
+      </tr>
+      <tr>
+        <td>32</td>
+        <td>&date32;</td>
+        <td><emphasis role="strong">&title32;</emphasis></td>
+        <td>&reading32;</td>
+        <td>&lab32;</td>
+        <td>&due32;</td>
+      </tr>
+      <tr>
+        <td>33</td>
+        <td>&date33;</td>
+        <td><emphasis role="strong">&title33;</emphasis></td>
+        <td>&reading33;</td>
+        <td>&lab33;</td>
+        <td>&due33;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 09: &week09;
+      </th>
+    </tr>
+      <tr>
+        <td>34</td>
+        <td>&date34;</td>
+        <td><emphasis role="strong">&title34;</emphasis></td>
+        <td>&reading34;</td>
+        <td>&lab34;</td>
+        <td>&due34;</td>
+      </tr>
+      <tr>
+        <td>35</td>
+        <td>&date35;</td>
+        <td><emphasis role="strong">&title35;</emphasis></td>
+        <td>&reading35;</td>
+        <td>&lab35;</td>
+        <td>&due35;</td>
+      </tr>
+      <tr>
+        <td>36</td>
+        <td>&date36;</td>
+        <td><emphasis role="strong">&title36;</emphasis></td>
+        <td>&reading36;</td>
+        <td>&lab36;</td>
+        <td>&due36;</td>
+      </tr>
+      <tr>
+        <td>37</td>
+        <td>&date37;</td>
+        <td><emphasis role="strong">&title37;</emphasis></td>
+        <td>&reading37;</td>
+        <td>&lab37;</td>
+        <td>&due37;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 10: &week10;
+      </th>
+    </tr>
+      <tr>
+        <td>38</td>
+        <td>&date38;</td>
+        <td><emphasis role="strong">&title38;</emphasis></td>
+        <td>&reading38;</td>
+        <td>&lab38;</td>
+        <td>&due38;</td>
+      </tr>
+      <tr>
+        <td>39</td>
+        <td>&date39;</td>
+        <td><emphasis role="strong">&title39;</emphasis></td>
+        <td>&reading39;</td>
+        <td>&lab39;</td>
+        <td>&due39;</td>
+      </tr>
+      <tr>
+        <td>40</td>
+        <td>&date40;</td>
+        <td><emphasis role="strong">&title40;</emphasis></td>
+        <td>&reading40;</td>
+        <td>&lab40;</td>
+        <td>&due40;</td>
+      </tr>
+      <tr>
+        <td>41</td>
+        <td>&date41;</td>
+        <td><emphasis role="strong">&title41;</emphasis></td>
+        <td>&reading41;</td>
+        <td>&lab41;</td>
+        <td>&due41;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 11: &week11;
+      </th>
+    </tr>
+      <tr>
+        <td>42</td>
+        <td>&date42;</td>
+        <td><emphasis role="strong">&title42;</emphasis></td>
+        <td>&reading42;</td>
+        <td>&lab42;</td>
+        <td>&due42;</td>
+      </tr>
+      <tr>
+        <td>43</td>
+        <td>&date43;</td>
+        <td><emphasis role="strong">&title43;</emphasis></td>
+        <td>&reading43;</td>
+        <td>&lab43;</td>
+        <td>&due43;</td>
+      </tr>
+      <tr>
+        <td>44</td>
+        <td>&date44;</td>
+        <td><emphasis role="strong">&title44;</emphasis></td>
+        <td>&reading44;</td>
+        <td>&lab44;</td>
+        <td>&due44;</td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td>&date45;</td>
+        <td><emphasis role="strong">&title45;</emphasis></td>
+        <td>&reading45;</td>
+        <td>&lab45;</td>
+        <td>&due45;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 12: &week12;
+      </th>
+    </tr>
+      <tr>
+        <td>46</td>
+        <td>&date46;</td>
+        <td><emphasis role="strong">&title46;</emphasis></td>
+        <td>&reading46;</td>
+        <td>&lab46;</td>
+        <td>&due46;</td>
+      </tr>
+      <tr>
+        <td>47</td>
+        <td>&date47;</td>
+        <td><emphasis role="strong">&title47;</emphasis></td>
+        <td>&reading47;</td>
+        <td>&lab47;</td>
+        <td>&due47;</td>
+      </tr>
+      <tr>
+        <td>48</td>
+        <td>&date48;</td>
+        <td><emphasis role="strong">&title48;</emphasis></td>
+        <td>&reading48;</td>
+        <td>&lab48;</td>
+        <td>&due48;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 13: &week13;
+      </th>
+    </tr>
+      <tr>
+        <td>49</td>
+        <td>&date49;</td>
+        <td><emphasis role="strong">&title49;</emphasis></td>
+        <td>&reading49;</td>
+        <td>&lab49;</td>
+        <td>&due49;</td>
+      </tr>
+      <tr>
+        <td>50</td>
+        <td>&date50;</td>
+        <td><emphasis role="strong">&title50;</emphasis></td>
+        <td>&reading50;</td>
+        <td>&lab50;</td>
+        <td>&due50;</td>
+      </tr>
+      <tr>
+        <td>51</td>
+        <td>&date51;</td>
+        <td><emphasis role="strong">&title51;</emphasis></td>
+        <td>&reading51;</td>
+        <td>&lab51;</td>
+        <td>&due51;</td>
+      </tr>
+      <tr>
+        <td>52</td>
+        <td>&date52;</td>
+        <td><emphasis role="strong">&title52;</emphasis></td>
+        <td>&reading52;</td>
+        <td>&lab52;</td>
+        <td>&due52;</td>
+      </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 14: &week14;
+      </th>
+    </tr>
+      <tr>
+        <td>53</td>
+        <td>&date53;</td>
+        <td><emphasis role="strong">&title53;</emphasis></td>
+        <td>&reading53;</td>
+        <td>&lab53;</td>
+        <td>&due53;</td>
+      </tr>
+      <tr>
+        <td>54</td>
+        <td>&date54;</td>
+        <td><emphasis role="strong">&title54;</emphasis></td>
+        <td>&reading54;</td>
+        <td>&lab54;</td>
+        <td>&due54;</td>
+      </tr>
+      <tr>
+        <td>55</td>
+        <td>&date55;</td>
+        <td><emphasis role="strong">&title55;</emphasis></td>
+        <td>&reading55;</td>
+        <td>&lab55;</td>
+        <td>&due55;</td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td>&date56;</td>
+        <td><emphasis role="strong">&title56;</emphasis></td>
+        <td>&reading56;</td>
+        <td>&lab56;</td>
+        <td>&due56;</td>
+      </tr>
+
+  </tbody>
+</table>
+
+</section> <!-- schedule -->
