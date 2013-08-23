@@ -1,0 +1,171 @@
+
++day
+<!ENTITY title{$day} "Analyzing Procedures, Continued">
+<!ENTITY abbrev{$day} "analyzing-procedures-continued">
+<!ENTITY reading{$day} "<ulink url='../Readings/analysis-reading.html'>Analyzing Procedures</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Labs/analysis-lab.html'>Analyzing Procedures</ulink>">
+
++day
++day
+<!ENTITY title{$day} "Geometric Art, Continued">
+<!ENTITY abbrev{$day} "geometric-art-continued">
+<!ENTITY reading{$day} "<ulink url='../Readings/geometric-art-reading.html'>Geometric Art</ulink>">
+<!ENTITY lab{$day} "Continue <ulink url='../Labs/geometric-art-lab.html'>Geometric Art</ulink>">
+
++day
+<!ENTITY title{$day} "Storing Images in Files">
+<!ENTITY abbrev{$day} "pixmaps">
+<!ENTITY reading{$day} "<ulink url='../Readings/pixmaps-reading.html'>Pixel Maps: A Technique for Storing Images</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Labs/pixmaps-lab.html'>Pixel Maps</ulink>">
+
++day
+<!ENTITY title{$day} "More Efficient Storage">
+<!ENTITY abbrev{$day} "pixmaps-revisited">
+<!ENTITY reading{$day} "<ulink url='../Readings/pixmaps-revisited-reading.html'>Pixmaps, Revisited: Encoding Data More Efficiently</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Labs/pixmaps-revisited-lab.html'>Pixmaps, Revisited</ulink>">
+
++day
+<!ENTITY title{$day} "Even More Efficient Storage">
+<!ENTITY abbrev{$day} "pixmaps-re-revisited">
+<!ENTITY reading{$day} "<ulink url='../Readings/pixmaps-revisited-reading.html'>Pixmaps, Revisited: Encoding Data More Efficiently</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Labs/pixmaps-revisited-lab.html'>Pixmaps, Revisited</ulink>">
+
++day
+<!ENTITY title{$day} "Color Palettes">
+<!ENTITY abbrev{$day} "palettes">
+<!ENTITY reading{$day} "<ulink url='../Readings/palettes-reading.html'>Color Palettes</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Labs/palettes-lab.html'>Color Palettes</ulink>">
+
++day
+<!ENTITY title{$day} "Deep Recursion">
+<!ENTITY abbrev{$day} "deep-recursion">
+<!ENTITY reading{$day} "<ulink url='../Readings/deep-recursion-reading.html'>Deep Recursion</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Labs/deep-recursion-lab.html'>Deep Recursion</ulink>">
+
++day
+<!ENTITY title{$day} "Iterating Over Lists">
+<!ENTITY abbrev{$day} "list-iteration">
+<!ENTITY reading{$day} "<ulink url='../Readings/list-iteration-reading.html'>Iterating Over Lists</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Labs/list-iteration-lab.html'>Iterating Over Lists</ulink>">
+
++day
+<!ENTITY title{$day} "Representing Images as Lists of Spots">
+<!ENTITY abbrev{$day} "spot-lists">
+<!ENTITY reading{$day} "<ulink url='../Readings/spot-lists-reading.html'>Representing Images as Lists of Spots</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Labs/spot-lists-lab.html'>Representing Images as Lists of Spots</ulink>">
+
++day
+<!ENTITY title{$day} "Spot Lists, Continued">
+<!ENTITY abbrev{$day} "spot-lists-continued">
+<!ENTITY reading{$day} "<ulink url='../Readings/spot-lists-reading.html'>Representing Images as Lists of Spots</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Labs/spot-lists-lab.html'>Representing Images as Lists of Spots</ulink>">
+
++day
+<!ENTITY title{$day} "Husk and Kernel, Revisited">
+<!ENTITY abbrevNN "husk-kernel">
+
++day
+<!ENTITY title{$day} "Restricted-Access Collections: Stacks, Queues, and Priority Queues">
+<!ENTITY abbrevNN "collections">
+<!ENTITY readingNN "<ulink url='../Readings/collections-reading.html'>Keeping Track of Tasks with Restricted Access Collections</ulink>">
+<!ENTITY labNN "<ulink url='../Labs/collections-lab.html'>Stacks, Queues, and Priority Queues</ulink>">
+
++day
+<!ENTITY title{$day} "Conditionals">
+<!ENTITY abbrevNN "conditionals">
+
++day
+<!ENTITY title{$day} "New Ways to Make and Combine Functions">
+<!ENTITY abbrevNN "combining">
+<!ENTITY readingNN "<ulink url='../Readings/combining-functions-reading.html'>New Ways to Make and Combine Functions</ulink>">
+<!ENTITY labNN "<ulink url='../Labs/combining-functions-lab.html'>New Ways to Make and Combine Functions</ulink>">
+
++day
+<!ENTITY title{$day} "Representing Images as Lists of Shapes">
+<!ENTITY abbrevNN "vector-graphics">
+<!ENTITY readingNN "<ulink url='../Readings/vector-graphics-reading.html'>Vector Graphics: Representing Images as Lists of Shapes</ulink>">
+<!ENTITY labNN "<ulink url='../Labs/vector-graphics-lab.html'>Vector Graphics: Representing Images as Lists of Shapes</ulink>">
+
++day
+<!ENTITY title{$day} "Writing Higher-Order Procedures">
+<!ENTITY abbrevNN "higher-order">
+
++day
+<!ENTITY title{$day} "Fractals">
+<!ENTITY abbrevNN "fractals">
+
++day
+<!ENTITY title{$day} "Variable-Arity Procedures">
+<!ENTITY abbrevNN "variable-arity">
+
++day
+<!ENTITY title{$day} "Visualizing Data">
+<!ENTITY abbrevNN "generic">
+
++day
+<!ENTITY title{$day} "Discussion of Exam 2">
+<!ENTITY abbrevNN "exam2">
+
++day
+<!ENTITY title{$day} "Metaprogramming">
+<!ENTITY abbrevNN "metaprogramming">
+
++day
+<!ENTITY title{$day} "Color Palettes">
+<!ENTITY abbrevNN "palettes">
+<!ENTITY readingNN "<ulink url='../Readings/palettes-readings.html'>Color Palettes</ulink>">
+<!ENTITY labNN "<ulink url='../Labs/palettes-lab.html'>Color Palettes</ulink>">
+
++day
+<!ENTITY title{$day} "Recursion, Revisited">
+<!ENTITY abbrevNN "recursion-revisited">
+<!ENTITY readingNN "<ulink url='../Readings/recursion-revisited-reading.html'>Recursion, Revisited</ulink>">
+<!ENTITY labNN "<ulink url='../Labs/recursion-revisited-lab.html'>Recursion, Revisited</ulink>">
+
++day
+<!ENTITY title{$day} "Recursion, Revisited, Revisited">
+<!ENTITY abbrevNN "recursion-revisited-again">
+<!ENTITY readingNN "<ulink url='../Readings/recursion-revisited-reading.html'>Recursion, Revisited</ulink>">
+<!ENTITY labNN "<ulink url='../Labs/recursion-revisited-lab.html'>Recursion, Revisited</ulink>">
+
+
++day
+<!ENTITY title{$day} "Anonymous Transformations">
+<!ENTITY abbrevNN "anonymous-procedures">
+<!ENTITY readingNN "<ulink url='../Readings/anonymous-procedure-reading.html'>Anonymous Procedures</ulink>">
+<!ENTITY labNN "<ulink url='../Labs/anonymous-transformations-lab.html'>Writing and Using Anonymous Color Transformations</ulink>">
+
++day
+<!ENTITY title{$day} "HSV Colors">
+<!ENTITY abbrevNN "hsv">
+<!ENTITY readingNN "<ulink url='../Readings/hsv-colors-reading.html'>HSV Colors</ulink>">
+<!ENTITY labNN "<ulink url='../Labs/hsv-colors-lab.html'>HSV Colors</ulink>">
+
++day
+<!ENTITY title{$day} "Genetic Programming">
+<!ENTITY abbrev{$day} "genetic">
+<!ENTITY reading{$day} "<ulink url='../Readings/genetic-programming-reading.html'>Genetic Programming</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Labs/genetic-programming-lab.html'>Genetic Programming</ulink>">
+
++day
+<!ENTITY title{$day} "Sorting Images">
+<!ENTITY abbrev{$day} "image-sort">
+<!ENTITY reading{$day} "<ulink url='../Readings/sorting-images-reading.html'>Sorting Images</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Readings/sorting-images-reading.html'>Sorting Images</ulink>">
+
++day
+<!ENTITY title{$day} "Discussion of Exam 1">
+<!ENTITY abbrev{$day} "exam1">
+
++day
+<!ENTITY title{$day} "Project Ideas">
+<!ENTITY abbrev{$day} "project-ideas">
+<!ENTITY reading{$day} "<ulink url='../Readings/project-ideas-reading.html'>Project Ideas</ulink>">
+<!ENTITY lab{$day} "<ulink url='../Labs/project-ideas-lab.html'>Playing with Project Ideas</ulink>">
+
++day
+<!ENTITY title{$day} "Recursion Basics, Continued">
+<!ENTITY abbrev{$day} "recursion-basics-continued">
+<!ENTITY reading{$day} "<ulink url='../Readings/recursion-basics-reading.html'>Recursion Basics</ulink> &amp; <ulink url='../Readings/scheme-eval-2'>How Scheme Evaluates Expressions (version 2)</ulink>">
+<!ENTITY lab{$day} "Continue <ulink url='../Labs/recursion-basics-lab.html'>Recursion Basics</ulink>">
+
