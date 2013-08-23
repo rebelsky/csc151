@@ -17,7 +17,8 @@
   -
   [<a href="../handouts/academic-honesty.html">Academic Honesty</a>]
   [<a href="../handouts/disabilities.html">Disabilities</a>]
-  [<a href="../handouts/email.html">EMail</a>]
+  [<a href="../handouts/email.html">Email</a>]
+  [<a href="../handouts/irc.html">IRC</a>]
   [<a href="../handouts/teaching.html">Teaching &amp; Learning</a>]
 </p>
 <p class="links"><b>Current:</b>

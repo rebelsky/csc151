@@ -30,5 +30,11 @@ misc/stylesheet.xsl
 outlines/stylesheet.xsl
 readings/stylesheet.xsl
 
+# Ignore some automatically generated files
+resources/subjects.ent
+
 # Ignore everything in the sandbox
 sandbox/*
+
+# Ignore the forks that I keep handy
+forks/*

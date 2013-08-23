@@ -1,0 +1,89 @@
+<section id="irc"><title>IRC - Internet Relat Chat</title>
+
+<para>
+  I have started using Internet Relay Chat (IRC) as a place to hold
+  online office hours or just to answer student questions.  IRC is
+  a relatively simple, relatively lightweight, public chat program.
+  You can find me in the channel <code>grinnell-cs</code> on the
+  <code>freenode.net</code> IRC server. 
+</para>
+
+<para>
+  Why am I asking you to use IRC?  I have a few reasons:
+</para>
+
+<itemizedlist>
+  <listitem>
+    I consider it important that you learn tools that people use in
+    the Free and Open Source Software (FOSS) community.   IRC is
+    one such tool.  (See below for why FOSS projects use IRC.
+  </listitem>
+  <listitem>
+    I want to encourage you to be public with your work.  (Yes, I
+    know that this is in contrast to many faculty.)  Using IRC
+    asks you to be public with your questions.
+  </listitem>
+  <listitem>
+    I hope that Grinnell CS students can form a community in which
+    students (and perhaps alums) help each other, even if they are
+    not in the same space or the same class.
+  </listitem>
+  <listitem>
+    We can keep a log of our IRC chats, so questions that are answered
+    once need not be answered multiple times.
+  </listitem>
+</itemizedlist>
+
+<para>
+  I've also heard good things about the use of IRC from a valued
+  colleague at another institution, and I want to see if his experiences
+  translate well to Grinnell.
+</para>
+
+<section id="irc-starting"><title>Getting Started with IRC</title>
+
+<para>
+  <emphasis>Forthcoming.</emphasis>
+</para>
+
+</section> <!-- irc-starting -->
+
+<section id="irc-foss"><title>IRC and Free and Open Source Communities</title>
+
+<para>
+  A large number of FOSS communities use IRC, often in multiple ways.
+  (The two most common ways are scheduled meetings and just being
+  available for questions or discussion.)  Why use IRC?  My sense is
+  that two main principals dictate its use: IRC is open and and
+  egalitarian.
+</para>
+
+<para>
+  FOSS folks really seem to believe in working in the open - being
+  willing to reveal the mess behind the scenes in software.  They 
+  make incomplete work available (which I will admit is hard for someone
+  like me, who is too often a perfectionist in his software).  Doing
+  so not only makes it easier for people to see what's happening, it
+  may make it easier for others to join in.  And being open makes it
+  possible for anyone to join in.
+</para>
+
+<para>
+  How is IRC egalitarian?  It's simple and low bandwidth, which makes it
+  available to a wider variety of people.  You can use IRC on a computer
+  that's more than a decade old, running an old OS.  You can use IRC on
+  a smart phone (although I wouldn't recommend it).  But the use of text
+  is also egalitarian - if English isn't your native language (or
+  whatever language is being used for the chat), you can copy and paste
+  into a translator, such as Google translate, and usually get a better
+  sense of the conversation.
+</para>
+
+<para>
+  I'd be interested in hearing your own thoughts on why IRC is or is not
+  a good technology for communicating.
+</para>
+
+</section> <!-- irc-foss -->
+
+</section> <!-- irc -->
