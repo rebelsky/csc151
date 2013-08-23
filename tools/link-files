@@ -1,0 +1,20 @@
+#!/usr/bin/perl
+
+# link-files dir
+#   Created soft links to all of the files in dir
+
+$dir = shift;
+
+$FILES = `ls $dir`;
+@FILES = split /\n/, $FILES;
+foreach $path (@FILES) {
+  # Get just the file name from the path
+  $file = $path;
+  $file =~ s/$dir\///;
+  # If there is not a link
+  if (! -f "./$file") {
+    print "Linking $path\n";
+    symlink $path, "./$file";
+  } # if the file does not exist
+  
+} # foreach $path
