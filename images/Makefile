@@ -1,4 +1,0 @@
-default:
-
-.PHONY: clean
-clean:
