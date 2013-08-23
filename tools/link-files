@@ -12,7 +12,7 @@ foreach $path (@FILES) {
   $file = $path;
   $file =~ s/$dir\///;
   # If there is not a link
-  if (! -f "./$file") {
+  if ((! -f "./$file") && (! -l ./$file)) {
     print "Linking $path\n";
     symlink $path, "./$file";
   } # if the file does not exist
