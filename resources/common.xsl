@@ -12,6 +12,8 @@
   %CommonEntities;
   <!ENTITY % SubjectEntities SYSTEM "../resources/subjects.ent">
   %SubjectEntities;
+  <!ENTITY % DueEntities SYSTEM "../resources/due.ent">
+  %DueEntities;
   <!ENTITY % CalendarEntities SYSTEM "../resources/calendar.ent">
   %CalendarEntities;
   <!ENTITY % DateEntities SYSTEM "../resources/dates.ent">
