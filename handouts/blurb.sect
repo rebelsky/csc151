@@ -1,0 +1,29 @@
+<section name="blurb"><title>Official Blurbs</title>
+
+<para>
+  <emphasis role="strong">CSC 151 - Functional Problem Solving w/lab</emphasis>
+</para>
+
+<para>
+  A lab-based introduction to basic ideas of computer science, including recursion, abstraction, scope and binding, modularity, the design and analysis of algorithms, and the fundamentals of programming in a high-level, functional language. Variable topic course. Includes formal laboratory work.
+</para>
+
+<para>
+  Prerequisites: None
+</para>
+
+<para>
+  <emphasis role="strong">Fall 2013 Topic: Media Computation</emphasis>
+</para>
+
+<para>
+  In this section of CSC 151, we will ground our study of functional
+  problem solving in media computation. In particular, we will explore
+  mechanisms for representing, making, and manipulating images. We will
+  consider a variety of models of images based on pixels, basic shapes,
+  and objects that draw. The course will be taught using a workshop style:
+  In most class sessions, students will work collaboratively on a series
+  of problems. Includes formal laboratory work.
+</para>
+
+</section> <!-- blurb -->
