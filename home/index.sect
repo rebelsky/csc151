@@ -169,15 +169,15 @@
 
 <para>
   <anchor id="anchor-printing"/>
-  <emphasis role="strong">Printing Pages</emphasis>
-  Most of these pages are designed for viewing onscreen.  If you'd like
-  to print them, you may want to use PDF versions, which are designed for
-  paper.  To find the PDF version, simply replace the <code>html</code>
-  at the end of the URL with <code>pdf</code>.  If you do decide to
-  print, you should consider printing the document double-sided and
-  two-up (that is, two pages side-by-side on one physical page) so as
-  to conserve paper.  When I distribute documents, I will do my best to
-  distribute them in this form.
+  <emphasis role="strong">Printing Pages</emphasis>:
+  Most of the pages in the course web are designed for viewing onscreen.
+  If you'd like to print them, you may want to use PDF versions, which
+  are designed for paper.  To find the PDF version, simply replace
+  the <code>html</code> at the end of the URL with <code>pdf</code>.
+  If you do decide to print, you should consider printing the document
+  double-sided and two-up (that is, two pages side-by-side on one
+  physical page) so as to conserve paper.  When I distribute documents,
+  I will do my best to distribute them in this form.
 </para>
 
 </section>
