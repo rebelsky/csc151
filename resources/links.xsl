@@ -20,6 +20,7 @@
   [<a href="../handouts/email.html">Email</a>]
   [<a href="../handouts/irc.html">IRC</a>]
   [<a href="../handouts/teaching.html">Teaching &amp; Learning</a>]
+  [<a href="../handouts/grading.html">Grading</a>]
 </p>
 <p class="links"><b>Current:</b>
   [<a href="../outlines/current.html">Outline</a>] 
@@ -37,8 +38,20 @@
   [<a href="../readings/">Readings</a>]
 </p>
 <p class="links"> <strong>Reference:</strong> 
+  [<a href="../reference/setup.html">Setup</a>]
+  -
+  [<a href="../reference/a-z.html">Functions A-Z</a>]
+  [<a href="../reference/index.html">Functions By Topc</a>]
+  -
+  [<a href="http://docs.racket-lang.org/">Racket</a>]
+  [<a href="http://www.cs.grinnell.edu/courses/Scheme/r5rs-html/r5rs_toc.html">Scheme Report (R5RS)</a>]
+  [<a href="http://www.r6rs.org/">R6RS</a>]
+  [<a href="http://www.scheme.com/tspl4/">TSPL4</a>]
 </p>
 <p class="links"><b>Related Courses:</b>
+  [<a href="http://www.cs.grinnell.edu/~davisjan/csc/151/2013F/">Davis (2013F)</a>]
+  [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CS151/2010S/">Rebelsky (2010F)</a>]
+  [<a href="http://www.cs.grinnell.edu/~weinman/courses/CSC151/2012F/">Weinman (2012F)</a>]
 </p>
 <p class="links"> <strong>Misc:</strong> 
   [<a href="http://www.cs.grinnell.edu/~rebelsky/">SamR</a>]
