@@ -52,3 +52,7 @@ forks/*
 # +---------------------+---------------------------------------------
 # | Fork-Specific Rules |
 # +---------------------+
+
+mediascheme
+reference/common.xsl
+reference/stylesheet.xsl
