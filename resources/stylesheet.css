@@ -285,4 +285,8 @@ TABLE.schedule {
   vertical-align: top;
 }
 
-
+TABLE.index {
+  width: 90%;
+  border-collapse: collapse;
+  vertical-align: top;
+}
