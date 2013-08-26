@@ -6,7 +6,7 @@
   Welcome to one of the Fall 2013 sessions of Grinnell College's
   CSC 151, <emphasis>Functional Problem Solving</emphasis>,
   which is described relatively briefly in the official <ulink
-  url="Handouts/blurb.html">blurb</ulink>.  My own take on this course
+  url="../handouts/blurb.html">blurb</ulink>.  My own take on this course
   is that we'll be starting to develop your knowledge of computer science
   and <emphasis>algorithmic problem solving</emphasis>.  We will be using
   Scheme as our development language, which gives us the abililty to
