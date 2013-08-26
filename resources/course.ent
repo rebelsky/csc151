@@ -6,3 +6,6 @@
 <!ENTITY url "http://www.cs.grinnell.edu/~rebelsky/Courses/CSC151/2013F/">
 <!ENTITY courseurl "&url;">
 <!ENTITY grader "grader-151-02@cs.grinnell.edu">
+<!ENTITY syllabus "../handouts/schedule.html">
+<!ENTITY proftitle "Professor Rebelsky">
+<!ENTITY profpic "/home/rebelsky/glimmer/samples/rebelsky-stalkernet.jpg">
