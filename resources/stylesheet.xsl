@@ -40,24 +40,23 @@
 <div class="pagenotes">
 
 <p>
-Copyright (c) 2013 Samuel A. Rebelsky.  
+Samuel A. Rebelsky, <a href="mailto:rebelsky@grinnell.edu">rebelsky@grinnell.edu</a>
+</p>
+
+<p>
+Copyright (c) 2007-2013 Janet Davis, Samuel A. Rebelsky, and Jerod Weinman.  
+(Selected materials are copyright by John David Stone or Henry Walker
+and are used with permission.)
 </p>
 
 <p>
 <!--Creative Commons License-->
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.  To view a copy of this
-license, visit <a href="http://creativecommons.org/licenses/by/3.0/"><code>http://creativecommons.org/licenses/by/3.0/</code></a> 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution 3.0 Unported License</a>.  To view a copy of this
+license, visit <a href="http://creativecommons.org/licenses/by-nc/3.0/"><code>http://creativecommons.org/licenses/by/3.0/</code></a> 
 or send a letter to Creative Commons, 543 Howard Street, 5th Floor, 
 San Francisco, California, 94105, USA.
 <!--/Creative Commons License-->
 </p>
-
-<!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <Work rdf:about="">
-        <license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
-    </Work>
-    <License rdf:about="http://creativecommons.org/licenses/by/3.0/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/></License></rdf:RDF> -->
 
 </div><!--/pagenotes-->
 
