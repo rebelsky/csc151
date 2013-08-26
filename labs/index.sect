@@ -1,5 +1,9 @@
-<section id="index-&group;"><title>List of &group;</title>
+<section id="index-labs"><title>Labs</title>
 
-<para id="{$group}"></para>
+<table class="index">
+  <tbody>
+    <tr> <td>2</td> <td>&lab02;</td> <td>held &date02;</td> </tr>
+  </tbody>
+</table>
 
-</section> <!-- index-&group; -->
+</section> <!-- index-labs; -->
