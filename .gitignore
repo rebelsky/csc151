@@ -56,3 +56,4 @@ forks/*
 mediascheme
 reference/common.xsl
 reference/stylesheet.xsl
+reference/custom.ent
