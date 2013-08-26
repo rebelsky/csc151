@@ -1,3 +1,7 @@
+# +--------------+----------------------------------------------------
+# | Common Rules |
+# +--------------+
+
 # Ignore the various forms of files created from the .sects.
 *.html
 *.ps
@@ -36,5 +40,15 @@ resources/subjects.ent
 # Ignore everything in the sandbox
 sandbox/*
 
+
+# +------------------------+------------------------------------------
+# | Rules for Generic Site |
+# +------------------------+
+
 # Ignore the forks that I keep handy
 forks/*
+
+
+# +---------------------+---------------------------------------------
+# | Fork-Specific Rules |
+# +---------------------+
