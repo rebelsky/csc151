@@ -1,0 +1,193 @@
+<section id="grading"><title>Additional Information on Grading Policies</title>
+
+<para>
+  <emphasis role="strong">Summary:</emphasis> The <ulink
+  url="../home/">course front door</ulink> provides a quick
+  summary of the weights of various components of the course.
+  The <ulink url="../handouts/teaching.html">narrative on teaching and
+  learning</ulink> provides some general perspectives on how I teach,
+  how I hope you learn, and how I grade.  This document provides a bit
+  more detail on how I will be grading this particular class.
+</para>
+
+<section id="late"><title>Late Assignments</title>
+
+<para>
+  My experience shows that students who turn in work late learn
+  significantly less than students who turn material in on time.
+  (I'm not sure about cause and effect.)  Hence, I strongly discourage
+  late assignments.  Unless prior arrangements have been made, assignments
+  are due at the time stated on the homework assignment (typically 10:30
+  p.m. on Tuesday evenings).  Late assignments are penalized approximately
+  one letter grade per day late (or fraction thereof).
+</para>
+
+<para>
+  Because I am concerned about your health and well being, I will waive
+  the late penalty if (1) you start the assignment at least three days
+  in advance of the due date; (2) you get to sleep by midnight the night
+  before the assignment is due; (3) you expend a reasonable amount of
+  effort to complete the assignment by midnight; (4) you turn in a note
+  attesting to facts (1), (2), and (3) when the assignment is due; and (5)
+  you talk to me ASAP about any problems you've had on the assignment.
+</para>
+
+<para>
+  If you are ill, I will make appropriate accommodations.  Please let me
+  know as soon as possible if illness will make it difficult for you to
+  turn in an assignment on time.  (And yes, I realize that it's not
+  always possible to do so in advance.)
+</para>
+
+</section>  <!-- late -->
+
+<section id="participation"><title>Class Participation</title>
+
+<para>
+  As I suggest in <ulink url="teaching.html">my statement on teaching
+  and learning</ulink>, I don't think you learn the material as well if you
+  don't participate actively in the class.  I also know that if you're not
+  here, you can't participate.  Hence, a portion of your grade is based on
+  participation and attendance.  Students who miss no more than two classes
+  and who regularly answer questions or make comments in class receive 90
+  for participation.  Missing 3-5 classes results in a 10 point penalty.
+  Missing 6-8 classes results in a 25 point penalty.  Missing 9 or more
+  classes results in a 50 point penalty.  Particularly good answers,
+  comments, and questions result in bonus points for participation.
+</para>
+
+<para>
+  <emphasis>Because I do not want you to come to class when you are ill (and
+  likely to infect others), I am likely to moderate this grading scheme
+  for illness.</emphasis>
+</para>
+
+</section>  <!-- participation -->
+
+<section id="daily-hw"><title>Weekly Homework</title>
+
+<para>
+  We have tried a variety of strategies for homework in 151.  This
+  semester, we will assign one homework per week (except in weeks in which
+  an exam or project is due).  Almost all assignments (including most
+  examinations and projects) will be due at 10:30 p.m. on Tuesday night.
+</para>
+
+<para>
+  When grading homework this semester, I will typically use a
+  plus/check/minus/zero system.  Homework that is primarily correct will
+  earn you a check.   Errors will earn you a check-minus or a minus.
+  Significant errors may earn you a zero.  Failure to turn the assignment
+  in will earn you a zero.  Particularly nice work will earn you a
+  check-plus or a plus.  At the end of the semester, I will convert the
+  symbols to a letter or numeric grade.  If your grades a mostly checks,
+  you will earn a B.  Plus grades on approximately 1/4 of the graded
+  assignments and plus checks on remaining assignments will earn you an A.
+  Minus grades on the majority of the assignments will earn you a C.
+  Zero grades will earn you an even lower grade.
+</para>
+
+<para>
+  To help you monitor your learning, you will be required to complete
+  a <quote>wrapper</quote> for most assignments. After reading each
+  assignment, but before sitting down to undertake the assignment, you
+  will complete a short survey that asks you to estimate the amount of
+  time you will need to complete the assignment, and possibly answer
+  some other questions. After you have completed the assignment, you
+  will report how long the assignment actually took and reflect on any
+  differences from your prediction.  My colleague Janet Davis tells me
+  that evidence suggests that doing such activities enhance learning.
+</para>
+
+<para>
+  Because students can often learn and accomplish more in teams,
+  I encourage collaboration on homework assignments.  However, I've
+  also heard from many of our majors that they regretted always working
+  with the same people, and that they too often felt compelled to work
+  with friends.  Hence, I will assign teams for most homework assignments.
+</para>
+
+<para>
+  I realize that not everyone wants to work with partners.  I'll even
+  admit that when I was your age, I generally preferred to work alone.
+  Nonetheless, I know that working with others is an important skill,
+  and so I want you to give group assignments a try.  After the first
+  two or three programming assignments I will give you the opportunity
+  to decide whether you want me to continue to assign you to a team or
+  whether you prefer to work alone.
+</para>
+
+</section>  <!-- homework -->
+
+<section id="lab-writeups"><title>Labs and Lab Writeups</title>
+
+<para>
+  The best way to learn is by doing. During most classes, you will work
+  through programming problems with an assigned partner.  However, in
+  my experience, students do the work and then don't reflect back on
+  it.  <emphasis>I recommend that you take notes on what you've done
+  in lab to prepare for quizzes and exams.</emphasis>  Such notes are
+  particularly useful on exams, which are typically <quote>open 
+  notes</quote>.
+</para>
+
+<para>
+  To encourage you to think carefully about the material, for many labs
+  I will ask you to write up one or two exercises and submit them for
+  review.  I will do my best to let you know which exercises to write up,
+  and will also post them on the course web site.
+</para>
+
+<para>
+  You and your lab partner(s) may complete the writeup together or 
+  individually; you should decide which by the end of class. If you 
+  do the lab writeup on your own, you must acknowledge your partner 
+  (any anyone else who gave you help) in your writeup.
+</para>
+
+<para>
+  Your writeup should include your solution to each assigned exercise. 
+  If the exercise directs you to write Scheme code, include your Scheme
+  code. If the exercise directs you to find out what the output of
+  some expression is, copy and paste the output from the MediaScript
+  console. If the exercise asks a question or asks you to explain
+  something, write an answer in English. You do not need to copy
+  instructions or problem statements from the lab exercises into your
+  writeup, but do number your solutions.
+</para>
+
+<para>
+  Send your lab writeup to <email>grader-151-02@cs.grinnell.edu</email>. 
+  That email address goes to me and to your grader (who I prefer remain
+  anonymous).  The subject of the email should take the form
+  <quote>CSC 151 Lab: <emphasis>Title of Lab</emphasis></quote>.
+</para>
+
+<para>
+  Lab writeups are graded with an acceptable/unacceptable binary.  Your
+  write is acceptable if it includes a solution or evidence of serious
+  effort for each assigned exercise.  Your writeup is unacceptable if
+  it was not turned in or if there was no evidence of reasonable effort.
+  If you were not able to complete an exercise because of its difficulty,
+  your work is still acceptable if you explain where you got stuck and
+  come talk to me to get help.  So, in case it's not clear,
+  <emphasis>every diligent student will earn full credit for lab
+  writeups</emphasis>.
+</para>
+
+</section> <!-- lab-writeups -->
+
+<section id="exams"><title>Examinations</title>
+
+<para>
+  When grading exams this semester, I will begin each student at 100 points
+  and remove points for each error I encounter.  When I encounter something
+  particularly exceptional, I may add points.  I typically guarantee
+  minimum grades on examinations for students who spend a reasonable amount
+  of time on the exam.  (Warning: My view of <quote>reasonable</quote> may be
+  somewhat longer than your view.)
+</para>
+
+</section>  <!-- exams -->
+
+</section>  <!-- grading -->
