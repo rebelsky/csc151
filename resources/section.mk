@@ -30,8 +30,8 @@ clean:
 %.pdf: %.ps
 	ps2pdf $<  $*.pdf
 
-%.docbook: %.sect ../resources/sect2docbook
-	../resources/sect2docbook $* > $*.docbook
+%.docbook: %.sect ../tools/sect2docbook
+	../tools/sect2docbook $* > $*.docbook
 
 %.html: %.docbook *.ent ../resources/* common.xsl stylesheet.xsl
 	xsltproc -o $*.html \
@@ -45,13 +45,13 @@ clean:
 	Markdown.pl $< > $@
 
 %.html: %-md.html template.html
-	../resources/wrap-md-html $^ > $@
+	../tools/wrap-md-html $^ > $@
 
 %.list: %.bullets
-	../resources/bullets2list $< > $@
+	../tools/bullets2list $< > $@
 
 %.text: %.bullets
-	../resources/bullets2text $< > $@
+	../tools/bullets2text $< > $@
 
 
 # +---------------+---------------------------------------------------
