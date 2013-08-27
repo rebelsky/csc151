@@ -30,8 +30,8 @@ clean:
 %.pdf: %.ps
 	ps2pdf $<  $*.pdf
 
-%.docbook: %.sect ../resources/sect2docbook
-	../resources/sect2docbook $* > $*.docbook
+%.docbook: %.sect ../tools/sect2docbook
+	../tools/sect2docbook $* > $*.docbook
 
 %.html: %.docbook *.ent ../resources/* common.xsl stylesheet.xsl
 	xsltproc -o $*.html \
