@@ -48,10 +48,10 @@ clean:
 	../resources/wrap-md-html $^ > $@
 
 %.list: %.bullets
-	../resources/bullets2list $< > $@
+	../tools/bullets2list $< > $@
 
 %.text: %.bullets
-	../resources/bullets2text $< > $@
+	../tools/bullets2text $< > $@
 
 
 # +---------------+---------------------------------------------------
