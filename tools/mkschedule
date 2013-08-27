@@ -90,7 +90,7 @@ sub day()
       <tr>
         <td>$DAY</td>
         <td>&date$DAY;</td>
-        <td><emphasis role="strong">&title$DAY;</emphasis></td>
+        <td><ulink url="../outlines/outline.$DAY.html"><emphasis role="strong">&title$DAY;</emphasis></ulink></td>
         <td>&reading$DAY;</td>
         <td>&lab$DAY;</td>
         <td>&due$DAY;</td>
