@@ -45,7 +45,7 @@ clean:
 	Markdown.pl $< > $@
 
 %.html: %-md.html template.html
-	../resources/wrap-md-html $^ > $@
+	../tools/wrap-md-html $^ > $@
 
 %.list: %.bullets
 	../tools/bullets2list $< > $@
