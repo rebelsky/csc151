@@ -286,7 +286,17 @@ TABLE.schedule {
 }
 
 TABLE.index {
+  margin-left: 5%;
   width: 90%;
   border-collapse: collapse;
+  border-style: none;
   vertical-align: top;
+}
+
+TABLE.index td {
+  border-style: none;
+}
+
+TABLE.index tr {
+  text-align: left;
 }
