@@ -53,6 +53,9 @@ clean:
 %.text: %.bullets
 	../tools/bullets2text $< > $@
 
+%.text: %.xml
+	cat $< | sed -s 's/<[^>]*>//g' | sed -e 's/^[[:space:]]*//g' | grep -v -e "^[[:space:]]*$$" > $@
+
 
 # +---------------+---------------------------------------------------
 # | Sets of files |
