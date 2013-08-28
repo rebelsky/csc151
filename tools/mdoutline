@@ -1,0 +1,191 @@
+#!/usr/bin/perl
+
+# mdoutline NN 
+#   Create the outline for date NN. 
+#
+# Note: 
+#   Requires that ../resources/subjects.ent exist and contain an
+#   entity for abbrevNN
+
+# +---------+---------------------------------------------------------
+# | Globals |
+# +---------+
+
+# $NN - The number of the outline (taken from the command line)
+my $NN = shift;
+$NN = twoDigits($NN);
+
+# $subjects - The file that stores the entites for the daily subjects.
+my $subjects = "../resources/subjects.ent";
+
+# $dates - The file that stores the list of dates
+my $dates = "../resources/dates.ent";
+
+# calendar - The file that stores the calendar
+my $calendar = "../resources/calendar.ent";
+
+# $PREFIX - The prefix used for all the files for this day
+my $PREFIX;
+
+# $ADMIN - The file that contains the administrivia
+my $ADMIN = "admin/admin.$NN.md";
+
+# +------+------------------------------------------------------------
+# | Main |
+# +------+
+
+# Sanity check
+if (! -f $subjects) {
+  print STDERR "Could not find $subjects\n";
+  exit 1;
+}
+
+# Grab the prefix
+$PREFIX = lookupEntity("abbrev$NN", $subjects);
+if (! $PREFIX) {
+  print STDERR "Could not find abbreviation for $NN in $subjects.\n";
+  exit 1;
+}
+
+# Grab the title of the page
+$title = lookupEntity("title$NN", $subjects);
+
+# Grab the date of the class
+$date = lookupClassDate($NN);
+
+# Make the various parts of the page
+system("../tools/outline-parts-md $PREFIX");
+
+# Create the administrative and related items components (if it doesn't exist)
+system("touch $ADMIN");
+system("touch related/related.$NN.md");
+
+# Print the start of the page
+print "Outline $NN: $title\n";
+printN("=", length("Outline $NN: $title"));
+print ("\n");
+print ("\nHeld: $date\n\n");
+
+# Print links to the previous and next pages
+my $prev = twoDigits($NN - 1);
+my $next = twoDigits($NN + 1);
+my $prevtitle = lookupEntity("title$prev", $subjects);
+my $nexttitle = lookupEntity("title$next", $subjects);
+if ($prevtitle) { 
+  print "Back to [Outllne $prev - $prevtitle](outline.$prev.html)\n";
+}
+if ($nexttitle) { 
+  print "On to [Outllne $next - $nexttitle](outline.$next.html)\n";
+}
+print "\n";
+
+my $pre = "**";
+my $post = "**";
+
+# The three introductory things: Summary, list of related topics, overview
+includeMDFile("summaries/$PREFIX.md", "${pre}Summary${post}");
+includeMDFile("related/related.$NN.md", "${pre}Related Pages${post}");
+includeMDFile("overviews/$PREFIX.md", "${pre}Overview${post}");
+
+# Daily notes/administrivia.
+includeMDFile($ADMIN, "${pre}Administrivia${post}");
+
+# And the body
+includeOptionalMDFile("bodies/$PREFIX.md");
+
+# And that's it
+
+# +-------------+-----------------------------------------------------
+# | Subroutines |
+# +-------------+
+
+# includeOptionalMDFile(filename,prelim)
+#   Add code to include the file, but only if it exists.  Also includes
+#   the prelim
+sub includeOptionalMDFile()
+{
+  my $file = shift;
+  my $prelim = shift;
+  if (-f $file) {
+    includeMDFile($file, $prelim);
+  }
+} # includeOptionalMDFile
+
+# includeMDFile(filename,prelim)
+#   Add code to include the file
+sub includeMDFile()
+{
+  my $file = shift;
+  my $prelim = shift;
+  print STDERR "Including '$file'\n";
+  if ("$prelim") {
+    print "$prelim\n\n";
+  }
+  print readFile($file);
+  print "\n";
+} # includeMDFile
+    
+# lookupEntity(entity,file)
+#   Look up the entity in an entity file.
+sub lookupEntity($$)
+{
+  my $entity = shift;
+  my $file = shift;
+  my $result = `grep $entity $file`;
+  chomp($result);
+  $result =~ s/^[^"]*"//;
+  $result =~ s/".*$//;
+  return $result;
+} # lookupEntity()
+
+# lookupClassDate(num)
+#   Look up the date for a particular class.
+sub lookupClassDate($)
+{
+  my $num = shift;
+  my $day = lookupEntity("date$num", $dates);
+  $day =~ s/^\&//;
+  $day =~ s/;$//;
+  my $date = lookupEntity("$day", $calendar);
+  return $date;
+} # lookupClassDate
+
+# printN(str, n)
+#   Prints N copies of str
+sub printN
+{
+  my $str = shift;
+  my $n = shift;
+  for (my $i = 0; $i < $n; $i++) {
+    print $str;
+  }
+} # printN
+
+# readFile(filename)
+#   Read in the contents of the specified file.
+sub readFile
+{
+  my $filename = shift;
+  my $linesep = $/; # Save for later
+  undef $/; # When $/ is undefined, read reads the wholefile
+  open(TMPFILE, "< $filename");
+  my $contents = <TMPFILE>;
+  close(TMPFILE);
+  $/ = $linesep; # Restore
+  return $contents;
+} # readFile
+
+# twoDigits(num)
+#   Express a number as two (or more) digits)
+#   Pre: 0 <= num < 100
+sub twoDigits()
+{
+  my $n = shift;
+  $n = $n + 0; # remove leading 0's
+  if ($n < 10) {
+    return "0$n";
+  }
+  else {
+    return "$n";
+  }
+} # twoDigits()
