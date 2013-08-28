@@ -1,0 +1,11 @@
+<section id="index-eboards"><title>List of EBoards</title>
+
+<itemizedlist>
+  <listitem>
+    Class 1: <ulink url="01.html">&title01;</ulink> (&date01;)
+    [<ulink url="01.md">Source</ulink>]
+    [<ulink url="01.pdf">PDF</ulink>]
+  </listitem>
+</itemizedlist>
+
+</section> <!-- index-eboards -->
