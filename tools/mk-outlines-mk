@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+
+# mk-outlines-mk
+#   Create the outlines.mk file that shows the dependencies on the
+#   various sections
+#   Clear out the damn daily entries from the Makefile
+#   mkmk
+
+open(MAKEFILE, "> outlines.mk");
+open(ENTRIES, "grep 'abbrev[0-9][0-9]' ../resources/subjects.ent |");
+while ($entry = <ENTRIES>) 
+{
+  chomp($entry);
+  (my $junk, my $abbrev,my $value) = split(" ", $entry, 3);
+  my $num = $abbrev;
+  $num =~ s/abbrev//;
+  $value =~ s/^[^"]*"//;
+  $value =~ s/".*$//;
+
+  print MAKEFILE <<"ENTRY";
+outline.$num.md: summaries/$value.md \\
+        overviews/$value.md \\
+        bodies/$value.md \\
+        related/related.$num.md \\
+        admin/admin.$num.md
+ENTRY
+} # while
+
+close(ENTRIES);
+close(MAKEFILE);
