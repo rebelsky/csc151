@@ -1,0 +1,3 @@
+* Welcome to CSC 151.  I hope you have a great time!  (Particular welcome to the first-year students.)
+* Warning!  Your first assignment is due this Sunday at 10:30 p.m.  (And yes, you have to complete the assignment even if you are not yet registered for the course.)
+* This course is very overenrolled.  Please put up with the extra chaos for the first few days.  Please also let me know asap if you are dropping the class.
