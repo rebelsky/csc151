@@ -1,0 +1,27 @@
+#!/usr/bin/perl
+
+# outline-parts-md prefix
+#   Copy parts of an outline from the old format of course to the current 
+#   course.
+
+my $OLD = "/home/rebelsky/Web/Courses/CSC151/2010S/Outlines";
+
+my $prefix = shift;
+
+my $file = "summaries/$prefix.md";
+if (! -f "$file") {
+  print STDERR "Creating $file\n";
+  system("cat $OLD/Summaries/$prefix.txt | sed -e '/summary>/d' | sed -e 's/^[[:space:]]*//' > $file");
+}
+
+my $file = "overviews/$prefix.md";
+if (! -f "$file") {
+  print STDERR "Creating $file\n";
+  system("cat $OLD/Overviews/$prefix.txt | sed -e '/topics>/d' | sed -e 's/<topic>/* /' | sed -e 's/<\\/topic>//g' > $file");
+}
+
+my $file = "bodies/$prefix.md";
+if (! -f "$file") {
+  print STDERR "Creating $file\n";
+  system("cat $OLD/Bodies/$prefix.txt | sw2md > $file");
+}
