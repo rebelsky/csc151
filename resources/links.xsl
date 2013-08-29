@@ -28,19 +28,20 @@
   [<a href="../labs/current.html">Lab</a>]
   [<a href="../assignments/current.html">Assignment</a>]
 </p>
-<p class="links"> <strong>Sections:</strong> 
+<p class="links"> <b>Sections:</b> 
   [<a href="../assignments/">Assignments</a>] 
   [<a href="../eboards/">EBoards</a>] 
   [<a href="../examples/">Examples</a>] 
   [<a href="../handouts/">Handouts</a>] 
   [<a href="../labs/">Labs</a>] 
+  [<a href="../outlines/">Outlines</a>] 
   [<a href="../readings/">Readings</a>]
 </p>
-<p class="links"> <strong>Reference:</strong> 
+<p class="links"> <b>Reference:</b> 
 </p>
 <p class="links"><b>Related Courses:</b>
 </p>
-<p class="links"> <strong>Misc:</strong> 
+<p class="links"> <b>Misc:</b> 
   [<a href="http://www.cs.grinnell.edu/~rebelsky/">SamR</a>]
   [<a href="http://www.cs.grinnell.edu/glimmer/">Glimmer Labs</a>]
   [<a href="http://www.cs.grinnell.edu/">CS@Grinnell</a>]
