@@ -1,0 +1,1 @@
+* External assessment of images.
