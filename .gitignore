@@ -57,3 +57,6 @@ mediascheme
 reference/common.xsl
 reference/stylesheet.xsl
 reference/custom.ent
+
+# Major parts of the admin directory do not belong in the cloud
+admin/waiting-list-2013F.txt
