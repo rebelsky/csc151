@@ -112,7 +112,7 @@
   It can be used as a makeup for one examination.  I will count the
   final examination only if it is higher than your lowest examination,
   and it will replace the grade for that examination.  The exam is
-  schedule for 2:00 p.m. on Tuesday, 17 December 2013.
+  scheduled for 2:00 p.m. on Tuesday, 17 December 2013.
 </para>
 
 <para>
@@ -198,33 +198,47 @@
   Jonathan</ulink>, eds. (1998).  <ulink
   url="http://www.cs.grinnell.edu/courses/Scheme/r5rs-html/r5rs_toc.html"><emphasis>Revised<superscript>5</superscript>
   Report on the Algorithmic Language Scheme</emphasis></ulink>. February 20,
-  1998.  The concise and complete definition of the last concise version
+  1998.  
+</para>
+
+<blockquote>
+  The concise and complete definition of the last concise version
   of the Scheme programming language.  You won't need to understand all
   of it, but you may find it helpful.
-</para>
+</blockquote>
 
 <para>
   Dybvig, R. Kent.  <emphasis>The Scheme Programming Language</emphasis>, Fourth
   Edition.  Cambridge, MA: The MIT Press.  Available online at
-  <code><ulink url="http://www.scheme.com/tspl4/"/></code>.  A longer
-  and more readable reference on the Scheme programming language.
+  <code><ulink url="http://www.scheme.com/tspl4/"/></code>.  
 </para>
+
+<blockquote>
+  A longer
+  and more readable reference on the Scheme programming language.
+</blockquote>
 
 <para>
   Rebelsky, Samuel (2013).
   <ulink url="index.html">The CS151.02 2013F Course Web</ulink>.
+</para>
+
+<blockquote>
   The hypertext that you are currently reading.  Many of these materials
   (particularly those under <ulink url="../readings/">Readings</ulink>
   and <ulink url="../labs/">Labs</ulink> are required.  You should make
   it a point to load the page of the day at the beginning of each class
   to check announcements and such.
-</para>
+</blockquote>
 
 <para>
   Davis, Janet (2013)
-  <ulink url="http://www.cs.grinnell.edu/~davisjan/csc/151/2013F/">The CSC 151.01 2013F Course Web</ulink>.  The course web for the other section of this 
-  course.
+  <ulink url="http://www.cs.grinnell.edu/~davisjan/csc/151/2013F/">The CSC 151.01 2013F Course Web</ulink>.
 </para>
+
+<blockquote>
+  The course web for the other section of this course.
+</blockquote>
 
 </section>
 
