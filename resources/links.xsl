@@ -24,7 +24,7 @@
 </p>
 <p class="links"><b>Current:</b>
   [<a href="../outlines/current.html">Outline</a>] 
-  [<a href="../eboards/current.txt">EBoard</a>]
+  [<a href="../eboards/current.html">EBoard</a>]
   [<a href="../readings/current.html">Reading</a>]
   [<a href="../labs/current.html">Lab</a>]
   [<a href="../assignments/current.html">Assignment</a>]
