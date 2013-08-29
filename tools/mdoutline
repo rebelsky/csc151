@@ -72,10 +72,10 @@ my $next = twoDigits($NN + 1);
 my $prevtitle = lookupEntity("title$prev", $subjects);
 my $nexttitle = lookupEntity("title$next", $subjects);
 if ($prevtitle) { 
-  print "Back to [Outllne $prev - $prevtitle](outline.$prev.html)\n";
+  print "Back to [Outline $prev - $prevtitle](outline.$prev.html).\n";
 }
 if ($nexttitle) { 
-  print "On to [Outllne $next - $nexttitle](outline.$next.html)\n";
+  print "On to [Outline $next - $nexttitle](outline.$next.html).\n";
 }
 print "\n";
 
