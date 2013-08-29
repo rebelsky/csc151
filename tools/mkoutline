@@ -13,12 +13,16 @@
 
 # $NN - The number of the outline (taken from the command line)
 my $NN = shift;
+$NN = twoDigits($NN);
 
 # $subjects - The file that stores the entites for the daily subjects.
 my $subjects = "../resources/subjects.ent";
 
 # $PREFIX - The prefix used for all the files for this day
+my $PREFIX;
 
+# $ADMIN - The file that contains the administrivia
+my $ADMIN = "admin-$NN.xml";
 
 # +------+------------------------------------------------------------
 # | Main |
@@ -31,11 +35,14 @@ if (! -f $subjects) {
 }
 
 # Grab the prefix
-my $PREFIX = lookup("abbrev$NN", $subjects);
+$PREFIX = lookup("abbrev$NN", $subjects);
 if (! $PREFIX) {
   print STDERR "Could not find abbreviation for $NN in $subjects.\n";
   exit 1;
 }
+
+# Create the administrative page (if it doesn't exist)
+system("touch $ADMIN");
 
 # Print the start of the page
 print <<"TOP";
@@ -48,8 +55,8 @@ TOP
 
 # Print links to the previous and next pages
 print "<para class='foo'>\n";
-my $prev = twodigits($NN - 1);
-my $next = twodigits($NN + 1);
+my $prev = twoDigits($NN - 1);
+my $next = twoDigits($NN + 1);
 my $prevtitle = lookup("title$prev", $subjects);
 my $nexttitle = lookup("title$next", $subjects);
 if ($prevtitle) { 
@@ -68,9 +75,15 @@ END_NOPRINT
 my $pre = "<emphasis type=\"strong\">";
 my $post = "</emphasis>";
 
+# The three introductory things: Summary, list of related topics, overview
 includeOptionalXMLFile("$PREFIX-summary.xml", "${pre}Summary${post}");
-includeOptionalXMLFile("$PREFIX-overview.list", "${pre}Overview${post}");
-includeOptionalXMLFile("$PREFIX-admin.list", "${pre}Administrivia${post}");
+includeOptionalXMLFile("$PREFIX-related.xml", "${pre}Related Pages${post}");
+includeOptionalXMLFile("$PREFIX-overview.xml", "${pre}Overview${post}");
+
+# Daily notes/administrivia.
+includeXMLFile($ADMIN, "${pre}Administrivia${post}");
+
+# And the body
 includeOptionalXMLFile("$PREFIX-body.xml");
 
 print <<"BOTTOM";
@@ -90,16 +103,25 @@ sub includeOptionalXMLFile()
   my $file = shift;
   my $prelim = shift;
   if (-f $file) {
-    if ("$prelim") {
-      print "$prelim\n";
-    }
-    print <<"INCLUDE";
+    includeXMLFile($file, $prelim);
+  }
+} # includeOptionalXMLFile
+
+# includeXMLFile(filename,prelim)
+#   Add code to include the file
+sub includeXMLFile()
+{
+  my $file = shift;
+  my $prelim = shift;
+  if ("$prelim") {
+    print "$prelim\n";
+  }
+  print <<"INCLUDE";
 <xi:include href="$file" parse="xml" 
   xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
 INCLUDE
-  }
-} # includeOptionalXMLFile
+} # includeXMLFile
     
 # lookup(entity,file)
 #   Look up the entity in an entity file.
@@ -107,17 +129,17 @@ sub lookup()
 {
   my $entity = shift;
   my $file = shift;
-  my $result = `grep $entity $subjects`;
+  my $result = `grep $entity $file`;
   chomp($result);
   $result =~ s/^[^"]*"//;
   $result =~ s/".*$//;
   return $result;
 } # lookup()
 
-# twodigits(num)
+# twoDigits(num)
 #   Express a number as two (or more) digits)
 #   Pre: 0 <= num < 100
-sub twodigits()
+sub twoDigits()
 {
   my $n = shift;
   $n = $n + 0; # remove leading 0's
@@ -127,4 +149,4 @@ sub twodigits()
   else {
     return "$n";
   }
-} # twodigits()
+} # twoDigits()

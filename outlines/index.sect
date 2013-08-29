@@ -1,5 +1,9 @@
-<section id="index-&group;"><title>List of &group;</title>
+<section id="index-outlines"><title>List of Course Outlines</title>
 
-<para id="{$group}"></para>
+<itemizedlist>
+  <listitem>
+    Class 1: <ulink url="outline.01.html">&title01;</ulink> (&date01;)
+  </listitem>
+</itemizedlist>
 
-</section> <!-- index-&group; -->
+</section> <!-- index-outlines -->

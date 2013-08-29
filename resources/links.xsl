@@ -18,6 +18,7 @@
   [<a href="../handouts/academic-honesty.html">Academic Honesty</a>]
   [<a href="../handouts/disabilities.html">Disabilities</a>]
   [<a href="../handouts/email.html">Email</a>]
+  [<a href="../handouts/faq.html">FAQ</a>]
   [<a href="../handouts/irc.html">IRC</a>]
   [<a href="../handouts/teaching.html">Teaching &amp; Learning</a>]
   [<a href="../handouts/grading.html">Grading</a>]
@@ -29,15 +30,16 @@
   [<a href="../labs/current.html">Lab</a>]
   [<a href="../assignments/current.html">Assignment</a>]
 </p>
-<p class="links"> <strong>Sections:</strong> 
+<p class="links"> <b>Sections:</b> 
   [<a href="../assignments/">Assignments</a>] 
   [<a href="../eboards/">EBoards</a>] 
   [<a href="../examples/">Examples</a>] 
   [<a href="../handouts/">Handouts</a>] 
   [<a href="../labs/">Labs</a>] 
+  [<a href="../outlines/">Outlines</a>] 
   [<a href="../readings/">Readings</a>]
 </p>
-<p class="links"> <strong>Reference:</strong> 
+<p class="links"> <b>Reference:</b> 
   [<a href="../reference/setup.html">Setup</a>]
   -
   [<a href="../reference/a-z.html">Functions A-Z</a>]
@@ -53,7 +55,7 @@
   [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CS151/2010S/">Rebelsky (2010F)</a>]
   [<a href="http://www.cs.grinnell.edu/~weinman/courses/CSC151/2012F/">Weinman (2012F)</a>]
 </p>
-<p class="links"> <strong>Misc:</strong> 
+<p class="links"> <b>Misc:</b> 
   [<a href="http://www.cs.grinnell.edu/~rebelsky/">SamR</a>]
   [<a href="http://www.cs.grinnell.edu/glimmer/">Glimmer Labs</a>]
   [<a href="http://www.cs.grinnell.edu/">CS@Grinnell</a>]

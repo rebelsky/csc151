@@ -1,0 +1,24 @@
+#!/usr/bin/perl
+
+# outline-parts prefix
+#   Copy parts of an outline from the old format of course to the current 
+#   course.
+
+my $OLD = "/home/rebelsky/Web/Courses/CSC151/2010S/Outlines";
+
+my $prefix = shift;
+
+if (! -f "$prefix-summary.xml") {
+  print "Creating $prefix-summary.xml\n";
+  system("cat $OLD/Summaries/$prefix.txt | sed -e 's/summary>/para>/' > $prefix-summary.xml");
+}
+
+if (! -f "$prefix-overview.xml") {
+  print "Creating $prefix-overview.xml\n";
+  system("cat $OLD/Overviews/$prefix.txt | sed -e 's/topics>/itemizedlist>/' | sed -e 's/topic>/listitem>/' > $prefix-overview.xml");
+}
+
+if (! -f "$prefix-body.xml") {
+  print "Creating $prefix-body.xml\n";
+  system("cat $OLD/Bodies/$prefix.txt | sw2docbook > $prefix-body.xml");
+}
