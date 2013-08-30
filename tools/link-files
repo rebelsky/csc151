@@ -5,12 +5,11 @@
 
 $dir = shift;
 
-$FILES = `ls $dir/*`;
+$FILES = `ls $dir`;
 @FILES = split /\n/, $FILES;
-foreach $path (@FILES) {
-  # Get just the file name from the path
-  $file = $path;
-  $file =~ s/$dir\///;
+foreach my $file (@FILES) {
+  # Add the path
+  my $path = "$dir/$file";
   # If there is not a link
   if ((! -e "./$file") && (! -l "./$file")) {
     print "Linking $path\n";
