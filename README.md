@@ -14,5 +14,6 @@ Known Forks
   Object-Oriented Problem Solving and Algorithms, Grinnell's
   third course
 * rebelsky/learning-from-alumni - 
-  A special course with that subject
+  A special course with that subject.  Currently csc295, but 
+  the number will change.
 
