@@ -1,6 +1,6 @@
 /*
  * A generic design for Sam Rebelsky's course sites.
- * Copyright (c) 2001-2009 Samuel A. Rebelsky.  All rights reserved.
+ * Copyright (c) 2001-2013 Samuel A. Rebelsky.  All rights reserved.
  */
 
 form.search
@@ -97,7 +97,7 @@ div.history HR {
 H1, H2, H3 { 
   color: white;
   background-color: gray;
-  font-family: "Helvetica", sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: bold;
   /* border: solid silver; */
   /* margin-left: -0.7em;  */
@@ -132,7 +132,7 @@ P {
 }
 
 P.course {  
-  font-family: "Arial", "Helvetica", sans-serif; 
+  font-family: Arial, Helvetica, sans-serif; 
   font-weight: bold;
   font-size: 1.1em;
   text-align: right;
@@ -175,11 +175,15 @@ DT {
 
 SPAN.guimenu {
   font-weight: bold;
+  font-size: small;
   font-family: Helvetica, sans-serif;
+  background-color: rgb(224,224,224);
 }
 SPAN.guimenuitem {
   font-weight: bold;
+  font-size: small;
   font-family: Helvetica, sans-serif;
+  background-color: rgb(224,224,224);
 }
 
 SPAN.uimenu {
@@ -237,17 +241,25 @@ SPAN.errortext {
 }
 
 PRE.screen {
-  border: 1px solid #999999;
+  border-width: 1px;
+  border-style: dashed;
+  border-color: black;
   color: black;
   background-color: transparent;
-  padding-left: 1em;
+  padding: 5px;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 PRE.programlisting {
-  border: 3px solid #999999;
+  border-style: double;
+  border-width: 1px;
+  border-color: black;
   color: black;
-  background-color: transparent;
-  padding-left: 1em;
+  background-color: rgb(224,224,224);
+  padding: 5px;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 TD {
@@ -290,3 +302,15 @@ TABLE.index {
   border-collapse: collapse;
   vertical-align: top;
 }
+
+SPAN.guibutton {
+  background-color: rgb(224,224,224);
+  border-color: rgb(192,192,192);
+  border-style: ridge;
+  border-width: 2px;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: small;
+  font-family: Helvetica, sans-serif;
+} 
