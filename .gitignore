@@ -40,6 +40,8 @@ resources/subjects.ent
 # Ignore everything in the sandbox
 sandbox/*
 
+# We often have files called current.* which are just soft links.
+current.*
 
 # +------------------------+------------------------------------------
 # | Rules for Generic Site |

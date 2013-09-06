@@ -54,7 +54,7 @@ and are used with permission.)
 <p>
 <!--Creative Commons License-->
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="../resources/cc-by-nc-3.0.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution 3.0 Unported License</a>.  To view a copy of this
-license, visit <a href="http://creativecommons.org/licenses/by-nc/3.0/"><code>http://creativecommons.org/licenses/by/3.0/</code></a> 
+license, visit <a href="http://creativecommons.org/licenses/by-nc/3.0/"><code>http://creativecommons.org/licenses/by-nc/3.0/</code></a> 
 or send a letter to Creative Commons, 543 Howard Street, 5th Floor, 
 San Francisco, California, 94105, USA.
 <!--/Creative Commons License-->

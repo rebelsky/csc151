@@ -65,6 +65,10 @@ At the Beginning of the Semester
         git clone https://github.com/rebelsky/csc000 2013F
         cd 2013F
 
+   you may also want to use
+
+        git clone git@github.com:rebelsky/csc.git 2013F
+
 3. Edit `resources/course.ent`, which has the course-specific information.
 
         vi resources/course.ent
@@ -92,6 +96,10 @@ It goes something like this.
 2. Clone the original repository onto your local machine
 
         git clone http://github.com/rebelsky/generic-course csc000
+
+   or
+
+        git clone git@github.com:rebelsky/generic-course.git
 
 3. Edit the Git config file
 
