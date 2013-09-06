@@ -3,6 +3,7 @@
 # mkschedule TYPE
 #   Creates a schedule of a particular type
 #     mtwf-fall: Meets Monday, Tuesday, Wednesday, and Friday in the fall
+#     lfa-fall: Learning from Alumni in the Fall (one day per week)
 
 # +-----------+-------------------------------------------------------
 # | Variables |
@@ -42,24 +43,19 @@ if ($type eq "mtwf-fall") {
 }
 elsif ($type eq "lfa-fall") {
   lfaTop();
-  lfaDay();
-  lfaDay();
-  lfaDay();
-  lfaDay();
-  lfaDay();
-  lfaDay();
-  lfaDay();
-  lfaDay();
-  lfaDay();
-  lfaDay();
-  lfaDay();
-  lfaBreak("Thanksgiving Break"); ++$DAY;
+  lfaDay(); lfaDay(); lfaDay(); lfaDay();
+  lfaDay(); lfaDay(); lfaDay(); lfaDay();
+  lfaBreak("Fall Break"); 
+  lfaDay(); lfaDay(); lfaDay(); lfaDay();
+  lfaBreak("Thanksgiving Break"); 
   lfaDay();
   lfaDay();
   bottom();
 } 
 else {
   print STDERR "Unknown type of schedule: $type\n";
+  print STDERR "   mtwf-fall: A MTuWF Fall class.\n";
+  print STDERR "   lfa-fall: The Learning from Alumni Fall Course.\n";
   exit 1;
 }
 
