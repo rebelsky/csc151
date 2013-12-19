@@ -34,6 +34,9 @@ misc/stylesheet.xsl
 outlines/stylesheet.xsl
 readings/stylesheet.xsl
 
+# Ignore the eboards, since those are generated every semester
+eboards/*.md
+
 # Ignore some automatically generated files
 resources/subjects.ent
 
