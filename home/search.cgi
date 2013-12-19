@@ -5,17 +5,30 @@
 #   cut-and-pasted from Perl code originally written in 1995 (!)
 #   and last updated in 2001.
 
+# +------+------------------------------------------------------------
+# | Todo |
+# +------+
+
+# [ ] Right now, we look at the .html files, which means we get lots of
+#     junky duplicates for things like "Academic Honesty".  I should search
+#     through the .md or .sect files, depending on the appropriate directory
+#     and then link to the .html file.
+
+# [ ] The todo list really should be on the github page :-)
+
+# [ ] It may be worth caching search results.
+
 # +----------+--------------------------------------------------------
 # | Settings |
 # +----------+
 
 # $ROOT
 #   The root of the course Web site
-my $ROOT = "/home/rebelsky/Web/Courses/CSC151/2013F/";
+my $ROOT = $ENV{"PWD"} . "..";
 
 # $PATTERNS
 #   A space-separated list of all the files to search
-my $PATTERNS = "$ROOT/home/*.html $ROOT/handouts/*.html $ROOT/labs/*.html $ROOT/outlines/*.html $ROOT/assignments/*.html $ROOT/readings/*.html $ROOT/reference/*.html $ROOT/eboards/*.html";
+my $PATTERNS = "$ROOT/home/*.html $ROOT/handouts/*.html $ROOT/readings/*.html $ROOT/outlines/*.html $ROOT/eboards/*.html $ROOT/labs/*.html $ROOT/reference/*.html $ROOT/references/assignments.html";
 
 # $DEBUG
 #   Are we debugging or not
@@ -36,6 +49,10 @@ sub main() {
   # Set up variables
   my $query = getQuery();
   my $keyword = extractField($query, "keyword");
+
+  # Clean up the query for safety
+  $keyword =~ s/[^0-9 a-zA-Z]//g;
+
   # my $template = minimalTemplate();
   my $template = readFile("template.html");
 
@@ -81,19 +98,34 @@ sub extractField($$) {
 } # extractField
 
 # Routine
-#   extractTitle(fname)
+#   extractHtmlTitle(fname)
 # Parameters
 #   fname, the name of a file
 # Purpose
 #   Find the title in the file.  
-sub extractTitle($) {
+sub extractHtmlTitle($) {
   my $fname = shift;
   my $contents = readFile($fname);
   $contents =~ s/.*<title>//gis;
   $contents =~ s/<\/title>.*//gis;
   $contents =~ s/\n/ /gis;
   return $contents;
-} # extractTitle
+} # extractHtmlTitle
+
+# Routine
+#   extractSectTitle(fname)
+# Parameters
+#   fname, the name of a .sect file
+# Purpose
+#   Find the title in the file.  
+sub extractSectTitle($) {
+  my $fname = shift;
+  my $contents = firstLine($fname);
+  $contents =~ s/.*<title>//gis;
+  $contents =~ s/<\/title>.*//gis;
+  $contents =~ s/\n/ /gis;
+  return $contents;
+} # extractSectTitle
 
 # Routine
 #   firstLine
@@ -203,7 +235,7 @@ sub readPort
 #     *BODY* for the body
 #   places_to_search is a space-separated list of "patterns", such
 #     as "/home/rebelsky/Web/*.html"
-sub searchPage($$$) {
+sub searchPage($$$$) {
   my $template = shift;
   my $keyword = shift;
   my $PATTERNS = shift;
@@ -297,9 +329,6 @@ HTTP_INFO
           $dir = "";
         }
         $dir =~ s/^.*\///;
-        # The next line is a hack to deal with stuff in the root directory
-        # of Sam's course webs.
-        $dir =~ s/200[6789][SF]//;
 
         if ($DEBUG) {
           print("&nbsp;&nbsp;File: $newfile<br>\n");
@@ -318,13 +347,16 @@ HTTP_INFO
   
           # Begin the new entry
           if ($fname =~ m/html$/) {
-            $title = extractTitle($fname);
-          }
+            $title = extractHtmlTitle($fname);
+          } # HTML file
+          elsif ($fname =~ m/sect$/) {
+            $title = extractSectTitle($fname);
+          } # .sect file
           else {
             $title = firstLine($fname);
-          }
+          } # Text file, or so I hope
           if (!$title) { $title = $fname; }
-          if ($dir) { $html .= "[$dir] "; }
+          # if ($dir) { $html .= "[$dir] "; }
 
           # Convert the file name fo a url
 	  my $url = $fname;
