@@ -50,7 +50,7 @@ sub main() {
   my $keyword = extractField($query, "keyword");
 
   # Clean up the query for safety
-  $keyword =~ s/[^0-9 a-zA-Z]//g;
+  $keyword =~ s/[^-_0-9 a-zA-Z]//g;
 
   # my $template = minimalTemplate();
   my $template = readFile("template.html");
@@ -294,7 +294,7 @@ HTTP_INFO
   # Identify the date
   if ($keyword) {
     my($date) = `date`; chop($date);
-    print "<p>Conducting search on $date . . .\n";
+    print "<p><em>Search conducted on $date.</em><\/p>\n";
   }
 
   # Identify all portions that contain the appropriate stuff
@@ -406,7 +406,6 @@ NOTFOUND
 
     else {
       print <<"FOUND";
-<b>Done!</b></p>
 <p>
   For each of the files that contains the word
   <q><strong>${keyword}</strong></q>, the file and lines with the word
