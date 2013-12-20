@@ -9,12 +9,11 @@
 # | Todo |
 # +------+
 
-# [ ] Right now, we look at the .html files, which means we get lots of
-#     junky duplicates for things like "Academic Honesty".  I should search
-#     through the .md or .sect files, depending on the appropriate directory
-#     and then link to the .html file.
-
 # [ ] The todo list really should be on the github page :-)
+
+# [ ] Improve the search for translated files by identifying the 
+#     source files with grep and then grepping again in the HTML
+#     versions of those files.  (Or it may not be worth it.)
 
 # [ ] It may be worth caching search results.
 
@@ -28,7 +27,7 @@ my $ROOT = $ENV{"PWD"} . "..";
 
 # $PATTERNS
 #   A space-separated list of all the files to search
-my $PATTERNS = "$ROOT/home/*.html $ROOT/handouts/*.html $ROOT/readings/*.html $ROOT/outlines/*.html $ROOT/eboards/*.html $ROOT/labs/*.html $ROOT/reference/*.html $ROOT/references/assignments.html";
+my $PATTERNS = "$ROOT/home/*.sect $ROOT/handouts/*.sect $ROOT/readings/*.sect $ROOT/outlines/*.md $ROOT/eboards/*.md $ROOT/labs/*.sect $ROOT/reference/*.sect $ROOT/assignments/*.sect";
 
 # $DEBUG
 #   Are we debugging or not
@@ -142,6 +141,36 @@ sub firstLine($) {
   close(FL);
   return $line;
 } # firstLine
+
+# Routine
+#   getTitle(fname)
+# Description
+#   Gets the title of the given file
+sub getTitle($) {
+  $fname = shift;
+
+  # .html files are easy
+  if ($fname =~ m/html$/) {
+     return extractHtmlTitle($fname);
+  } # .html file
+
+  # If we don't have a .html file, let's see if we can get one.
+  my $htmlfile = $fname;
+  $htmlfile =~ s/\.[^.]*$//;
+  $htmlfile .= ".html";
+  if (-e $htmlfile) {
+    return extractHtmlTitle($htmlfile);
+  } # Equiv HTML file exists
+
+  # Things aren't going so hot.  We don't have a corresponding
+  # .html file.  But that's okay.  We have other approaches
+  if ($fname =~ m/sect$/) {
+    return extractSectTitle($fname);
+  } # Original is a .sect file
+  else {
+    return firstLine($fname);
+  } # Text file, or so I hope
+} # getTitle
 
 # Routine:
 #   getQuery()
@@ -317,11 +346,9 @@ HTTP_INFO
         # Split the line into filename and matching info
         ($newfile,$contents) = split(/:/,$line,2);
         
-	# Update the file name to deal with Sam's siteweaver techniques.
-	# (Yeah, this is really designed for SiteWeaver)
-        if ($newfile !~ m/EBoards/) {
-          $newfile =~ s/txt$/html/;
-        }
+	# Update the file name to deal with .md and .sect files
+        $newfile =~ s/md$/html/;
+        $newfile =~ s/sect$/html/;
 
         # Identify the parent directory (which clarifies location)
         $dir = $newfile;
@@ -344,17 +371,9 @@ HTTP_INFO
           # End the old entry (we know that there's an old entry b/c we've
           # actually generated some HTML)
           if ($html) { $html .= "</ul>\n\n"; }
-  
+ 
           # Begin the new entry
-          if ($fname =~ m/html$/) {
-            $title = extractHtmlTitle($fname);
-          } # HTML file
-          elsif ($fname =~ m/sect$/) {
-            $title = extractSectTitle($fname);
-          } # .sect file
-          else {
-            $title = firstLine($fname);
-          } # Text file, or so I hope
+          $title = getTitle($fname);
           if (!$title) { $title = $fname; }
           # if ($dir) { $html .= "[$dir] "; }
 
