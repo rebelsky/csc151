@@ -5,6 +5,16 @@
 #   cut-and-pasted from Perl code originally written in 1995 (!)
 #   and last updated in 2001.
 
+# +-------+-----------------------------------------------------------
+# | Notes |
+# +-------+
+
+# * To cache search results, create the directory $ROOT/search and
+#   make it readable and writable by the web user (www-data on MathLAN).
+
+# * Usage can be found by grepping search.cgi in /var/logs/apache2/access.log
+#   It looks like the logs are compressed every Sunday.
+
 # +------+------------------------------------------------------------
 # | Todo |
 # +------+
@@ -14,8 +24,6 @@
 # [ ] Improve the search for translated files by identifying the 
 #     source files with grep and then grepping again in the HTML
 #     versions of those files.  (Or it may not be worth it.)
-
-# [ ] It may be worth caching search results.
 
 # +----------+--------------------------------------------------------
 # | Settings |
@@ -219,6 +227,17 @@ sub minimalTemplate() {
 TEMPLATE
 } # minimalTemplate
 
+# Routine
+#   printHttpPrologue()
+# Purpose:
+#   Print the standard prologue for an HTTP return
+sub printHttpPrologue() {
+  print <<"HTTP_INFO";
+Content-type: text/html
+
+HTTP_INFO
+} # printHttpPrologue
+
 # Routine:
 #   readFile(fname)
 # Purpose:
@@ -254,7 +273,7 @@ sub readPort
 } # readPort
 
 # Routine:
-#   searchPage(template,keyword,places_to_search,searchurl)
+#   searchPage(template,keyword,places_to_search,searchURL)
 # Description:
 #   Builds and prints a simple Web page of search results.
 # Returns:
@@ -268,8 +287,10 @@ sub searchPage($$$$) {
   my $template = shift;
   my $keyword = shift;
   my $PATTERNS = shift;
-  my $searchurl = shift;
-  if (!$searchurl) { $searchurl = "search.cgi"; }
+  my $searchURL = shift;
+  if (!$searchURL) { $searchURL = "search.cgi"; }
+
+  my $RESULTS;  # File handle for results
 
   if ($keyword) {
     $title = "Search for '$keyword'";
@@ -278,167 +299,182 @@ sub searchPage($$$$) {
     $title = "Simple Search Engine";
   }
 
-  $template =~ s/\*TITLE\*/$title/g;
-  @template = split /\*BODY\*/,$template;
-  
-  # Print the HTTP return info
-  print <<"HTTP_INFO";
-Content-type: text/html
+  # Build the file name for the cached results page
+  my $resultsPage = $keyword;
+  $resultsPage =~ s/[^a-zA-Z0-9]/_/g;
+  $resultsPage = "../search/$resultsPage.html";
+  print STDERR "Results: $resultsPage\n";
 
-HTTP_INFO
+  # Print the initial header so that we can print things along
+  # the way for debugging.
+  printHttpPrologue();
 
-  # Print the first half of the template
-  print $template[0];
-
-  # Print the date (so that they know when they searced)
-  # Identify the date
-  if ($keyword) {
-    my($date) = `date`; chop($date);
-    print "<p><em>Search conducted on $date.</em><\/p>\n";
-  }
-
-  # Identify all portions that contain the appropriate stuff
-  # We need to do separate greps in case there are too many files
-  if ($keyword) {
-    my($found) = "";
-    my($pattern);
-    my($morefound);
-    foreach $pattern (split(/\s+/,$PATTERNS)) {
-      if ($pattern) {
-        if ($DEBUG) { print "Looking at pattern '$pattern'<br>\n"; }
-        $morefound = `$GREP -i "$keyword" $pattern`;
-        if ($morefound) {
-          if ($DEBUG) { print "Found stuff<br>\n"; }
-          $found .= $morefound;
-        } # if more stuff was found 
-      } # if the pattern matched
-    } # foreach pattern
-  
-    # Get rid of HTML commands from that stuff
-    if ($DEBUG) {
-      # We need to change all tags to "plain text" for printing out
-      my($tmp) = $found;
-      $tmp =~ s/\&/\&amp;/g;
-      $tmp =~ s/>/\&gt;/g;
-      $tmp =~ s/</\&lt;/g;
-      print "Search results: $tmp<br>";
+  # If the results page does not exist or is old, build a new one
+  if ((!(-f $resultsPage)) || ((-M $resultsPage) > 1)) {
+    if (! open($RESULTS, "> $resultsPage")) {
+      $RESULTS = STDOUT;
     }
-    $found =~ s/<[^>]*>//g;
-    $found =~ s/<[^>]*$//;
-    if ($DEBUG) {
-      print "Cleaned up: $found<br>";
+
+    $template =~ s/\*TITLE\*/$title/g;
+    my @template = split /\*BODY\*/,$template;
+    
+    # Print the first half of the template
+    print $RESULTS $template[0];
+  
+    # Print the date (so that they know when they searced)
+    # Identify the date
+    if ($keyword) {
+      my($date) = `date`; chop($date);
+      print $RESULTS "<p><em>Search conducted on $date.</em><\/p>\n";
     }
   
-    # Build HTML containing the found lines (which may not be the
-    # same as those before, given the stripping of HTML)
-    my @lines = split(/\n/, $found);	# All the found lines
-    my $line;				# One such line
-    my $newfile,$contents;		# One line of info
-    my $fname;				# The last file mentioned
-    my $html = "";			# The HTML for all of this
-    my $title;				# The title of the file
-    my $dir;				# The directory in which it is found
-    foreach $line (@lines) {
-      if ($DEBUG) { print "Considering '$line'<br>\n"; }
-      # The pattern is ":.*$keyword" so that we ensure that the keyword
-      # falls in the body and not the filename
-      if ($line =~ m/:.*$keyword/i) {
-        # Split the line into filename and matching info
-        ($newfile,$contents) = split(/:/,$line,2);
-        
-	# Update the file name to deal with .md and .sect files
-        $newfile =~ s/md$/html/;
-        $newfile =~ s/sect$/html/;
-
-        # Identify the parent directory (which clarifies location)
-        $dir = $newfile;
-        if ($dir !~ s/\/[^\/]*$//) {
-          $dir = "";
-        }
-        $dir =~ s/^.*\///;
-
-        if ($DEBUG) {
-          print("&nbsp;&nbsp;File: $newfile<br>\n");
-          print("&nbsp;&nbsp;Dir: $dir<br>\n");
-          print("&nbsp;&nbsp;Contents: $contents<br>\n");
-        }
-
-        # If the file is different, make a new entry
-        if ($newfile ne $fname) {
-          if ($DEBUG) { print "Starting a new entry!\n"; }
-          $fname = $newfile;
-  
-          # End the old entry (we know that there's an old entry b/c we've
-          # actually generated some HTML)
-          if ($html) { $html .= "</ul>\n\n"; }
- 
-          # Begin the new entry
-          $title = getTitle($fname);
-          if (!$title) { $title = $fname; }
-          # if ($dir) { $html .= "[$dir] "; }
-
-          # Convert the file name fo a url
-	  my $url = $fname;
-	  $url =~ s/^\/home\//http:\/\/www.cs.grinnell.edu\/~/;
-	  $url =~ s/public_html\///;
-	  $url =~ s/Web\///;
-
-          $html .= "<strong><a href=\"$url\">$title</a></strong>\n";
-          $html .= "<ul>\n";
-        }
+    # Identify all portions that contain the appropriate stuff
+    # We need to do separate greps in case there are too many files
+    if ($keyword) {
+      my($found) = "";
+      my($pattern);
+      my($morefound);
+      foreach $pattern (split(/\s+/,$PATTERNS)) {
+        if ($pattern) {
+          if ($DEBUG) { print "Looking at pattern '$pattern'<br>\n"; }
+          $morefound = `$GREP -i "$keyword" $pattern`;
+          if ($morefound) {
+            if ($DEBUG) { print "Found stuff<br>\n"; }
+            $found .= $morefound;
+          } # if more stuff was found 
+        } # if the pattern matched
+      } # foreach pattern
     
-        # Emphasize the keyword
-        $contents =~ s/(${keyword})/<strong>$1<\/strong>/ig;
+      # Get rid of HTML commands from that stuff
+      if ($DEBUG) {
+        # We need to change all tags to "plain text" for printing out
+        my($tmp) = $found;
+        $tmp =~ s/\&/\&amp;/g;
+        $tmp =~ s/>/\&gt;/g;
+        $tmp =~ s/</\&lt;/g;
+        print "Search results: $tmp<br>";
+      }
+      $found =~ s/<[^>]*>//g;
+      $found =~ s/<[^>]*$//;
+      if ($DEBUG) {
+        print "Cleaned up: $found<br>";
+      }
     
-        # Write the matching line
-        $html .= "<li>... $contents ...</li>\n";
-      } # if the keyword is on the line
-    } # foreach $line
+      # Build HTML containing the found lines (which may not be the
+      # same as those before, given the stripping of HTML)
+      my @lines = split(/\n/, $found);	# All the found lines
+      my $line;				# One such line
+      my $newfile,$contents;		# One line of info
+      my $fname;				# The last file mentioned
+      my $html = "";			# The HTML for all of this
+      my $title;				# The title of the file
+      my $dir;				# The directory in which it is found
+      foreach $line (@lines) {
+        if ($DEBUG) { print "Considering '$line'<br>\n"; }
+        # The pattern is ":.*$keyword" so that we ensure that the keyword
+        # falls in the body and not the filename
+        if ($line =~ m/:.*$keyword/i) {
+          # Split the line into filename and matching info
+          ($newfile,$contents) = split(/:/,$line,2);
+          
+  	# Update the file name to deal with .md and .sect files
+          $newfile =~ s/md$/html/;
+          $newfile =~ s/sect$/html/;
   
-    # See if we found something
-    if (!$html) {
-      print <<"NOTFOUND";
-<P>
-<em>Sorry, I am unable to find any pages that contain the text <strong>$keyword</strong>.</em>
-</P>
+          # Identify the parent directory (which clarifies location)
+          $dir = $newfile;
+          if ($dir !~ s/\/[^\/]*$//) {
+            $dir = "";
+          }
+          $dir =~ s/^.*\///;
+  
+          if ($DEBUG) {
+            print "&nbsp;&nbsp;File: $newfile<br>\n";
+            print "&nbsp;&nbsp;Dir: $dir<br>\n";
+            print "&nbsp;&nbsp;Contents: $contents<br>\n";
+          }
+  
+          # If the file is different, make a new entry
+          if ($newfile ne $fname) {
+            if ($DEBUG) { print "Starting a new entry!\n"; }
+            $fname = $newfile;
+    
+            # End the old entry (we know that there's an old entry b/c we've
+            # actually generated some HTML)
+            if ($html) { $html .= "</ul>\n\n"; }
+   
+            # Begin the new entry
+            $title = getTitle($fname);
+            if (!$title) { $title = $fname; }
+            # if ($dir) { $html .= "[$dir] "; }
+  
+            # Convert the file name fo a url
+  	  my $url = $fname;
+  	  $url =~ s/^\/home\//http:\/\/www.cs.grinnell.edu\/~/;
+  	  $url =~ s/public_html\///;
+  	  $url =~ s/Web\///;
+  
+            $html .= "<strong><a href=\"$url\">$title</a></strong>\n";
+            $html .= "<ul>\n";
+          }
+      
+          # Emphasize the keyword
+          $contents =~ s/(${keyword})/<strong>$1<\/strong>/ig;
+      
+          # Write the matching line
+          $html .= "<li>... $contents ...</li>\n";
+        } # if the keyword is on the line
+      } # foreach $line
+    
+      # See if we found something
+      if (!$html) {
+        print $RESULTS <<"NOTFOUND";
+  <P>
+  <em>Sorry, I am unable to find any pages that contain the text <strong>$keyword</strong>.</em>
+  </P>
 NOTFOUND
-    } # if we didn't find something
-
-    else {
-      print <<"FOUND";
-<p>
-  For each of the files that contains the word
-  <q><strong>${keyword}</strong></q>, the file and lines with the word
-  <q><strong>${keyword}</strong></q> are listed.  Click on the name of a
-  file to view that file.
-</p>
+      } # if we didn't find something
   
-<p>
-  The limitations of WWW and HTML currently make it difficult, if not
-  impossible, to allow you to jump directly to a particular line in
-  the file.  Use the search function of your Web browser.
-</p>
-<hr>
-$html
-</ul>
+      else {
+        print $RESULTS <<"FOUND";
+  <p>
+    For each of the files that contains the word
+    <q><strong>${keyword}</strong></q>, the file and lines with the word
+    <q><strong>${keyword}</strong></q> are listed.  Click on the name of a
+    file to view that file.
+  </p>
+    
+  <p>
+    The limitations of WWW and HTML currently make it difficult, if not
+    impossible, to allow you to jump directly to a particular line in
+    the file.  Use the search function of your Web browser.
+  </p>
+  <hr>
+  $html
+  </ul>
 FOUND
-    } # if something was found
-  } # if there's a keyword
-
-  # Print the search form
-  print <<"FORM";
-<hr width="50%">
-<form method="get" action="$searchurl">
-Enter a word or phrase to search for:
-<input type="text" name="keyword">
-<input type="submit" value="Search">
-</form>
+      } # if something was found
+    } # if there's a keyword
+  
+    # Print the search form
+    print $RESULTS <<"FORM";
+  <hr width="50%">
+  <form method="get" action="$searchURL">
+  Enter a word or phrase to search for:
+  <input type="text" name="keyword">
+  <input type="submit" value="Search">
+  </form>
 FORM
+  
+    # Print the remaining HTML
+    print $RESULTS $template[1];
+  } // if
 
-  # Print the remaining HTML
-  print $template[1];
+  # And we're done
+  close($RESULTS);
 
-  # That's it
+  # That's it.  The file can now be printed.
+  print readFile($resultsPage);
   return 0;
 } # searchPage 
 
