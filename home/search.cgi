@@ -447,7 +447,8 @@ NOTFOUND
   <p>
     The limitations of WWW and HTML currently make it difficult, if not
     impossible, to allow you to jump directly to a particular line in
-    the file.  Use the search function of your Web browser.
+    a page.  After navigating to the page, you may use the search function of 
+    your Web browser to find <q>${keyword}</q>.
   </p>
   <hr>
   $html
