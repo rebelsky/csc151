@@ -1,64 +1,79 @@
-Outline 09: Programing the GIMP Tools
-=====================================
+Outline 09: An Introduction to the GIMP
+=======================================
 
 Held: Friday, 13 September 2013
 
-Back to [Outline 08 - An Introduction to the GIMP](outline.08.html).
-On to [Outline 10 - A Design Perspective](outline.10.html).
+Back to [Outline 08 - Documenting Programs and Procedures](outline.08.html).
+On to [Outline 10 - Programing the GIMP Tools](outline.10.html).
 
 **Summary**
 
-We begin our synthesis of algorithms and image making as we explore 
-techniques for programming with the basic GIMP tools.
+We begin our exploration of <emphasis>GIMP</emphasis>, the GNU Image
+Manipulation Program.  GIMP is an open-source raster graphics editor,
+which is scriptable by a variant of the Scheme programming language.
 
 **Related Pages**
 
+* Reading: [GIMP](../readings/gimp-reading.html)
+* [EBoard](../eboards/09.html) 
+  ([Source](../eboards/09.md))
+  ([PDF](../eboards/09.pdf))
 
 **Overview**
 
-* A model of images, extended.
-* Coding algorithms for drawing.
-* Other useful techniques.
+* What is GIMP?
+* Why GIMP in 151?
+* Short Demo.
+* Lab + Reflection.
 
 **Administrivia**
 
+* Warning! Friday the 13th falls on a Friday this month.
+* Reading for Monday
+  [Programming the GIMP Tools](../readings/gimp-tools-reading.html)
+* EC Opportunities:
+    * CS Table NEXT Friday (Pair programming)
+    * Other?
 
-<section id="drawing-model" title="Models of Images">
-* As we've seen in our early discussions, there are many ways to think 
-  about an image.
-* In our first explorations with the GIMP, we looked at an 
-  *imperative*, *tool-based* model of drawing.
-    * The model is <quote>imperative</quote> in that it consists of a 
-    sequence of commands (do this, then this, then this).
-    * The model is <quote>tool-based</quote> in that almost all operations
-    involve selecting a tool and then applying that tool.
-* Over the next few weeks, we'll see a variety of other models.
+<section id="previous-class" title="Some Notes from Yesterday's Class">
 
-<section id="coding-drawing" title="Encoding Drawing Commands">
-* Because there are only a limited number of basic actions one can
-  perform in GIMP, it is possible to represent each of these actions
-  as a procedure.
-* These procedures are *parameterized* in that you can modify
-  how they work by providing different input values.
-* Many of these procedures change the state of the system.  When procedures
-  change things (as opposed to computing new values), we tend to suffix
-  their name with an exclamation point.
-* For clarity, we tend to prefix the name of a procedure with the kind of
-  value it works on.  For example,
-    * procedures that modify and create images begin with <code>image-</code>,
-    * procedures that modify the global context begin with <code>context-</code>,
-    * procedures that modify and create colors begin with <code>color-</code>.
-* The primary model we use is to repeatedly select and then stroke or fill
-  regions.
-* We do not expect you to remember all of these procedure names.
-    * One of the flaws of the current strategy for teaching 151 is that
-    there are way too many procedures to remember.
-* There is (or should be) a convenient reference menu in MediaScheme.
-    * There is also a convenient reference section on the Web site.
-* If there's something that you want documented, bug me.
+*See the previous outline for more details.*
+* Parts of an algorithm
+* What we're doing in this course.
 
-<section id="lab" title="Lab">
-* Work on [](../Labs/gimp-tools-lab.html)the lab</a>.
-* Be prepared to reflect on some of the questions contained therein.
+<section id="what-is-gimp" title="What is GIMP?">
+* GIMP (the GNU Image Manipulation Program) is free software.  (Free
+  software is related to open-source software, but with a particular
+  political bent.)
+* It allows you to create and edit a wide variety of images, all of
+  which are pixel-based.  Such images are called *raster images*.
+    * A separate kind of graphics is based on drawing primitives, and
+    is called *vector graphics*.  
+* It is intended as a more open alternative to photoshop.
+
+<section id="why-gimp" title="So Why Study the GIMP in 151?">
+* This is "An introduction to CS" not "Digital Art".  So,
+  why are we studying this GIMP thingy?
+* The GIMP is scriptable, giving us the opportunity to write algorithms.
+* About eight years ago, I added a short GIMP section to 151.
+* About five years ago, I saw some evidence that introductory CS courses
+  that emphasize image manipulation better served a wider variety of
+  students, and decided to adapt that approach to our courses.
+    * I applied for a grant, waited, waited some more, and finally got it.
+* We had the first GIMP-based 151 two years ago, it had some success, 
+  so we continue to use and refine it.
+* I built MediaScheme, the scripting software for the GIMP on my
+  sabbatical last year.  It was used for the first time last spring,
+  and seemed more successful than the previous software we were using.
+
+<section id="gimp-demo" title="A Short Demo">
+* Not scripted.
+
+<section id="gimp-lab" title="Lab">
+* Do [](../Labs/gimp-lab.html)the lab</a>.
+
+<section id="gimp-reflect" title="Reflect">
+* We'll try a few of your algorithms.
+* We'll also try to reflect a bit on what you learned or didn't learn.
 
 

@@ -4,7 +4,7 @@ Outline 40: Project Kickoff
 Held: Wednesday, 13 November 2013
 
 Back to [Outline 39 - On Two-Dimensional Design](outline.39.html).
-On to [Outline 41 - Analyzing Procedures](outline.41.html).
+On to [Outline 41 - Visit from Hilary Mason](outline.41.html).
 
 **Summary**
 
@@ -13,64 +13,48 @@ writing your project.
 
 **Related Pages**
 
+* Reading: [Project Ideas](../readings/project-ideas-reading.html)
+* Lab: [Project Ideas](../labs/project-ideas-lab.html)
+* [EBoard](../eboards/40.md) 
+  ([Source](../eboards/40.md))
+  ([HTML](../eboards/40.html))
+  ([PDF](../eboards/40.pdf))
 
 **Overview**
 
-* About the project.
-* Technique one: Color Trees.
-* Technique two: Fractals.
-* Technique three: Turtles.
+* Time to form groups.
+* Playing and brainstorming.
 
 **Administrivia**
 
+* This Friday we will be moving our class to ARH 302 (3rd floor lecture
+  hall) to hear Hilary Mason '00.  Class starts at 12:45.  
+     * We won't have a quiz this week.
+* Tomorrow's "Sam review session" will focus on trees, since lots of you
+  had difficulty with trees.
+    * For those who can't make it, I'll do my best to make sure that my
+      notes are online.
+* Upcoming extra credit opportunities:
+    * Town Hall, Today, noon or 7:30 p.m.
+    * Learning from Alumni, Thursday, 2:15: Atul Gupta, Trustee
+    * CS Extra, Thursday, 4:30: Hilary Mason '00
+    * Informal chat with Hilary Mason, Thursday, 8-9 pm
+    * National Philanthropy Day Friday: Donate to a Charity of Your Choice
+    * NO CS TABLE FRIDAY
+    * Career Connections with Hilary Mason '00, CLS, Friday, 4:15-6:30 (I
+      don't know how Career Connections work; I expect it's really 4:15-5:00)
+    * Swim meet Saturday, 3pm.
+    * Football, Saturday, noon (TJ and Jake are lots of fun to watch)
+    * Basketball, Friday and Sunday
+    * Digital Commons talk Monday, November 18, 7:00 p.m. or so
+    * CS Talk, Wednesday, noon.  (Sorry, don't know the topic yet.)
+    * *Hamlet, some time soon.*
+    * "Data Sovereignty: The Challenge of Geolocating Data in the Cloud",
+      November 25, 4:15 JRC 101
+    * Showing of "Gold Fever" by Andrew Shurburne '01 or so, 7:00 p.m.
+      Monday, November 25, ARH 302
+    * Tuesday, November 26, 4:15 p.m., JRC 209  a gaming event with the 
+      game [d0x3d!] 
 
-About the Project
-=================
-* An attempt to tie together a variety of things.
-* Goals: 
-    * Plan a series of images.
-    * Write a procedure to make them.
-* Computational challenges:
-    * Differences between images given by a single integer, <code>n</code>.
-        * Your procedure must work for all values of <code>n</code> between
-      0 and 999, inclusive
-        * Different values of <code>n</code> in this range must produce 
-      different images
-    * Images must scale reasonably well (a 200x200 image should look similar to
-    a 1000x1000 image for the same n).
-    * Use at least three different image-making techniques we've explored 
-    this semester.
-* Components due Wednesday, Nov. 18
-    * Sketches of two images in the series (hand drawn, computer drawn, ...)
-    * An English-language description of the intent of the images ("We plan to
-    explore the contrast between sharp color boundaries and color blends by
-    ....  We are choosing colors from the palette ... which we designed by
-    ....")
-    * An English-language description of the strategy by which you intend
-    to implement the algorithm.
-    * I've cancelled HW8 so that you have extra time to work on this.
-* Components due Tuesday, Nov. 24
-    * Commented code to build the series of images, including the
-    <code>(image-series *n* *width* *height*)</code>
-    procedure.
-    * Three 500x500 images from the series, and the *n* used to
-    create them.
-    * Three different-size images for the same *n*.
-    * Revised artist's statement and programmer's statement.
-
-Color Trees
-===========
-* Lots of alternative ways to render them.
-* Can use <code>n</code> to build them.
-* Put it together, you get one possible part of your images.
-
-Simple Fractal Images
-=====================
-* A more regular approach to something like color trees.
-* Divide-and-conquer for images.
-
-Turtles
-=======
-* We've seen lots of ways to use turtles.
 
 

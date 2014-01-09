@@ -13,6 +13,12 @@ storing collections of data.
 
 **Related Pages**
 
+* Reading: [Vectors](../readings/vectors-reading.html)
+* Lab: [Vectors](../labs/vectors-lab.html)
+* [EBoard](../eboards/36.md) 
+  ([Source](../eboards/36.md))
+  ([HTML](../eboards/36.html))
+  ([PDF](../eboards/36.pdf))
 
 **Overview**
 
@@ -23,9 +29,17 @@ storing collections of data.
 
 **Administrivia**
 
+* Today's writeup: Exercise 6
+* New assignment: Mostly building color trees.
+* Upcoming extra credit opportunities:
+    * Any one Grinnell prize event this week.
+    * Thursday extras next week: Reports from internships (I think)
+    * Grinnell Town Hall Meeting, Nov 13 noon or 7:30, I believe
+    * CS Table, Friday: TBD (it's been a bad week)
 
 Data Types
-==========
+----------
+
 * At the start of the semester, we decided that "basic values and 
   operations on those values" are key to writing algorithms.
     * We tend to use the word "type" to express these two concepts.
@@ -37,7 +51,8 @@ Data Types
 * We're about to learn a few more.  Vectors today.  Pair structures (particularly trees) on Monday.
 
 List Deficiencies
-=================
+-----------------
+
 * Now that we've worked with lists for a while, we've identified
   some things that make lists inappropriate for some situations.
     * List are *expensive* to use; to find the length of a list
@@ -54,7 +69,8 @@ List Deficiencies
     <code>null</code>, and <code>null?</code>).
 
 An Alternative: Vectors
-=======================
+-----------------------
+
 * Vectors provide an alternative to lists.  
 * They have two primary advantages:
     * Vectors are *indexed*: You can quickly access elements by number.
@@ -69,11 +85,13 @@ An Alternative: Vectors
     * <code>(vector-length *vector*)</code>
 
 Implementing Vectors
-====================
+--------------------
+
 * To be done live in class: Memory layout and more.
 
 Lab
-===
-* Do [](../Labs/vectors-lab.html)the lab</a>.
+---
+
+* Do [the lab](../Labs/vectors-lab.html)
 
 

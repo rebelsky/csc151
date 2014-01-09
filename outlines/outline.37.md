@@ -4,13 +4,13 @@ Outline 37: Randomized (Unpredictable) Drawing
 Held: Friday, 8 November 2013
 
 Back to [Outline 36 - Vectors](outline.36.html).
-On to [Outline 38 - Characters and Strings](outline.38.html).
+On to [Outline 38 - Another Image Model: Iterating Over Positions](outline.38.html).
 
 **Summary**
 
-We consider Scheme's <code>random</code> procedure, how one might use that
-procedure in writing simple simulations, and how the procedure can be used
-to generate <q>unpredictable</q> images.
+We consider Scheme's `random` procedure, how one might use that procedure
+in writing simple simulations, and how the procedure can be used to
+generate "unpredictable" images.
 
 **Related Pages**
 
@@ -19,14 +19,31 @@ to generate <q>unpredictable</q> images.
 
 * Random art.
 * Why use randomness.
-* The <code>random</code> procedure.
+* The `random` procedure.
 * Simulation.
 
 **Administrivia**
 
+* There will be time for questions on assignment 8, which is our last
+  assignment.
+* There's been a request that I talk about `vector-fill!`
+* Next Friday we will be moving our class to the 3rd floor ARH lecture
+  hall (302, I believe) to hear Hilary Mason '00.  Class starts at 12:45.
+* Upcoming extra credit opportunities:
+    * A love-your-body week event.
+    * Drag show.  (Yes, this is in addition to the other lyb events.)
+    * Concert, Saturday, 7:30, S-L.
+    * Post-24-hour show, Saturday, 7:30, ???
+    * Town Hall, Wednesday, November 13, noon or 7:30 p.m.
+    * Learning from Alumni, Thursday: Atul Gupta, Trustee
+    * CS Extra, Thursday: Hilary Mason '00
+    * CS Table, Next Friday, HCI
+    * CDO with Hilary Mason '00, Friday, ???
+    * Digital Commons talk Monday, November 19, 7:00 p.m. or so
 
 Randomized Images - The Theory
-==============================
+------------------------------
+
 * Non-mainstream art philosophy: The images that come from random processes
   (or from nature) can be as interesting as the images that come from
   artists who intentionally plan the canvas.
@@ -38,21 +55,23 @@ Randomized Images - The Theory
 * Disclaimer: Many of the random processes still include some artistic
   intention.
     * Jackson Pollock's painting style provides an interesting combination
-    of intent and randomness.
+      of intent and randomness.
 * Modernized/computational suggestion: 
     * Randomized processes can provide inspiration
     * The ability to constrain some aspects of the process can provide a
-    new mechanism for creation.
+      new mechanism for creation.
 
-The <code>random</code> Procedure
-=================================
-* Scheme helps us by providing a <code>(random n)</code> procedure.
-* <code>n</code> must be a positive integer.
-* <code>random</code> returns an integer between 0 and <code>n</code>-1,
+The `random` Procedure
+----------------------
+
+* Scheme helps us by providing a `(random n)` procedure.
+* `n` must be a positive integer.
+* `random` returns an integer between 0 and `n`-1,
   inclusive.
 
 Randomized Images - Practice
-============================
+----------------------------
+
 * Many of the procedures we've written or used have numeric parameters.
 * Those parameters can be generated "randomly".
 * Many of the procedures we've written take one of a restricted number
@@ -61,14 +80,16 @@ Randomized Images - Practice
 * Demo: Randomizing the brush
 
 Other Uses of Randomness
-========================
+------------------------
+
 * We often use randomness in simulating unpredictable events, such
   as the rolling of an unbiased die.
 * More requently, such randomness is used in larger-scale simulations.
 * We'll stick with images, though.
 
 Lab
-===
-* Do [](../Labs/random-drawing-lab.html)the lab</a>.
+---
+
+* Do [the lab](../Labs/random-drawing-lab.html)
 
 

@@ -3,12 +3,12 @@ Outline 46: Introduction to Sorting
 
 Held: Monday, 25 November 2013
 
-Back to [Outline 45 - Time to Work on Projects](outline.45.html).
+Back to [Outline 45 - Binary Search](outline.45.html).
 On to [Outline 47 - Insertion Sort](outline.47.html).
 
 **Summary**
 
-We explore the problem of <em>sorting</em>.  When you sort a list, vector,
+We explore the problem of *sorting*.  When you sort a list, vector,
 or other collection, you put the elements in order.  The order of the
 elements usually corresponds to the type of the elements.  We might
 sort strings alphabetically, grades numerically, colors by brightness,
@@ -16,6 +16,10 @@ and so on and so forth.
 
 **Related Pages**
 
+* [EBoard](../eboards/46.md) 
+  ([Source](../eboards/46.md))
+  ([HTML](../eboards/46.html))
+  ([PDF](../eboards/46.pdf))
 
 **Overview**
 
@@ -26,9 +30,27 @@ and so on and so forth.
 
 **Administrivia**
 
+* There is no lab writeup for today.
+* There is, however, a quiz today.
+* And a reading for tomorrow.
+* Note: When grading lab writeups, I
+    * Look in the folder where I file writeups when I arrive
+    * Search in my mailbox for all the mail meeting the title of the lab
+    * Search in my mailbox for all mail from people who don't seem to have
+      submitted the lab
+    * If I don't find your lab writeup after all of that, I have to assume
+      that you have not submitted it.
+* Upcoming extra credit opportunities:
+    * "Data Sovreignty: The Challenge of Geolocating Data in the Cloud",
+      November 25, 4:15 JRC 101
+    * Showing of "Gold Fever" by Andrew Shurburne '01 or so, 7:00 p.m.
+      Monday, November 25, ARH 302
+    * Tuesday, November 26, 4:15 p.m., JRC 209  a gaming event with the 
+      game [d0x3d!]   Popcorn will be served.
 
 The Problem of Sorting
-======================
+----------------------
+
 * As we saw recently, one problem that seems to crop up a lot in 
   programmming (and elsewhere) is that of *sorting*.
 * The problem:
@@ -40,7 +62,8 @@ The Problem of Sorting
 * We'll look at techniques for sorting vectors and lists.
 
 Designing Sorting Algorithms
-============================
+----------------------------
+
 * I suggest that you think about the development of sorting algorithms in Scheme similarly to the way you think about writing many algorithms.
 * Start by thinking about the way you might do it by hand.
     * We may find a few different ways to sort by hand.
@@ -55,10 +78,10 @@ Designing Sorting Algorithms
 * Test test test.
 
 Sample Sorting Algorithms
-=========================
+-------------------------
 
-Insertion Sort
---------------
+=== Insertion Sort
+
 * One simple sorting technique is *insertion sort*.   
 * Insertion sort operates by segmenting the list into unsorted and sorted portions,
   and repeatedly removing the first element from the unsorted portion 
@@ -67,8 +90,8 @@ Insertion Sort
 * How might we code this recursively?
 * Does our code differ for lists and arrays?
 
-Selection Sort
---------------
+=== Selection Sort
+
 * *Selection sort* is among the simpler and more natural methods for 
   sorting vectors.
 * In this sorting algorithm, you segment the vector into two 
@@ -87,10 +110,10 @@ Selection Sort
 * Note that we can also write selection sort iteratively.
 
 A More Formal Description
-=========================
-* Before moving on to algorithms for solving the sorting problem, let's
-  take a look at the way we might document one (or all) of the
-  procedures
+-------------------------
+
+* Before implementing these algorithms, let's
+  take a look at the way we might document one (or all) of the procedures
     * Purpose?
     * Parameters?
     * Produces?

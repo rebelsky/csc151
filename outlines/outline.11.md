@@ -1,80 +1,102 @@
-Outline 11: Raster Graphics and RGB Colors
-==========================================
+Outline 11: A Design Perspective
+================================
 
 Held: Tuesday, 17 September 2013
 
-Back to [Outline 10 - A Design Perspective](outline.10.html).
-On to [Outline 12 - Transforming Colors](outline.12.html).
+Back to [Outline 10 - Programing the GIMP Tools](outline.10.html).
+On to [Outline 12 - Raster Graphics and RGB Colors](outline.12.html).
 
 **Summary**
 
-We consider the basics of <em>raster graphics</em>, a common technique
-for describing and representing images.  We also consider
-<em>RGB colors</em>, one of the most common mechanisms for
-representing colors digitally.
+We consider the basics of color theory.
 
 **Related Pages**
 
+* Reading: [Design and Color](../readings/design-and-color-reading.html)
+* [EBoard](../eboards/11.html) 
+  ([Source](../eboards/11.md))
+  ([PDF](../eboards/11.pdf))
 
 **Overview**
 
-* Representing images, revisited.
-* Pixels and colors: The basics.
-* RGB colors.
-* Those weird numbers.
+* A bit about design.
+* A bit about color theory.
+* Exploring some images and design spaces.
 
 **Administrivia**
 
+* Dr. Davis and I discussed the exam and decided that we'd prefer to
+  distribute it after HW3 comes in.  So you'll get it tomorrow a.m.
+* My email aplication has been acting up.  If you want a meeting with me and
+  haven't scheduled one, please see me after class and we'll pick a time.
+* Reading for Wednesday: 
+  [Raster Graphics and RGB Colors](../readings/raster-reading.html)
+* SACNAS Ice Cream Social Thursday, September 19th at 8:00PM in the Biology Commons
+* EC Opportunities:
+    * Convocation this Wednesday (see Sam's rant on the importance of convo
+      in the outline for more details)
+    * CS Extras Thursday @ 4:30: Kim Spasaro on Linguistics Programming
+    * CS Table Friday (Pair programming)
+    * Other?
+* I also encourage you to attend any of the other Title IX talks/events.
 
-<section id="raster" title=Raster Grapics">
-* Yet another model of images.
-* This one corresponds closely to how computers actually represent images.
-* The image is a grid of colors.
-* You already know about the numbering of the grid points:  
-    * Rows and columns numbered starting at 0
-    * Rows numbered from top to bottom
-    * Columns number from left to right
-* It's painful to have to set individual pixels, but it can be useful.
-    * At some point "under the hood", most programs eventually deal
-    with individual pixels.
+> _The chief aim of color should be to serve expression as well as possible._
+Henri Matisse
 
-<section id="colors" title=Colors">
-* Many ways to represent colors, too.
-* Goals: Unambiguous, fast to process, compact
-* The color names we've been using are
-    * Ambiguous
-    * Slow to process
-    * Long
-* Whoops!
+A Bit About Design
+------------------
 
-<section id="rgb" title="RGB Colors">
-* The most common internal representation of colors on computers.
-* We think of a color as the combination of three 
-  *primaries*: red, green, and blue.
-    * These are the primaries for the so-called *additive* colors
-    * You are probably used to the primaries being red, yellow, and blue,
-     but those are the *subtractive* colors
-* On computers, we represent each component as a number between 0 and 255,
-  inclusive.
-* It turns out that you can shove four numbers, each between 0 and 255,
-  into the internal representation of an integer.
-    * So, the red, green, and blue components are three of those numbers.
-    * What's the forth?  In multi-layer images, it's the alpha channel.
-* We use <code>rgb-new</code> to create these colors.
-* We use <code>rgb-red</code>, <code>rgb-green</code>, and
-  <code>rgb-blue</code> to extract the corresponding components.
+* Many issues to consider, both formal and informal
+* Formal attributes include things like balance, symmetry, dimensionality
+* Informal goals
+    * How does the image lead your eye?
+    * Does the image maintain your viewer's interest, or is it easy to
+      see and dismiss.
+* Successful designers know how to take advantage of certain formal attributes
+  to acheive various goals (including these informal goals)
+* Right now, we're just going to look at some formal issues regarding color
 
-<section id="weird-rgb-numbers" title="Those Weird Color Numbers">
-* We're representing colors as three integers, each in the range
-  [0..255].
-* Yet when we ask MediaScript for a color, we tend to get a single integer
-  which is rarely in that range?
-* What's giong on?
-* Well, most computers have different techniques for representing really
-  small integers (particularly integers in the range [0..255]) and
-  standard-length integers.  We're using the smaller representation,
-  but shoving three of those into a standard-length integer.
-    * We use that representation because it makes everything faster.
-* Even those of us who designed that representation can't read it.
+Basics of Color Theory
+----------------------
+
+* Issue: Do we think in terms of paint (traditional) or in terms of light
+  (computer/modern)?
+* Three models
+    * RGB - additive color, based on red, green, and blue lights
+        * Adding colors makes things brighter - more light is transmitted
+        * Often represented using a 0-255 (integer) or 0-1 (real) range.
+    * Red, Yellow, Blue - subtractive color
+        * Adding colors makes things darker - more light is absorbed
+    * Hue, Saturation, Value
+        * Hue is the underlying color
+        * Value refers to lightness and darkness (high value is lighter)
+        * Saturation refers to how much of the color we have (low
+          saturation is closer to grey, high saturation is purer color)
+        * We'll look at the color wheel to ground this understanding
+            * [A color wheel](http://www.artsconnected.org/toolkit/encyc_colorwheel.html)
+            * [A color cylinder](http://en.wikipedia.org/wiki/File:HSV_color_solid_cylinder_alpha_lowgamma.png)
+            * And we will play with some issues in lab tomorrow
+* Working with RYB and the color wheel, we say that there are
+    * Three *primary* colors: Red, Yellow, and Blue
+    * Three *secondary* colors, created by combining the primaries.
+    * Six *tertiary* colors, created by mixing a secondary with the
+      neighboring primaries.
+* We also assign temperature to colors: red colors are warmer, blue and
+  green are cooloer
+    * Temperature can also affect where in the plane you see something
+* The ways you arrange colors affect the way you understand them.
+    * Traditionally, there are ranges between harmonious and dischordant.
+* Color schemes
+    * Complementary - opposite on the color wheel
+    * Analagous - three neighboring colors on the 12-color color wheel
+    * Monochromatic - variations on one color (different hue/saturation)
+    * We may take a quick look at the Color Scheme Designer
+
+Activities
+----------
+
+* Another clicker quiz!
+* Some sample designs, taken from the Kluber version of Digital Design
+* Maybe more fun with the [Color Scheme Designer](http://colorschemedesigner.com/)
 
 

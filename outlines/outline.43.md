@@ -1,161 +1,96 @@
-Outline 43: Higher-Order Procedures, Revisited
-==============================================
+Outline 43: Association Lists
+=============================
 
 Held: Tuesday, 19 November 2013
 
-Back to [Outline 42 - Association Lists](outline.42.html).
-On to [Outline 44 - Binary Search](outline.44.html).
+Back to [Outline 42 - Analyzing Procedures](outline.42.html).
+On to [Outline 44 - Higher-Order Procedures, Revisited](outline.44.html).
 
 **Summary**
 
-We revisit the topic of <em>higher-order procedures</em>, one of the most
-important techniques in languages like Scheme.  Higher-order procedures
-are procedures -- like <code>map</code>, <code>left-section</code>, or 
-<code>compose</code> -- that take other procedures
-as parameters, return other procedures as values, or both.
+We consider *association lists*, a simple, but useful, technique
+for organizing tables of information.
 
 **Related Pages**
 
+* Reading: [Association Lists](../readings/association-lists-reading.html)
+* Lab: [Association Lists](../labs/association-lists-lab.html)
+* [EBoard](../eboards/43.md) 
+  ([Source](../eboards/43.md))
+  ([HTML](../eboards/43.html))
+  ([PDF](../eboards/43.pdf))
 
 **Overview**
 
-* Elegance.
-* Procedures as parameters.
-* Procedures as return values.
-* Writing <code>map</code>.
-* Writing <code>all?</code>.
+* Storing information in tables.
+* Representing table entries as lists.
+* Representing tables as lists.
+* Association lists: Scheme's standard table representation.
+* Implementing key association list procedures.
 
 **Administrivia**
 
+* Today's lab writeup (#25): Turn in 4, 5d, 6c
+* There seem to be some occasional bugs in image-compute that result
+  in square blocks of "noise" appearing in the image.  If this happens
+  to you, please send me the code that does it.
+* Upcoming extra credit opportunities:
+    * CS Talk, Wednesday, noon, Noyce 3821.
+      Writing Bug-Free Code with Theorem Proovers.
+    * Hamlet, Friday (7:30pm), Saturday (7:30pm), Sunday (2pm).
+    * Typhoon Halyan Relief benefit show, Sunday, November 24th from 7-9pm
+      in Harris.  (If the entry fee is a burden, let me know and I'll
+      give you the money.)
+    * "Data Sovreignty: The Challenge of Geolocating Data in the Cloud",
+      November 25, 4:15 JRC 101
+    * Showing of "Gold Fever" by Andrew Shurburne '01 or so, 7:00 p.m.
+      Monday, November 25, ARH 302
+    * Tuesday, November 26, 4:15 p.m., JRC 209  a gaming event with the 
+      game [d0x3d!]   Popcorn will be served.
 
-Background: Guiding Principles
-==============================
-* *Write less, not more*
-* *Refactor*
-* *Name appropriately*
-    * Good names for things that need names
-    * No names for things that don't need names
+Simple Database Problems
+------------------------
 
-Background: A Related Philosophy
-================================
+* Databases are among the most common applications of computers. 
+    * After all, there's a reason that Larry Ellison is nearly as rich
+    as Bill Gates.
+* A database is a mechanism for storing data
+  so that you can easily access the data you need.
+* One simple database activity is looking up values by *keys*.
+* Databases that provide only that activity are called *dictionaries*.
 
-*The following is variant of something John Stone says ...*
-* The first time you read a new procedure structure 
- (such as recursion over a list), you learn something.
-* The second time you read the same structure, you learn something else.
-* The third time, you learn a bit more.
-* After that, reading doesn't give much benefit.
-* The first time you write the same structure, you learn something more
- about that structure
-* The second time, you learn even more.
-* The third time, you learn a bit more.
-* After that, there's no benefit.
-* So ... extract the common code so you don't have to write it again.
-d yes, you learn something
+Association Lists
+-----------------
 
-Two Motivating Examples
-=======================
-* <code>all-real?</code> and <code>all-integer?</code>
-* <code>add-5-to-each</code> and <code>multiply-each-by-5</code>
+* In Scheme, dictionaries are typically implemented with a data structure
+  known as the *association list*.
+* An association list is a list of elements each of which
+  has a key as its car.
+* You can use the `(assoc *key* *list*)`
+  procedure to look up values by key.
 
-Procedures as Parameters
-========================
-* We've been writing it a lot.
-* Useful
-* Concise
-* Supports refactoring
+Searching in Association Lists
+------------------------------
 
-Procedures as Return Values
-===========================
-* Another way to create procedures (anonymous and named).
-* Strategy: Write procedures that return new procedures.
-* These procedures can take plain values as parameters:
-<boxcode>
-(define redder
-  (lambda (amt)
-    (lambda (color)
-      (rgb ...))))
-</boxcode>
-* How to think about this:
-    * a procedure that takes *amt* as a parameter,
-    * returns a new procedure that takes *color* as a parameter
-* Can also take procedures as parameters
-* One favorite: <code>compose</code>
-<boxcode>
-(define compose
-  (lambda (f g)
-    (lambda (x)
-      (f (g x)))))
-</boxcode>
-* Examples
-    * sine of square root of x: <code>(compose sin sqrt)</code>
-    * last element of a list: <code>(compose car reverse)</code>
-* Another: <code>left-section</code>
-<boxcode>
-(define left-section
-  (lambda (func left)
-    (lambda (right)
-      (func left right))))
-(define l-s left-section)
-</boxcode>
-* Examples: 
-    * add two: <code>(l-s + 2)</code>
-    * double: <code>(l-s * 2)</code>
-* Not mentioned int he reading, but there's a corresponding right-section
-<boxcode>
-(define right-section
-  (lambda (func right)
-    (lambda (left)
-      (func left right))))
-(define r-s right-section)
-</boxcode>
+* Suppose Scheme didn't include `assoc`.  How would you write
+  it?  Probably *recursively*.
+* If the list is empty, it does not contain the value.
+* If the key of the first element in the list is the key we're
+  looking for, return the corresponding value.
+* Otherwise, look in the rest of the list.
+* This technique is called *sequential search*.
 
-Encapsulating Control
-=====================
-* Possible for complex common code, too (particularly control).
-* <code>map</code> is the standard example.  
-<boxcode>
-(define map
-  (lamda (fun lst)
-     (if (null? lst)
-         null
-         (cons (fun (car lst))
-               (map fun (cdr lst))))))
-</boxcode>
-* Another issue: Checking the type of elements in a list
-<boxcode>
-(define all-numbers?
-  (lambda (lst)
-    (or (null? lst)
-        (and (pair? lst)
-             (number? (car lst))
-             (all-numbers? (cdr lst))))))
-(define all-symbols?
-  (lambda (lst)
-    (or (null? lst)
-        (and (pair? lst)
-             (symbol? (car lst))
-             (all-symbols? (cdr lst))))))
-</boxcode>
-* Common code
-<boxcode>
-(define all
-  (lambda (test? lst)
-    (or (null? lst)
-        (and (pair? lst)
-             (test? (car lst))
-             (all test? (cdr lst))))))
-</boxcode>
+Variants of Association Lists
+-----------------------------
 
-Concluding Comments
-===================
-* Yes, skilled Scheme programmers write this way.
-    * It's quick.
-    * It's clear (at least to skilled Schemers).
-    * It reduces mistakes.
-* The ability to encapsulate control in this way is fairly unique to Scheme
-  (well, to functional languages).
-* It's one of the reasons we love it at Grinnell.
-    * Or at least a reason I love it.
+* Given that we can write our own `assoc` procedure, we can
+  easily implement a number of interesting variants of association lists.
+* For example, if the same key appears multiple times in the association list, we might return *all* matching values (rather than the *first* matching value).
+* Similarly, instead of searching by key, we might search by predicate.
+
+Lab
+---
+
+* Do [the lab](../Labs/association-lists-lab.html)
 
 

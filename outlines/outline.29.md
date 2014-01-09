@@ -1,63 +1,46 @@
-Outline 29: Preconditions, Revisited
-====================================
+Outline 29: Testing Your Procedures
+===================================
 
 Held: Friday, 18 October 2013
 
-Back to [Outline 28 - Other Forms of List Recursion](outline.28.html).
-On to [Outline 30 - Another Image Model: Iterating Over Positions](outline.30.html).
+Back to [Outline 28 - Preconditions, Revisited](outline.28.html).
+On to [Outline 30 - Naming Local Procedures](outline.30.html).
 
 **Summary**
 
-We consider preconditions and programming techniques for ensuring that
-preconditions are met.
+We consider testing: When, why, and how you might test the procedures
+and the programs you write.
 
 **Related Pages**
 
+* Reading: [Testing Your Procedures](../readings/rackunit-reading.html)
+* Lab: [Unit Testing with RackUnit](../labs/rackunit-lab.html)
+* [EBoard](../eboards/29.md) 
+  ([Raw](../eboards/29.md))
+  ([HTML](../eboards/29.html))
+  ([PDF](../eboards/29.pdf))
 
 **Overview**
 
-* Verifying preconditions.
-* The <function>error</function> procedure.
-* Husk and Kernel programming.
+* Why test?
+* Strategies for testing.
+* The primary testing operations.
 
 **Administrivia**
 
-
-Preconditions
-=============
-* Remember: Documentation is a contract, be careful.
-* Even if you don't write documentation (or don't write
-  careful documentation), you should reflect on your expectations
-  for parameters.
-* We call those expectations the <emphasis>preconditions</emphasis>
-  of the procedure.
-* In some cases, you may want to explicitly test to ensure that the
-  preconditions are met.
-    * Testing lets you provide more useful error messages.
-    * Testing prevents dangerous results from being returned.
-
-Reporting Failure
-=================
-* When a precondition fails, you want to stop computation immediately
-  and report the error.
-* In Scheme, you can do so with <function>error</function> or
-  <function>throw</function> 
-    * The one to use depends on the version of Scheme you are using.
-    * Our Scheme interpreter uses <function>error</function>.
-
-Husk and Kernel Programming
-===========================
-* Particularly for recursive procedures, it is inefficient to check
-  preconditions at every recursive call
-    * If the preconditions were met for the first call, they should be
-    met for every subsequent call.
-* Hence, programmers tend to use what I refer to as "Iowa's Great
-  Contribution to Programming": The Husk-and-Kernel approach
-    * The husk checks the preconditions and, if all preconditions are met,
-    calls the kernel.
-    * The kernel does the real work.
-* Corn serves as the metaphor: The husk protects the kernel, and the
-  kernel is the valuable part.
-    * And no, Husk-and-Kernel programming was not invented in Iowa.
+* Continue partners from Monday
+* I *think* I have working disk images to allow you to run Gimp + 
+  DrRacket + Mediascheme in a simulated machine on your own computer.
+* I screwed up the links for today's reading, so you've probably seen an old
+  reading.  The general concepts are the same, but the particular instructions
+  you write are different.  We'll do a quick runthrough.
+* NO WRITEUP FOR TODAY'S LAB.  But you should at least read through the lab to
+  understand what steps you might have gone through.  (And maybe you'll want
+  to do it on your own.  Unfortunately, the flash drives won't work for that.)
+* We'll look at some issues from Wednesday's lab.
+* Upcoming EC opportunities
+    * Football, 1 pm, Saturday
+    * Men's soccer, 1:30 pm, Saturday
+    * ...
 
 

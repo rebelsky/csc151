@@ -8,11 +8,17 @@ On to [Outline 36 - Vectors](outline.36.html).
 
 **Summary**
 
-We consider <em>trees</em>, structures built from pairs that are somewhat 
+We consider *trees*, structures built from pairs that are somewhat 
 like two-dimensional lists.
 
 **Related Pages**
 
+* Reading: [Trees](../readings/tree-reading.html)
+* Lab: [Trees](../labs/tree-lab.html)
+* [EBoard](../eboards/35.md) 
+  ([Source](../eboards/35.md))
+  ([HTML](../eboards/35.html))
+  ([PDF](../eboards/35.pdf))
 
 **Overview**
 
@@ -22,5 +28,12 @@ like two-dimensional lists.
 
 **Administrivia**
 
+* Today's writeup: ???
+* New assignment: Mostly building color trees.
+* Upcoming extra credit opportunities:
+    * Any one Grinnell prize event this week.
+    * Thursday extras next week: Reports from internships (I think)
+    * Grinnell Town Hall Meeting, Nov 13 noon or 7:30, I believe
+    * CS Table, Friday: TBD
 
 

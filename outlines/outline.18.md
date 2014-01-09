@@ -1,60 +1,131 @@
-Outline 18: Exam 1 Discussion
-=============================
+Outline 18: Turtle Graphics
+===========================
 
 Held: Monday, 30 September 2013
 
-Back to [Outline 17 - Turtle Graphics](outline.17.html).
+Back to [Outline 17 - Anonymous Procedures](outline.17.html).
 On to [Outline 19 - Iteration](outline.19.html).
 
 **Summary**
 
-We consider some issues from the first exam.
+We explore another imperative model of images, *turtle graphics*.
+In this model, we give drawing expressions to robotic turtles.
 
 **Related Pages**
 
+* Reading: [Turtle Graphics](../readings/turtle-graphics-reading.html)
+* Lab: [Turtle Graphics](../labs/turtle-graphics-lab.html)
+* [EBoard](../eboards/18.md) 
+  ([Markdown](../eboards/18.md))
+  ([HTML](../eboards/18.html))
+  ([PDF](../eboards/18.pdf))
 
 **Overview**
 
-* General issues.
-* What is functional programming?
-* Issues with particular problems.
-* Additional Q&amp;A
-* Lab (if time).
+* Modeling images through process: Turtle graphics.
+* Some historical notes.
+* Turtle graphics in MediaScheme.
+* Lab.
 
 **Administrivia**
 
+* [New lab partners](../partners/2013-09-30.txt)!  
+  Please sit with your new lab partner.
+    * I'm moving to switching once per week.
+    * After fall break, I may let you choose partners (but may require
+      that you switch once per week).
+* You will have a substitute teacher (Mr. Walker) and mentor (Ms. Ryan and
+  maybe Mr. Wheeler) on Wednesday and Friday.
+* Work for Tuesday: 
+    * Work on [the homework assignment](../assignments/assignment.04.html)
+    * Read [Iteration](../readings/iteration-reading.html)
+    * Do Lab writeup 8: Extra 2 and an Exploration
+        * Try to get it in for Tuesday.
+        * Due before class on Wednesday.  
+        * Title: "CSC 151.02 Lab Writeup 8: Turtle Graphics (*NAMES*)".
+    * Before class Tuesday, email me something you should or should
+      not do when stuck on the exam.
+* EC Opportunities:
+    * CS Extras Thursday @ 4:30: Three Students on Student Sysadmin Work
+    * CS Table Friday (Coding the Law)
+    * More ...?
+* Other things you might do (no EC, but possibly a good idea)
+    * Poweshiek CARES March Thursday, Oct. 3.  Meet at Drake Library at 5 p.m.
+    * GHS Homecoming Parade Thursday, Oct. 3.  If you've never seen a 
+      small-town homecoming parade, it's worth it.  
 
-Some General Issues
-===================
-* I don't reveal grade distributions as I see no point in doing so.
-* Many of you need to work more on test-taking strategies.  
-    * *Read the exam first*: Almost everyone who tried the last 
-    question solved that question.
-    * *Start early and take breaks*: In a few cases, it looked like
-    you planned to do the whole exam in one four-hour stint (or two two-hour
-    stints).  You often do better if you think about questions for a little
-    bit and then come back to them.
-    * *Ask Sam for help*: I don't mind answering questions on the
-    exam, and sometimes a quick suggestion from me can make things much
-    faster.
+Modeling the Drawing Process: Turtle Graphics
+---------------------------------------------
 
-What is Functional Programming?
-===============================
-* I saw lots of citation problems.
-* Some of you had trouble understanding the definitions, which makes sense.
-* What did you see as the most important aspects of functional programming?
+* We've now seen three (more?) models of making images:
+    * We can use drawings-as-values-style graphics to build composite
+      images.
+    * We can use GIMP-style graphics to select and then do something with
+      the selection.
+    * We can manipulate individual pixels
+    * We can transform images
+* These models permit us to create a variety of interesting drawings.
+* However, they do not model how we normally draw, which involves
+  taking pen (or brush) to paper (or canvas).
+* The *turtle graphics* approach to describing
+  images provides a simple model for how we might describe drawings.
+* At any point, the person following the instructions has a pen in
+  hand.  You need to give the person information on the direction in
+  which to move the pen and the amount to move it.  (That's right,
+  no curves here; just lots and lots of straight lines.)
+* We separate the two basic operations: You can tell the person drawing
+  to move forward or to turn in a particular direction.
+* "It's so simple, even a turtle can do it."
+* What if you don't want continuous lines?  You can tell the turtle to
+  lift or drop the pen.
+* Turtle graphics has been used to control robots that draw.
+* Note that turtle graphics, much like GIMP graphics, is an
+  "imperative" model: You give a series of commands
+  to the thing doing the drawing.
 
-Tips on Other Problems
-======================
-* Problem 2: In the "how" part, we wanted you to say not just the
-  steps in computation, but also why those steps resulted in the median.
-* Problem 3: The result was supposed to include cents.  It also reveals
-  a problem with Scheme's representation of reals.
-* Problem 5: Finding the points could be straightforward if you're clever.
-* Problems 8 and 9: We'll go over these.
+Some Historical Notes
+---------------------
+
+*Disclaimer: Although I knew much of this information, I did crib
+some ideas from Wikipedia and the Web for these notes.*
+
+* Turtle graphics were invented by Seymour Papert (at MIT) in part of his
+  development of the LOGO programming language. (1960's and beyond)
+* LOGO was designed as a computer language intended to help children
+  think better (or at least more algorithmically).
+* The original implementation of LOGO did, in fact, have a kind of robot
+  (commonly referred to as a <quote>turtle robot</quote>)
+  hooked up to a computer.  Hence, it made sense for the language to have
+  some basic operations for the robot.
+* As computers became more commonplace, it made sense to simulate the
+  turtle on the screen (since not everyone who had a computer would have
+  a turtle robot).
+* And it makes sense to show the turtle's path.
+* After awhile, drawing on the screen became as interesting as (or more
+  interesting than?) controlling the physical robot.
+* The turtle graphics model has persisted, in various forms, over the
+  years.
+* Turtle graphics and LOGO are often used in constructionist approaches
+  to teaching.  The goal is that students explore freely, starting with
+  a few basic tools and strategies, they come up with their own problems
+  and develop solutions to those problems.
+
+Turtle Graphics in MediaScheme
+------------------------------
+
+* Create a new turtle that draws on a particular image
+  with <code>(turtle-new image)</code>.
+* Move it forward with <code>(turtle-forward! turtle amt)</code>
+* Turn it with <code>(turtle-turn! turtle angle)</code>
+* Lift the pen with <code>(turtle-up! turtle)</code>
+* Put the pen on paper with <code>(turtle-down! turtle)</code>
+* Additional operations for people who can't keep track of position
+  and orientation
+    * <code>(turtle-teleport! turtle col row)</code>
+    * <code>(turtle-face! turtle angle)</code>
+    * <code>(turtle-show! turtle)</code>
+* You can also set the turtle's brush and color.
 
 Lab
-===
-* If there's time, go back and do [](../Labs/anonymous-procedures-lab.html)the lab on anonymous procedures</a>.
-
+---
 
