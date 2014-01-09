@@ -103,20 +103,23 @@
 
 <itemizedlist>
   <listitem>Class participation: 10%;</listitem>
-  <listitem>Regular homework: 10%;</listitem>
+  <listitem>Regular homework: 5%;</listitem>
   <listitem>Lab writeups: 5%</listitem>
   <listitem>Project: 15%;</listitem>
   <listitem>Quizzes: 10%;</listitem>
   <listitem>Exams: 45% (3 graded exams plus optional final);</listitem>
   <listitem>Best of (project, average exam, final): 5%.</listitem>
+  <listitem>Best of (homework, writeups, quizzes): 5%.</listitem>
 </itemizedlist>
 
 <para>
   The final examination for this course is <emphasis>optional</emphasis>.
   It can be used as a makeup for one examination.  I will count the
   final examination only if it is higher than your lowest examination,
-  and it will replace the grade for that examination.  The exam is
-  scheduled for 2:00 p.m. on Tuesday, 17 December 2013.
+  and it will replace the grade for that examination.  The final examination 
+  is scheduled for 2:00 p.m. on Tuesday, 17 December 2013.  Students who
+  have a conflicting examination may take it instead at 9:00 a.m. on
+  Thursday, 19 December 2013.
 </para>
 
 <para>
@@ -158,7 +161,7 @@
 
 <para>
   <emphasis role="strong">Good-Faith Grade Guarantee</emphasis>:
-  Because I realize that computer science does not <quote>click</quote> will all
+  Because I realize that computer science does not <quote>click</quote> with all
   students, I reward effort as well as outcome.  Hence, students who make a
   <quote>good faith</quote> effort in this class will pass the class, with at least
   a C+.   A good-faith effort includes missing no more than two classes,
