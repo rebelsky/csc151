@@ -1,1 +1,0 @@
-../resources/stylesheet.xsl
