@@ -1,0 +1,6 @@
+<!ENTITY assignment.01-prefix "*prefix*">
+<!ENTITY assignment.01-subject "*subject*">
+<!ENTITY assignment.01-due "*due*">
+<!ENTITY assignment.01-prologue "*prologue*">
+<!ENTITY assignment.01-epilogue "*epilogue*">
+<!ENTITY assignment.01-suffix "*suffix*">
