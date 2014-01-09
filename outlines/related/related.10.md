@@ -1,0 +1,5 @@
+* Reading: [Programming the GIMP Tools](../readings/gimp-tools-reading.html)
+* Lab : [Programming the GIMP Tools](../labs/gimp-tools-lab.html)
+* [EBoard](../eboards/10.html) 
+  ([Source](../eboards/10.md))
+  ([PDF](../eboards/10.pdf))

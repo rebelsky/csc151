@@ -1,0 +1,6 @@
+* Reading: [Files](../readings/files-reading.html)
+* Lab: [Files](../labs/files-lab.html)
+* [EBoard](../eboards/49.md) 
+  ([Source](../eboards/49.md))
+  ([HTML](../eboards/49.html))
+  ([PDF](../eboards/49.pdf))

@@ -1,0 +1,6 @@
+* Reading: [Search Algorithms](../readings/searching-reading.html)
+* Lab: [Binary Search](../labs/binary-search-lab.html)
+* [EBoard](../eboards/45.md) 
+  ([Source](../eboards/45.md))
+  ([HTML](../eboards/45.html))
+  ([PDF](../eboards/45.pdf))

@@ -1,0 +1,6 @@
+* Reading: [Trees](../readings/tree-reading.html)
+* Lab: [Trees](../labs/tree-lab.html)
+* [EBoard](../eboards/35.md) 
+  ([Source](../eboards/35.md))
+  ([HTML](../eboards/35.html))
+  ([PDF](../eboards/35.pdf))

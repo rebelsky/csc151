@@ -1,0 +1,5 @@
+* Reading: [Making and Manipulating Homogeneous Lists](../readings/homogeneous-lists-reading.html)
+* Lab: [Making and Manipulating Lists of Drawings](../labs/lists-of-drawings-lab.html)
+* [EBoard](../eboards/16.md) 
+  ([HTML](../eboards/16.html))
+  ([PDF](../eboards/16.pdf))

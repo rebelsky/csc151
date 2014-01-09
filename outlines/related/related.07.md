@@ -1,0 +1,6 @@
+* Reading: [Procedures](../readings/procedures-reading.html)
+* Lab: [Procedures](../labs/procedures-lab.html)
+    * [Code for the lab](../code/procedures-lab.scm)
+* [EBoard](../eboards/07.html) 
+  ([Source](../eboards/07.md))
+  ([PDF](../eboards/07.pdf))

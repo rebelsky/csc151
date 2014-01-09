@@ -1,0 +1,6 @@
+* Reading: [Pairs and Pair Structures](../readings/pairs-reading.html)
+* Lab: [Pairs and Pair Structures](../labs/pairs-lab.html)
+* [EBoard](../eboards/35.md) 
+  ([Source](../eboards/35.md))
+  ([HTML](../eboards/35.html))
+  ([PDF](../eboards/35.pdf))

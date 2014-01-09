@@ -1,0 +1,6 @@
+* Reading: [Anonymous Procedures](../readings/anonymous-procedures-reading.html)
+* Lab: [Anonymous Procedures](../labs/anonymous-procedures-lab.html)
+* [EBoard](../eboards/17.md) 
+  ([Markdown](../eboards/17.md))
+  ([HTML](../eboards/17.html))
+  ([PDF](../eboards/17.pdf))

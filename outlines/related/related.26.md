@@ -1,0 +1,6 @@
+* Reading: [Recursion with Helper Procedures](../readings/helper-recursion-reading.html)
+* Lab: [Recursion with Helper Procedures](../labs/helper-recursion-lab.html)
+* [EBoard](../eboards/26.md) 
+  ([Raw](../eboards/26.md))
+  ([HTML](../eboards/26.html))
+  ([PDF](../eboards/26.pdf))

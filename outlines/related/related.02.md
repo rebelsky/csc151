@@ -1,0 +1,5 @@
+* Reading: [The Linux Environment](../readings/linux-reading.html)
+* Lab: [Getting Started with Linux](../readings/linux-lab.html)
+* [EBoard](../eboards/02.html) 
+  ([Source](../eboards/02.md))
+  ([PDF](../eboards/02.pdf))

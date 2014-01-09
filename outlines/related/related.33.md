@@ -1,0 +1,6 @@
+* Reading: [Characters and Strings](../readings/strings-reading.html)
+* Lab: [Characters and Strings](../labs/strings-lab.html)
+* [EBoard](../eboards/33.md) 
+  ([Raw](../eboards/33.md))
+  ([HTML](../eboards/33.html))
+  ([PDF](../eboards/33.pdf))

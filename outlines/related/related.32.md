@@ -1,0 +1,6 @@
+* Reading: [Geometric Art](../readings/geometric-art-reading.html)
+* Lab: [Geometric Art](../labs/geometric-art-lab.html)
+* [EBoard](../eboards/32.md) 
+  ([Raw](../eboards/32.md))
+  ([HTML](../eboards/32.html))
+  ([PDF](../eboards/32.pdf))

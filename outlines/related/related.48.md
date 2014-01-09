@@ -1,0 +1,6 @@
+* Reading: [Sorting](../readings/mergesort-reading.html)
+* Lab: [Insertion Sort](../labs/mergesort-lab.html)
+* [EBoard](../eboards/48.md) 
+  ([Source](../eboards/48.md))
+  ([HTML](../eboards/48.html))
+  ([PDF](../eboards/48.pdf))

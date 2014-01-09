@@ -1,0 +1,6 @@
+* Reading: [Vectors](../readings/vectors-reading.html)
+* Lab: [Vectors](../labs/vectors-lab.html)
+* [EBoard](../eboards/36.md) 
+  ([Source](../eboards/36.md))
+  ([HTML](../eboards/36.html))
+  ([PDF](../eboards/36.pdf))
