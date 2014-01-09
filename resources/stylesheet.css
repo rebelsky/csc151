@@ -3,11 +3,6 @@
  * Copyright (c) 2001-2013 Samuel A. Rebelsky.  All rights reserved.
  */
 
-form.search
-{
-  text-align: right;
-}
-
 /* 
  * Here's a nice overall appearance.  Some extra whitespace at the sides.  
  * Mostly white.  Note that the 100px at the left is intended to be
@@ -158,6 +153,15 @@ p.links {
   margin-bottom: 0pt;
 }
 
+/* The search form that appears at the top and bottom of each page. */
+form.search {
+  text-align: right;
+  font-size: small;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding: 0pt;
+}
+
 HR {
   width: 50%;
   text-align: right;
@@ -211,6 +215,15 @@ SPAN.uikey {
   font-family: Helvetica, sans-serif;
   font-style: oblique;
 }
+
+DIV.NOPRINT {
+  margin-bottom: 0px;
+} 
+
+P.invisible {
+  font-size: 1px;
+}
+
 
 DIV.shortversion {
   border: solid silver;

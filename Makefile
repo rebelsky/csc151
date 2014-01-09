@@ -40,8 +40,8 @@ clean:
 pdf:
 	for dir in $(SECTIONS); do cd $$dir; make pdf; cd ..; done
 
-# Touch files that to prevent recompilation (usually done after we
-# update resources/subjects.var)
+# Touch files to prevent rebuilding (usually done after we update
+# resources/subjects.var).
 touch:
 	for dir in $(SECTIONS); do \
 	  cd $$dir; \

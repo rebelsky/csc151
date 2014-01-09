@@ -64,7 +64,10 @@
   [<a href="http://www.grinnell.edu/">Grinnell</a>]
   [<a href="https://github.com/rebelsky/csc151/issues">Issue Tracker (Course)</a>]
 </p>
-
+<form class="search" method="get" action="../home/search.cgi">
+  Search:
+  <input type="text" name="keyword"/>
+</form>
 </div><!--noprint-->
 </xsl:template>
 </xsl:stylesheet>
