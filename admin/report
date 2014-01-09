@@ -1,0 +1,380 @@
+#!/usr/bin/perl
+
+# A quick hack for grading a student using current criteria.
+
+# +----------+--------------------------------------------------------
+# | Settings |
+# +----------+
+
+# Do we want detailed output?  (Usually, the answer is yes.  I should
+# also take this from the command line.)
+my $DETAILED = 1;
+
+# +--------+----------------------------------------------------------
+# | "Main" |
+# +--------+
+
+my $email = $ARGV[1];
+my $fullname = $ARGV[0];
+
+print <<"HEAD";
+Estimated Grade Report for $fullname [$email]
+
+This is an experimental grade report and is not guaranteed to be accurate.
+Estimated grades are based on current status in the course.  Final grades
+may therefore be different.
+
+HEAD
+
+# Info on the exams
+my $examcount = 0;
+my $examtotal = 0;
+my $exams = 0;
+my $final = 0;
+my $exammin = 100;
+my @exams;
+
+# Info on labs
+my $labtotal = 0;
+my $labcount = 0;
+my $labs = 0;
+my @labs;
+
+# Info on homework
+my $hwcount = 0;
+my $hwtotal = 0;
+my $homework = 0;
+my $hwfour;        # Homework on a four point scale.
+my @homework;
+
+# Info on quizzes
+my $quizcount = 0;
+my $quiztotal = 0;
+my $quizmin = 10;       # Minimum quiz grade
+my $quizzes;
+my @quizzes;
+
+# Other grade categories
+my $participation = 0; 
+my $project = 0;
+my $extra = 0;
+my @extra;
+my $notes = "";
+
+# Synthesized information
+my $besthlq = 0;        # Best of homework, labs, quizzes
+my $bestpef = 0;        # Best of project, exams, final
+my $total = 0;          # Total of available grades
+my $possible = 0;       # Total possible
+
+# Process all of the lines
+open(GRADES, "grep $email grades | ");
+while ($line = <GRADES>) {
+  chomp($line);
+  # @parts = split /\W+/, $line, 4;     # Problems with ( for some reason
+  @parts = split /[ \t]+/, $line, 4;
+  if (! ($parts[0] eq $email)) {
+   print STDERR "Accidentally matched " . $parts[0] . "\n";
+   print "[Error processing grades.  Results likely to be bad.]\n\n";
+  }
+  $category = $parts[1];
+  $grade = $parts[2];
+  $info = $parts[3];
+  # print stderr "CATEGORY: $category, GRADE: $grade, INFO: $info\n";
+
+  if ($category =~ m/^notes/) {
+    # print STDERR "ADDING NOTE '$grade'\n";
+    $notes = "$notes$info\n";
+  } # notes
+  elsif ($category =~ m/^lab/) {
+    push @labs, "$category\t$grade\t$info";
+    if ($grade ne "x") {
+      $labtotal += $grade;
+      $labcount += 1;
+    }
+  } # lab
+  elsif ($category =~ m/^quiz/) {
+    push @quizzes, "$category\t$grade\t$info";
+    if ($grade ne "x") {
+      $quiztotal += $grade;
+      $quizcount += 1;
+      if ($grade < $quizmin) {
+        $quizmin = $grade;
+      } # if
+    } # if a real grade
+  } # quiz
+  elsif ($category =~ m/^hw/) {
+    push @homework, "$category\t$grade\t$info";
+    if ($grade ne "x") {
+      my $tmp = check($grade);
+      if ($tmp < 0) {
+        print STDERR "Invalid grade on $category: $grade\n";
+        print "[Error processing grade ($category/$grade).  Results likely to be bad.]\n\n";
+      }
+      $hwtotal += $tmp;
+      $hwcount += 1;
+    } # if ($grade ne "x")
+  } # homework
+  elsif (($category =~ m/^exam/) || ($category =~ m/^final/)) {
+    push @exams, "$category\t$grade\t$info";
+    if ($grade ne "x") {
+      $examtotal += $grade;
+      $examcount += 1;
+      if ($grade < $exammin) { $exammin = $grade; }
+      if ($category =~ m/^final/) { $final = $grade; }
+    } # if ($grade ne "x")
+  } # exam
+  elsif ($category =~ m/^ec/) {
+    push @extra, "$grade\t$info";
+    $extra += $grade;
+  } # extra credit
+  elsif ($category =~ m/^part/) {
+    if ($grade ne "x") {
+      $participation = $grade;
+    } # if ($grade ne "x")
+  } # participation
+  elsif ($category =~ m/^prop/) {
+    if ($grade ne "x") {
+      $project += $grade;
+    } # if ($grade ne "x")
+  } # proposal
+  elsif ($category =~ m/^proj/) {
+    if ($grade ne "x") {
+      $project += $grade;
+    } # if ($grade ne "x")
+  } # project
+  elsif ($category =~ m/^numgrade/) {
+    # Skip
+  } # numeric grade
+  elsif ($category =~ m/^letgrade/) {
+    # Skip
+  } # letter grade
+  else {
+    print STDERR "Invalid category: $category\n";
+    print "[Error processing grade ($category/$grade).  Results likely to be bad.]\n\n";
+  } # unknown
+} # while
+close(GRADES);
+
+if ($notes) {
+   print "ADDITIONAL NOTES\n";
+   print "----------------\n";
+   print "\n";
+   print "$notes\n";
+}
+
+print "SUMMARY REPORT\n";
+print "--------------\n";
+print "\n";
+
+print "Homework ..... (5%): ";
+if ($hwcount == 0) {
+  print "[Not available]\n";
+} else {
+  $hwfour = round1($hwtotal/$hwcount);
+  $homework = 55 + 10*$hwfour;
+  print "$homework ($hwfour on a 4-point scale)\n";
+  $total += $homework * .05;
+  $possible += 5;
+}
+
+print "Labs ......... (5%): ";
+if ($labcount == 0) {
+  print "[Not available]\n";
+} else {
+  $labs = min(100, round1(100*(2+$labtotal)/$labcount));
+  print "$labs ($labtotal/$labcount)\n";
+  $total += $labs * .05;
+  $possible += 5;
+}
+
+print "Quizzes ..... (10%): ";
+if ($quizcount == 0) {
+  print "[Not available]\n";
+} else {
+  if ($quizcount == 1) {
+     $quizzes = $quiztotal;
+  } else {
+    $quizzes = round1(10 * ($quiztotal-$quizmin)/($quizcount-1));
+  }
+  my $tmp = ($quizcount-1);
+  print "$quizzes ((total=$quiztotal-min=$quizmin)/$tmp)\n";
+  $total += $quizzes * .10;
+  $possible += 10;
+}
+
+print "Best of HLQ .. (5%): ";
+$besthlq = max(max($homework, $quizzes), $labs);
+if ($besthlq == 0) {
+  print "[Not available]\n";
+}
+else {
+  print "$besthlq\n";
+  $total += $besthlq * .05;
+  $possible += 5;
+}
+
+print "Project ..... (15%): ";
+if ($project == 0) {
+  print "[Not available]\n";
+} else {
+  print "$project\n";
+  $total += $project * .15;
+  $possible += 15;
+} 
+
+print "Exams ....... (45%): ";
+if ($examcount == 0) {
+  print "[Not available]\n";
+} 
+else {
+  if ($examcount == 4) {
+    $exams = round1(($examtotal-$exammin)/3);
+  }
+  else {
+    $exams = round1($examtotal/$examcount);
+  }
+  print "$exams\n";
+  $total += $exams * .45;
+  $possible += 45;
+}
+
+print "Final ..... (above): ";
+if ($final == 0) {
+  print "[Not available]\n";
+}
+else {
+  print "$final\n";
+}
+
+print "Best of PEF .. (5%): ";
+$bestpef = max(max($project, $exams), $final);
+if ($bestpef == 0) {
+  print "[Not available]\n";
+}
+else {
+  print "$bestpef\n";
+  $total += $bestpef * .05;
+  $possible += 5;
+}
+
+print "Participation (10%): ";
+if ($participation == 0) {
+  print "[Not available]\n";
+}
+else {
+  print "$participation\n";
+  $total += $participation * .10;
+  $possible += 10;
+}
+
+print "Extra ............ : $extra units\n";
+
+print "\n";
+my $est = round1(100 * $total/$possible);
+my $total = round1($total);
+print "Estimated numeric grade: $total/$possible  = $est\n";
+my $adjusted = round1($est + $extra/2);
+print "Estimated numeric grade with extra credit: $adjusted\n";
+print "\n";
+
+if ($DETAILED) {
+  print "DETAILED INFORMATION\n";
+  print "--------------------\n";
+  print "\n";
+  
+  print "Homework: $homework\n";
+  for $tmp (@homework) {
+    print "\t$tmp\n";
+  } # for
+  print "\n";
+  
+  print "Labs: $labs ($labtotal/$labcount)\n";
+  for $tmp (@labs) {
+    print "\t$tmp\n";
+  } # for
+  print "\n";
+  
+  $tmp = $quizcount-1;
+  print "Quizzes: $quizzes ((total=$quiztotal-min=$quizmin)/$tmp)\n";
+  for $tmp (@quizzes) {
+    print "\t$tmp\n";
+  } # for
+  print "\n";
+  
+  print "Exams: $exams\n";
+  for $tmp (@exams) {
+    print "\t$tmp\n";
+  } # for
+  print "\n";
+  
+  print "Extra: $extra\n";
+  for $tmp (@extra) {
+    print "\t$tmp\n";
+  } # for
+  print "\n";
+} # if ($DETAILED)
+
+# +-------------+-----------------------------------------------------
+# | Subroutines |
+# +-------------+
+
+sub check($) {
+  my $grade = shift;
+  if ($grade eq "check") {
+    return 3;
+  }
+  elsif ($grade eq "check+") {
+    return 5;
+  }
+  elsif ($grade eq "check++") {
+    return 5.5;
+  }
+  elsif ($grade eq "check-") {
+    return 2;
+  }
+  elsif ($grade eq "plus") {
+    return 6;
+  } 
+  elsif ($grade eq "minus") {
+    return 1;
+  }
+  elsif (($grade eq "zero") || ($grade eq "0")) {
+    return 0;
+  }
+  else {
+    return -1;
+  }
+} # check
+
+sub max($$) {
+  my $x = shift;
+  my $y = shift;
+  if ($x > $y) {
+    return $x;
+  }
+  else {
+    return $y;
+  }
+} # max
+
+sub min($$) {
+  my $x = shift;
+  my $y = shift;
+  if ($x < $y) {
+    return $x;
+  }
+  else {
+    return $y;
+  }
+} # min
+
+sub round1($) {
+  my $val = shift;
+  return sprintf ("%.1f", $val);
+} # round1
+
+sub round2($) {
+  my $val = shift;
+  return sprintf ("%.2f", $val);
+} # round2

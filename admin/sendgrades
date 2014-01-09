@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Usage sendgrades NAME EMAIL
+echo "Sending grades for $1 to $2@grinnell.edu"
+grep "^$2" grades | mail -s "CSC151.02 2013F: Grades for $1" -c rebelsky@grinnell.edu $2@grinnell.edu 
+
