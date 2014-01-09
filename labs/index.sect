@@ -1,9 +1,93 @@
 <section id="index-labs"><title>Labs</title>
 
-<table class="index">
-  <tbody>
-    <tr> <td>2</td> <td>&lab02;</td> <td>held &date02;</td> </tr>
-  </tbody>
-</table>
+<itemizedlist>
+  <listitem>Class 52: <emphasis>No lab</emphasis> (&date52;)</listitem>
+  <listitem>Class 51: &lab50; continued; (held &date51;) &writeup50;</listitem>
+  <listitem>Class 50: &lab50; (held &date50;) &writeup50;</listitem>
+  <listitem>Class 49: &lab49; (held &date49;) &writeup49;</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 48: &lab48; (held &date48;) &writeup48;</listitem>
+  <listitem>Class 47: &lab47; (held &date47;) &writeup47;</listitem>
+  <listitem>Class 46: <emphasis>No lab</emphasis> (&date46;)</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 45: &lab45; (held &date45;) &writeup45;</listitem>
+  <listitem>Class 44: &lab44; (held &date44;) &writeup44;</listitem>
+  <listitem>Class 43: &lab43; (held &date43;) &writeup43;</listitem>
+  <listitem>Class 42: &lab42; (held &date42;) &writeup42;</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 41: <emphasis>No lab</emphasis> (&date41;)</listitem>
+  <listitem>Class 40: &lab40; (held &date40;) &writeup40;</listitem>
+  <listitem>Class 39: <emphasis>No lab</emphasis> (&date39;)</listitem>
+  <listitem>Class 38: &lab38; (held &date38;) &writeup38;</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 37: &lab37; (held &date37;) &writeup37;</listitem>
+  <listitem>Class 36: &lab36; (held &date36;) &writeup36;</listitem>
+  <listitem>Class 35: &lab35; (held &date35;) &writeup35;</listitem>
+  <listitem>Class 34: &lab34; (held &date34;) &writeup34;</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 33: &lab33; (held &date33;) &writeup33;</listitem>
+  <listitem>Class 32: &lab32; (held &date32;) &writeup32;</listitem>
+  <listitem>Class 31: &lab31; (held &date31;) &writeup31;</listitem>
+  <listitem>Class 30: &lab30; (held &date30;) &writeup30;</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 29: &lab29; (held &date29;) &writeup29;</listitem>
+  <listitem>Class 28: &lab28; (held &date28;) &writeup28;</listitem>
+  <listitem>Class 27: &lab27; (held &date27;) &writeup27;</listitem>
+  <listitem>Class 26: &lab26; (held &date26;) &writeup26;</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 25; &lab24;, continued (held &date25;) &writeup25;</listitem>
+  <listitem>Class 24: &lab24; (held &date24;) &writeup24;</listitem>
+  <listitem>Class 23: &lab23; (held &date23;) &writeup23;</listitem>
+  <listitem>Class 22: &lab22; (held &date22;) &writeup22;</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 21: &lab21; (held &date21;) &writeup21;</listitem>
+  <listitem>Class 20: &lab20; (held &date20;) &writeup20;</listitem>
+  <listitem>Class 19: &lab19; (held &date19;) &writeup19;</listitem>
+  <listitem>Class 18: &lab18; (held &date18;) &writeup18;</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 17: &lab17; (held &date17;) &writeup17;</listitem>
+  <listitem>Class 16: &lab16; (held &date16;)</listitem>
+  <listitem>Class 15: &lab15; (held &date15;)</listitem>
+  <listitem>Class 14: &lab14; (held &date14;)</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 13: <emphasis>No lab</emphasis> (&date13;)</listitem>
+  <listitem>Class 12: &lab12; (held &date12;)</listitem>
+  <listitem>Class 11: <emphasis>No lab</emphasis> (&date11;)</listitem>
+  <listitem>Class 10: &lab10; (held &date10;)</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 9: &lab09; (held &date09;)</listitem>
+  <listitem>Class 7: <emphasis>No lab</emphasis> (&date08;)</listitem>
+  <listitem>Class 7: &lab07; (held &date07;)</listitem>
+  <listitem>Class 6: &lab06; (held &date06;)</listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 5: &lab05; (held &date05;)</listitem>
+  <listitem>Class 4: &lab04; (held &date04;)</listitem>
+  <listitem>Class 3: &lab03; (held &date03;)</listitem>
+  <listitem>Class 2: &lab02; (held &date02;)</listitem>
+</itemizedlist>
 
 </section> <!-- index-labs; -->
