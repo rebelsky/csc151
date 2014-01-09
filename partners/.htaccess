@@ -1,0 +1,6 @@
+order deny,allow
+deny from all
+allow from 132.161.
+allow from .grinnell.edu
+allow from 69.66.126.81
+# allow from .iowatelecom.net
