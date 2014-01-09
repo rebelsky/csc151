@@ -1,5 +1,6 @@
 The Problem of Sorting
-======================
+----------------------
+
 * As we saw recently, one problem that seems to crop up a lot in 
   programmming (and elsewhere) is that of *sorting*.
 * The problem:
@@ -11,7 +12,8 @@ The Problem of Sorting
 * We'll look at techniques for sorting vectors and lists.
 
 Designing Sorting Algorithms
-============================
+----------------------------
+
 * I suggest that you think about the development of sorting algorithms in Scheme similarly to the way you think about writing many algorithms.
 * Start by thinking about the way you might do it by hand.
     * We may find a few different ways to sort by hand.
@@ -26,10 +28,10 @@ Designing Sorting Algorithms
 * Test test test.
 
 Sample Sorting Algorithms
-=========================
+-------------------------
 
-Insertion Sort
---------------
+=== Insertion Sort
+
 * One simple sorting technique is *insertion sort*.   
 * Insertion sort operates by segmenting the list into unsorted and sorted portions,
   and repeatedly removing the first element from the unsorted portion 
@@ -38,8 +40,8 @@ Insertion Sort
 * How might we code this recursively?
 * Does our code differ for lists and arrays?
 
-Selection Sort
---------------
+=== Selection Sort
+
 * *Selection sort* is among the simpler and more natural methods for 
   sorting vectors.
 * In this sorting algorithm, you segment the vector into two 
@@ -58,10 +60,10 @@ Selection Sort
 * Note that we can also write selection sort iteratively.
 
 A More Formal Description
-=========================
-* Before moving on to algorithms for solving the sorting problem, let's
-  take a look at the way we might document one (or all) of the
-  procedures
+-------------------------
+
+* Before implementing these algorithms, let's
+  take a look at the way we might document one (or all) of the procedures
     * Purpose?
     * Parameters?
     * Produces?

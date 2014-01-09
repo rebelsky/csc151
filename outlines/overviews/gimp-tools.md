@@ -1,3 +1,4 @@
-* A model of images, extended.
+* A new model of images making.
 * Coding algorithms for drawing.
 * Other useful techniques.
+* Lab.

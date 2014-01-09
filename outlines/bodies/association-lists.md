@@ -1,5 +1,6 @@
 Simple Database Problems
-========================
+------------------------
+
 * Databases are among the most common applications of computers. 
     * After all, there's a reason that Larry Ellison is nearly as rich
     as Bill Gates.
@@ -9,17 +10,19 @@ Simple Database Problems
 * Databases that provide only that activity are called *dictionaries*.
 
 Association Lists
-=================
+-----------------
+
 * In Scheme, dictionaries are typically implemented with a data structure
   known as the *association list*.
 * An association list is a list of elements each of which
   has a key as its car.
-* You can use the <code>(assoc *key* *list*)</code> 
+* You can use the `(assoc *key* *list*)`
   procedure to look up values by key.
 
 Searching in Association Lists
-==============================
-* Suppose Scheme didn't include <code>assoc</code>.  How would you write
+------------------------------
+
+* Suppose Scheme didn't include `assoc`.  How would you write
   it?  Probably *recursively*.
 * If the list is empty, it does not contain the value.
 * If the key of the first element in the list is the key we're
@@ -28,12 +31,15 @@ Searching in Association Lists
 * This technique is called *sequential search*.
 
 Variants of Association Lists
-=============================
-* Given that we can write our own <code>assoc</code> procedure, we can
+-----------------------------
+
+* Given that we can write our own `assoc` procedure, we can
   easily implement a number of interesting variants of association lists.
 * For example, if the same key appears multiple times in the association list, we might return *all* matching values (rather than the *first* matching value).
 * Similarly, instead of searching by key, we might search by predicate.
 
-<section title="alists-lab" title="Lab">
-* Do [](../Labs/association-lists-lab.html)the lab</a>.
+Lab
+---
+
+* Do [the lab](../Labs/association-lists-lab.html)
 

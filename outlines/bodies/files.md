@@ -1,5 +1,6 @@
 Why Use Files?
-==============
+--------------
+
 * As I hope you've figured out by now, it is possible (although not
   necessarily easy) to use Scheme to do "anything" you can do
   on the computer.
@@ -13,7 +14,8 @@ Why Use Files?
 * As you might guess, you can do both activites with Scheme.
 
 Ports
-=====
+-----
+
 * Rather than dealing directly with files, Scheme adds a layer of
   abstraction called a *port*.
 * Each port is associated with something that can be used for input
@@ -29,40 +31,42 @@ Ports
     * a *cursor* that indicates where in the file the next read
     should take place.
 * To create a port that corresponds to a file that you want to read from,
-  use <code>(open-input-file *file-name*)</code>.
+  use `(open-input-file *file-name*)`.
 * To create a port that corresponds to a file that you want to write to,
-  use <code>(open-output-file *file-name*)</code>.
-* You can read from input ports with <code>(read *port*)</code>
+  use `(open-output-file *file-name*)`.
+* You can read from input ports with `(read *port*)`
 * You can write to ports with
-    * <code>(newline *port*)</code>
-    * <code>(write *value* *port*)</code>
-    * <code>(display *value* *port*)</code>
+    * `(newline *port*)`
+    * `(write *value* *port*)`
+    * `(display *value* *port*)`
 * When you're done with an input port, use
-  <code>(close-input-port&nbsp;*port*)</code>
+  `(close-input-port&nbsp;*port*)`
 * When you're done with an output port, use
-  <code>(close-output-port&nbsp;*port*)</code>
-* What does <code>read</code> do when there's nothing left in the file?
+  `(close-output-port&nbsp;*port*)`
+* What does `read` do when there's nothing left in the file?
   It returns a special value (which DrScheme displays as 
-  <code>#&lt;eof&gt;</code>).
+  `#&lt;eof&gt;`).
 * You can tell that that value indicates the end of the file with
-  <code>eof-object?</code>
+  `eof-object?`
 
 Characters
-==========
+----------
+
 * You can read a character at a time (rather than a value at a time) using
-  <code>(read-char&nbsp;*port*)</code>.
+  `(read-char&nbsp;*port*)`.
 * Why is this useful?  It lets you be more general than the
-  basic <code>read</code> procedure.
+  basic `read` procedure.
 * You can also look at the next character that you're about to read
-  using <code>(peek-char&nbsp;*port*)</code>
+  using `(peek-char&nbsp;*port*)`
 * Why is this useful?  Sometimes you want to read differently based on
   what you see next.
     * If you see a semicolon, read the whole line as a string and ignore it.
     * If you see anything else, read it as a Scheme value
-* When <code>read-char</code> encounters the end of the file, it returns
-  the same special value as <code>read</code>
+* When `read-char` encounters the end of the file, it returns
+  the same special value as `read`
 
 Lab
-===
-* Do [](../Labs/files-lab.html)the lab on files</a>.
+---
+
+* Do [the lab on files](../labs/files-lab.html).
 

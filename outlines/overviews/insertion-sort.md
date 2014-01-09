@@ -1,3 +1,3 @@
-* Expressing sorting algorithms in code.
-* Key technique: Insertion.
+* Insertion sort basics.
+* Four questions about insertion sort.
 * Analyzing insertion sort.

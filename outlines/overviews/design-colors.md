@@ -1,3 +1,3 @@
-* Approaching colors.
-* Managing the huge palette.
-* Other design issues.
+* A bit about design.
+* A bit about color theory.
+* Exploring some images and design spaces.

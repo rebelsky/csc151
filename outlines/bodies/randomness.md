@@ -1,5 +1,6 @@
 Randomized Images - The Theory
-==============================
+------------------------------
+
 * Non-mainstream art philosophy: The images that come from random processes
   (or from nature) can be as interesting as the images that come from
   artists who intentionally plan the canvas.
@@ -11,21 +12,23 @@ Randomized Images - The Theory
 * Disclaimer: Many of the random processes still include some artistic
   intention.
     * Jackson Pollock's painting style provides an interesting combination
-    of intent and randomness.
+      of intent and randomness.
 * Modernized/computational suggestion: 
     * Randomized processes can provide inspiration
     * The ability to constrain some aspects of the process can provide a
-    new mechanism for creation.
+      new mechanism for creation.
 
-The <code>random</code> Procedure
-=================================
-* Scheme helps us by providing a <code>(random n)</code> procedure.
-* <code>n</code> must be a positive integer.
-* <code>random</code> returns an integer between 0 and <code>n</code>-1,
+The `random` Procedure
+----------------------
+
+* Scheme helps us by providing a `(random n)` procedure.
+* `n` must be a positive integer.
+* `random` returns an integer between 0 and `n`-1,
   inclusive.
 
 Randomized Images - Practice
-============================
+----------------------------
+
 * Many of the procedures we've written or used have numeric parameters.
 * Those parameters can be generated "randomly".
 * Many of the procedures we've written take one of a restricted number
@@ -34,13 +37,15 @@ Randomized Images - Practice
 * Demo: Randomizing the brush
 
 Other Uses of Randomness
-========================
+------------------------
+
 * We often use randomness in simulating unpredictable events, such
   as the rolling of an unbiased die.
 * More requently, such randomness is used in larger-scale simulations.
 * We'll stick with images, though.
 
 Lab
-===
-* Do [](../Labs/random-drawing-lab.html)the lab</a>.
+---
+
+* Do [the lab](../Labs/random-drawing-lab.html)
 

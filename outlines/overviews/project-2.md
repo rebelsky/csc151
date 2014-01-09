@@ -1,2 +1,2 @@
-* Debriefing from yesterday.
+* Debriefing from previous class.
 * Students discuss programming techniques.

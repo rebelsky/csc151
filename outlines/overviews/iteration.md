@@ -1,2 +1,4 @@
-* A Problem: Drawing Spirals
-* A Useful Tool: <code>for-each</code>
+* Reflecting on procedures and side-effects.
+* A useful tool for repetition: `for-each`.
+* Contrasting `map` and `for-each`.
+* Lab.

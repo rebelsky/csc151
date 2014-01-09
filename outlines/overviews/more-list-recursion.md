@@ -1,3 +1,4 @@
 * Questions and answers.
-* Patterns of list recursion.
-* Recursive predicates.
+* Some notes on yesterday's lab.
+* Some key ideas from the reading.
+* Lab.

@@ -2,4 +2,4 @@
 * Common parts of an algorithm.
 * About the course.
 * Getting started with Linux.
-* Some administrative details.
+* Some administrative details (if there's time).

@@ -1,4 +1,6 @@
-<section id="drawing-model" title="Models of Images">
+Models of Images
+----------------
+
 * As we've seen in our early discussions, there are many ways to think 
   about an image.
 * In our first explorations with the GIMP, we looked at an 
@@ -9,7 +11,9 @@
     involve selecting a tool and then applying that tool.
 * Over the next few weeks, we'll see a variety of other models.
 
-<section id="coding-drawing" title="Encoding Drawing Commands">
+Encoding Drawing Cmmands
+------------------------
+
 * Because there are only a limited number of basic actions one can
   perform in GIMP, it is possible to represent each of these actions
   as a procedure.
@@ -32,7 +36,9 @@
     * There is also a convenient reference section on the Web site.
 * If there's something that you want documented, bug me.
 
-<section id="lab" title="Lab">
-* Work on [](../Labs/gimp-tools-lab.html)the lab</a>.
+Lab
+---
+
+* Work on [the lab](../Labs/gimp-tools-lab.html)the lab.
 * Be prepared to reflect on some of the questions contained therein.
 

@@ -1,3 +1,3 @@
-* Recursion, Generalized.
-* Thinking About Natural Numbers.
-* Numeric Recursion.
+* Recursion, generalized.
+* Numeric recursion.
+* Lab.

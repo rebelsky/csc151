@@ -1,99 +1,134 @@
 Background: Guiding Principles
-==============================
+------------------------------
+
 * *Write less, not more*
-* *Refactor*
+* *Refactor* 
+    * Don't write repetitious code 
+    * If you are programming by copy-paste-change, you're probably wasting
+      time.
 * *Name appropriately*
     * Good names for things that need names
     * No names for things that don't need names
 
-Background: A Related Philosophy
-================================
+Background: The Value of Repetition
+-----------------------------------
 
-*The following is variant of something John Stone says ...*
+* The following is variant of something John Stone says ...
 * The first time you read a new procedure structure 
- (such as recursion over a list), you learn something.
+  (such as recursion over a list), you learn something.
 * The second time you read the same structure, you learn something else.
 * The third time, you learn a bit more.
 * After that, reading doesn't give much benefit.
 * The first time you write the same structure, you learn something more
- about that structure
+  about that structure
 * The second time, you learn even more.
 * The third time, you learn a bit more.
 * After that, there's no benefit.
 * So ... extract the common code so you don't have to write it again.
-d yes, you learn something
 
-Two Motivating Examples
-=======================
-* <code>all-real?</code> and <code>all-integer?</code>
-* <code>add-5-to-each</code> and <code>multiply-each-by-5</code>
+Procedures as First-Class Values
+--------------------------------
 
-Procedures as Parameters
-========================
+* The big picture ideas: 
+    * You can write procedures (like `map`) that take other procedures as parameters.
+    * You can write procedures (like `left-section`) that return other procedures.
+    * Doing so makes your code better.
+* So, procedures are, in effect, a new type of value.  What are the questions
+  we normally ask about new types of values?
+* Taking a procedure as a parameter is easy.  You just include it as a normal
+  parameter and use it as a normal procedure.
+<pre>
+(define apply-to-2-and-3
+  (lambda (proc)
+    (proc 2 3)))
+</pre>
+* Returning procedures is a bit harder.  You usually just return an anonymous
+  procedure.  That means you'll have multiple lambdas.
+<pre>
+(define adder
+  (lambda (n)
+    (lambda (x)
+      (+ x n))))
+(define inc (adder 1))
+</pre>
+
+Old Notes
+---------
+
+_The following are notes I wrote for past versions of the course.  I probably
+won't discuss any/all in class._
+
+### Two Motivating Examples
+
+* `all-real?` and `all-integer?`
+* `add-5-to-each` and `multiply-each-by-5`
+
+### Procedures as Parameters
+
 * We've been writing it a lot.
 * Useful
 * Concise
 * Supports refactoring
 
-Procedures as Return Values
-===========================
+### Procedures as Return Values
+
 * Another way to create procedures (anonymous and named).
 * Strategy: Write procedures that return new procedures.
 * These procedures can take plain values as parameters:
-<boxcode>
+<pre>
 (define redder
   (lambda (amt)
     (lambda (color)
       (rgb ...))))
-</boxcode>
+</pre>
 * How to think about this:
     * a procedure that takes *amt* as a parameter,
     * returns a new procedure that takes *color* as a parameter
 * Can also take procedures as parameters
-* One favorite: <code>compose</code>
-<boxcode>
+* One favorite: `compose`
+<>boxcode
 (define compose
   (lambda (f g)
     (lambda (x)
       (f (g x)))))
-</boxcode>
+</pre>
 * Examples
-    * sine of square root of x: <code>(compose sin sqrt)</code>
-    * last element of a list: <code>(compose car reverse)</code>
-* Another: <code>left-section</code>
-<boxcode>
+    * sine of square root of x: `(compose sin sqrt)`
+    * last element of a list: `(compose car reverse)`
+* Another: `left-section`
+<pre>
 (define left-section
   (lambda (func left)
     (lambda (right)
       (func left right))))
 (define l-s left-section)
-</boxcode>
+</pre>
 * Examples: 
-    * add two: <code>(l-s + 2)</code>
-    * double: <code>(l-s * 2)</code>
+    * add two: `(l-s + 2)`
+    * double: `(l-s * 2)`
 * Not mentioned int he reading, but there's a corresponding right-section
-<boxcode>
+<pre>
 (define right-section
   (lambda (func right)
     (lambda (left)
       (func left right))))
 (define r-s right-section)
-</boxcode>
+</pre>
 
-Encapsulating Control
-=====================
+### Encapsulating Control
+
 * Possible for complex common code, too (particularly control).
-* <code>map</code> is the standard example.  
-<boxcode>
+* `map` is the standard example.  
+<pre>
 (define map
   (lamda (fun lst)
      (if (null? lst)
          null
          (cons (fun (car lst))
                (map fun (cdr lst))))))
-</boxcode>
+</pre>
 * Another issue: Checking the type of elements in a list
-<boxcode>
+<pre>
 (define all-numbers?
   (lambda (lst)
     (or (null? lst)
@@ -106,19 +141,19 @@ Encapsulating Control
         (and (pair? lst)
              (symbol? (car lst))
              (all-symbols? (cdr lst))))))
-</boxcode>
+</pre>
 * Common code
-<boxcode>
+<pre>
 (define all
   (lambda (test? lst)
     (or (null? lst)
         (and (pair? lst)
              (test? (car lst))
              (all test? (cdr lst))))))
-</boxcode>
+</pre>
 
-Concluding Comments
-===================
+### Concluding Comments
+
 * Yes, skilled Scheme programmers write this way.
     * It's quick.
     * It's clear (at least to skilled Schemers).

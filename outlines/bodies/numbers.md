@@ -1,5 +1,6 @@
 Types
 =====
+
 * As you may have noted in your first experiments with Scheme, Scheme
   assigns *types* to variables.
 * For example, a value might be a number, or a string, or an image 
@@ -7,7 +8,7 @@ Types
 * Computer scientists often think of types in two different ways:
     * *Data-driven*: A type is a set of values.
     * *Purpose-driven*: A type provides information on the valid
-    operations that may be applied to a piece of data.
+      operations that may be applied to a piece of data.
 * We will alternate between the two definitions.
 * Many languages (particularly the ones you've reported being familiar
   with) require you to assign a type to a variable when you declare
@@ -20,14 +21,21 @@ Types
 * As you learn each type, you'll learn a variety of things (that 
   correspond, in some sense, to those two approaches):
     * How to express values in the type.  For example, we express string
-    values by surrounding them with double-quotation-marks and we express
-    numbers in much the way we always have.
+      values by surrounding them with double-quotation-marks and we express
+      numbers in much the way we always have.
     * What operations are possible on values in the type.  For example, we
-    can use the addition operation (<code>+</code>) on numbers and we
-    can use the <code>string-append</code> operation on strings.
+      can use the addition operation (<code>+</code>) on numbers and we
+      can use the <code>string-append</code> operation on strings.
+
+Lab
+===
+
+* Do [the lab on numeric values](../Labs/numeric-values-lab.html)
+* Be prepared to reflect.
 
 Scheme's Numeric Types
 ======================
+
 * Instead of a general "numbers" type, Scheme provides a variety
   of kinds of numbers.
 * Integers are numbers without a fractional component.
@@ -37,7 +45,7 @@ Scheme's Numeric Types
     * In Scheme, real numbers are all rational.
 * Complex numbers may include an *imaginary* component.
 * You can (almost) always use an integer when a real is expected, but
-  you cannot always use
+  you cannot always use a real when an integer is expected.
 * Scheme also represents some numbers exactly and some numbers
   inexactly.  (That is, it approximates some numbers.)
     * It certainly has to approximate irrational numbers.
@@ -54,6 +62,7 @@ Scheme's Numeric Types
 
 Modulo
 ======
+
 * The <code>mod</code> (modulo, modulus) operation is one of the trickier 
   operations we use in this class (and we use it a lot).
 * Essentially, <code>mod</code> is used to break up the number line into
@@ -68,9 +77,4 @@ Modulo 7:      5  6| 0  1  2  3  4  5  6| 0  1  2  3  4  5  6| 0  1  2  3  4
 </pre>
 * The <code>(modulo *i* *n*)</code> operation allows us to 
   *cycle* through the numbers between 0 and <code>*n*</code>-1.
-
-Lab
-===
-* Do [](../Labs/numeric-values-lab.html)the lab on numeric values</a>.
-* Be prepared to reflect.
 

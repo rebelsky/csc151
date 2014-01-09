@@ -1,23 +1,59 @@
-Delayed Evalution in Recursive Procedures
-=========================================
+Basics of Helper Recursion
+--------------------------
+
+* Write a helper procedure to do the real recursion
+    * Typically has an extra parameter to accumulate partial results
+* A few benefits
+    * Sometimes clearer
+    * Sometimes more efficient
+    * Sometimes easier to get correct
+
+Tail Recursion
+--------------
+
+* Note that the two forms of recurison we've seen (direct recursion and
+  helper recursion) have a somewhat different post-recursion step
+    * In the first kinds of recursive procedures we wrote, there's still
+      work to do after the recursive call finishes.
+    * In the helper-recursion procedures, once we're done with the recursive
+      call, the result is ready; it requires no further processing (at least
+      not within the helper).
+* It turns out that there are particularly efficient ways to implement
+  recursive procedures that do not further process recursive results.
+* Because of this efficiency, we have a special term for such procedures.
+  We call them *tail-recursive procedures*.  
+* If any recursive call is a the last operation of a procedure (that is, the
+  "tail" of the procedure), then we say that the procedure
+  is tail recursive.
+    * If some work may be required after one of the recursive calls, then we
+    say that the procedure is not tail recursive.
+
+Old Notes
+---------
+
+_These are from a previous time I taught the class.  I leave them around
+for historical reasons._
+
+=== Delayed Evalution in Recursive Procedures
+
 * A number of you have noted that recursion, as written, builds up a
   bunch of stuff to evaluate.
-* For example, if we're summing the list (2 3 5 7 11 13), we end up with <br>
-  (+ 2 (+ 3 (+ 5 (+ 7 (+ 11 (+ 13 (sum ()))))))) <br>
+* For example, if we're summing the list `'(2 3 5 7 11 13)`, we end up with <br>
+  `(+ 2 (+ 3 (+ 5 (+ 7 (+ 11 (+ 13 (sum ())))))))` <br>
   before we start doing the addition.
 * Similarly, in selecting only the names of dark colors from a list, we 
   might end up with <br>
-  (cons "black" (cons "darkblue" (cons "darkgrey" (select-dark ())))) <br>
+  `(cons "black" (cons "darkblue" (cons "darkgrey" (select-dark ()))))` <br>
 * Once we get to the base case of the recursion, we can then start to build
   up the actual result.
 * Some people find the delayed evaluation natural, others find it awkward.
 * For the latter group, we look for a strategy that helps us evaluate
   partial results along the way.
 
-Helper Recursion
-================
+=== Helper Recursion
+
 * The model that we call *helper recursion* (and that many of our
-  colleagues call <quote>tail recursion</quote>) adds an extra parameter
+  colleagues call "tail recursion") adds an extra parameter
   to the recursive procedure
     * That extra parameter carries along partial/intermediate results
 * For example, in summing the list (2 3 5 7 11 13), we might have
@@ -40,23 +76,4 @@ Helper Recursion
     procedure. 
     * The top-level procedure is responsible for filling in the extra
     parameter of the helper.
-
-Tail Recursion
-==============
-* Note that the two forms of recurison we've seen (direct recursion and
-  helper recursion) have a somewhat different post-recursion step
-    * In the first kinds of recursive procedures we wrote, there's still
-    work to do after the recursive call finishes.
-    * In the helper-recursion procedures, once we're done with the recursive
-    call, the result is ready; it requires no further processing (at least
-    not within the helper).
-* It turns out that there are particularly efficient ways to implement
-  recursive procedures that do not further process recursive results.
-* Because of this efficiency, we have a special term for such procedures.
-  We call them *tail-recursive procedures*.  
-* If any recursive call is a the last operation of a procedure (that is, the
-  <quote>tail</quote> of the procedure), then we say that the procedure
-  is tail recursive.
-    * If some work may be required after one of the recursive calls, then we
-    say that the procedure is not tail recursive.
 

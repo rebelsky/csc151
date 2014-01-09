@@ -1,11 +1,13 @@
 Key Ideas of Merge Sort
-=======================
+-----------------------
+
 * Divide and conquer is often a useful design strategy.
 * For sorting, natural division is "first half" / "second half".
 * What do we do after sorting the two halves?  Merge 'em.
 
 An Alternate Implementation
-===========================
+---------------------------
+
 * We can do something very much like merge sort while avoiding the
   splitting step.
 * We start with a list of sorted lists, and repeatedly merge neighboring
@@ -14,7 +16,8 @@ An Alternate Implementation
 * This technique is much easier to analyze.
 
 The Costs of Merge Sort
-=======================
+-----------------------
+
 * What's the running time?  We do approximately
   *N**log<sub>2</sub>*N* comparisons.
 * The analysis:
@@ -28,7 +31,8 @@ The Costs of Merge Sort
   other.
 
 Lab
-===
-* Do [](../Labs/mergesort-lab.html)the lab</a>.
+---
+
+* Do [the lab](../Labs/mergesort-lab.html)
 * Pause to reflect.
 

@@ -1,5 +1,6 @@
 Motivating Problems
-===================
+-------------------
+
 * Suppose we want to make a drawing composed of a lot of circles.
   How should we represent the circles?
 * How might we implement a counter to keep track of the number
@@ -7,7 +8,8 @@ Motivating Problems
 * How might we implement turtles?
 
 Compound Values
-===============
+---------------
+
 * We've seen two ways to represent such compound values.
     * As a list
     * As a vector
@@ -23,7 +25,8 @@ Compound Values
   the same way); hard to limit access.
 
 Objects: Encapsulating Values and Operations
-============================================
+--------------------------------------------
+
 * In the late 1960's, some computer scientists decided to extend
   the idea of representing data into something they call an
   *object*
@@ -37,51 +40,55 @@ Objects: Encapsulating Values and Operations
   Nonetheless, we'll focus on encapsulation.
 
 Objects in Scheme
-=================
+-----------------
+
 * Standard Scheme doesn't include objects as a built-in type.  Hence, we
   have to implement them ourselves.
-    * But there's a common technique that Scheme programmers use.
-* The trick that we recommend is that you implement objects as
+    * And, even if some newer variants of Scheme, like Racket, include
+      objects, there's a benefit to thinking about how to implement them
+      yourself.
+* The approach that we recommend is that you implement objects as
   procedures that take a *message* as a parameter.
 * Traditionally, the messages begin with a colon.
 * Here's a simple object that will respond when you greet it or
   leave it.
-<boxcode>
+<pre>
 (define greeter
   (lambda (message)
     (cond 
       ((eq? message ':enter) (display "Hello") (newline))
       ((eq? message ':leave) (display "Goodbye") (newline))
       (else (error "Unknown Message")))))
-</boxcode>
+</pre>
 * Here's how we use it
-<boxcode>
+<pre>
 &gt; <kbd>(greeter ':enter)</kbd>
 <schemeout>Hello</schemeout>
 &gt; <kbd>(greeter ':leave)</kbd>
 <schemeout>Goodbye</schemeout>
 &gt; <kbd>(greeter ':sleep)</kbd>
 <schemeout>Unknown Message</schemeout>
-</boxcode>
+</pre>
 
 Adding State
 ------------
+
 * But how do we have an object keep track of information about itself?
 * We build a local symbol table that is only accessible to the
   procedure.  
 * We can build such a table by putting a <code>let</code>
   *outside* the <code>lambda</code> for the procedure.
-<boxcode>
+<pre>
 (define fixed-value
   (let ((value 5))
     (lambda (message)
       (cond
         ((eq? message ':get) value)
         (else (error "fixed-value:" "unknown message"))))))
-</boxcode>
+</pre>
 * Typically, we use vectors to encapsulate our state because
   we know how to mutate vectors.
-<boxcode>
+<pre>
 (define incrementable-value
   (let ((value (vector 0)))
     (lambda (message)
@@ -91,19 +98,18 @@ Adding State
          (vector-set! value 0 
                       (+ 1 (vector-ref value 0))))
         (else (error "fixed-value:" "unknown message"))))))
-</boxcode>
+</pre>
 * And an example of its use
-<boxcode>
+<pre>
 &gt; <kbd>(incrementable-value ':get)</kbd>
 <schemeresult>0</schemeresult>
 &gt; <kbd>(incrementable-value ':add1!)</kbd>
 &gt; <kbd>(incrementable-value ':get)</kbd>
 <schemeresult>1</schemeresult>
-</boxcode>
+</pre>
 
 Lab
-===
-* If there is time (unlikely), you can begin the 
-  [](../Labs/objects.html)lab on object-oriented
-  programming</a>.
+---
 
+* Begin the [lab on objects in Scheme](../labs/objects-lab.html).
+* Plan to continue that lab tomorrow.

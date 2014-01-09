@@ -1,3 +1,3 @@
-We consider <em>pairs</em>, the basic data type used to build
+We consider *pairs*, the basic data type used to build
 lists and other structures in Scheme.  We also consider why it
 is useful to understand about pairs.

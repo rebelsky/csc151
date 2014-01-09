@@ -1,35 +1,58 @@
 Representing Images
-===================
-* As you may recall, one of the initial themes of this course is that 
-  there is more than one way to represent an image.
-* Early on, we considered multiple ways to draw smiley faces.
+-------------------
+
+* One of the themes of this course is that there is more than one way 
+  to represent an image.
 * In this course, we will also consider multiple computational ways to
   think about images.
-    * You've seen one: We can describe images by the GIMP commands necessary
-    to create them.  
-    * More precisely, we can describe images computationally by a series of
-    calls to the MediaScript GIMP Tools procedures.
-    * We're about to explore another.
+* Today we explore our first one, based on simple shapes.  We call this
+  model _drawings as values_.
 
 Drawings
-========
-* The *drawing* representation takes a very different perspective.
+--------
+
+* Your questions about a new type should be
+    * What kinds of values do I have?
+    * How do I represent those values?
+    * What operations do I have?
+
 * We start with a few basic values (the unit square and the unit circle).
-* We add a few operations
+    * We represent these as `drawing-unit-square` and
+      `drawing-unit-circle`
+    * These are values, not procedures.
+* We add a few operations (procedures)
     * Scaling
+        * If `d` is a drawing, `(drawing-scale d amt)` is a drawing
     * Shifting
+        * If `d` is a drawing, `(drawing-hshift d amt)` is a drawing
     * Recoloring
+        * If `d` is a drawing, `(drawing-recolor d red)` is a drawing
     * Grouping
-* We see what benefits (and obstacles) this new approach gives us.
-* Once we've described a drawing, we can create an image from it
-  using <code>drawing-&gt;image</code>.
+        * If `d1` and `d2` are drawings, so is `(drawing-group d1 d2)`
+* Once we've described a drawing, we can view it with
+  `(image-show (drawing->image d width height))`
+* We will explore what benefits (and obstacles) this new approach gives us.
 * This model of images models one of the ways we sometimes think about
   images: Every image can be thought of as a composition of simpler 
   components.
     * We just take that idea to the extreme.
 
-Purity
-======
+Representing Drawings
+---------------------
+
+* There is an underlying representation.
+* You shouldn't need to know it.
+* But it can be helpful to look.
+
+Lab
+---
+
+* Do [The lab](../Labs/drawings-lab.html).
+* Be prepared to reflect.
+
+Purity (Optional)
+-----------------
+
 * Note that the definition of drawings uses induction, in much the same
   way that the definition of whole numbers uses induction.
 * For whole numbers:
@@ -49,15 +72,4 @@ Purity
   irrevocably) the underlying image.
 * When operations do not affect the underlying data structure, we call them
   *pure* operations.
-
-Representing Drawings
-=====================
-* There is an underlying representation.
-* You shouldn't need to know it.
-* But it can be helpful to look.
-
-Lab
-===
-* Do [](../Labs/drawings-lab.html)The Lab</a>.
-* Be prepared to reflect.
 

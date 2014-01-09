@@ -1,5 +1,3 @@
-* Delayed evaluation in recursive procedures.
-* A strategy: Carry along intermediate results.
-* Using recursive helpers.
+* Basics of helper recursion.
 * A term: Tail recursion.
-* Designing recursive procedures.
+* Lab.

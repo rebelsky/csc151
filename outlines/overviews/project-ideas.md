@@ -1,4 +1,2 @@
-* About the project.
-* Technique one: Color Trees.
-* Technique two: Fractals.
-* Technique three: Turtles.
+* Time to form groups.
+* Playing and brainstorming.

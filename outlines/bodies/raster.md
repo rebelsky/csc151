@@ -1,4 +1,6 @@
-<section id="raster" title=Raster Grapics">
+Raster Graphics
+---------------
+
 * Yet another model of images.
 * This one corresponds closely to how computers actually represent images.
 * The image is a grid of colors.
@@ -8,9 +10,11 @@
     * Columns number from left to right
 * It's painful to have to set individual pixels, but it can be useful.
     * At some point "under the hood", most programs eventually deal
-    with individual pixels.
+      with individual pixels.
 
-<section id="colors" title=Colors">
+Colors
+------
+
 * Many ways to represent colors, too.
 * Goals: Unambiguous, fast to process, compact
 * The color names we've been using are
@@ -19,7 +23,9 @@
     * Long
 * Whoops!
 
-<section id="rgb" title="RGB Colors">
+RGB Colors
+----------
+
 * The most common internal representation of colors on computers.
 * We think of a color as the combination of three 
   *primaries*: red, green, and blue.
@@ -36,16 +42,19 @@
 * We use <code>rgb-red</code>, <code>rgb-green</code>, and
   <code>rgb-blue</code> to extract the corresponding components.
 
-<section id="weird-rgb-numbers" title="Those Weird Color Numbers">
+Those Weird Color Numbers
+-------------------------
+
 * We're representing colors as three integers, each in the range
   [0..255].
 * Yet when we ask MediaScript for a color, we tend to get a single integer
   which is rarely in that range?
-* What's giong on?
+* What's going on?
 * Well, most computers have different techniques for representing really
-  small integers (particularly integers in the range [0..255]) and
+  small integers (particularly integers in the range 0 to 255, inclusive) and
   standard-length integers.  We're using the smaller representation,
   but shoving three of those into a standard-length integer.
     * We use that representation because it makes everything faster.
-* Even those of us who designed that representation can't read it.
+* Even those of us who designed and implemented that representation
+  can't read the values presented in that representation.
 

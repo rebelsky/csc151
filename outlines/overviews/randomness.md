@@ -1,4 +1,4 @@
 * Random art.
 * Why use randomness.
-* The <code>random</code> procedure.
+* The `random` procedure.
 * Simulation.

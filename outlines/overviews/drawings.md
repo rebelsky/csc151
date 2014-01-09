@@ -1,4 +1,5 @@
 * Representing images.
 * Thinking about drawings through composition/decomposition.
-* Pure approaches vs impure approaches.
+* The underlying representation.
 * Lab.
+* Pure approaches vs impure approaches (Optional).

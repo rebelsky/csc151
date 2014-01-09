@@ -1,14 +1,17 @@
 Modeling the Drawing Process: Turtle Graphics
-=============================================
-* We've now seen two (more?) models of images:
-    * We can use GIMP-style graphics to select and then do something with
-    the selection.
+---------------------------------------------
+
+* We've now seen three (more?) models of making images:
     * We can use drawings-as-values-style graphics to build composite
-    images.
+      images.
+    * We can use GIMP-style graphics to select and then do something with
+      the selection.
+    * We can manipulate individual pixels
+    * We can transform images
 * These models permit us to create a variety of interesting drawings.
 * However, they do not model how we normally draw, which involves
   taking pen (or brush) to paper (or canvas).
-* The <emphasis>turtle graphics</emphasis> approach to describing
+* The *turtle graphics* approach to describing
   images provides a simple model for how we might describe drawings.
 * At any point, the person following the instructions has a pen in
   hand.  You need to give the person information on the direction in
@@ -16,19 +19,20 @@ Modeling the Drawing Process: Turtle Graphics
   no curves here; just lots and lots of straight lines.)
 * We separate the two basic operations: You can tell the person drawing
   to move forward or to turn in a particular direction.
-* <quote>It's so simple, even a turtle can do it.</quote>
+* "It's so simple, even a turtle can do it."
 * What if you don't want continuous lines?  You can tell the turtle to
   lift or drop the pen.
 * Turtle graphics has been used to control robots that draw.
 * Note that turtle graphics, much like GIMP graphics, is an
-  <emphasis>imperative</emphasis> model: You give a series of commands
+  "imperative" model: You give a series of commands
   to the thing doing the drawing.
 
 Some Historical Notes
-=====================
+---------------------
 
 *Disclaimer: Although I knew much of this information, I did crib
-some ideas from Wikipedia and the Web or these notes.*
+some ideas from Wikipedia and the Web for these notes.*
+
 * Turtle graphics were invented by Seymour Papert (at MIT) in part of his
   development of the LOGO programming language. (1960's and beyond)
 * LOGO was designed as a computer language intended to help children
@@ -51,7 +55,8 @@ some ideas from Wikipedia and the Web or these notes.*
   and develop solutions to those problems.
 
 Turtle Graphics in MediaScheme
-==============================
+------------------------------
+
 * Create a new turtle that draws on a particular image
   with <code>(turtle-new image)</code>.
 * Move it forward with <code>(turtle-forward! turtle amt)</code>
@@ -65,3 +70,5 @@ Turtle Graphics in MediaScheme
     * <code>(turtle-show! turtle)</code>
 * You can also set the turtle's brush and color.
 
+Lab
+---

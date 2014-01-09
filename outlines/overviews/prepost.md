@@ -1,3 +1,3 @@
 * Verifying preconditions.
-* The <function>error</function> procedure.
+* The `error` procedure.
 * Husk and Kernel programming.

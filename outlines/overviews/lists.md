@@ -1,3 +1,4 @@
-* Lists, Revisited
-* New List Operations
-* Drawings as Values
+* Lists, revisited.
+* New list operations.
+* Drawings as values.
+* Lab.
