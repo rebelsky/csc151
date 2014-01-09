@@ -56,3 +56,10 @@ reference/custom.ent
 
 outlines/outline.*.md
 outlines/outlines.mk
+
+partners
+!partners/Makefile
+!partners/group.ent
+!partners/template.sect
+!partners/index.sect
+
