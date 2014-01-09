@@ -1,0 +1,93 @@
+<section id="vbox"><title>Using Mediascript with Virtual Box</title>
+
+<para>
+  As an experiment, we are providing a virtual disk with the software
+  for CSC 151.  The first version of the software is configured for
+  running in a virtual machine on a Mac (tested only on OS X Lion).
+  This page gives some basic instructions for using it.
+</para>
+
+<section id="requirements"><title>Requirements</title>
+
+<itemizedlist>
+  <listitem>
+    A Mac, preferably running OS X 10.8.5 Mountain Lion.
+  </listitem>
+  <listitem>
+    At least 10Gb of free disk space.
+  </listitem>
+  <listitem>
+    The flash drive or DVD with the virtual disk.
+  </listitem>
+  <listitem>
+    The latest version of VirtualBox, available for free from
+    <ulink url="https://www.virtualbox.org/wiki/Downloads"/>.
+  </listitem>
+</itemizedlist>
+
+</section>
+
+<section id="info"><title>Account Info</title>
+
+<para>
+  Your virtual computer comes configured with a single account, 
+  named <quote>student</quote>, with a password of <quote>csc151</quote>.
+</para>
+
+</section>
+
+<section id="setup"><title>Setting Up</title>
+
+<para>
+  You should have received a flash drive with a file with a name like
+  <filename>Xubuntu151-Mac-v1.1.vdi.zip</filename>.  Copy that file
+  to your hard drive, then unzip it.
+</para>
+
+<para>
+  Start VirtualBox.  Click the <guibutton>New</guibutton> button in the
+  upper-left-hand corner of the screen.  Enter the following info.
+  (You can choose a different memory size.  We've found this one works
+  pretty well.)
+</para>
+
+<table>
+  <tr> <td>Name:</td> <td>Xubuntu151</td> </tr>
+  <tr> <td>Type:</td> <td>Linux</td> </tr>
+  <tr> <td>Version:</td> <td>Ubuntu</td> </tr>
+  <tr> <td>Memory Size:</td> <td>1024 MB</td> </tr>
+</table>
+
+<para>
+  Under <guilabel>Hard drive</guilabel>, click
+  <guilabel>Use an existing virtual hard drive file</guilabel>.
+  Then click the folder button to find the unzipped file from above.
+</para>
+
+<para>
+  Click the <guibutton>Create</guibutton> button.
+</para>
+
+<para>
+  If all went well, you should see <guilabel>Xubuntu151</guilabel> in the
+  list of machines in the Oracle VM VirtualBox Mangage.  If not, get
+  help.
+</para>
+
+</section> <!-- setting-up -->
+
+<section id="running"><title>Running Everything</title>
+
+<para>
+  Double click on the <guilabel>Xubuntu151</guilabel> machine.  If all
+  goes well, you should see a desktop much like you get in MathLAN.
+</para>
+
+<para>
+  Start Gimp and DrRacket.  Try a sample program.  Get help if 
+  something failed.
+</para>
+
+</section> <!-- running -->
+
+</section> <!-- vbox -->
