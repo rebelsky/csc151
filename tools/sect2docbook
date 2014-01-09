@@ -16,7 +16,7 @@ $prefix =~ s/.sect//g;
 # to add it.
 my $file_entities = "";
 if (-e "$prefix.ent") {
-  print STDERR "File exists\n";
+  print STDERR "Adding entity file\n";
   $file_entities = "<!ENTITY % ${prefix}Entities SYSTEM \"$prefix.ent\"> %${prefix}Entities;\n";
 }
 
