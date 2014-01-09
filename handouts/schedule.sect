@@ -169,7 +169,7 @@
         <td>&date17;</td>
         <td><ulink url="../outlines/outline.17.html"><emphasis role="strong">&title17;</emphasis></ulink></td>
         <td>&reading17;</td>
-        <td>&lab17;</td>
+        <td>&lab17; &writeup17;</td>
         <td>&due17;</td>
       </tr>
 
@@ -183,7 +183,7 @@
         <td>&date18;</td>
         <td><ulink url="../outlines/outline.18.html"><emphasis role="strong">&title18;</emphasis></ulink></td>
         <td>&reading18;</td>
-        <td>&lab18;</td>
+        <td>&lab18; &writeup18;</td>
         <td>&due18;</td>
       </tr>
       <tr>
@@ -191,7 +191,7 @@
         <td>&date19;</td>
         <td><ulink url="../outlines/outline.19.html"><emphasis role="strong">&title19;</emphasis></ulink></td>
         <td>&reading19;</td>
-        <td>&lab19;</td>
+        <td>&lab19; &writeup19;</td>
         <td>&due19;</td>
       </tr>
       <tr>
@@ -199,7 +199,7 @@
         <td>&date20;</td>
         <td><ulink url="../outlines/outline.20.html"><emphasis role="strong">&title20;</emphasis></ulink></td>
         <td>&reading20;</td>
-        <td>&lab20;</td>
+        <td>&lab20; &writeup20;</td>
         <td>&due20;</td>
       </tr>
       <tr>
@@ -207,7 +207,7 @@
         <td>&date21;</td>
         <td><ulink url="../outlines/outline.21.html"><emphasis role="strong">&title21;</emphasis></ulink></td>
         <td>&reading21;</td>
-        <td>&lab21;</td>
+        <td>&lab21; &writeup21;</td>
         <td>&due21;</td>
       </tr>
 
@@ -221,7 +221,7 @@
         <td>&date22;</td>
         <td><ulink url="../outlines/outline.22.html"><emphasis role="strong">&title22;</emphasis></ulink></td>
         <td>&reading22;</td>
-        <td>&lab22;</td>
+        <td>&lab22; &writeup22;</td>
         <td>&due22;</td>
       </tr>
       <tr>
@@ -229,7 +229,7 @@
         <td>&date23;</td>
         <td><ulink url="../outlines/outline.23.html"><emphasis role="strong">&title23;</emphasis></ulink></td>
         <td>&reading23;</td>
-        <td>&lab23;</td>
+        <td>&lab23; &writeup23;</td>
         <td>&due23;</td>
       </tr>
       <tr>
@@ -237,7 +237,7 @@
         <td>&date24;</td>
         <td><ulink url="../outlines/outline.24.html"><emphasis role="strong">&title24;</emphasis></ulink></td>
         <td>&reading24;</td>
-        <td>&lab24;</td>
+        <td>&lab24; &writeup24;</td>
         <td>&due24;</td>
       </tr>
       <tr>
@@ -245,7 +245,7 @@
         <td>&date25;</td>
         <td><ulink url="../outlines/outline.25.html"><emphasis role="strong">&title25;</emphasis></ulink></td>
         <td>&reading25;</td>
-        <td>&lab25;</td>
+        <td>&lab25; &writeup25;</td>
         <td>&due25;</td>
       </tr>
 
@@ -259,7 +259,7 @@
         <td>&date26;</td>
         <td><ulink url="../outlines/outline.26.html"><emphasis role="strong">&title26;</emphasis></ulink></td>
         <td>&reading26;</td>
-        <td>&lab26;</td>
+        <td>&lab26; &writeup26;</td>
         <td>&due26;</td>
       </tr>
       <tr>
@@ -267,7 +267,7 @@
         <td>&date27;</td>
         <td><ulink url="../outlines/outline.27.html"><emphasis role="strong">&title27;</emphasis></ulink></td>
         <td>&reading27;</td>
-        <td>&lab27;</td>
+        <td>&lab27; &writeup27;</td>
         <td>&due27;</td>
       </tr>
       <tr>
@@ -275,7 +275,7 @@
         <td>&date28;</td>
         <td><ulink url="../outlines/outline.28.html"><emphasis role="strong">&title28;</emphasis></ulink></td>
         <td>&reading28;</td>
-        <td>&lab28;</td>
+        <td>&lab28; &writeup28;</td>
         <td>&due28;</td>
       </tr>
       <tr>
@@ -283,7 +283,7 @@
         <td>&date29;</td>
         <td><ulink url="../outlines/outline.29.html"><emphasis role="strong">&title29;</emphasis></ulink></td>
         <td>&reading29;</td>
-        <td>&lab29;</td>
+        <td>&lab29; &writeup29;</td>
         <td>&due29;</td>
       </tr>
     <tr class="break">
@@ -302,7 +302,7 @@
         <td>&date30;</td>
         <td><ulink url="../outlines/outline.30.html"><emphasis role="strong">&title30;</emphasis></ulink></td>
         <td>&reading30;</td>
-        <td>&lab30;</td>
+        <td>&lab30; &writeup30;</td>
         <td>&due30;</td>
       </tr>
       <tr>
@@ -310,7 +310,7 @@
         <td>&date31;</td>
         <td><ulink url="../outlines/outline.31.html"><emphasis role="strong">&title31;</emphasis></ulink></td>
         <td>&reading31;</td>
-        <td>&lab31;</td>
+        <td>&lab31; &writeup31;</td>
         <td>&due31;</td>
       </tr>
       <tr>
@@ -318,7 +318,7 @@
         <td>&date32;</td>
         <td><ulink url="../outlines/outline.32.html"><emphasis role="strong">&title32;</emphasis></ulink></td>
         <td>&reading32;</td>
-        <td>&lab32;</td>
+        <td>&lab32; &writeup32;</td>
         <td>&due32;</td>
       </tr>
       <tr>
@@ -326,7 +326,7 @@
         <td>&date33;</td>
         <td><ulink url="../outlines/outline.33.html"><emphasis role="strong">&title33;</emphasis></ulink></td>
         <td>&reading33;</td>
-        <td>&lab33;</td>
+        <td>&lab33; &writeup33;</td>
         <td>&due33;</td>
       </tr>
 
@@ -340,7 +340,7 @@
         <td>&date34;</td>
         <td><ulink url="../outlines/outline.34.html"><emphasis role="strong">&title34;</emphasis></ulink></td>
         <td>&reading34;</td>
-        <td>&lab34;</td>
+        <td>&lab34; &writeup34;</td>
         <td>&due34;</td>
       </tr>
       <tr>
@@ -348,7 +348,7 @@
         <td>&date35;</td>
         <td><ulink url="../outlines/outline.35.html"><emphasis role="strong">&title35;</emphasis></ulink></td>
         <td>&reading35;</td>
-        <td>&lab35;</td>
+        <td>&lab35; &writeup35;</td>
         <td>&due35;</td>
       </tr>
       <tr>
@@ -356,7 +356,7 @@
         <td>&date36;</td>
         <td><ulink url="../outlines/outline.36.html"><emphasis role="strong">&title36;</emphasis></ulink></td>
         <td>&reading36;</td>
-        <td>&lab36;</td>
+        <td>&lab36; &writeup36;</td>
         <td>&due36;</td>
       </tr>
       <tr>
@@ -364,7 +364,7 @@
         <td>&date37;</td>
         <td><ulink url="../outlines/outline.37.html"><emphasis role="strong">&title37;</emphasis></ulink></td>
         <td>&reading37;</td>
-        <td>&lab37;</td>
+        <td>&lab37; &writeup37;</td>
         <td>&due37;</td>
       </tr>
 
@@ -378,7 +378,7 @@
         <td>&date38;</td>
         <td><ulink url="../outlines/outline.38.html"><emphasis role="strong">&title38;</emphasis></ulink></td>
         <td>&reading38;</td>
-        <td>&lab38;</td>
+        <td>&lab38; &writeup38;</td>
         <td>&due38;</td>
       </tr>
       <tr>
@@ -386,7 +386,7 @@
         <td>&date39;</td>
         <td><ulink url="../outlines/outline.39.html"><emphasis role="strong">&title39;</emphasis></ulink></td>
         <td>&reading39;</td>
-        <td>&lab39;</td>
+        <td>&lab39; &writeup39;</td>
         <td>&due39;</td>
       </tr>
       <tr>
@@ -394,7 +394,7 @@
         <td>&date40;</td>
         <td><ulink url="../outlines/outline.40.html"><emphasis role="strong">&title40;</emphasis></ulink></td>
         <td>&reading40;</td>
-        <td>&lab40;</td>
+        <td>&lab40; &writeup40;</td>
         <td>&due40;</td>
       </tr>
       <tr>
@@ -402,7 +402,7 @@
         <td>&date41;</td>
         <td><ulink url="../outlines/outline.41.html"><emphasis role="strong">&title41;</emphasis></ulink></td>
         <td>&reading41;</td>
-        <td>&lab41;</td>
+        <td>&lab41; &writeup41;</td>
         <td>&due41;</td>
       </tr>
 
@@ -416,7 +416,7 @@
         <td>&date42;</td>
         <td><ulink url="../outlines/outline.42.html"><emphasis role="strong">&title42;</emphasis></ulink></td>
         <td>&reading42;</td>
-        <td>&lab42;</td>
+        <td>&lab42; &writeup42;</td>
         <td>&due42;</td>
       </tr>
       <tr>
@@ -424,7 +424,7 @@
         <td>&date43;</td>
         <td><ulink url="../outlines/outline.43.html"><emphasis role="strong">&title43;</emphasis></ulink></td>
         <td>&reading43;</td>
-        <td>&lab43;</td>
+        <td>&lab43; &writeup43;</td>
         <td>&due43;</td>
       </tr>
       <tr>
@@ -432,7 +432,7 @@
         <td>&date44;</td>
         <td><ulink url="../outlines/outline.44.html"><emphasis role="strong">&title44;</emphasis></ulink></td>
         <td>&reading44;</td>
-        <td>&lab44;</td>
+        <td>&lab44; &writeup44;</td>
         <td>&due44;</td>
       </tr>
       <tr>
@@ -440,7 +440,7 @@
         <td>&date45;</td>
         <td><ulink url="../outlines/outline.45.html"><emphasis role="strong">&title45;</emphasis></ulink></td>
         <td>&reading45;</td>
-        <td>&lab45;</td>
+        <td>&lab45; &writeup45;</td>
         <td>&due45;</td>
       </tr>
 
@@ -454,7 +454,7 @@
         <td>&date46;</td>
         <td><ulink url="../outlines/outline.46.html"><emphasis role="strong">&title46;</emphasis></ulink></td>
         <td>&reading46;</td>
-        <td>&lab46;</td>
+        <td>&lab46; &writeup46;</td>
         <td>&due46;</td>
       </tr>
       <tr>
@@ -462,7 +462,7 @@
         <td>&date47;</td>
         <td><ulink url="../outlines/outline.47.html"><emphasis role="strong">&title47;</emphasis></ulink></td>
         <td>&reading47;</td>
-        <td>&lab47;</td>
+        <td>&lab47; &writeup47;</td>
         <td>&due47;</td>
       </tr>
       <tr>
@@ -470,7 +470,7 @@
         <td>&date48;</td>
         <td><ulink url="../outlines/outline.48.html"><emphasis role="strong">&title48;</emphasis></ulink></td>
         <td>&reading48;</td>
-        <td>&lab48;</td>
+        <td>&lab48; &writeup48;</td>
         <td>&due48;</td>
       </tr>
 
@@ -484,7 +484,7 @@
         <td>&date49;</td>
         <td><ulink url="../outlines/outline.49.html"><emphasis role="strong">&title49;</emphasis></ulink></td>
         <td>&reading49;</td>
-        <td>&lab49;</td>
+        <td>&lab49; &writeup49;</td>
         <td>&due49;</td>
       </tr>
       <tr>
@@ -492,7 +492,7 @@
         <td>&date50;</td>
         <td><ulink url="../outlines/outline.50.html"><emphasis role="strong">&title50;</emphasis></ulink></td>
         <td>&reading50;</td>
-        <td>&lab50;</td>
+        <td>&lab50; &writeup50;</td>
         <td>&due50;</td>
       </tr>
       <tr>
@@ -500,7 +500,7 @@
         <td>&date51;</td>
         <td><ulink url="../outlines/outline.51.html"><emphasis role="strong">&title51;</emphasis></ulink></td>
         <td>&reading51;</td>
-        <td>&lab51;</td>
+        <td>&lab51; &writeup51;</td>
         <td>&due51;</td>
       </tr>
       <tr>
@@ -508,7 +508,7 @@
         <td>&date52;</td>
         <td><ulink url="../outlines/outline.52.html"><emphasis role="strong">&title52;</emphasis></ulink></td>
         <td>&reading52;</td>
-        <td>&lab52;</td>
+        <td>&lab52; &writeup52;</td>
         <td>&due52;</td>
       </tr>
 
@@ -522,7 +522,7 @@
         <td>&date53;</td>
         <td><ulink url="../outlines/outline.53.html"><emphasis role="strong">&title53;</emphasis></ulink></td>
         <td>&reading53;</td>
-        <td>&lab53;</td>
+        <td>&lab53; &writeup53;</td>
         <td>&due53;</td>
       </tr>
       <tr>
@@ -530,7 +530,7 @@
         <td>&date54;</td>
         <td><ulink url="../outlines/outline.54.html"><emphasis role="strong">&title54;</emphasis></ulink></td>
         <td>&reading54;</td>
-        <td>&lab54;</td>
+        <td>&lab54; &writeup54;</td>
         <td>&due54;</td>
       </tr>
       <tr>
@@ -538,7 +538,7 @@
         <td>&date55;</td>
         <td><ulink url="../outlines/outline.55.html"><emphasis role="strong">&title55;</emphasis></ulink></td>
         <td>&reading55;</td>
-        <td>&lab55;</td>
+        <td>&lab55; &writeup55;</td>
         <td>&due55;</td>
       </tr>
       <tr>
@@ -546,7 +546,7 @@
         <td>&date56;</td>
         <td><ulink url="../outlines/outline.56.html"><emphasis role="strong">&title56;</emphasis></ulink></td>
         <td>&reading56;</td>
-        <td>&lab56;</td>
+        <td>&lab56; &writeup56;</td>
         <td>&due56;</td>
       </tr>
 
