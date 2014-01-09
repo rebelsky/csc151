@@ -46,6 +46,12 @@ sandbox/*
 # We often have files called current.* which are just soft links.
 current.*
 
+# Almost everything in the admin directory should be ignored
+admin/*
+!admin/report
+!admin/sendgrades
+!admin/sendreport
+
 # +------------------------+------------------------------------------
 # | Rules for Generic Site |
 # +------------------------+
