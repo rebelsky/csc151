@@ -1,0 +1,205 @@
+<section id="notes-on-homework"><title>Notes on Homework</title>
+
+<para>
+  <emphasis>These notes on homework were written toward the end of
+  Fall 2013.</emphasis>
+</para>
+
+<para>
+  Because of the breakdown in grading this semester, we have not caught
+  a number of issues with your code that would have been caught earlier.
+  In general, I haven not taken off for these issues when grading.  But
+  they are things you should certainly pay attention to as you work on
+  your projects and exams.
+</para>
+
+<section id="comments"><title>Comments</title>
+
+<para>
+  At this point in the semester, you should be comfortable writing
+  documentation for procedures.  And your default should be to write
+  the full six-P style documentation for procedures.  (You'll note that
+  we do so for almost every procedure we provide.)  At minimum, you should
+  write the first four P's.
+</para>
+
+<para>
+  If you copy code from an assignment, you should be copying the 
+  documentation, too.
+</para>
+
+<para>
+  It's also worthwhile to include documentation beyond the six P's.
+</para>
+
+<para>
+  Finally, every assignment should start with an introductory comment.
+  Something like the following:
+</para>
+
+<programlisting>
+#lang racket
+(require gigls/unsafe)
+
+; Lea R. Ner and Stu Dent
+; CSC 151.02 2013F
+; Assignment 8: Trees
+; Tuesday, 12 November 2013
+
+; Citations:
+;   We took tree-depth, tree-size, image-render-color-tree!, and
+;     ctree->image from the reading.
+;   We took tree-flatten from lab ....
+;   Alex G and Chike A helped us with problem 3 by suggesting that we
+;     find the middle of the two indices.
+;   AHD and JOP helped us debug problem 4.
+</programlisting>
+
+<para>
+  The introductory comments will definitely matter on the project.
+  And future classes will expect something similar.
+</para>
+
+</section> <!-- comments -->
+
+<section id="conditionals"><title>Conditionals</title>
+
+<para>
+  Many of you seem a bit confused as to what kind of conditional to use
+  in various situations.  Here are the guidelines I usually use.  You
+  don't need to follow them strictly (in fact, you can't follow them
+  strictly), but you should think about
+</para>
+
+<itemizedlist>
+  <listitem>
+    If you have more than one consequent (typically, if you want to
+    do more than one operation with side effects), you probably need
+    a <code>cond</code> expression or a <code>when</code> expression.
+  </listitem>
+
+  <listitem>
+    If you plan to do a sequence of tests that should only go as far
+    as the first test that holds, use a <code>cond</code> expression.
+  </listitem>
+
+  <listitem>
+    If you have only one test, use an <code>if</code> expression or a
+    <code>when</code> expression.
+  </listitem>
+
+  <listitem>
+    If you have an alternate, use <code>if</code> or <code>cond</code>.
+    If you have no alternate, use <code>when</code> (or, sometimes,
+    <code>cond</code>.
+  </listitem>
+</itemizedlist>
+
+</section> <!-- conditionals -->
+
+<section id="formatting"><title>Formatting</title>
+
+<para>
+  Please take care to reformat your code.  It should be easy: You can just
+  use <keycap>Ctrl-I</keycap>.  You can also select a chunk of text and
+  hit <keycap>Tab</keycap>.
+</para>
+
+<para>
+  Please watch too-long lines.  Ideally, no line should be greater than
+  80 columns.  Sensible line breaks also make your code much more readable.
+</para>
+
+<para>
+  It's a lot easier for the grader if you clearly indicate when each
+  answer starts.  Something like the following would be good.
+</para>
+
+<programlisting>
+; ----------------------------------------------------------------------
+; Problem 1 - List-Like Color Trees
+</programlisting>
+
+
+<para>
+  For <code>if</code> statements, I really
+  like the test to be on the same line as the <code>if</code> and the
+  consequent and alternates on lines by themselves (unless everything
+  fits on one line).
+</para>
+
+<programlisting>
+(if test
+    consequent
+    alternate)
+</programlisting>
+
+<para>
+  In contast, I almost always like the conditions for <code>cond</code>
+  on separate lines.  (If the tests and consequents are relatively small,
+  they can be on the same line.)
+</para>
+
+<programlisting>
+(cond
+  [(test1) 
+   (consequent1)]
+  [(test2)
+   (consequent2)]
+  [else
+   (alternate)])
+</programlisting>
+
+</section> <!-- formatting -->
+
+<section id="miscellaneous"><title>Miscellaneous</title>
+
+<para>
+  Please carbon copy your partners when you submit work.  It makes it 
+  easier for me to return comments to everyone in your group.
+</para>
+
+<para>
+  For assignment 8, almost no one filled out the epilogue.  I expect
+  that's a consequence of the grading problems.  But the epilogue is
+  really more for you than it is for us - it's an opportunity for you
+  to reflect on learning and problems from the assignment.
+</para>
+
+<para>
+  Please provide examples of your procedures in action (either working
+  or failing to work).  You can copy and paste from the interactions pane,
+  and then copy out the lines.
+</para>
+
+<para>
+  You might also find it useful to include unit tests.  (Remember that
+  lab on unit testing that we did right before fall break?  No, probably
+  not, as it was right before fall break.)
+</para>
+
+<para>
+  A few of you showed the steps you went through and added some comments
+  on your thought processes.  Doing so is <emphasis>very helpful</emphasis>
+  if you show me your work on a problem - failed attempts, how you know 
+  they failed, what the failure made you think about, etc.  In some cases,
+  I gave full credit on a problem with really good documentation of 
+  thought processes.
+</para>
+
+<para>
+  In trying to figure out what's going wrong, it can be very useful to
+  show what you expect the output to be, and then run the procedure
+  <quote>by hand</quote> to see what's happening.  (Sometimes using
+  <code>display</code> in your code can also give you some info.)
+</para>
+
+<para>
+  Don't forget to use <code>let</code> when you are doing identical
+  computations.  (And when you are doing nearly-identical computations,
+  see if you can make them both slight variants of identical computations.)
+</para>
+
+</section> <!-- miscellaneous -->
+
+</section> <!-- notes-on-homework -->
