@@ -22,9 +22,6 @@ stylesheet.xsl
 !resources/common.xsl
 !resources/stylesheet.xsl
 
-# Ignore the eboards, since those are generated every semester
-eboards/*.md
-
 # Ignore some automatically generated files
 resources/subjects.ent
 
@@ -46,7 +43,6 @@ admin/*
 
 # Ignore the forks that I keep handy
 forks/*
-
 
 # +---------------------+---------------------------------------------
 # | Fork-Specific Rules |
