@@ -40,6 +40,25 @@ clean:
 pdf:
 	for dir in $(SECTIONS); do cd $$dir; make pdf; cd ..; done
 
+# Touch files that to prevent recompilation (usually done after we
+# update resources/subjects.var)
+touch:
+	for dir in $(SECTIONS); do \
+	  cd $$dir; \
+	  touch *.html; \
+	  touch *.pdf; \
+	  cd ..; \
+	done
+	sleep 1
+	touch outlines/outline.*.md
+	sleep 1
+	touch handouts/schedule.sect
+	touch */index.sect
+	touch outlines/outline.*.html
+	touch outlines/outline.*.pdf
+	touch eboards/[0-9][0-9].html
+	touch eboards/[0-9][0-9].pdf
+
 # +--------------+----------------------------------------------------
 # | Fun with git |
 # +--------------+
@@ -53,15 +72,28 @@ status:
 	| grep -v 'ps$$' \
 	| grep -v 'pdf$$'
 
-# Update the repository.  (Yeah, I still think in terms of Subversion)
+# Update the repository.	(Yeah, I still think in terms of Subversion)
 update:
 	git pull 
+
+# Rebuild the subjects
+subjects:
+	cd resources; make subjects.ent
+	touch */*.html
+	touch */*.pdf
+	touch outlines/outline.*.html
+	touch outlines/outline.*.pdf
+	touch eboards/*.html
+	touch eboards/*.pdf
+	touch */index.sect
+	touch handouts/schedule.sect
+	make pdf
 
 # Create a branch for the generic courses repository (somewhat upstream)
 .PHONY: generic
 generic:
 	@if [ ! `git remote | grep '^generic$$'` ]; then \
-	  git remote add generic https://github.com/rebelsky/generic-course; \
+		git remote add generic https://github.com/rebelsky/generic-course; \
 	fi
 
 # Pull from the generic course
