@@ -1,6 +1,0 @@
-* Reading: [Numeric Recursion](../readings/numeric-recursion-reading.html)
-* Lab: [Numeric Recursion](../labs/numeric-recursion-lab.html)
-* [EBoard](../eboards/31.md) 
-  ([Raw](../eboards/31.md))
-  ([HTML](../eboards/31.html))
-  ([PDF](../eboards/31.pdf))

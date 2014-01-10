@@ -1,6 +1,0 @@
-* Reading: [Higher-Order Proceduers](../readings/hop-reading.html)
-* Lab: [Higher-Order Procedures](../labs/hop-lab.html)
-* [EBoard](../eboards/44.md) 
-  ([Source](../eboards/44.md))
-  ([HTML](../eboards/44.html))
-  ([PDF](../eboards/44.pdf))

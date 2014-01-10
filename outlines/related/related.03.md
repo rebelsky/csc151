@@ -1,8 +1,0 @@
-* Reading: [The Parts of an Algorithm](../readings/algorithms-reading.html)
-* Reading: [The DrRacket Program Development Environment](../readings/drracket-reading.html)
-* Reading: [Beginning Scheme](../readings/beginning-scheme-reading.html)
-* Reading: [How Scheme Evaluates Expressions (take 1)](../readings/scheme-eval-1.html)
-* Lab: [Starting Scheme](../labs/starting-scheme-lab.html)
-* [EBoard](../eboards/03.html) 
-  ([Source](../eboards/03.md))
-  ([PDF](../eboards/03.pdf))

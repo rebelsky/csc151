@@ -1,6 +1,0 @@
-* Reading: [Association Lists](../readings/association-lists-reading.html)
-* Lab: [Association Lists](../labs/association-lists-lab.html)
-* [EBoard](../eboards/43.md) 
-  ([Source](../eboards/43.md))
-  ([HTML](../eboards/43.html))
-  ([PDF](../eboards/43.pdf))

@@ -1,5 +1,0 @@
-* Reading: [Numeric Values in Scheme](../readings/numbers-reading.html)
-* Lab: [Numeric Values](../labs/numeric-values-lab.html)
-* [EBoard](../eboards/04.html) 
-  ([Source](../eboards/04.md))
-  ([PDF](../eboards/04.pdf))

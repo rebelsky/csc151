@@ -1,6 +1,0 @@
-* Reading: [Drawings as Values](../readings/drawings-reading.html)
-* Reading (unused): [Procedures](../readings/procedures-reading.html)
-* Lab: [Drawings as Values](../labs/drawings-values-lab.html)
-* [EBoard](../eboards/06.html) 
-  ([Source](../eboards/06.md))
-  ([PDF](../eboards/06.pdf))

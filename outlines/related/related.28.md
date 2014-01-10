@@ -1,6 +1,0 @@
-* Reading: [Verifying Preconditions](../readings/preconditions-reading.html)
-* Lab: [Verifying Preconditions](../labs/verifying-preconditions-lab.html)
-* [EBoard](../eboards/28.md) 
-  ([Raw](../eboards/28.md))
-  ([HTML](../eboards/28.html))
-  ([PDF](../eboards/28.pdf))

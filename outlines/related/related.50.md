@@ -1,6 +1,0 @@
-* Reading: [Objects](../readings/objects-reading.html)
-* Lab: [Objects](../labs/objects-lab.html)
-* [EBoard](../eboards/50.md) 
-  ([Source](../eboards/50.md))
-  ([HTML](../eboards/50.html))
-  ([PDF](../eboards/50.pdf))

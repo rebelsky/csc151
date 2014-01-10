@@ -1,6 +1,0 @@
-* Reading: [Iteration](../readings/iteration-reading.html)
-* Lab: [Iteration](../labs/iteration-lab.html)
-* [EBoard](../eboards/19.md) 
-  ([Raw](../eboards/19.md))
-  ([HTML](../eboards/19.html))
-  ([PDF](../eboards/19.pdf))

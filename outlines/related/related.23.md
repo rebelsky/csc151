@@ -1,6 +1,0 @@
-* Reading: [Heterogeneous Lists](../readings/heterogeneous-lists-reading.html)
-* Lab: [Heterogeneous Lists](../labs/heterogeneous-lists-lab.html)
-* [EBoard](../eboards/23.md) 
-  ([Raw](../eboards/23.md))
-  ([HTML](../eboards/23.html))
-  ([PDF](../eboards/23.pdf))

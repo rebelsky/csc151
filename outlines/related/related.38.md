@@ -1,6 +1,0 @@
-* Reading: [`image-compute`](../readings/iterate-positions-reading.html)
-* Lab: [`image-compute`](../labs/iterate-positions-lab.html)
-* [EBoard](../eboards/39.md) 
-  ([Source](../eboards/39.md))
-  ([HTML](../eboards/39.html))
-  ([PDF](../eboards/39.pdf))

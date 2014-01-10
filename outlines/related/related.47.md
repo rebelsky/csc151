@@ -1,6 +1,0 @@
-* Reading: [Sorting](../readings/sorting-reading.html)
-* Lab: [Insertion Sort](../labs/insertion-sort-lab.html)
-* [EBoard](../eboards/47.md) 
-  ([Source](../eboards/47.md))
-  ([HTML](../eboards/47.html))
-  ([PDF](../eboards/47.pdf))

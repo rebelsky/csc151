@@ -1,6 +1,0 @@
-* Reading: [Testing Your Procedures](../readings/rackunit-reading.html)
-* Lab: [Unit Testing with RackUnit](../labs/rackunit-lab.html)
-* [EBoard](../eboards/29.md) 
-  ([Raw](../eboards/29.md))
-  ([HTML](../eboards/29.html))
-  ([PDF](../eboards/29.pdf))

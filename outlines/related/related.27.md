@@ -1,6 +1,0 @@
-* Reading: [List Recursion Revisited](../readings/list-recursion-revisited-reading.html)
-* Lab: [List Recursion Revisited](../labs/list-recursion-revisited-lab.html)
-* [EBoard](../eboards/27.md) 
-  ([Raw](../eboards/27.md))
-  ([HTML](../eboards/27.html))
-  ([PDF](../eboards/27.pdf))

@@ -1,6 +1,0 @@
-* Reading: [Local Procedure Bindings](../readings/letrec-reading.html)
-* Lab: [Local Procedure Bindings](../labs/letrec-lab.html)
-* [EBoard](../eboards/30.md) 
-  ([Raw](../eboards/30.md))
-  ([HTML](../eboards/30.html))
-  ([PDF](../eboards/30.pdf))

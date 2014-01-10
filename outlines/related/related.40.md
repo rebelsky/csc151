@@ -1,6 +1,0 @@
-* Reading: [Project Ideas](../readings/project-ideas-reading.html)
-* Lab: [Project Ideas](../labs/project-ideas-lab.html)
-* [EBoard](../eboards/40.md) 
-  ([Source](../eboards/40.md))
-  ([HTML](../eboards/40.html))
-  ([PDF](../eboards/40.pdf))

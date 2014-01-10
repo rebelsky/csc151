@@ -1,5 +1,0 @@
-* Reading: [Transforming Images](../readings/transforming-images-reading.html)
-* Lab: [Transforming Images](../labs/transforming-images-lab.html)
-* [EBoard](../eboards/15.md) 
-  ([HTML](../eboards/15.html))
-  ([PDF](../eboards/15.pdf))

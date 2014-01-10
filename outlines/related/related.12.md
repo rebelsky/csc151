@@ -1,7 +1,0 @@
-* Assignment: [Exam 1: Scheme Basics](../exams/exam.01.html)
-* Reading: [Raster Graphics: Images from Pixels and Colors](../readings/raster-reading.html)
-* Reading: [RGB Colors](../readings/rgb-reading.html)
-* Lab: [Raster Graphics and RGB Colors](../labs/raster-lab.html)
-* [EBoard](../eboards/12.html) 
-  ([Source](../eboards/12.md))
-  ([PDF](../eboards/12.pdf))

@@ -1,5 +1,0 @@
-* Reading: [Transforming RGB Colors](../readings/transforming-rgb-reading.html)
-* Lab: [Transforming RGB Colors](../labs/transforming-rgb-lab.html)
-* [EBoard](../eboards/13.html) 
-  ([Source](../eboards/13.md))
-  ([PDF](../eboards/13.pdf))

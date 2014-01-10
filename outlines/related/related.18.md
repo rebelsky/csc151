@@ -1,6 +1,0 @@
-* Reading: [Turtle Graphics](../readings/turtle-graphics-reading.html)
-* Lab: [Turtle Graphics](../labs/turtle-graphics-lab.html)
-* [EBoard](../eboards/18.md) 
-  ([Markdown](../eboards/18.md))
-  ([HTML](../eboards/18.html))
-  ([PDF](../eboards/18.pdf))
