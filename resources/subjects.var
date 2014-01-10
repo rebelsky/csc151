@@ -32,14 +32,14 @@
 <!ENTITY abbrev{$day} "scheme">
 <!ENTITY reading{$day} "<ulink url='../readings/algorithms-reading.html'>The Parts of an Algorithm</ulink> &amp; <ulink url='../readings/drracket-reading.html'>The DrRacket Program-Development Environment</ulink> &amp; <ulink url='../readings/beginning-scheme-reading.html'>Beginning Scheme</ulink> &amp; <ulink url='../readings/scheme-eval-1.html'>How Scheme Evaluates Expressions (Take 1)</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/starting-scheme-lab.html'>Starting Scheme</ulink>">
-<!ENTITY writeup{$day} "">
+<!ENTITY writeup{$day} "Writeup 1: Extra 2">
 
 +day
 <!ENTITY title{$day} "Computing with Symbols and Numbers">
 <!ENTITY abbrev{$day} "numbers">
 <!ENTITY reading{$day} "<ulink url='../readings/numbers-reading.html'>Numeric Values</ulink> &amp; <ulink url='../readings/symbols-reading.html'>Symbolic Values</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/numeric-values-lab.html'>Numeric Computation</ulink>">
-<!ENTITY writeup{$day} "">
+<!ENTITY writeup{$day} "Writeup 2: Extra 1">
 
 +day
 <!ENTITY title{$day} "Drawings as Values">
