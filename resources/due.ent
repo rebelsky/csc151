@@ -74,7 +74,7 @@
 <!ENTITY due37 "">
 <!ENTITY due38 "&assignment08;; Project assigned">
 <!ENTITY due39 "">
-<!ENTITY due40 "(No quiz)">
+<!ENTITY due40 "Quiz 10">
 
 <!ENTITY due41 "">
 <!ENTITY due42 "Project proposal due">
@@ -84,12 +84,12 @@
 <!ENTITY due45 "">
 <!ENTITY due46 "Project due">
 <!ENTITY due47 "">
-<!ENTITY due48 "<ulink url='../assignments/exam.03.html'>Exam 3</ulink> assigned">
+<!ENTITY due48 "Quiz 12; <ulink url='../assignments/exam.03.html'>Exam 3</ulink> assigned">
 
 <!ENTITY due49 "">
 <!ENTITY due50 "&assignment09;">
 <!ENTITY due51 "">
-<!ENTITY due52 "Quiz 12">
+<!ENTITY due52 "Quiz 13">
 
 <!ENTITY due53 "<ulink url='../assignments/exam.03.html'>Exam 3</ulink> (due 10:30 p.m. via email)">
 <!ENTITY due54 "<ulink url='../assignments/exam.03.html'>Exam 3</ulink> (due in class in paper form)">
