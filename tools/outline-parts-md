@@ -9,19 +9,40 @@ my $OLD = "/home/rebelsky/Web/Courses/CSC151/2010S/Outlines";
 my $prefix = shift;
 
 my $file = "summaries/$prefix.md";
+my $source = "$OLD/Summaries/$prefix.txt";
 if (! -f "$file") {
-  print STDERR "Creating $file\n";
-  system("cat $OLD/Summaries/$prefix.txt | sed -e '/summary>/d' | sed -e 's/^[[:space:]]*//' > $file");
-}
+  if (-f "$source") {
+    print STDERR "Creating $file from $source.\n";
+    system("cat $source | sed -e '/summary>/d' | sed -e 's/^[[:space:]]*//' | sw2md > $file");
+  } # if the appropriate source file exists
+  else {
+    print STDERR "Cannot find $source.  Creating empty file $file.\n";
+    system("touch $file");
+  } # if the source file does not exist
+} # if summary does not exist
 
 my $file = "overviews/$prefix.md";
+my $source = "$OLD/Overviews/$prefix.txt";
 if (! -f "$file") {
-  print STDERR "Creating $file\n";
-  system("cat $OLD/Overviews/$prefix.txt | sed -e '/topics>/d' | sed -e 's/<topic>/* /' | sed -e 's/<\\/topic>//g' > $file");
-}
+  if (-f "$source") {
+    print STDERR "Creating $file from $source.\n";
+    system("cat $source | sed -e '/topics>/d' | sed -e 's/<topic>/* /' | sed -e 's/<\\/topic>//g' > $file");
+  } # if the source file exists
+  else {
+    print STDERR "Creating empty file $file.\n";
+    system("touch $file");
+  } # if the source file does not exist
+} # if overview does not exist
 
 my $file = "bodies/$prefix.md";
+my $source = "$OLD/Bodies/$prefix.txt";
 if (! -f "$file") {
-  print STDERR "Creating $file\n";
-  system("cat $OLD/Bodies/$prefix.txt | sw2md > $file");
-}
+  if (-f "$source") {
+    print STDERR "Creating $file from $source.\n";
+    system("cat $OLD/Bodies/$prefix.txt | sw2md > $file");
+  } # if the source file exists
+  else {
+    print STDERR "Creating empty file $file.\n";
+    system("touch $file");
+  } # if the source file does not exist
+} # if the body does not exist
