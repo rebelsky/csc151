@@ -55,6 +55,7 @@ reference/custom.ent
 
 outlines/outline.*.md
 outlines/outlines.mk
+outlines/notes.*.md
 
 partners
 !partners/Makefile
