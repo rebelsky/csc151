@@ -73,7 +73,9 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
   Among other things, this means that any work you turn in should be your
   own or should have the work of others clearly documented.  However, when
   you explicitly work as part of a group or team, you need not identify
-  the work of each individual (unless I specify otherwise).
+  the work of each individual (unless I specify otherwise).  You are,
+  of course, required to make it clear that you worked as part of a group
+  or team, and who the members of that group or team are.
 </para>
 
 <para>
@@ -94,7 +96,7 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
 <para>
   When working on examinations, you generally should not use people
   (other than me) as resources.  In most cases, I will allow you to look
-  up things on the Web, but you should read the examination guidlines
+  up things on the Web, but you should read the examination guidelines
   to be sure.  In most examinations, I will not allow you to ask tutors
   and mentors anything pertaining to the exam, not even general syntax
   questions.  If you need help, you'll need to talk to me or a colleague.
@@ -206,13 +208,14 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
   cite work taken from elsewhere.  It is certainly acceptable practice
   to borrow other code for your assignments.  However, you must cite any
   code that you use from elsewhere, including your own code.  You are
-  also responsible for the quality of code you submit and there's a lot
-  of mediocre code on the Web.
+  also responsible for the quality of code you submit and you should
+  note that there's a lot of mediocre code on the Web.
 </para>
 
 <para>
   Each piece of code you take from elsewhere must include a comment 
-  that specifies:
+  that points me to the original work.  Ideally, your comment would
+  specify all of the following:
 </para>
 
 <itemizedlist>
@@ -244,6 +247,14 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
 </para>
 
 <para>
+  Note that, as much as I appreciate a carefully constructed citation, my
+  primary concern is that you clearly state that you have used the work
+  of another.  Hence, I will also accept a short note that simply gives
+  the location from which you obtained code (e.g., you can just write
+  <quote>Ideas and code taken from <emphasis>this URL</emphasis>.</quote>)
+</para>
+
+<para>
   You need not cite the libraries you use, as the command to include
   libraries within a program provides sufficient citation.
 </para>
@@ -259,7 +270,7 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
   provide much more information.  Consider what a typical citation to
   the printed literature contains: Author, Date, Publisher, Title of
   Article, Publisher, etc.  Your Web citations should contain at least as
-  much detail.  That is, you must include not just the URL, but also the
+  much detail.  That is, you should include not just the URL, but also the
   author of the page (using <quote>Anonymous</quote> or an institutional
   author, if necessary), the title of the page, the publisher (the site),
   and the date.
@@ -280,12 +291,18 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
 
 <blockquote>
 <para>
-Rebelsky, Samuel (2013).  Academic Honesty.  Grinnell College Department
+Rebelsky, Samuel (2014).  Academic Honesty.  Grinnell College Department
 of Computer Science.  Available at
-&url;/handouts/academic-honesty.html (Last modified 17 August 2013;
-Visited 17 August 2013).
+&url;/handouts/academic-honesty.html (Last modified 10 January 2014;
+Visited 10 January 2014).
 </para>
 </blockquote>
+
+<para>
+  Once again, although I prefer careful citations, I will accept anything
+  that shows that you've made an appropriate effort to acknowledge any
+  work that your work draws upon.
+</para>
 
 </section> <!-- citing-web-pages -->
 
@@ -358,5 +375,96 @@ Visited 17 August 2013).
 </para>
 
 </section> <!-- sample-takehome-policies -->
+
+<section id="typical-violations"><title>Illustrative Violations of Academic Honesty Policies</title>
+
+<para>
+  Fortunately, there are few instances I've observed in which students seem 
+  to violate principles and policies pertaining to academic honesty.  But
+  it does happen.  And sometimes it happens because students are just
+  careless.  I include a few examples to help you avoid such carelessness.
+</para>
+
+<para>
+  On occasion, students turn in <emphasis>output that does not match
+  the code</emphasis>.  Why wouldn't the output match the code?  
+  In the worst case, it's because the student could not get the code to
+  work and simply generated the output by hand and hoped that I would not
+  notice.  And that's clearly an instance of forging lab results, which
+  is academically dishonest.  But there are other reasons.  For example,
+  it may be because students have created multiple versions of the same
+  program, and turn in the output from one version with the code for
+  another version.  This behavior is unintentionally dishonest.  And,
+  once in a while, a student may treat two parts of a problem as 
+  separate.  E.g., I might ask students to write a procedure that
+  analyzes some data and then to tell me the results of the analysis.
+  There have been instances in which students could not write the 
+  procedure, did the analysis in another way, and gave me the analysis
+  without explaining what they did.  In some such instances, the Committee
+  on Academic Standing has found the student responsible.  
+</para>
+
+<para>
+  So, make sure that your code and your output match.  If you decide to
+  try an alternate approach to finding an answer, clearly document that
+  you have done so.
+</para>
+
+<para>
+  Modern students rely on the Web for help.  As I note elsewhere in
+  this document, that's typically fine.  However, for whatever reasons,
+  some students neglect to cite their sources - maybe they forgot that
+  they looked something up, maybe they neglected to write down the URL,
+  maybe they don't want me to know that they needed help.  However,
+  in many cases it's obvious to the experienced reader when material
+  comes from elsewhere.  And so, whether the neglect is intentional or
+  accidental, I must report the student.  Because I worry about such
+  accidental neglect, I do my best to be open about citation.  While
+  I like detailed citations, I accept almost anything that acknowledges
+  that a source was used and that points me toward that source.
+</para>
+
+<para>
+  Finally, there are a few instances in which I see nearly identical
+  solutions to a problem.  At times, that's reasonable - some problems
+  have only a few natural solutions and I tend to assume that
+  two similar common solutions were developed independently.  But when
+  a problem admits a huge variety of possible solutions and I see
+  similar solutions, or when the solutions I see are not so 
+  <quote>natural</quote>, I may find it necessary to report the similarity.
+</para>
+
+</section> <!-- typical-violations -->
+
+<section id="responding"><title>Responding to Violations</title>
+
+<para>
+  Many years ago (long before I came to Grinnell), the Faculty of Grinnell 
+  College decided that the analysis of and response to potential
+  violations of academic policy should be done by a central committee,
+  rather than by individual faculty members.  That decision has been
+  reaffirmed a number of times, as recently as Fall 2013.  This committee is a
+  subcommittee of the Committee on Academic Standing (CAS).  Having a
+  central committee helps ensure that responses to violations are treated
+  uniformly.  As importantly, having a central committee ensures that the
+  investigation is not affected by and does not affect the relationship
+  between the student and the faculty member.
+</para>
+
+<para>
+  Because we rely on CAS to deal with potential violations of academic
+  honesty, faculty are asked to report such potential violations directly
+  to CAS and not to discuss them with students.  When I notice such
+  potential violations (e.g., code and output that don't match; answers
+  that are unexpectedly similar to resources on the Web or to other
+  students' answers), I typically follow a two-step process.  First,
+  I discuss the potential violation with one or two colleagues in the
+  department to see if they see the same issues that I do.  When that
+  happens (and it almost always does), I then report the potential
+  violation to CAS, who then takes over the case.  At that point, the
+  case is no longer under my control.
+</para>
+  
+</section> <!-- responding -->
 
 </section> <!-- academic-honesty -->
