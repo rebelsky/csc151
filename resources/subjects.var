@@ -64,13 +64,6 @@
 <!ENTITY writeup{$day} "">
 
 +day
-<!ENTITY title{$day} "Side Effects: Images, Output, and More">
-<!ENTITY abbrev{$day} "side-effects">
-<!ENTITY reading{$day} "<ulink url='../readings/output-reading.html'>Output in Scheme</ulink> and <ulink url='../readings/image-basics-reading.html'>Basic Image Operations</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/side-effects-lab.html'>Side Effects</ulink>">
-<!ENTITY writeup{$day} "">
-
-+day
 <!ENTITY title{$day} "Documenting Programs and Procedures">
 <!ENTITY abbrev{$day} "documentation">
 <!ENTITY reading{$day} "<ulink url='../readings/documentation-reading.html'>Documenting Your Procedures</ulink>">
@@ -78,17 +71,17 @@
 <!ENTITY writeup{$day} "">
 
 +day
-<!ENTITY title{$day} "Preconditions, Revisited">
-<!ENTITY abbrev{$day} "prepost">
-<!ENTITY reading{$day} "<ulink url='../readings/preconditions-reading.html'>Verifying Preconditions</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/preconditions-lab.html'>Verifying Preconditions</ulink>">
-<!ENTITY writeup{$day} "Writeup: Exercises 3h and 4">
-
-+day
 <!ENTITY title{$day} "Testing Your Procedures">
 <!ENTITY abbrev{$day} "testing">
 <!ENTITY reading{$day} "<ulink url='../readings/rackunit-basic-reading.html'>Testing Your Procedures</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/rackunit-lab.html'>Testing Your Procedures</ulink>">
+<!ENTITY writeup{$day} "">
+
++day
+<!ENTITY title{$day} "Side Effects: Images, Output, and More">
+<!ENTITY abbrev{$day} "side-effects">
+<!ENTITY reading{$day} "<ulink url='../readings/output-reading.html'>Output in Scheme</ulink> and <ulink url='../readings/image-basics-reading.html'>Basic Image Operations</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/side-effects-lab.html'>Side Effects</ulink>">
 <!ENTITY writeup{$day} "">
 
 +day
@@ -127,18 +120,18 @@
 <!ENTITY writeup{$day} "">
 
 +day
+<!ENTITY title{$day} "Programming the GIMP Tools">
+<!ENTITY abbrev{$day} "gimp-tools">
+<!ENTITY reading{$day} "<ulink url='../readings/gimp-reading.html'>The GNU Image Manipulation Program</ulink> and <ulink url='../readings/gimp-tools-reading.html'>Programming the GIMP Tools</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/gimp-tools-lab.html'>Scripting the GIMP Tools</ulink>">
+<!ENTITY writeup{$day} "">
+
++day
 <!ENTITY title{$day} "Exam 1 Discussion">
 <!ENTITY abbrev{$day} "exam1">
 <!ENTITY reading{$day} "">
 <!ENTITY lab{$day} "">
 <!ENTITY writeup{$day} "">
-
-+day
-<!ENTITY title{$day} "Anonymous Procedures">
-<!ENTITY abbrev{$day} "anonymous-procedures">
-<!ENTITY reading{$day} "<ulink url='../readings/anonymous-procedures-reading.html'>Anonymous Procedures</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/anonymous-procedures-lab.html'>Anonymous Procedures</ulink>">
-<!ENTITY writeup{$day} "Writeup: Exercises 5 b-f">
 
 +day
 <!ENTITY title{$day} "Boolean Values and Predicate Procedures">
@@ -160,6 +153,20 @@
 <!ENTITY reading{$day} "<ulink url='../readings/let-reading.html'>Local Bindings</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/let-lab.html'>Local Bindings</ulink>">
 <!ENTITY writeup{$day} "Writeup: Exercises 6d and 7b">
+
++day
+<!ENTITY title{$day} "Anonymous Procedures">
+<!ENTITY abbrev{$day} "anonymous-procedures">
+<!ENTITY reading{$day} "<ulink url='../readings/anonymous-procedures-reading.html'>Anonymous Procedures</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/anonymous-procedures-lab.html'>Anonymous Procedures</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercises 5 b-f">
+
++day
+<!ENTITY title{$day} "Images as Functions from Position to Colors">
+<!ENTITY abbrev{$day} "iterate-positions">
+<!ENTITY reading{$day} "<ulink url='../readings/iterate-positions-reading.html'>Building Images by Iterating Over Positions</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/iterate-positions-lab.html'>Building Images by Iterating Over Positions</ulink>">
+<!ENTITY writeup{$day} "">
 
 +day
 <!ENTITY title{$day} "Revisiting Lists">
@@ -218,6 +225,20 @@
 <!ENTITY writeup{$day} "Writeup: Exercise 4">
 
 +day
+<!ENTITY title{$day} "Preconditions, Revisited">
+<!ENTITY abbrev{$day} "prepost">
+<!ENTITY reading{$day} "<ulink url='../readings/preconditions-reading.html'>Verifying Preconditions</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/preconditions-lab.html'>Verifying Preconditions</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercises 3h and 4">
+
++day
+<!ENTITY title{$day} "Characters and Strings">
+<!ENTITY abbrev{$day} "strings">
+<!ENTITY reading{$day} "<ulink url='../readings/strings-reading.html'>Characters and Strings</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/strings-lab.html'>Characters and Strings</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercise 10">
+
++day
 <!ENTITY title{$day} "Turtle Graphics">
 <!ENTITY abbrev{$day} "turtle-graphics">
 <!ENTITY reading{$day} "<ulink url='../readings/turtle-graphics-reading.html'>Turtle Graphics</ulink>">
@@ -232,18 +253,11 @@
 <!ENTITY writeup{$day} "Writeup: Exercises 4c, 4d, and 5e">
 
 +day
-<!ENTITY title{$day} "An Introduction to the GIMP">
-<!ENTITY abbrev{$day} "intro-gimp">
-<!ENTITY reading{$day} "<ulink url='../readings/gimp-reading.html'>The GNU Image Manipulation Program</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/gimp-lab.html'>Getting Started with the GIMP</ulink>">
-<!ENTITY writeup{$day} "">
-
-+day
-<!ENTITY title{$day} "Programming the GIMP Tools">
-<!ENTITY abbrev{$day} "gimp-tools">
-<!ENTITY reading{$day} "<ulink url='../readings/gimp-tools-reading.html'>Programming the GIMP Tools</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/gimp-tools-lab.html'>Scripting the GIMP Tools</ulink>">
-<!ENTITY writeup{$day} "">
+<!ENTITY title{$day} "Geometric Art Through Numeric Recursion">
+<!ENTITY abbrev{$day} "geometric-art">
+<!ENTITY reading{$day} "<ulink url='../readings/geometric-art-reading.html'>Geometric Art</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/geometric-art-lab.html'>Geometric Art</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercises 3d and 6">
 
 +day
 <!ENTITY title{$day} "Pairs and Pair Structures">
@@ -260,20 +274,6 @@
 <!ENTITY writeup{$day} "Writeup: Exercises 4 and 6">
 
 +day
-<!ENTITY title{$day} "Vectors">
-<!ENTITY abbrev{$day} "vectors">
-<!ENTITY reading{$day} "<ulink url='../readings/vectors-reading.html'>Vectors</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/vectors-lab.html'>Vectors</ulink>">
-<!ENTITY writeup{$day} "Writeup: Exercise 6">
-
-+day
-<!ENTITY title{$day} "Images as Functions from Position to Colors">
-<!ENTITY abbrev{$day} "iterate-positions">
-<!ENTITY reading{$day} "<ulink url='../readings/iterate-positions-reading.html'>Building Images by Iterating Over Positions</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/iterate-positions-lab.html'>Building Images by Iterating Over Positions</ulink>">
-<!ENTITY writeup{$day} "">
-
-+day
 <!ENTITY title{$day} "On Two-Dimensional Design">
 <!ENTITY abbrev{$day} "design">
 <!ENTITY reading{$day} "<ulink url='../readings/design-elements-reading.html'>Elements and Principles of Two-Dimensional Design</ulink> &amp; <ulink url='../assignments/project.html'>About the Project</ulink>">
@@ -288,18 +288,11 @@
 <!ENTITY writeup{$day} "">
 
 +day
-<!ENTITY title{$day} "Characters and Strings">
-<!ENTITY abbrev{$day} "strings">
-<!ENTITY reading{$day} "<ulink url='../readings/strings-reading.html'>Characters and Strings</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/strings-lab.html'>Characters and Strings</ulink>">
-<!ENTITY writeup{$day} "Writeup: Exercise 10">
-
-+day
-<!ENTITY title{$day} "Geometric Art Through Numeric Recursion">
-<!ENTITY abbrev{$day} "geometric-art">
-<!ENTITY reading{$day} "<ulink url='../readings/geometric-art-reading.html'>Geometric Art</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/geometric-art-lab.html'>Geometric Art</ulink>">
-<!ENTITY writeup{$day} "Writeup: Exercises 3d and 6">
+<!ENTITY title{$day} "Vectors">
+<!ENTITY abbrev{$day} "vectors">
+<!ENTITY reading{$day} "<ulink url='../readings/vectors-reading.html'>Vectors</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/vectors-lab.html'>Vectors</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercise 6">
 
 +day
 <!ENTITY title{$day} "Analyzing Procedures">
@@ -320,6 +313,13 @@
 <!ENTITY abbrev{$day} "randomness">
 <!ENTITY reading{$day} "<ulink url='../readings/random-drawing-reading.html'>Randomized Drawing</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/random-drawing-lab.html'>Randomized Drawing</ulink>">
+<!ENTITY writeup{$day} "">
+
++day
+<!ENTITY title{$day} "Pause for Breath">
+<!ENTITY abbrev{$day} "pause-11">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
 <!ENTITY writeup{$day} "">
 
 +day
@@ -424,16 +424,16 @@
 <!ENTITY writeup{$day} "">
 
 +day
-<!ENTITY title{$day} "Project Work Day">
-<!ENTITY abbrev{$day} "project-work">
+<!ENTITY title{$day} "What is Computer Science? Revisited">
+<!ENTITY abbrev{$day} "what-is-cs">
 <!ENTITY reading{$day} "">
 <!ENTITY lab{$day} "">
 <!ENTITY writeup{$day} "">
 
 +day
-<!ENTITY title{$day} "What is Computer Science? Revisited">
-<!ENTITY abbrev{$day} "what-is-cs">
-<!ENTITY reading{$day} "">
-<!ENTITY lab{$day} "">
+<!ENTITY title{$day} "An Introduction to the GIMP">
+<!ENTITY abbrev{$day} "intro-gimp">
+<!ENTITY reading{$day} "<ulink url='../readings/gimp-reading.html'>The GNU Image Manipulation Program</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/gimp-lab.html'>Getting Started with the GIMP</ulink>">
 <!ENTITY writeup{$day} "">
 
