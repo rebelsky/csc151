@@ -4,6 +4,7 @@
 #   Creates a schedule of a particular type
 #     mtwf-fall: Meets Monday, Tuesday, Wednesday, and Friday in the fall
 #     lfa-fall: Learning from Alumni in the Fall (one day per week)
+#     mtwf-spring: Meets Monday, Tuesday, Wednesday, and Friday in the spring
 
 # +-----------+-------------------------------------------------------
 # | Variables |
@@ -41,6 +42,25 @@ if ($type eq "mtwf-fall") {
   week(); day(); day(); day(); day(); 
   bottom();
 }
+elsif ($type eq "mtwf-spring") {
+  top();
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  break("Spring Break");
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day();
+  week(); day(); day(); day(); day(); 
+  week(); day(); day(); day(); day(); 
+  bottom();
+}
 elsif ($type eq "lfa-fall") {
   lfaTop();
   lfaDay(); lfaDay(); lfaDay(); lfaDay();
@@ -54,8 +74,9 @@ elsif ($type eq "lfa-fall") {
 } 
 else {
   print STDERR "Unknown type of schedule: $type\n";
-  print STDERR "   mtwf-fall: A MTuWF Fall class.\n";
   print STDERR "   lfa-fall: The Learning from Alumni Fall Course.\n";
+  print STDERR "   mtwf-fall: A MTuWF Fall lab class.\n";
+  print STDERR "   mtwf-spring: A MTuWF Spring lab class.\n";
   exit 1;
 }
 
@@ -103,6 +124,7 @@ sub week()
       </th>
     </tr>
 WEEK
+  headings();
 } # week
 
 # day()
@@ -118,7 +140,7 @@ sub day()
         <td>&date$DAY;</td>
         <td><ulink url="../outlines/outline.$DAY.html"><emphasis role="strong">&title$DAY;</emphasis></ulink></td>
         <td>&reading$DAY;</td>
-        <td>&lab$DAY;</td>
+        <td>&lab$DAY; <break/><emphasis>&writeup$DAY;</emphasis></td>
         <td>&due$DAY;</td>
       </tr>
 DAY
@@ -149,7 +171,25 @@ sub twoDigits(n)
   if ($val < 10) { return "0$val"; }
   else { return $val; }
 }
-  
+
+# headings()
+#   Prints the standard headings.
+sub headings() 
+{
+print <<"HEADINGS";
+  <thead>
+    <tr>
+      <th></th>
+      <th>Date</th>
+      <th>Topic</th>
+      <th>Reading</th>
+      <th>Lab</th>
+      <th>Work Due</th>
+    </tr>
+  </thead>
+HEADINGS
+} # headings
+
 # top()
 #   Print the text at the top of the page
 sub top()
@@ -164,16 +204,6 @@ sub top()
  </para>
 
 <table class="schedule">
-  <thead>
-    <tr>
-      <th></th>
-      <th>Date</th>
-      <th>Topic</th>
-      <th>Reading</th>
-      <th>Lab</th>
-      <th>Work Due</th>
-    </tr>
-  </thead>
   <tbody>
 TOP
 } # top
