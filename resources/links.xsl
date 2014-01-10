@@ -19,9 +19,10 @@
   [<a href="../handouts/disabilities.html">Disabilities</a>]
   [<a href="../handouts/email.html">Email</a>]
   [<a href="../handouts/faq.html">FAQ</a>]
-  [<a href="../handouts/irc.html">IRC</a>]
   [<a href="../handouts/teaching.html">Teaching &amp; Learning</a>]
   [<a href="../handouts/grading.html">Grading</a>]
+  -
+  [<a href="http://bit.ly/151gcal">Calendar</a>]
 </p>
 <p class="links"><b>Current:</b>
   [<a href="../assignments/current.html">Assignment</a>]
@@ -54,8 +55,10 @@
 </p>
 <p class="links"><b>Related Courses:</b>
   [<a href="http://www.cs.grinnell.edu/~davisjan/csc/151/2013F/">Davis (2013F)</a>]
-  [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CS151/2010S/">Rebelsky (2010F)</a>]
+  [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CS151/2010S/">Rebelsky (2010S)</a>]
+  [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CS151/2013F/">Rebelsky (2013F)</a>]
   [<a href="http://www.cs.grinnell.edu/~weinman/courses/CSC151/2012F/">Weinman (2012F)</a>]
+  [<a href="http://www.cs.grinnell.edu/~weinman/courses/CSC151/2014S/">Weinman (2014S)</a>]
 </p>
 <p class="links"> <b>Misc:</b> 
   [<a href="http://www.cs.grinnell.edu/~rebelsky/">SamR</a>]
