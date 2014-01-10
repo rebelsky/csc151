@@ -1,16 +1,16 @@
 <!ENTITY week01 "An Introduction to ...">
 <!ENTITY week02 "Two Models of Images">
 <!ENTITY week03 "Design and Color">
-<!ENTITY week04 "Miscellaneous">
+<!ENTITY week04 "Transformations">
 <!ENTITY week05 "Control">
-<!ENTITY week06 "Miscellaneous">
-<!ENTITY week07 "Recursion">
-<!ENTITY week08 "Recursion, Continued">
+<!ENTITY week06 "Recursion">
+<!ENTITY week07 "Recursion, Continued">
+<!ENTITY week08 "Other Image Models">
 <!ENTITY week09 "Data Structures">
-<!ENTITY week10 "Miscellaneous">
-<!ENTITY week11 "Searching">
-<!ENTITY week12 "Sorting">
-<!ENTITY week13 "Project and Beyond">
+<!ENTITY week10 "Thinking About Image Making">
+<!ENTITY week11 "Thinking About Procedures">
+<!ENTITY week12 "Searching and Sorting">
+<!ENTITY week13 "Miscellaneous">
 <!ENTITY week14 "Wrapup">
 
 +day
@@ -71,17 +71,17 @@
 <!ENTITY writeup{$day} "">
 
 +day
-<!ENTITY title{$day} "An Introduction to the GIMP">
-<!ENTITY abbrev{$day} "intro-gimp">
-<!ENTITY reading{$day} "<ulink url='../readings/gimp-reading.html'>The GNU Image Manipulation Program</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/gimp-lab.html'>Getting Started with the GIMP</ulink>">
+<!ENTITY title{$day} "Side Effects: Images, Output, and More">
+<!ENTITY abbrev{$day} "side-effects">
+<!ENTITY reading{$day} "<ulink url='../readings/output-reading.html'>Output in Scheme</ulink> and <ulink url='../readings/image-basics-reading.html'>Basic Image Operations</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/side-effects-lab.html'>Side Effects</ulink>">
 <!ENTITY writeup{$day} "">
 
 +day
-<!ENTITY title{$day} "Programing the GIMP Tools">
-<!ENTITY abbrev{$day} "gimp-tools">
-<!ENTITY reading{$day} "<ulink url='../readings/gimp-tools-reading.html'>Programming the GIMP Tools</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/gimp-tools-lab.html'>Scripting the GIMP Tools</ulink>">
+<!ENTITY title{$day} "Testing Your Procedures">
+<!ENTITY abbrev{$day} "testing">
+<!ENTITY reading{$day} "<ulink url='../readings/rackunit-basic-reading.html'>Testing Your Procedures</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/rackunit-lab.html'>Testing Your Procedures</ulink>">
 <!ENTITY writeup{$day} "">
 
 +day
@@ -96,13 +96,6 @@
 <!ENTITY abbrev{$day} "raster">
 <!ENTITY reading{$day} "<ulink url='../readings/raster-reading.html'>Raster Graphics: Images from Pixels and Colors</ulink> and <ulink url='../readings/rgb-reading.html'>RGB Colors</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/raster-lab.html'>Raster Graphics and RGB Colors</ulink>">
-<!ENTITY writeup{$day} "">
-
-+day
-<!ENTITY title{$day} "Pause for Breath">
-<!ENTITY abbrev{$day} "pause-03">
-<!ENTITY reading{$day} "">
-<!ENTITY lab{$day} "">
 <!ENTITY writeup{$day} "">
 
 +day
@@ -131,49 +124,49 @@
 <!ENTITY abbrev{$day} "anonymous-procedures">
 <!ENTITY reading{$day} "<ulink url='../readings/anonymous-procedures-reading.html'>Anonymous Procedures</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/anonymous-procedures-lab.html'>Anonymous Procedures</ulink>">
-<!ENTITY writeup{$day} "07: <emphasis role='strong'>Turn in 5 b-f.</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercises 5 b-f">
 
 +day
-<!ENTITY title{$day} "Turtle Graphics">
-<!ENTITY abbrev{$day} "turtle-graphics">
-<!ENTITY reading{$day} "<ulink url='../readings/turtle-graphics-reading.html'>Turtle Graphics</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/turtle-graphics-lab.html'>Turtle Graphics</ulink>">
-<!ENTITY writeup{$day} "08: <emphasis role='strong'>Turn in Extra 2 and Exploration</emphasis>">
+<!ENTITY title{$day} "Exam 1 Discussion">
+<!ENTITY abbrev{$day} "exam1">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
 
 +day
-<!ENTITY title{$day} "Iteration">
-<!ENTITY abbrev{$day} "iteration">
-<!ENTITY reading{$day} "<ulink url='../readings/iteration-reading.html'>Iteration</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/iteration-lab.html'>Iteration</ulink>">
-<!ENTITY writeup{$day} "09: <emphasis role='strong'>Turn in 4c, 4d and 5e</emphasis>">
-
-+day
-<!ENTITY title{$day} "Naming Local Values">
-<!ENTITY abbrev{$day} "local">
-<!ENTITY reading{$day} "<ulink url='../readings/let-reading.html'>Local Bindings</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/let-lab.html'>Local Bindings</ulink>">
-<!ENTITY writeup{$day} "10: <emphasis role='strong'>Turn in 6d and 7b.</emphasis>">
+<!ENTITY title{$day} "Images as Functions from Position to Colors">
+<!ENTITY abbrev{$day} "iterate-positions">
+<!ENTITY reading{$day} "<ulink url='../readings/iterate-positions-reading.html'>Building Images by Iterating Over Positions</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/iterate-positions-lab.html'>Building Images by Iterating Over Positions</ulink>">
+<!ENTITY writeup{$day} "">
 
 +day
 <!ENTITY title{$day} "Boolean Values and Predicate Procedures">
 <!ENTITY abbrev{$day} "boolean">
 <!ENTITY reading{$day} "<ulink url='../readings/boolean-reading.html'>Boolean Values and Predicate Procedures</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/boolean-lab.html'>Boolean Values and Predicate Procedures</ulink>">
-<!ENTITY writeup{$day} "11: <emphasis role='strong'>Turn in 4a, 4b, and 5</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercises 4a, 4b, and 5">
 
 +day
 <!ENTITY title{$day} "Conditionals">
 <!ENTITY abbrev{$day} "conditionals">
 <!ENTITY reading{$day} "<ulink url='../readings/conditionals-reading.html'>Conditionals</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/conditionals-lab.html'>Conditionals</ulink>">
-<!ENTITY writeup{$day} "12: <emphasis role='strong'>Turn in 3c, 4d.</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercises 3c and 4d">
+
++day
+<!ENTITY title{$day} "Naming Local Values">
+<!ENTITY abbrev{$day} "local">
+<!ENTITY reading{$day} "<ulink url='../readings/let-reading.html'>Local Bindings</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/let-lab.html'>Local Bindings</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercises 6d and 7b">
 
 +day
 <!ENTITY title{$day} "Revisiting Lists">
 <!ENTITY abbrev{$day} "lists">
 <!ENTITY reading{$day} "<ulink url='../readings/heterogeneous-lists-reading.html'>Building Data Structures with Heterogeneous Lists</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/heterogeneous-lists-lab.html'>Exploring Lists</ulink>">
-<!ENTITY writeup{$day} "13: <emphasis role='strong'>Turn in 4.</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercise 4">
 
 +day
 <!ENTITY title{$day} "Recursion Basics">
@@ -183,67 +176,74 @@
 <!ENTITY writeup{$day} "">
 
 +day
-<!ENTITY title{$day} "Pause for breath">
-<!ENTITY abbrev{$day} "pause-02">
-<!ENTITY reading{$day} "">
-<!ENTITY lab{$day} "">
-<!ENTITY writeup{$day} "14: <emphasis role='strong'>Turn in 4 and 5 from Recursion Basics.</emphasis>">
+<!ENTITY title{$day} "Recursion Basics, Continued">
+<!ENTITY abbrev{$day} "recursion-basics-continued">
+<!ENTITY reading{$day} "<ulink url='../readings/recursion-basics-reading.html'>Recursion Basics</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/recursion-basics-lab.html'>Recursion Basics</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercise 4 and 5 from Recursion Basics">
 
 +day
 <!ENTITY title{$day} "Recursion with Helper Procedures">
 <!ENTITY abbrev{$day} "helper-recursion">
 <!ENTITY reading{$day} "<ulink url='../readings/helper-recursion-reading.html'>Recursion with Helper Procedures</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/helper-recursion-lab.html'>Recursion with Helper Procedures</ulink>">
-<!ENTITY writeup{$day} "15: <emphasis role='strong'>Turn in 6</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercise 6">
 
 +day
 <!ENTITY title{$day} "Other Forms of List Recursion">
 <!ENTITY abbrev{$day} "more-list-recursion">
 <!ENTITY reading{$day} "<ulink url='../readings/list-recursion-revisited-reading.html'>List Recursion, Revisited</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/list-recursion-revisited-lab.html'>List Recursion, Revisited</ulink>">
-<!ENTITY writeup{$day} "16: <emphasis role='strong'>Turn in 5</emphasis>">
-
-+day
-<!ENTITY title{$day} "Preconditions, Revisited">
-<!ENTITY abbrev{$day} "prepost">
-<!ENTITY reading{$day} "<ulink url='../readings/preconditions-reading.html'>Verifying Preconditions</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/preconditions-lab.html'>Verifying Preconditions</ulink>">
-<!ENTITY writeup{$day} "17: <emphasis role='strong'>Turn in 3h &amp; 4</emphasis>">
-
-+day
-<!ENTITY title{$day} "Testing Your Procedures">
-<!ENTITY abbrev{$day} "testing">
-<!ENTITY reading{$day} "<ulink url='../readings/rackunit-reading.html'>Testing Your Procedures</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/rackunit-lab.html'>Testing Your Procedures</ulink>">
-<!ENTITY writeup{$day} "<emphasis>No Writeup</emphasis>">
-
-+day
-<!ENTITY title{$day} "Naming Local Procedures">
-<!ENTITY abbrev{$day} "local-procs">
-<!ENTITY reading{$day} "<ulink url='../readings/letrec-reading.html'>Local Procedure Bindings</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/letrec-lab.html'>Local Procedure Bindings</ulink>">
-<!ENTITY writeup{$day} "18: <emphasis role='strong'>Turn in 4.</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercise 5">
 
 +day
 <!ENTITY title{$day} "Numeric Recursion">
 <!ENTITY abbrev{$day} "numeric-recursion">
 <!ENTITY reading{$day} "<ulink url='../readings/numeric-recursion-reading.html'>Numeric Recursion</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/numeric-recursion-lab.html'>Numeric Recursion</ulink>">
-<!ENTITY writeup{$day} "19: <emphasis role='strong'>Turn in 4.</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercise 4">
 
 +day
-<!ENTITY title{$day} "Geometric Art Through Numeric Recursion">
-<!ENTITY abbrev{$day} "geometric-art">
-<!ENTITY reading{$day} "<ulink url='../readings/geometric-art-reading.html'>Geometric Art</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/geometric-art-lab.html'>Geometric Art</ulink>">
-<!ENTITY writeup{$day} "20: <emphasis role='strong'>Turn in 3d &amp; 6.</emphasis>">
+<!ENTITY title{$day} "Naming Local Procedures">
+<!ENTITY abbrev{$day} "local-procs">
+<!ENTITY reading{$day} "<ulink url='../readings/letrec-reading.html'>Local Procedure Bindings</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/letrec-lab.html'>Local Procedure Bindings</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercise 4">
+
++day
+<!ENTITY title{$day} "Turtle Graphics">
+<!ENTITY abbrev{$day} "turtle-graphics">
+<!ENTITY reading{$day} "<ulink url='../readings/turtle-graphics-reading.html'>Turtle Graphics</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/turtle-graphics-lab.html'>Turtle Graphics</ulink>">
+<!ENTITY writeup{$day} "Writeup: Extra 2 and Exploration">
+
++day
+<!ENTITY title{$day} "Iteration">
+<!ENTITY abbrev{$day} "iteration">
+<!ENTITY reading{$day} "<ulink url='../readings/iteration-reading.html'>Iteration</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/iteration-lab.html'>Iteration</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercises 4c, 4d, and 5e">
+
++day
+<!ENTITY title{$day} "An Introduction to the GIMP">
+<!ENTITY abbrev{$day} "intro-gimp">
+<!ENTITY reading{$day} "<ulink url='../readings/gimp-reading.html'>The GNU Image Manipulation Program</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/gimp-lab.html'>Getting Started with the GIMP</ulink>">
+<!ENTITY writeup{$day} "">
+
++day
+<!ENTITY title{$day} "Programming the GIMP Tools">
+<!ENTITY abbrev{$day} "gimp-tools">
+<!ENTITY reading{$day} "<ulink url='../readings/gimp-tools-reading.html'>Programming the GIMP Tools</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/gimp-tools-lab.html'>Scripting the GIMP Tools</ulink>">
+<!ENTITY writeup{$day} "">
 
 +day
 <!ENTITY title{$day} "Characters and Strings">
 <!ENTITY abbrev{$day} "strings">
 <!ENTITY reading{$day} "<ulink url='../readings/strings-reading.html'>Characters and Strings</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/strings-lab.html'>Characters and Strings</ulink>">
-<!ENTITY writeup{$day} "21: <emphasis role='strong'>Turn in 10.</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercise 10">
 
 +day
 <!ENTITY title{$day} "Pairs and Pair Structures">
@@ -257,28 +257,14 @@
 <!ENTITY abbrev{$day} "trees">
 <!ENTITY reading{$day} "<ulink url='../readings/tree-reading.html'>Trees</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/tree-lab.html'>Trees</ulink>">
-<!ENTITY writeup{$day} "22: <emphasis role='strong'>Turn in 4 &amp; 6.</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercises 4 and 6">
 
 +day
 <!ENTITY title{$day} "Vectors">
 <!ENTITY abbrev{$day} "vectors">
 <!ENTITY reading{$day} "<ulink url='../readings/vectors-reading.html'>Vectors</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/vectors-lab.html'>Vectors</ulink>">
-<!ENTITY writeup{$day} "23: <emphasis role='strong'>Turn in 6.</emphasis>">
-
-+day
-<!ENTITY title{$day} "Randomized (Unpredictable) Drawing">
-<!ENTITY abbrev{$day} "randomness">
-<!ENTITY reading{$day} "<ulink url='../readings/random-drawing-reading.html'>Randomized Drawing</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/random-drawing-lab.html'>Randomized Drawing</ulink>">
-<!ENTITY writeup{$day} "">
-
-+day
-<!ENTITY title{$day} "Another Image Model: Iterating Over Positions">
-<!ENTITY abbrev{$day} "iterate-positions">
-<!ENTITY reading{$day} "<ulink url='../readings/iterate-positions-reading.html'>Building Images by Iterating Over Positions</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/iterate-positions-lab.html'>Building Images by Iterating Over Positions</ulink>">
-<!ENTITY writeup{$day} "">
+<!ENTITY writeup{$day} "Writeup: Exercise 6">
 
 +day
 <!ENTITY title{$day} "On Two-Dimensional Design">
@@ -295,39 +281,53 @@
 <!ENTITY writeup{$day} "">
 
 +day
-<!ENTITY title{$day} "Visit from Hilary Mason">
-<!ENTITY abbrev{$day} "hilary-mason">
-<!ENTITY reading{$day} "">
-<!ENTITY lab{$day} "">
+<!ENTITY title{$day} "Geometric Art Through Numeric Recursion">
+<!ENTITY abbrev{$day} "geometric-art">
+<!ENTITY reading{$day} "<ulink url='../readings/geometric-art-reading.html'>Geometric Art</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/geometric-art-lab.html'>Geometric Art</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercises 3d and 6">
+
++day
+<!ENTITY title{$day} "Randomized (Unpredictable) Drawing">
+<!ENTITY abbrev{$day} "randomness">
+<!ENTITY reading{$day} "<ulink url='../readings/random-drawing-reading.html'>Randomized Drawing</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/random-drawing-lab.html'>Randomized Drawing</ulink>">
 <!ENTITY writeup{$day} "">
+
++day
+<!ENTITY title{$day} "Preconditions, Revisited">
+<!ENTITY abbrev{$day} "prepost">
+<!ENTITY reading{$day} "<ulink url='../readings/preconditions-reading.html'>Verifying Preconditions</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/preconditions-lab.html'>Verifying Preconditions</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercises 3h and 4">
 
 +day
 <!ENTITY title{$day} "Analyzing Procedures">
 <!ENTITY abbrev{$day} "analyzing-procedures">
 <!ENTITY reading{$day} "<ulink url='../readings/analysis-reading.html'>Analyzing Procedures</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/analysis-lab.html'>Analyzing Procedures</ulink>">
-<!ENTITY writeup{$day} "24: <emphasis role='strong'>Turn in 5d.</emphasis>">
-
-+day
-<!ENTITY title{$day} "Association Lists">
-<!ENTITY abbrev{$day} "association-lists">
-<!ENTITY reading{$day} "<ulink url='../readings/association-lists-reading.html'>Association Lists</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/association-lists-lab.html'>Association Lists</ulink>">
-<!ENTITY writeup{$day} "25: <emphasis role='strong'>Turn in 4, 5d, 6c</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercise 5d">
 
 +day
 <!ENTITY title{$day} "Higher-Order Procedures, Revisited">
 <!ENTITY abbrev{$day} "hop">
 <!ENTITY reading{$day} "<ulink url='../readings/hop-reading.html'>Design Patterns and Higher-Order Procedures</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/hop-lab.html'>Design Patterns and Higher-Order Procedures</ulink>">
-<!ENTITY writeup{$day} "26: <emphasis role='strong'>Turn in 3, 4</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercises 3 and 4">
+
++day
+<!ENTITY title{$day} "Association Lists">
+<!ENTITY abbrev{$day} "association-lists">
+<!ENTITY reading{$day} "<ulink url='../readings/association-lists-reading.html'>Association Lists</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/association-lists-lab.html'>Association Lists</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercises 4, 5d, and 6c">
 
 +day
 <!ENTITY title{$day} "Binary Search">
 <!ENTITY abbrev{$day} "binary-search">
 <!ENTITY reading{$day} "<ulink url='../readings/searching-reading.html'>Search Algorithms</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/binary-search-lab.html'>Binary Search</ulink>">
-<!ENTITY writeup{$day} "27: <emphasis role='strong'>Turn in 5</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercise 5">
 
 +day
 <!ENTITY title{$day} "Introduction to Sorting">
@@ -341,36 +341,15 @@
 <!ENTITY abbrev{$day} "insertion-sort">
 <!ENTITY reading{$day} "<ulink url='../readings/sorting-reading.html'>Sorting</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/insertion-sort-lab.html'>Insertion Sort</ulink>">
-<!ENTITY writeup{$day} "28: <emphasis role='strong'>Turn in 6e, 8f</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercises 6e and 8f">
 
 +day
 <!ENTITY title{$day} "Merge Sort">
 <!ENTITY abbrev{$day} "merge-sort">
 <!ENTITY reading{$day} "<ulink url='../readings/mergesort-reading.html'>Merge Sort</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/mergesort-lab.html'>Merge Sort</ulink>">
-<!ENTITY writeup{$day} "29: <emphasis role='strong'>Turn in 6, Extra 1</emphasis>">
+<!ENTITY writeup{$day} "Writeup: Exercise 6 and Extra 1">
 <!ENTITY writeup{$day} "">
-
-+day
-<!ENTITY title{$day} "File Basics">
-<!ENTITY abbrev{$day} "files">
-<!ENTITY reading{$day} "<ulink url='../readings/files-reading.html'>Files</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/files-lab.html'>Files</ulink>">
-<!ENTITY writeup{$day} "30: <emphasis role='strong'>Turn in 4</emphasis>">
-
-+day
-<!ENTITY title{$day} "Objects in Scheme">
-<!ENTITY abbrev{$day} "objects">
-<!ENTITY reading{$day} "<ulink url='../readings/objects-reading.html'>Building Objects in Scheme</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/objects-lab.html'>Building Objects in Scheme</ulink>">
-<!ENTITY writeup{$day} "31: <emphasis role='strong'>Turn in 6</emphasis>">
-
-+day
-<!ENTITY title{$day} "Objects in Scheme, Continued">
-<!ENTITY abbrev{$day} "objects-continued">
-<!ENTITY reading{$day} "<ulink url='../readings/objects-reading.html'>Building Objects in Scheme</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/objects-lab.html'>Building Objects in Scheme</ulink>">
-<!ENTITY writeup{$day} "31: <emphasis role='strong'>Turn in 6</emphasis>">
 
 +day
 <!ENTITY title{$day} "Project Assessment: Images">
@@ -385,6 +364,27 @@
 <!ENTITY reading{$day} "">
 <!ENTITY lab{$day} "">
 <!ENTITY writeup{$day} "">
+
++day
+<!ENTITY title{$day} "File Basics">
+<!ENTITY abbrev{$day} "files">
+<!ENTITY reading{$day} "<ulink url='../readings/files-reading.html'>Files</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/files-lab.html'>Files</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercise 4">
+
++day
+<!ENTITY title{$day} "Objects in Scheme">
+<!ENTITY abbrev{$day} "objects">
+<!ENTITY reading{$day} "<ulink url='../readings/objects-reading.html'>Building Objects in Scheme</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/objects-lab.html'>Building Objects in Scheme</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercise 6">
+
++day
+<!ENTITY title{$day} "Objects in Scheme, Continued">
+<!ENTITY abbrev{$day} "objects-continued">
+<!ENTITY reading{$day} "<ulink url='../readings/objects-reading.html'>Building Objects in Scheme</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/objects-lab.html'>Building Objects in Scheme</ulink>">
+<!ENTITY writeup{$day} "Writeup: Exercise 6">
 
 +day
 <!ENTITY title{$day} "What is Computer Science? Revisited">
@@ -403,6 +403,29 @@
 +day
 <!ENTITY title{$day} "Discussion of Exam 3 and Review for Final">
 <!ENTITY abbrev{$day} "exam3">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
+
+<!-- Things that don't exist, and may never exist. -->
+
++day
+<!ENTITY title{$day} "Extending Turtles">
+<!ENTITY abbrev{$day} "extending-turtles">
+<!ENTITY reading{$day} "Extending Turtles (forthcoming)">
+<!ENTITY lab{$day} "Extending Turtles (forthcoming)">
+<!ENTITY writeup{$day} "">
+
++day
+<!ENTITY title{$day} "Pause for Breath">
+<!ENTITY abbrev{$day} "pause">
+<!ENTITY reading{$day} "">
+<!ENTITY lab{$day} "">
+<!ENTITY writeup{$day} "">
+
++day
+<!ENTITY title{$day} "Project Work Day">
+<!ENTITY abbrev{$day} "project-work">
 <!ENTITY reading{$day} "">
 <!ENTITY lab{$day} "">
 <!ENTITY writeup{$day} "">
