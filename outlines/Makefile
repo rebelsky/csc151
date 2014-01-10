@@ -9,3 +9,4 @@ outlines.mk: ../resources/subjects.ent
 	../tools/mk-outlines-mk
 
 include outlines.mk
+include notes.mk
