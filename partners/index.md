@@ -1,4 +1,4 @@
 Partners
 ========
 
-* [Assignment 6](assignment.06.txt)
+_No partner assignments yet._
