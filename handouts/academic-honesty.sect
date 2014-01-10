@@ -73,7 +73,9 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
   Among other things, this means that any work you turn in should be your
   own or should have the work of others clearly documented.  However, when
   you explicitly work as part of a group or team, you need not identify
-  the work of each individual (unless I specify otherwise).
+  the work of each individual (unless I specify otherwise).  You are,
+  of course, required to make it clear that you worked as part of a group
+  or team, and who the members of that group or team are.
 </para>
 
 <para>
@@ -206,13 +208,14 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
   cite work taken from elsewhere.  It is certainly acceptable practice
   to borrow other code for your assignments.  However, you must cite any
   code that you use from elsewhere, including your own code.  You are
-  also responsible for the quality of code you submit and there's a lot
-  of mediocre code on the Web.
+  also responsible for the quality of code you submit and you should
+  note that there's a lot of mediocre code on the Web.
 </para>
 
 <para>
   Each piece of code you take from elsewhere must include a comment 
-  that specifies:
+  that points me to the original work.  Ideally, your comment would
+  specify all of the following:
 </para>
 
 <itemizedlist>
@@ -244,6 +247,14 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
 </para>
 
 <para>
+  Note that, as much as I appreciate a carefully constructed citation, my
+  primary concern is that you clearly state that you have used the work
+  of another.  Hence, I will also accept a short note that simply gives
+  the location from which you obtained code (e.g., you can just write
+  <quote>Ideas and code taken from <emphasis>this URL</emphasis>.</quote>)
+</para>
+
+<para>
   You need not cite the libraries you use, as the command to include
   libraries within a program provides sufficient citation.
 </para>
@@ -259,7 +270,7 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
   provide much more information.  Consider what a typical citation to
   the printed literature contains: Author, Date, Publisher, Title of
   Article, Publisher, etc.  Your Web citations should contain at least as
-  much detail.  That is, you must include not just the URL, but also the
+  much detail.  That is, you should include not just the URL, but also the
   author of the page (using <quote>Anonymous</quote> or an institutional
   author, if necessary), the title of the page, the publisher (the site),
   and the date.
@@ -280,12 +291,18 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
 
 <blockquote>
 <para>
-Rebelsky, Samuel (2013).  Academic Honesty.  Grinnell College Department
+Rebelsky, Samuel (2014).  Academic Honesty.  Grinnell College Department
 of Computer Science.  Available at
-&url;/handouts/academic-honesty.html (Last modified 17 August 2013;
-Visited 17 August 2013).
+&url;/handouts/academic-honesty.html (Last modified 10 January 2014;
+Visited 10 January 2014).
 </para>
 </blockquote>
+
+<para>
+  Once again, although I prefer careful citations, I will accept anything
+  that shows that you've made an appropriate effort to acknowledge any
+  work that your work draws upon.
+</para>
 
 </section> <!-- citing-web-pages -->
 
