@@ -1,7 +1,10 @@
 <section id="index-labs"><title>Labs</title>
 
 <itemizedlist>
-  <listitem>Class 2: &lab02; (held &date02;)</listitem>
+  <listitem>
+    Class 2: &lab02; (held &date02;) 
+    <break/><emphasis>&writeup02;</emphasis>
+  </listitem>
 </itemizedlist>
 
 </section> <!-- index-labs; -->
