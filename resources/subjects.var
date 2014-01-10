@@ -407,33 +407,3 @@
 <!ENTITY lab{$day} "">
 <!ENTITY writeup{$day} "">
 
-<!-- Things that don't exist, and may never exist. -->
-
-+day
-<!ENTITY title{$day} "Extending Turtles">
-<!ENTITY abbrev{$day} "extending-turtles">
-<!ENTITY reading{$day} "Extending Turtles (forthcoming)">
-<!ENTITY lab{$day} "Extending Turtles (forthcoming)">
-<!ENTITY writeup{$day} "">
-
-+day
-<!ENTITY title{$day} "Pause for Breath">
-<!ENTITY abbrev{$day} "pause">
-<!ENTITY reading{$day} "">
-<!ENTITY lab{$day} "">
-<!ENTITY writeup{$day} "">
-
-+day
-<!ENTITY title{$day} "What is Computer Science? Revisited">
-<!ENTITY abbrev{$day} "what-is-cs">
-<!ENTITY reading{$day} "">
-<!ENTITY lab{$day} "">
-<!ENTITY writeup{$day} "">
-
-+day
-<!ENTITY title{$day} "An Introduction to the GIMP">
-<!ENTITY abbrev{$day} "intro-gimp">
-<!ENTITY reading{$day} "<ulink url='../readings/gimp-reading.html'>The GNU Image Manipulation Program</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/gimp-lab.html'>Getting Started with the GIMP</ulink>">
-<!ENTITY writeup{$day} "">
-
