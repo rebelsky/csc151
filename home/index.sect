@@ -82,18 +82,15 @@
   <ulink url="http://www.cs.grinnell.edu/~rebelsky/">Samuel A. Rebelsky</ulink>
   [<ulink url="mailto:rebelsky@grinnell.edu">rebelsky</ulink>],
   Science 3824.  269-4410 (office).  236-7445 (home).  
-  Office hours:  M 2:15-4:05, Tu 2:15-2:45, W 2:15-2:45, F 3:15-4:05.  I
-  may add additional Tuesday morning hours.
+  Office hours:  M 2:15-3:05, TuWTh 11:00-11:45, F 2:15-3:05.
   I also tend to follow an open door policy: Feel
   free to stop by when my door is open or to make an appointment for
   another time.
 </para>
 
 <para>
-  <emphasis role="strong">Class Mentors</emphasis>: 
-  Chike Abuah <email>abuahchu@grinnell.edu</email> (MTWF),
-  Alex Greenberg <email>greenber@grinnell.edu</email> (MWF),
-  Jennelle Nystrom <email>nystromj@grinnell.edu</email> (Tu).
+  <emphasis role="strong">Class Mentor</emphasis>: 
+  Kim Spasaro <email>spasarok@grinnell.edu</email>.
   Office hours TBD.
 </para>
 
@@ -102,24 +99,24 @@
 </para>
 
 <itemizedlist>
-  <listitem>Class participation: 10%;</listitem>
-  <listitem>Regular homework: 5%;</listitem>
-  <listitem>Lab writeups: 5%</listitem>
-  <listitem>Project: 15%;</listitem>
+  <listitem>Class participation: 5%;</listitem>
+  <listitem>Regular homework: 10%;</listitem>
+  <listitem>Lab writeups: 10%</listitem>
+  <listitem>Project: 10%;</listitem>
   <listitem>Quizzes: 10%;</listitem>
   <listitem>Exams: 45% (3 graded exams plus optional final);</listitem>
-  <listitem>Best of (project, average exam, final): 5%.</listitem>
-  <listitem>Best of (homework, writeups, quizzes): 5%.</listitem>
+  <listitem>Best of individual work (quizzes, average exam, final): 5%.</listitem>
+  <listitem>Best of group work (homework, writeups, project): 5%.</listitem>
 </itemizedlist>
 
 <para>
   The final examination for this course is <emphasis>optional</emphasis>.
   It can be used as a makeup for one examination.  I will count the
-  final examination only if it is higher than your lowest examination,
-  and it will replace the grade for that examination.  The final examination 
-  is scheduled for 2:00 p.m. on Tuesday, 17 December 2013.  Students who
-  have a conflicting examination may take it instead at 9:00 a.m. on
-  Thursday, 19 December 2013.
+  final examination only if it is higher than your lowest examination, and
+  it will replace the grade for that examination.  The final examination
+  is scheduled for 9:00 a.m. on Tuesday, 13 May 2014.  Students who
+  have a conflicting examination at that time may take it instead at
+  2:00 p.m. on Tuesday, 13 May 2014.
 </para>
 
 <para>
@@ -143,13 +140,16 @@
 
 <para>
   <emphasis role="strong">Extra Credit</emphasis>:
-  I will often offer 1/2 point of extra credit for attending a particular
-  talk (e.g., a computer science talk or College convocation) or for
-  supporting your classmates in their public endeavors (e.g., attending
-  a concert or a dance recital).  Each category is capped at 1.5 points.
-  For any activity you wish to credit this way, you must send me a 
-  short (one paragraph) note about the activity within two days of the
-  activity.
+  I will often offer one unit of extra credit for attending a specified
+  academic event (e.g., a computer science talk or College convocation)
+  or for supporting your classmates in their public endeavors (e.g.,
+  attending a concert, dance recital, or sporting event).  Each category
+  is capped at four units of extra credit, which counts as one point
+  toward your final grade.  So, if you attend four academic events and
+  four peer support events, you will receive an additional two points
+  toward your final grade.  For any activity you wish to credit this way,
+  you must send me a short (one paragraph) note about the activity within
+  two days of the activity.
 </para>
 
 <para>
@@ -160,12 +160,13 @@
 </para>
 
 <para>
-  <emphasis role="strong">Good-Faith Grade Guarantee</emphasis>:
-  Because I realize that computer science does not <quote>click</quote> with all
-  students, I reward effort as well as outcome.  Hence, students who make a
-  <quote>good faith</quote> effort in this class will pass the class, with at least
-  a C+.   A good-faith effort includes missing no more than two classes,
-  turning in every homework assignment, and spending the requisite time
+  <emphasis role="strong">Good-Faith Grade Guarantee</emphasis>: Because
+  I realize that computer science does not <quote>click</quote> with
+  all students, I reward effort as well as outcome.  Hence, students
+  who make a <quote>good faith</quote> effort in this class will pass
+  the class, with at least a C+.   A good-faith effort includes missing
+  no more than two classes, turning in every homework assignment and at
+  least 95% of the laboratory writeups, and spending the requisite time
   on each examination.
 </para>
 
@@ -177,9 +178,9 @@
   along with some locally written extensions.  It will be hard to
   run the software outside of the Computer Science department's
   network (or the Math/Stats department's network).  We recommend
-  that you work in our labs for the ability to get help.
-  If you must work remotely, we recommend that you use <ulink
-  url="http://www.cs.grinnell.edu/vnc">VNC</ulink>.
+  that you work in our labs for the ability to get help.  Since some
+  students have reasons to work away from our lab, we also provide a
+  virtual machine that you can run on most computer.
 </para>
 
 <para>
@@ -226,8 +227,8 @@
 </blockquote>
 
 <para>
-  Rebelsky, Samuel (2013).
-  <ulink url="index.html">The CS151.02 2013F Course Web</ulink>.
+  Rebelsky, Samuel (2014).
+  <ulink url="index.html">The CS151.02 2014S Course Web</ulink>.
 </para>
 
 <blockquote>
@@ -239,8 +240,8 @@
 </blockquote>
 
 <para>
-  Davis, Janet (2013)
-  <ulink url="http://www.cs.grinnell.edu/~davisjan/csc/151/2013F/">The CSC 151.01 2013F Course Web</ulink>.
+  Weinman, Jerod (2014)
+  <ulink url="http://www.cs.grinnell.edu/~weinman/courses/CSC151/2014S/">The CSC 151.01 2014S Course Web</ulink>.
 </para>
 
 <blockquote>
