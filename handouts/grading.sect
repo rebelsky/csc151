@@ -46,7 +46,7 @@
 
 </section>  <!-- late -->
 
-<section id="participation"><title>Class Participation</title>
+<section id="participation"><title>Class Participation and Attendance</title>
 
 <para>
   As I suggest in <ulink url="teaching.html">my statement on teaching
@@ -55,16 +55,28 @@
   here, you can't participate.  Hence, a portion of your grade is based on
   participation and attendance.  Students who miss no more than two classes
   and who regularly answer questions or make comments in class receive 90
-  for participation.  Missing 3-5 classes results in a 10 point penalty.
-  Missing 6-8 classes results in a 25 point penalty.  Missing 9 or more
-  classes results in a 50 point penalty.  Particularly good answers,
+  for participation.  Missing 3-5 classes results in a 20 point penalty.
+  Missing 6-8 classes results in a 40 point penalty.  Missing 9 or more
+  classes results in a 60 point penalty.  Particularly good answers,
   comments, and questions result in bonus points for participation.
 </para>
 
 <para>
-  <emphasis>Because I do not want you to come to class when you are ill (and
-  likely to infect others), I am likely to moderate this grading scheme
-  for illness.</emphasis>
+  <emphasis>Because I do not want you to come to class when you are ill
+  (and likely to infect others), I do not count absences due to illness
+  as absences.</emphasis> I also realize that there are other exceptional
+  circumstances, such as academic and athletic responsibilities that call
+  you away from Grinnell.  With appropriate notification, such absences
+  are not included in the computation above.
+</para>
+
+<para>
+  If you miss class for any reason, you are responsible for notifying me
+  about the reason for that absence.  I would prefer that you notify me
+  before you miss class.  If that is not possible, you should notify me
+  by 5 p.m. on the day that you missed class.  With very few exceptions,
+  With very few exceptions, I will not excuse an absence if you do not
+  notify me of the reason for your absence within this time frame.
 </para>
 
 </section>  <!-- participation -->
@@ -137,10 +149,12 @@
 </para>
 
 <para>
-  To encourage you to think carefully about the material, for many labs
+  To encourage you to think carefully about the material, for most labs
   I will ask you to write up one or two exercises and submit them for
   review.  I will do my best to let you know which exercises to write up,
-  and will also post them on the course web site.
+  and will also post them on the course web site, both on the 
+  <ulink url="../handouts/schedule.html">schedule</ulink> and the
+  <ulink url="../labs/index.html">list of labs</ulink>.
 </para>
 
 <para>
@@ -162,22 +176,37 @@
 </para>
 
 <para>
-  Send your lab writeup to <email>grader-151-02@cs.grinnell.edu</email>. 
+  Send your lab writeup to <email>grader-151-02@cs.grinnell.edu</email>.
   That email address goes to me and to your grader (who I prefer remain
-  anonymous).  The subject of the email should take the form
-  <quote>CSC 151 Lab: <emphasis>Title of Lab</emphasis></quote>.
+  anonymous).  The subject of the email should take the form <quote>CSC
+  151 Writeup <emphasis>#</emphasis>: <emphasis>Title of Lab</emphasis>
+  (<emphasis>Your Last Names Here</emphasis>)</quote>.  For example,
+  if I were to write up the laboratory on numeric values, I would use a
+  subject of <quote>CSC 151 Writeup 2: Numeric Values (Rebelsky)</quote>.
 </para>
 
 <para>
-  Lab writeups are graded with an acceptable/unacceptable binary.  Your
-  write is acceptable if it includes a solution or evidence of serious
-  effort for each assigned exercise.  Your writeup is unacceptable if
-  it was not turned in or if there was no evidence of reasonable effort.
-  If you were not able to complete an exercise because of its difficulty,
-  your work is still acceptable if you explain where you got stuck and
-  come talk to me to get help.  So, in case it's not clear,
-  <emphasis>every diligent student will earn full credit for lab
-  writeups</emphasis>.
+  Lab writeups are graded with an acceptable/unacceptable binary.
+  Your write is acceptable if it includes a solution or evidence of
+  serious effort for each assigned exercise.  Your writeup is unacceptable
+  if it was not turned in, if there was no evidence of reasonable effort,
+  of if your answer is incorrect and you do not note that you realize
+  it is incorrect.  If you were not able to complete an exercise because
+  of its difficulty, your work is still acceptable if you explain where
+  you got stuck and come talk to me to get help.  So, in case it's not
+  clear, <emphasis>every diligent student will earn full credit for
+  lab writeups</emphasis>.
+</para>
+
+<para>
+  Lab writeups are due at the start of the first class that comes more
+  than a day after the lab is held.  Writeups for Monday labs are due
+  at the start of class on Wednesday. Writeups for Tuesday labs are due
+  at the start of class on Friday.  Writeups for Wednesday labs are also
+  due at the start of class on Friday.  Writeups for Friday labs are
+  due at the start of class on Monday.  You are, of course, encouraged
+  to do your writeups sooner than that, since many labs build upon the
+  previous day's lab.
 </para>
 
 </section> <!-- lab-writeups -->
