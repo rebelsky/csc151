@@ -4,7 +4,7 @@
 #   Create the outline for date NN. 
 #
 # Note: 
-#   Requires that ../resources/subjects.ent exist and contain an
+#   Requires that ../resources/subjects.ent exists and contain an
 #   entity for abbrevNN
 
 # +---------+---------------------------------------------------------
@@ -28,7 +28,7 @@ my $calendar = "../resources/calendar.ent";
 my $PREFIX;
 
 # $ADMIN - The file that contains the administrivia
-my $ADMIN = "admin/admin.$NN.md";
+my $ADMIN = "admin/$NN.md";
 
 # +------+------------------------------------------------------------
 # | Main |
@@ -84,7 +84,8 @@ my $post = "**";
 
 # The three introductory things: Summary, list of related topics, overview
 includeMDFile("summaries/$PREFIX.md", "${pre}Summary${post}");
-includeMDFile("related/related.$NN.md", "${pre}Related Pages${post}");
+includeMDFile("related/$PREFIX.md", "${pre}Related Pages${post}");
+includeMDFile("related/$NN.md", "");
 includeMDFile("overviews/$PREFIX.md", "${pre}Overview${post}");
 
 # Daily notes/administrivia.
@@ -119,10 +120,9 @@ sub includeMDFile()
   my $prelim = shift;
   print STDERR "Including '$file'\n";
   if ("$prelim") {
-    print "$prelim\n\n";
+    print "\n$prelim\n\n";
   }
   print readFile($file);
-  print "\n";
 } # includeMDFile
     
 # lookupEntity(entity,file)
