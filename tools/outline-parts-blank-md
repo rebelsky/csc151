@@ -4,28 +4,36 @@
 #   Make empty parts of an outline.
 
 my $prefix = shift;
+my $num;
 # If it's a number, get the real prefix
 if ($prefix =~ m/[0-9][0-9]/) {
-  $prefix = `grep "abbrev$prefix" ../resources/subjects.ent`;
+  $num = $prefix;
+  $prefix = `grep "abbrev$num" ../resources/subjects.ent`;
   chomp($prefix);
   $prefix =~ s/^[^"]*"//;
   $prefix =~ s/".*$//;
 }
+# If it's not a number
+else {
+  $num = `grep "\"$prefix\"" ../resources/subjects.ent | grep abbrev`;
+  chomp($num);
+  $num =~ s/^.*abbrev//;
+  $num =~ s/ .*$//;
+} # if it's a prefix
 
-$file = "summaries/$prefix.md";
-if (! -f "$file") {
-  print STDERR "Creating $file\n";
-  system("touch $file");
-}
+print STDERR "Prefix: '$prefix', Num: '$num'\n";
 
-my $file = "overviews/$prefix.md";
-if (! -f "$file") {
-  print STDERR "Creating $file\n";
-  system("touch $file");
-}
+checkfile("summaries/$prefix.md");
+checkfile("overviews/$prefix.md");
+checkfile("bodies/$prefix.md");
+checkfile("admin/$num.md");
+checkfile("related/$num.md");
+checkfile("related/$prefix.md");
 
-my $file = "bodies/$prefix.md";
-if (! -f "$file") {
-  print STDERR "Creating $file\n";
-  system("touch $file");
-}
+sub checkfile($) {
+  my $file = shift;
+  if (! -f "$file") {
+    print STDERR "Creating $file\n";
+    system("touch $file");
+  } # if file does not exist
+} # checkfile

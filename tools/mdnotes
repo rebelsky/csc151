@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
-# mdoutline NN 
-#   Create the outline for date NN. 
+# mdnotes PREFIX SUBJECT
+#   Create the notes (not quite an outline) for the given subject.
 #
 # Note: 
 #   Requires that ../resources/subjects.ent exists and contain an
@@ -11,73 +11,20 @@
 # | Globals |
 # +---------+
 
-# $NN - The number of the outline (taken from the command line)
-my $NN = shift;
-$NN = twoDigits($NN);
-
-# $subjects - The file that stores the entites for the daily subjects.
-my $subjects = "../resources/subjects.ent";
-
-# $dates - The file that stores the list of dates
-my $dates = "../resources/dates.ent";
-
-# calendar - The file that stores the calendar
-my $calendar = "../resources/calendar.ent";
-
 # $PREFIX - The prefix used for all the files for this day
-my $PREFIX;
+my $PREFIX = shift;
 
-# $ADMIN - The file that contains the administrivia
-my $ADMIN = "admin/$NN.md";
+# $SUBJECT - The subject of the notes
+my $SUBJECT = shift;
 
 # +------+------------------------------------------------------------
 # | Main |
 # +------+
 
-# Sanity check
-if (! -f $subjects) {
-  print STDERR "Could not find $subjects\n";
-  exit 1;
-}
-
-# Grab the prefix
-$PREFIX = lookupEntity("abbrev$NN", $subjects);
-if (! $PREFIX) {
-  print STDERR "Could not find abbreviation for $NN in $subjects.\n";
-  exit 1;
-}
-
-# Grab the title of the page
-$title = lookupEntity("title$NN", $subjects);
-
-# Grab the date of the class
-$date = lookupClassDate($NN);
-
-# Make the various parts of the page
-system("../tools/outline-parts-md $PREFIX");
-
-# Create the administrative and related items components (if it doesn't exist)
-system("touch $ADMIN");
-system("touch related/related.$NN.md");
-
 # Print the start of the page
-print "Outline $NN: $title\n";
-printN("=", length("Outline $NN: $title"));
+print "Notes on $SUBJECT\n";
+printN("=", length("Notes on $SUBJECT\n"));
 print ("\n");
-print ("\nHeld: $date\n\n");
-
-# Print links to the previous and next pages
-my $prev = twoDigits($NN - 1);
-my $next = twoDigits($NN + 1);
-my $prevtitle = lookupEntity("title$prev", $subjects);
-my $nexttitle = lookupEntity("title$next", $subjects);
-if ($prevtitle) { 
-  print "Back to [Outline $prev - $prevtitle](outline.$prev.html).\n";
-}
-if ($nexttitle) { 
-  print "On to [Outline $next - $nexttitle](outline.$next.html).\n";
-}
-print "\n";
 
 my $pre = "**";
 my $post = "**";
@@ -85,11 +32,7 @@ my $post = "**";
 # The three introductory things: Summary, list of related topics, overview
 includeMDFile("summaries/$PREFIX.md", "${pre}Summary${post}");
 includeMDFile("related/$PREFIX.md", "${pre}Related Pages${post}");
-includeMDFile("related/$NN.md", "");
 includeMDFile("overviews/$PREFIX.md", "${pre}Overview${post}");
-
-# Daily notes/administrivia.
-includeMDFile($ADMIN, "${pre}Administrivia${post}");
 
 # And the body
 includeOptionalMDFile("bodies/$PREFIX.md");

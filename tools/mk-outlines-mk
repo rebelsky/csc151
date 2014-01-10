@@ -20,8 +20,9 @@ default: outline.$num.md outline.$num.html
 outline.$num.md: summaries/$value.md \\
         overviews/$value.md \\
         bodies/$value.md \\
-        related/related.$num.md \\
-        admin/admin.$num.md
+        related/$value.md \\
+        related/$num.md \\
+        admin/$num.md
 ENTRY
 } # while
 

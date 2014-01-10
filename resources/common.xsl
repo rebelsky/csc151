@@ -81,4 +81,9 @@
   <div class="noprint"><xsl:apply-templates/></div>
 </xsl:template>
 
+<!-- Hard breaks (a hack; requires appropriate CSS) -->
+<xsl:template match="break">
+  <span class="break"><xsl:apply-templates/></span>
+</xsl:template>
+
 </xsl:stylesheet>
