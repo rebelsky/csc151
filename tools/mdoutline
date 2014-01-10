@@ -58,7 +58,7 @@ system("../tools/outline-parts-md $PREFIX");
 
 # Create the administrative and related items components (if it doesn't exist)
 system("touch $ADMIN");
-system("touch related/related.$NN.md");
+system("touch related/$NN.md");
 
 # Print the start of the page
 print "Outline $NN: $title\n";
