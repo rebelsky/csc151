@@ -20,7 +20,8 @@ my $WEEK = 0;
 # | Main |
 # +------+
 
-my $type = shift;
+my $type = shift;       # The type of schedule
+my $i;                  # Everyone's favorite counter variable
 
 if ($type eq "mtwf-fall") {
   top();
@@ -44,21 +45,13 @@ if ($type eq "mtwf-fall") {
 }
 elsif ($type eq "mtwf-spring") {
   top();
-  week(); day(); day(); day(); day(); 
-  week(); day(); day(); day(); day(); 
-  week(); day(); day(); day(); day(); 
-  week(); day(); day(); day(); day(); 
-  week(); day(); day(); day(); day(); 
-  week(); day(); day(); day(); day(); 
-  week(); day(); day(); day(); day(); 
-  week(); day(); day(); day(); day(); 
+  for ($i = 0; $i < 8; $i++) {
+    week(); day(); day(); day(); day(); 
+  } # for
   break("Spring Break");
-  week(); day(); day(); day(); day(); 
-  week(); day(); day(); day(); day(); 
-  week(); day(); day(); day(); day(); 
-  week(); day(); day(); day(); day();
-  week(); day(); day(); day(); day(); 
-  week(); day(); day(); day(); day(); 
+  for ($i = 0; $i < 6; $i++) {
+    week(); day(); day(); day(); day(); 
+  } # for
   bottom();
 }
 elsif ($type eq "lfa-fall") {
