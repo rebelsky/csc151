@@ -176,9 +176,9 @@ print <<"HEADINGS";
   <tr>
     <th></th>
     <th>Date</th>
-    <th>Topic</th>
-    <th>Reading</th>
-    <th>Lab</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
 HEADINGS
