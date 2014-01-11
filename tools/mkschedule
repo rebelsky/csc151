@@ -173,16 +173,14 @@ sub twoDigits(n)
 sub headings() 
 {
 print <<"HEADINGS";
-  <thead>
-    <tr>
-      <th></th>
-      <th>Date</th>
-      <th>Topic</th>
-      <th>Reading</th>
-      <th>Lab</th>
-      <th>Work Due</th>
-    </tr>
-  </thead>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th>Topic</th>
+    <th>Reading</th>
+    <th>Lab</th>
+    <th>Work Due</th>
+  </tr>
 HEADINGS
 } # headings
 
