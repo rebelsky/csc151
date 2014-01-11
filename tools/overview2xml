@@ -7,6 +7,7 @@
 
 my $contents = readFile($ARGV[0]);
 $contents =~ s/^\* //gm;
+$contents =~ s/`([^`]*)`/<code>\1<\/code>/gm;
 
 print "<overview>\n$contents<\/overview>\n";
 
