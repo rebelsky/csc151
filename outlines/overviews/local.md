@@ -1,5 +1,4 @@
 * Why name things.
-* Naming things with <code>let</code>.
-* Naming things with <code>let*</code>.
+* Naming things with `let`.
+* Naming things with `let*`.
 * Naming procedures.
-* Lab.

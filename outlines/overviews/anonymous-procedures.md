@@ -3,4 +3,3 @@
 * Anonymous procedures.
 * Anonymous procedures through lambda expressions.
 * Other kinds of anonymous procedures.
-* Lab.

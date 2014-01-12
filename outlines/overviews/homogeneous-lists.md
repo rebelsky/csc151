@@ -1,5 +1,4 @@
-* Context: What and Why Lists?
-* Building Lists.
-* Mapping Lists.
-* Other List Operations.
-* Lab.
+* Context: What and why lists?
+* Building lists.
+* Mapping lists.
+* Other list operations.

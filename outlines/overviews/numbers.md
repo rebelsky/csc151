@@ -1,4 +1,3 @@
-* Values and Types.
-* Lab.
-* Kinds of Numbers.
-* The Modulo operation.
+* Values and types.
+* Kinds of numbers.
+* The modulo operation.

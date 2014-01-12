@@ -1,5 +1,3 @@
-* Lab.
-* Reflection.
-* Why use programming languages? (Optional).
-* Scheme history (Optional).
-* Scheme basics (Optional).
+* Why use programming languages? (optional).
+* Scheme history (optional).
+* Scheme basics (optional).
