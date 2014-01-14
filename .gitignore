@@ -55,15 +55,20 @@ forks/*
 # | Fork-Specific Rules |
 # +---------------------+
 
+# We don't care about mediascheme, since it's a separate repository.
 mediascheme
+
+# I'm not sure why we're ignoring these, but ok
 reference/common.xsl
 reference/stylesheet.xsl
 reference/custom.ent
 
+# Most of the outlines are automatically generated.
 outlines/outline.*.md
 outlines/outlines.mk
 outlines/notes.*.md
 
+# Parterns should not be public
 partners
 !partners/Makefile
 !partners/group.ent
@@ -71,5 +76,8 @@ partners
 !partners/index.sect
 !partners/.htaccess
 
+# Soft links to other courses
 generic
 2013F
+
+
