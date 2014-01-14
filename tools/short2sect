@@ -1,0 +1,31 @@
+#!/usr/bin/perl
+
+# short2sect file.short;
+#   Convert one of the short entries to a list
+
+my $file = shift;
+my $prefix = $file;
+$prefix =~ s/.short//;
+my $title = `grep '<function>' $file | head -1`;
+chomp($title);
+$title =~ s/^.*<function>//;
+$title =~ s/<\/function>.*$//;
+# print "Prefix: '$prefix'\n";
+# print "Title: '$title'\n";
+
+print <<"TOP";
+<section id="$prefix"><title><function>$title</function></title>
+<variablelist>
+TOP
+
+open(FILE, "< $file");
+while (<FILE>) {
+  print $_;
+}
+close(FILE);
+
+print <<"BOTTOM";
+</variablelist>
+</section>
+BOTTOM
+

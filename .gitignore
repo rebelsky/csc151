@@ -68,7 +68,7 @@ outlines/outline.*.md
 outlines/outlines.mk
 outlines/notes.*.md
 
-# Parterns should not be public
+# Partners should not be public
 partners
 !partners/Makefile
 !partners/group.ent
@@ -80,4 +80,28 @@ partners
 generic
 2013F
 
-
+# Lots of reference pages are now automagically generated.
+reference/*.sect
+!reference/a-z.sect
+!reference/char-reference.sect
+!reference/conditionals-reference.sect
+!reference/context-reference.sect
+!reference/drawings-reference.sect
+!reference/file-reference.sect
+!reference/higher-order-reference.sect
+!reference/image-reference.sect
+!reference/index.sect
+!reference/iteration-reference.sect
+!reference/list-iteration-reference.sect
+!reference/list-reference.sect
+!reference/numbers-reference.sect
+!reference/point-reference.sect
+!reference/position-reference.sect
+!reference/reference.sect
+!reference/rgb-reference.sect
+!reference/run.sect
+!reference/setup.sect
+!reference/string-reference.sect
+!reference/turtle-reference.sect
+!reference/vbox.sect
+!reference/vector-reference.sect
