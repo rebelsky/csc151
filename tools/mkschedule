@@ -2,9 +2,11 @@
 
 # mkschedule TYPE
 #   Creates a schedule of a particular type
-#     mtwf-fall: Meets Monday, Tuesday, Wednesday, and Friday in the fall
+#     mtwf-fall: A Monday, Tuesday, Wednesday, and Friday fall lab class.
 #     lfa-fall: Learning from Alumni in the Fall (one day per week)
-#     mtwf-spring: Meets Monday, Tuesday, Wednesday, and Friday in the spring
+#     mtwf-spring: A Monday, Tuesday, Wednesday, and Friday spring lab class.
+#     th-spring: Meets Thursday in the spring
+#     mwf-spring: A MWF spring class (no labs)
 
 # +-----------+-------------------------------------------------------
 # | Variables |
@@ -69,6 +71,13 @@ elsif ($type eq "th-spring") {
   print "</tbody>\n";
   bottom();
 } # th-spring
+elsif ($type eq "mwf-spring") {
+  mwfTop();
+  mwfWeeks(8);
+  break("Spring Break");
+  mwfWeeks(6);
+  mwfBottom();
+} # mwf-spring
 elsif ($type eq "lfa-fall") {
   lfaTop();
   lfaDay(); lfaDay(); lfaDay(); lfaDay();
@@ -85,9 +94,10 @@ else {
   print STDERR "   lfa-fall: The Learning from Alumni Fall Course.\n";
   print STDERR "   mtwf-fall: A MTuWF Fall lab class.\n";
   print STDERR "   mtwf-spring: A MTuWF Spring lab class.\n";
+  print STDERR "   mwf-spring: A MWF Spring class.\n";
+  print STDERR "   th-spring: A Thursday-only Spring class.\n";
   exit 1;
 }
-
 # +-------------+-----------------------------------------------------
 # | Subroutines |
 # +-------------+
@@ -208,7 +218,7 @@ DAY
 
 # twoDigits(n)
 #   Print an integer value with two digits.
-sub twoDigits(n)
+sub twoDigits($)
 {
   my $val = shift;
   $val = $val + 0;
@@ -217,7 +227,7 @@ sub twoDigits(n)
 }
 
 # headings()
-#   Prints the standard headings.
+#   Prints the mwf headings.
 sub headings() 
 {
 print <<"HEADINGS";
@@ -291,3 +301,127 @@ sub bottom()
 </section> <!-- schedule -->
 BOTTOM
 } # bottom
+
+# +---------------------+---------------------------------------------
+# | Fun with MWF clases |
+# +---------------------+
+
+# mwfTop()
+#   Print the text at the top of MWF class
+sub mwfTop()
+{
+  print <<"TOP";
+<section id="schedule"><title>Schedule</title>
+
+<para>
+  <emphasis>This is an <emphasis type="strong">approximate</emphasis>
+  schedule.  Expect dates and topics to change.  (I will try to keep
+  due dates the same.)</emphasis>
+</para>
+
+<para>
+  Some of the information here can also be found in
+  <ulink url="&gcal;">the Google calendar for the course</ulink>, which
+  is available at &lt;<ulink url="&gcal;"/>&gt;.
+</para>
+
+<table class="schedule">
+  <thead>
+    <tr>
+      <th width="33%">Monday</th>
+      <th width="33%">Wednesday</th>
+      <th width="33%">Friday</th>
+    </tr>
+  </thead>
+  <tbody>
+TOP
+} # mwfTop()
+
+# mwfBottom()
+#   Print the text at the bottom of the page
+sub mwfBottom()
+{
+  print <<"BOTTOM";
+    </tbody>
+</table>
+
+</section> <!-- schedule -->
+BOTTOM
+} # mwfBottom
+
+# mwfDay()
+#   Prints the next day in a MWF class.
+#   Note: Uses global variable $DAY
+sub mwfDay()
+{
+  $DAY++;
+  $DAY = twoDigits($DAY);
+  print<<"DAY";
+      <td>
+        ($DAY)
+        &date$DAY;
+        <daytitle>
+          <ulink url="../outlines/outline.$DAY.html"><emphasis role="strong">&title$DAY;</emphasis></ulink>
+        </daytitle>
+        <xi:include href="overviews/&abbrev$DAY;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+      </td>
+DAY
+} # mwfDay()
+
+# mwfWeek()
+#   Prints the header for one week of a MWF class.
+sub mwfWeek()
+{
+  $WEEK++;
+  $WEEK = twoDigits($WEEK);
+  print<<"WEEK";
+
+    <tr class="week">
+      <th colspan="3">
+        Week $WEEK: &week$WEEK;
+      </th>
+    </tr>
+WEEK
+} # mwfWeek
+
+# mwfWeeks(N)
+#   Print N weeks of class
+sub mwfWeeks($)
+{
+  my $n = shift;
+  my $i;
+  for ($i = 0; $i < $n; $i++) {
+    mwfWeek();
+    print "    <tr>\n";
+    mwfDay();
+    mwfDay();
+    mwfDay();
+    print "    </tr>\n";
+  } # for
+} # mwfWeeks
+
+# mwfWeekF()
+#   Print a mwfWeek that has only Friday.  Typically used for the
+#   first week of fall courses.
+sub mwfWeekF()
+{
+  mwfWeek();
+  print "    <tr>\n";
+  print "      <td></td>\n";
+  print "      <td></td>\n";
+  mwfDay();
+  print "    </tr>\n";
+} # mwfWeekF
+
+# mwfWeekMW()
+#   Print a mwfWeek that has no Friday.  Typically used for Thanksgiving
+#   break.
+sub mwfWeekF()
+{
+  mwfWeek();
+  print "    <tr>\n";
+  mwfDay();
+  mwfDay();
+  print "      <td></td>\n";
+  print "    </tr>\n";
+} # mwfWeekF
