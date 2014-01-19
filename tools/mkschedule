@@ -7,6 +7,7 @@
 #     mtwf-spring: A Monday, Tuesday, Wednesday, and Friday spring lab class.
 #     th-spring: Meets Thursday in the spring
 #     mwf-spring: A MWF spring class (no labs)
+#     mwf-spring-notes: A MWF spring class (no labs, note takers)
 
 # +-----------+-------------------------------------------------------
 # | Variables |
@@ -18,6 +19,9 @@ my $DAY = 0;
 # The current week of the course
 my $WEEK = 0;
 
+# Are we including note takers
+my $NOTETAKERS = 0;
+
 # +------+------------------------------------------------------------
 # | Main |
 # +------+
@@ -25,6 +29,12 @@ my $WEEK = 0;
 my $type = shift;       # The type of schedule
 my $i;                  # Everyone's favorite counter variable
 
+# A quick hack to support notes
+if ($type =~ s/-notes$//) {
+  $NOTETAKERS = 1;
+}
+
+# Deal with the different kinds of classes
 if ($type eq "mtwf-fall") {
   top();
   print "<tbody>\n";
@@ -356,16 +366,23 @@ sub mwfDay()
 {
   $DAY++;
   $DAY = twoDigits($DAY);
-  print<<"DAY";
+  print<<"DAY_PART_1";
       <td>
         ($DAY)
         &date$DAY;
         <daytitle>
           <ulink url="../outlines/outline.$DAY.html"><emphasis role="strong">&title$DAY;</emphasis></ulink>
         </daytitle>
+DAY_PART_1
+  
+  if ($NOTETAKERS) {
+    print "        &notetakers$DAY;\n";
+  }
+
+  print<<"DAY_PART_2";
         <xi:include href="overviews/&abbrev$DAY;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
       </td>
-DAY
+DAY_PART_2
 } # mwfDay()
 
 # mwfWeek()
