@@ -51,9 +51,9 @@ if ($type eq "mtwf-fall") {
 elsif ($type eq "mtwf-spring") {
   top();
   print "<tbody>\n";
-  weeks(8,4,true);  
+  weeks(8,4,1);  
   break("Spring Break");
-  weeks(6,4,true);   
+  weeks(6,4,1);   
   print "</tbody>\n";
   bottom();
 } # mtwf-spring
