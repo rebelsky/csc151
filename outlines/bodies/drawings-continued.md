@@ -18,15 +18,14 @@ some things I noticed.
 
 * For example
 
-        (define bigger-circle (drawing-scale drawing-unit-circle 200))
-        (define bigger-red-circle (drawing-recolor bigger-circle "red"))
+        (define bigger-circle (scale-drawing 200 drawing-unit-circle))
+        (define bigger-red-circle (recolor-drawing "red" bigger-circle))
 
 * Sometimes, we want to nest these so that we don't have to do so many
   define operations
 
         (define bigger-red-circle 
-          (drawing-recolor (drawing-scale drawing-unit-circle 200)
-                           "red"))
+          (recolor-drawing "red" (scale-drawing 200 drawing-unit-circle)))
 
 * Note that the operations *do not change* the underlying drawing.  They
   are similar to

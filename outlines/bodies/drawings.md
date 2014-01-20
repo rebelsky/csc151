@@ -22,11 +22,11 @@ Drawings
     * These are values, not procedures.
 * We add a few operations (procedures)
     * Scaling
-        * If `d` is a drawing, `(drawing-scale d amt)` is a drawing
+        * If `d` is a drawing, `(scale-drawing amt d)` is a drawing
     * Shifting
-        * If `d` is a drawing, `(drawing-hshift d amt)` is a drawing
+        * If `d` is a drawing, `(hshift-drawing amt d)` is a drawing
     * Recoloring
-        * If `d` is a drawing, `(drawing-recolor d red)` is a drawing
+        * If `d` is a drawing, `(recolor-drawing red d)` is a drawing
     * Grouping
         * If `d1` and `d2` are drawings, so is `(drawing-group d1 d2)`
 * Once we've described a drawing, we can view it with
