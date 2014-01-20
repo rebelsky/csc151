@@ -10,4 +10,4 @@
 <!ENTITY syllabus "../handouts/schedule.html">
 <!ENTITY proftitle "Professor Rebelsky">
 <!ENTITY profpic "/home/rebelsky/glimmer/samples/rebelsky-stalkernet.jpg">
-<!ENTITY gcal "CALENDAR">
+<!ENTITY gcal "http://bit.ly/151gcal">
