@@ -98,6 +98,18 @@
   </listitem>
 
   <listitem>
+    My short notes on email, available at
+    <code><ulink url="&url;handouts/email.html"/></code>.
+  </listitem>
+
+  <listitem>
+    My answers to any questions students have already asked about the
+    course, available at
+    <code><ulink url="&url;handouts/faq.html"/></code>.
+    (You should see this page change over the next few days.)
+  </listitem>
+
+  <listitem>
     Anything else that you think would be valuable to read (or that
     you think I would find it valuable for you to read).
   </listitem>
@@ -210,12 +222,7 @@
 
   <listitem>
     <emphasis>Optional</emphasis>: Where can I find your <ulink
-    url="../handouts/email.html">PGP key</ulink>?
-  </listitem>
-
-  <listitem>
-    <emphasis>Optional</emphasis>: What's your <ulink
-    url="../handouts/irc.html">IRC username on freenet</ulink>?
+    url="../handouts/email.html">PGP key</ulink>?  
   </listitem>
 
   <listitem>
@@ -313,10 +320,10 @@
 <para>
   Please submit this work via two separate email messages to
   <email>rebelsky@grinnell.edu</email>.  The first should have
-  a title of <quote>CSC 151.02 Course Details (<emphasis>Your
-  Name</emphasis>)</quote> and should contain your answers to the first
-  part of this assignment.  The second should have a title of <quote>CSC
-  151.02 Survey Answers (<emphasis>Your Name</emphasis>)</quote> and
+  a subject of <quote>CSC 151.02 Course Details (<emphasis>*Your
+  Name*</emphasis>)</quote> and should contain your answers to the first
+  part of this assignment.  The second should have a subject of <quote>CSC
+  151.02 Survey Answers (<emphasis>*Your Name*</emphasis>)</quote> and
   should contain your answers to the second part of this assignment.
   For example, if I were to submit answers to the first set of
   questions, it would be titled <quote>CSC 151.02 Course Details (Samuel
