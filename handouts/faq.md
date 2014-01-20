@@ -1,34 +1,10 @@
 Frequently (and not-so-frequently) Asked Questions
 ==================================================
 
-Note that there may be some repetition on this page, as different questions
-sometimes require similar responses.
+These are my attempts to answer some questions that students have asked
+(in the first assignment, in office hours, via email, etc.)
 
-About the Site
---------------
-
-_The daily eboards look much nicer than what you type in class.  How
-do I see what you type in class?_
-
-> Replace the `.html` at the end with `.md`.
-
-_What technology do you use to build the course web?_
-
-> I use two markup languages.  For many of the pages (e.g., readings,
-labs) I use a form of XML called Docbook.  But Docbook is wordy, so
-for other pages (e.g., the daily outlines and eboards), I use
-Markdown.  I also have a bunch of scripts to help with all of this.
-You can find the scripts and source code on github.
-
-> If you want to see the "source code" for a Web page, try replacing
-the `.html` with `.md` or `.sect`.  (You may have to try both, what
-I use varies.)
-
-_Just to be sure, how am I supposed to figure out when assignments are due?_
-
-> You can remember that almost all assignments are due Tuesday at 
-10:30 p.m.  (But not all of them.)  I'd recommend checking the
-course schedule, which lists all of the kinds of assignments.
+Note that there may be some repetition on this page.
 
 About the Course
 ----------------
@@ -69,9 +45,10 @@ ideas.
 _Is the late policy the same for take-home exams as it is for assignments?_
 
 > It's similar.  I expect exams in on time.  I expect you to start them
-early.  But I understand that students get sick or that unexpected things
-come up.  I'll admit that I don't recall a student ever turning an exam
-in late.
+early.  But I understand that students get sick or that unexpected
+things come up.  In all such cases, you have a responsibility to notify
+me if you will not be able to get the work in on time.  I'll admit that
+I don't recall a student ever turning an exam in late.
 
 _Can I eat small snacks (e.g., carrots, muffins) during class?_
 
@@ -79,27 +56,25 @@ _Can I eat small snacks (e.g., carrots, muffins) during class?_
 
 _Is there a way to use a personal computer for the work in this course?_
 
-> Option 1: Connect to one of our computers using
-[VNC](http://www.cs.grinnell.edu/vnc).  Option 2: Install Linux on
-your personal computer (probably using Virtual Box) and then download,
-compile, and install the course software.  Option 3: Wait a few weeks,
-and we'll probably provide a Virtual Box image for you to use.
+> After the first week or two, we will provide you with a virtual computer 
+for you to use with Virtual Box.
 
-_Please explain the phrase "Each category is capped at 1.5 points."_
+_Please explain the two units of extra credit.
 
-> 1/2 point per lecture.  Three lectures is 1.5 points.  More than three
-lectures is also 1.5 points.  1/2 point per "support your classmate"
-events.  Three such events is 1.5 points.  More than three such events is
-also 1.5 points.  (The points are on 100 point scale.  So if you have an
-87 average in my class at the end of the semester and have attended and
-sent paragraphs about three lectures and three "support your classmates"
-events, your grade will then be a 90, which is traditionally an A-.)
+> I give you one unit (1/4 point) per activity.  You can attend some
+specified academic events.  You can attend some of your classmates'
+activities.  I cap each category at four activities.  So, if you attend
+four events in two categories, you get two points of extra credit.
+The points are on a 100-point scale.  For example, if you have an 88 at
+the end of the semeseter and do all of the extra credit, you'll end up
+with a 90, effectively moving your grade from a B+ to an A-.
 
 _What's the typical grade spread in this course?_
 
 > I do not report grade spreads.
 
-_Are there any good online resources that you recommend that might supplement my understanding of what I am learning in class?_
+_Are there any good online resources that you recommend that might
+supplement my understanding of what I am learning in class?
 
 > The front door has a link to some general materials about Scheme
 and Racket.  But our course is unique enough that the best resources
@@ -108,13 +83,13 @@ are probably people.
 About the Professor (i.e., About SamR)
 --------------------------------------
 
-_When/how can I find you on IRC?_
+_It looks like you're teaching five or six courses in spring 2014.  Is that
+really true?
 
-> I tend to keep an IRC client running on my computer at all times.
-IRC protocol suggests that I should mark myself as afk (away from
-keyboard) when I leave the computer, but I'm bad at doing that.
-If you message me (type my username) and I'm at my computer, I'll
-get a notification and will try to respond quickly.
+> In addition to three four-credit courses, I'm teaching two one-credit
+courses and supervising an independent study.  I have over 100 students
+this semester, and each of my four-credit courses has daily homework.
+It's going to be a busy semester.
 
 _How did you get into computer science?_
 
@@ -253,6 +228,33 @@ course web, should I cite the course web?_
 web site, and so one could argue that such citations are unnecessary.
 Nonetheless, in an ideal world, you would provide a clear citation as
 to where you found each piece of information.
+
+About the Site
+--------------
+
+_The daily eboards look much nicer than what you type in class.  How
+do I see what you type in class?_
+
+> Replace the `.html` at the end with `.md`.
+
+_What technology do you use to build the course web?_
+
+> I use two markup languages.  For many of the pages (e.g., readings,
+labs) I use a form of XML called Docbook.  But Docbook is wordy, so
+for other pages (e.g., the daily outlines and eboards), I use
+Markdown.  I also have a bunch of scripts to help with all of this.
+You can find the scripts and source code on github.
+
+> If you want to see the "source code" for a Web page, try replacing
+the `.html` with `.md` or `.sect`.  (You may have to try both, what
+I use varies.)
+
+_Just to be sure, how am I supposed to figure out when assignments are due?_
+
+> You can remember that almost all assignments are due Tuesday at 
+10:30 p.m.  (But not all of them.)  I'd recommend checking the
+course schedule, which lists all of the kinds of assignments.  I
+will also try to put major assignments on the Google calendar.
 
 About Other Things
 ------------------
