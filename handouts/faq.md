@@ -120,12 +120,14 @@ by looking at my office.
 
 _What are your favorite board games?_
 
-Mostly ones that few people have heard of (well, two of this board
+Mostly ones that few people have heard of (well, two of these board
 gamers know, but not many other people): Cosmic Encounter. Yacht Race,
 Carcasonne, Circus Maximus.  But I play a lot of different games.
-The Rebelskys have been playing a lot of Ticket to Ride lately, with
-the occasional game of Anomia to break things up.  I'd like to play more
-Roborally, but there's rarely time.
+The current fave in the Rebelsky household is "Apples Against Humanity":
+questions from Cards Against Humanity with answers from Apples to Apples.
+(The answers in Cards Against Humanity are not suitable for children or,
+well, anyone.)  My eldest would like us to play more Canasta.  I'd like
+to play more Roborally, but there's rarely time.
 
 _What is your favorite programming language? It may be easy to deny, but most people have a preference._
 
@@ -133,7 +135,7 @@ _What is your favorite programming language? It may be easy to deny, but most pe
 
 > I really love programming in C.  It's efficient, it requires understanding of the machine, and it's concise.
 
-> I love programming in Scheme about as much.  I don't think I've ever seen beautiful C code, but I can say that some Scheme code that one could really call beautiful.  (Okay, I think lots of map-reduce is beautiful.)
+> I love programming in Scheme about as much.  I don't think I've ever seen beautiful C code, but I can say that some Scheme code that one could really call beautiful.  (Okay, I think lots of map-reduce is beautiful.)  I play around a lot with the Mediascript code just for fun.
 
 > But when I need a quick text manipulation program, I hack it out in Perl.
 
