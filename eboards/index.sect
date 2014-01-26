@@ -2,7 +2,36 @@
 
 <itemizedlist>
   <listitem>
+    Class 4: <ulink url="eboard.04.html">&title04;</ulink> (&date04;)
+    <break/>
+    [<ulink url="eboard.04.md">Source 4</ulink>]
+    [<ulink url="eboard.04.html">HTML 4</ulink>]
+    [<ulink url="eboard.04.pdf">PDF 4</ulink>]
+  </listitem>
+  <listitem>
+    <ulink url="extra.01.html">Extra Session 1</ulink> (&thu01;)
+    <break/>
+    [<ulink url="extra.01.md">Source E1</ulink>]
+    [<ulink url="extra.01.html">HTML E1</ulink>]
+    [<ulink url="extra.01.pdf">PDF E1</ulink>]
+  </listitem>
+  <listitem>
+    Class 3: <ulink url="eboard.03.html">&title03;</ulink> (&date03;)
+    <break/>
+    [<ulink url="eboard.03.md">Source 3</ulink>]
+    [<ulink url="eboard.03.html">HTML 3</ulink>]
+    [<ulink url="eboard.03.pdf">PDF 3</ulink>]
+  </listitem>
+  <listitem>
+    Class 2: <ulink url="eboard.02.html">&title02;</ulink> (&date02;)
+    <break/>
+    [<ulink url="eboard.02.md">Source 2</ulink>]
+    [<ulink url="eboard.02.html">HTML 2</ulink>]
+    [<ulink url="eboard.02.pdf">PDF 2</ulink>]
+  </listitem>
+  <listitem>
     Class 1: <ulink url="eboard.01.html">&title01;</ulink> (&date01;)
+    <break/>
     [<ulink url="eboard.01.md">Source 1</ulink>]
     [<ulink url="eboard.01.html">HTML 1</ulink>]
     [<ulink url="eboard.01.pdf">PDF 1</ulink>]
