@@ -1,3 +1,3 @@
-* Why use programming languages? (optional).
-* Scheme history (optional).
-* Scheme basics (optional).
+* Why use programming languages? 
+* Scheme history.
+* Scheme basics.

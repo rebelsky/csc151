@@ -1,5 +1,5 @@
 Types
-=====
+-----
 
 * As you may have noted in your first experiments with Scheme, Scheme
   assigns *types* to variables.
@@ -28,13 +28,13 @@ Types
       can use the <code>string-append</code> operation on strings.
 
 Lab
-===
+---
 
 * Do [the lab on numeric values](../Labs/numeric-values-lab.html)
 * Be prepared to reflect.
 
 Scheme's Numeric Types
-======================
+----------------------
 
 * Instead of a general "numbers" type, Scheme provides a variety
   of kinds of numbers.
@@ -61,7 +61,7 @@ Scheme's Numeric Types
   <code>inexact?</code>.
 
 Modulo
-======
+------
 
 * The <code>mod</code> (modulo, modulus) operation is one of the trickier 
   operations we use in this class (and we use it a lot).

@@ -3,8 +3,8 @@ Reflections on Making Sandwiches
 
 *What else did you learn from the Nut Butter and Jelly exercise?*
 
-The Parts of an Algorithm
--------------------------
+The Components of an Algorithm
+------------------------------
 
 * As you may have noted, there are some common aspects to algorithms.
   That is, there are techniques that we use in many of the algorithms
@@ -119,8 +119,9 @@ Lab: Getting Started with Linux
 Administrative Issues
 ---------------------
 
-* I am not sure whether or not I will cover these topics in class.
-  They are included for your edification.*
+*I am unlikely to cover these issues in class today.  I include them in
+the outline mostly for your edification.*
+
 * Please refer to the [course web site](../home/) for more details.  
 * Teaching philosophy: I support your learning.
 * Policies
@@ -137,7 +138,7 @@ Administrative Issues
     * Every Friday, plus a few pop quizzes
 * The exams
     * Three take-home exams during the semester.  Plan to spend
-      four hours on each one.
+      four to five hours on each one.
     * An *optional* final to make up for a bad exam grade.
     * Take all three exams anyway.
 * The labs
