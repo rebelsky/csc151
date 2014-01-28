@@ -50,19 +50,19 @@
 <!ENTITY abbrev{$day} "drawings">
 <!ENTITY reading{$day} "<ulink url='../readings/drawings-reading.html'>Drawings as Values</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/drawings-lab.html'>Drawings as Values</ulink>">
-<!ENTITY writeup{$day} "">
-
-+day
-<!ENTITY title{$day} "Drawings as Values, Continued">
-<!ENTITY abbrev{$day} "drawings-continued">
-<!ENTITY reading{$day} "<ulink url='../readings/procedures-reading.html'>Writing Your Own Procedures</ulink>">
-<!ENTITY lab{$day} "<ulink url='../labs/drawings-lab.html'>Drawings as Values</ulink>">
 <!ENTITY writeup{$day} "Writeup {$writeup}: Exercise 4, parts a, c, d, f, and g">
-+writeup
 
 +day
 <!ENTITY title{$day} "Writing Your Own Procedures">
 <!ENTITY abbrev{$day} "procedures">
+<!ENTITY reading{$day} "<ulink url='../readings/procedures-reading.html'>Writing Your Own Procedures</ulink>">
+<!ENTITY lab{$day} "<ulink url='../labs/drawings-lab.html'>Drawings as Values</ulink>">
+<!ENTITY writeup{$day} "Writeup {$writeup}: Exercises 3 and 6">
++writeup
+
++day
+<!ENTITY title{$day} "Writing Your Own Procedures, Continued">
+<!ENTITY abbrev{$day} "procedures-continued">
 <!ENTITY reading{$day} "<ulink url='../readings/procedures-reading.html'>Writing Your Own Procedures</ulink> and
 <ulink url='../readings/scheme-eval-2'>How Scheme Evaluates Expressions (Take 2)</ulink>">
 <!ENTITY lab{$day} "<ulink url='../labs/procedures-lab.html'>Writing Your Own Procedures</ulink>">
