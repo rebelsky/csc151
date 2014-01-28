@@ -40,10 +40,10 @@ if ($type eq "mtwf-fall") {
   print "<tbody>\n";
   weeks(1,5,true);   # 1 week of 5 days
   weeks(6,4,true);   # 6 weeks of 4 days
-  break("Fall Break");
+  break("Fall Break", 6);
   weeks(4,4,true);   # 4 weeks of 4 days
   weeks(1,3,true);   # 1 week of 3 days
-  break("Thanksgiving Break");
+  break("Thanksgiving Break", 6);
   weeks(4,4,true);   # 2 weeks of 4 days
   print "</tbody>\n";
   bottom();
@@ -52,7 +52,7 @@ elsif ($type eq "mtwf-spring") {
   top();
   print "<tbody>\n";
   weeks(8,4,1);  
-  break("Spring Break");
+  break("Spring Break", 6);
   weeks(6,4,1);   
   print "</tbody>\n";
   bottom();
@@ -64,7 +64,7 @@ elsif ($type eq "mtwf-spring-alt") {
   print "<\/thead>\n";
   print "<tbody>\n";
   weeks(8,4,false);
-  break("Spring Break");
+  break("Spring Break", 6);
   weeks(6,4,false);
   print "</tbody>\n";
   bottom();
@@ -76,7 +76,7 @@ elsif ($type eq "th-spring") {
   print "</thead>\n";
   print "<tbody>\n";
   days(8);
-  break("Spring Break");
+  break("Spring Break", 6);
   days(6);
   print "</tbody>\n";
   bottom();
@@ -84,7 +84,7 @@ elsif ($type eq "th-spring") {
 elsif ($type eq "mwf-spring") {
   mwfTop();
   mwfWeeks(8);
-  break("Spring Break");
+  break("Spring Break", 3);
   mwfWeeks(6);
   mwfBottom();
 } # mwf-spring
@@ -112,14 +112,15 @@ else {
 # | Subroutines |
 # +-------------+
 
-# break(txt)
+# break(txt,n)
 #   Prints a break week
 sub break()
 {
   my $txt = shift;
+  my $n = shift;
   print <<"BREAK";
     <tr class="break">
-      <th colspan="6">
+      <th colspan="$n">
         $txt
       </th>
     </tr>
