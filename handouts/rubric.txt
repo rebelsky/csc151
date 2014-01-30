@@ -1,0 +1,99 @@
+CSC 151 Grading Sheet, v 0.1.1
+==============================
+
+Assignment: 
+
+Students:
+
+Note: No penalty for formatting, style, or documentation on the first
+assignment.  There will be penalties on subsequent assignments.
+
+Note: The grading scale is Excellent, Very Good, Good, Fair, Poor, Zero.
+
+Requirements
+------------
+
+Does the submission meet the requirements of the assignment?
+
+[ ] Yes: Base grade is good
+[ ] Mostly: Base grade is good
+[ ] Somewhat (about 60-90% correct): Base grade is fair
+[ ] A little (less than 60% correct): Base grade is poor
+
+If the submission did not meet the requirements of the assignment,
+what are its primary failings?
+
+Formatting
+----------
+
+Is the submission correctly formatted?  For example, are
+lines no more than eighty characters wide and are lines properly
+indented to show nesting?
+
+[ ] Yes.  No modifications to base grade.
+[ ] Mostly (no more than four obvious violations).  No modifications
+    to base grade.
+[ ] No (more than four obvious violations).  Drop one grade.  
+
+If there are violations, please include exemplars here.
+
+Style
+-----
+
+Do the programmers choose good variable and method names and segment
+the program into appropriate procedures?
+
+[ ] Yes.  No modifications to base grade.
+[ ] Usually (a few exceptions, but generally appropriate).  No 
+    modifications to base grade.
+[ ] No.  Drop one grade.  
+
+If there are stylistic problems, please summarize them here.
+
+Documentation
+-------------
+
+Is each procedure documented with Six-P style documentation or at
+least with a line or two describing the main purpose?  Are complicated
+parts of the code commented?
+
+[ ] Yes.  No modifications to base grade.
+[ ] Usually (a few exceptions, but generally appropriate).  No 
+    modifications to base grade.
+[ ] No.  Drop one grade.
+
+Extra Credit
+------------
+
+If particular forms of extra credit were specified on the assignment,
+did the students correctly do those forms of extra credit?
+
+[ ] Yes.  Increase by one grade.
+
+Does the submission have characteristics that set it apart positively
+from other assignments?  For example, are there particularly creative,
+efficient, or elegant solutions to some problems?
+
+[ ] There are many characteristics that set it apart positively from
+    other assignments.  Increase by two grades.
+[ ] There are a few characteristics that set it apart positively from
+    other assignments (e.g., on one problem out of three).  Increase
+    by one grade.
+[ ] There are essentially no characteristics that set it apart positively 
+    from other assignments.
+
+Please summarize any special characteristics of this assignment.  (Copying
+and pasting code is fine.)
+
+Grade
+-----
+
+Followup Comments
+-----------------
+
+What is something that the student(s) should be proud of on their work
+for this assignment?
+
+Give one or two things the student(s) should work to improve on for the
+next assignment.
+
