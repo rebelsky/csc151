@@ -18,18 +18,20 @@
   [<a href="../handouts/academic-honesty.html">Academic Honesty</a>]
   [<a href="../handouts/disabilities.html">Disabilities</a>]
   [<a href="../handouts/email.html">Email</a>]
+  -
   [<a href="../handouts/faq.html">FAQ</a>]
   [<a href="../handouts/teaching.html">Teaching &amp; Learning</a>]
   [<a href="../handouts/grading.html">Grading</a>]
+  [<a href="../handouts/rubric.txt">Rubric</a>]
   -
   [<a href="http://bit.ly/151gcal">Calendar</a>]
 </p>
 <p class="links"><b>Current:</b>
   [<a href="../assignments/current.html">Assignment</a>]
-  [<a href="../eboards/current.md">EBoard</a>]
+  [<a href="../eboards/current.html">EBoard</a>]
   [<a href="../labs/current.html">Lab</a>]
   [<a href="../outlines/current.html">Outline</a>] 
-  [<a href="../partners/current.txt">Partners</a>]
+  [<a href="../partners/current.html">Partners</a>]
   [<a href="../readings/current.html">Reading</a>]
 </p>
 <p class="links"> <b>Sections:</b> 
