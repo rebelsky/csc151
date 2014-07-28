@@ -163,7 +163,7 @@ from old Siteweaver courses, and needs to be configured appropriately.)
 
 4. Create the directory handouts/overviews.
 
-5. In the handouts director, run the command `../tools/schedule-overviews`
+5. In the handouts directory, run the command `../tools/schedule-overviews`
 to make XML equivalents to the `md` files.
 
 An Incomplete Strategy for Pushing Updates from Forks
