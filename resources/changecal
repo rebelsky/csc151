@@ -1,4 +1,4 @@
-# Look!  Stupid vi commands to move us forward one day
+# Look!  Stupid vi commands to move us backward one day
 
 :1,$s/0 \([^"]\)/_ \1/
 :1,$s/1 \([^"]\)/0 \1/
