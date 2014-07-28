@@ -13,7 +13,16 @@ Known Forks
 * rebelsky/csc207 - 
   Object-Oriented Problem Solving and Algorithms, Grinnell's
   third course
+* rebelsky/csc282 -
+  Thinking in C and *nix, a one-credit course on that topic.
+* rebelsky/tec154 -
+  The Evolution of Technology, the introductory course in Grinnell's
+  Technology Studies concentration.
+
 * rebelsky/learning-from-alumni - 
   A special course with that subject.  Currently csc295, but 
   the number will change.
+* rebelsky/mediascripting-web
+  Mediascripting on the Web, a special topics course for preparing
+  my summer research students.
 
