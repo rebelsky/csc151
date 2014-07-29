@@ -116,6 +116,7 @@ H2 {
 }
 
 H3 {
+  color: grey;
   font-family: Helvetica, sans-serif;
   border-width: 2px 0em 0em 5px;
   font-size: 1.1em;
