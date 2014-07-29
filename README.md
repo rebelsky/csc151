@@ -1,5 +1,6 @@
 rebelsky/generic-course
 =======================
+
 A github repository that will eventually hold the Web sites for all of
 my courses (starting in Fall 2013).  The repository also serves as a
 type of sandbox for me learning a bit more about git (particularly ways
@@ -8,6 +9,7 @@ they find (see LICENSE.md).
 
 Known Forks
 -----------
+
 * rebelsky/csc151 - 
   Functional Problem Solving, Grinnell's First Course
 * rebelsky/csc207 - 
