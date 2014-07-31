@@ -1,4 +1,4 @@
-CSC 151 Grading Sheet, v 0.1.1
+CSC 151 Grading Sheet, v 0.1.2
 ==============================
 
 Assignment: 
@@ -26,8 +26,8 @@ what are its primary failings?
 Formatting
 ----------
 
-Is the submission correctly formatted?  For example, are
-lines no more than eighty characters wide and are lines properly
+Did the student format the code in the assignment correctly?  For example,
+are lines no more than eighty characters wide and are lines properly
 indented to show nesting?
 
 [ ] Yes.  No modifications to base grade.
@@ -53,9 +53,10 @@ If there are stylistic problems, please summarize them here.
 Documentation
 -------------
 
-Is each procedure documented with Six-P style documentation or at
-least with a line or two describing the main purpose?  Are complicated
-parts of the code commented?
+Do the programmers document each procedure with Six-P style
+documentation or at least with a line or two describing the main purpose?
+Do the programmers include comments that explain more complicated parts 
+of the code?
 
 [ ] Yes.  No modifications to base grade.
 [ ] Usually (a few exceptions, but generally appropriate).  No 
@@ -70,17 +71,19 @@ did the students correctly do those forms of extra credit?
 
 [ ] Yes.  Increase by one grade.
 
-Does the submission have characteristics that set it apart positively
-from other assignments?  For example, are there particularly creative,
+Does the submission have characteristics that clearly go beyond the central
+requirements of the assignment?  For example, are there particularly creative,
 efficient, or elegant solutions to some problems?
 
-[ ] There are many characteristics that set it apart positively from
-    other assignments.  Increase by two grades.
-[ ] There are a few characteristics that set it apart positively from
-    other assignments (e.g., on one problem out of three).  Increase
-    by one grade.
-[ ] There are essentially no characteristics that set it apart positively 
-    from other assignments.
+[ ] The assignment goes beyond the basic requirements in many ways. 
+    Increase by two grades.
+[ ] The assignment goes beyond the basic requirements in a few ways
+    (e.g., on one problem out of three).  Increase by one grade.
+[ ] While the assignment meets the basic requirements, it does not go
+    beyond those requirements.  No modifications to base grade.
+[ ] The assignment does not meet the basic requirements.  No modifications
+    to base grade, as failure to meet the basic requirements should have
+    been addressed earlier.
 
 Please summarize any special characteristics of this assignment.  (Copying
 and pasting code is fine.)
