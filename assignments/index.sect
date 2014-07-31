@@ -1,6 +1,70 @@
 <section id="index-assignments"><title>Weekly Assignments</title>
 
 <itemizedlist>
+  <listitem>
+    <ulink url="../assignments/exam.03.html">Exam 3: Sophisticated Scheming</ulink>
+    <itemizedlist>
+      <listitem>
+        <ulink url="http://bit.ly/csc151exam1pro">Prologue</ulink> due
+        10:30 p.m. &sun12; (optional)
+      </listitem>
+      <listitem>
+        Exam due 10:30 p.m. &thu13; via email.
+      </listitem>
+      <listitem>
+        Printed exam due 1:15 p.m. &fri13;.  The exam should be stapled and
+        with page numbers and your name on every page.
+      </listitem>
+    </itemizedlist>
+  </listitem>
+  <listitem>
+    <ulink url="../assignments/project.html">Project</ulink>
+    <itemizedlist>
+      <listitem>Proposal due 10:30 p.m. &tue11;</listitem>
+      <listitem>Sketches due 1:15 p.m. &wed11;</listitem>
+      <listitem>Project due 10:30 p.m. &tue12;</listitem>
+      <listitem><ulink url="../assignments/project-rubric.html">Grading Rubric</ulink></listitem>
+    </itemizedlist>
+  </listitem>
+  <listitem> &assignment08; (due &assignment08-due;) </listitem>
+  <listitem> &assignment07; (due &assignment07-due;) </listitem>
+  <listitem>
+    <ulink url="../assignments/exam.02.html">Exam 2: Scheme and Image Basics</ulink>
+    <itemizedlist>
+      <listitem>
+        <ulink url="http://bit.ly/csc151exam1pro">Prologue</ulink> due
+        10:30 p.m. &sun07; (optional)
+      </listitem>
+      <listitem>
+        Exam due 10:30 p.m. &thu08; via email.
+      </listitem>
+      <listitem>
+        Printed exam due 1:15 p.m. &fri08;.  The exam should be stapled and
+        with page numbers and your name on every page.
+      </listitem>
+    </itemizedlist>
+  </listitem>
+  <listitem> &assignment06; (due &assignment06-due;) </listitem>
+  <listitem> &assignment05; (due &assignment05-due;) </listitem>
+  <listitem> &assignment04; (due &assignment04-due;) </listitem>
+  <listitem>
+    <ulink url="../assignments/exam.01.html">Exam 1: Scheme and Image Basics</ulink>
+    <itemizedlist>
+      <listitem>
+        <ulink url="http://bit.ly/csc151exam1pro">Prologue</ulink> due
+        10:30 p.m. &fri03; (optional)
+      </listitem>
+      <listitem>
+        Exam due 10:30 p.m. &tue04; via email.
+      </listitem>
+      <listitem>
+        Printed exam due 1:15 p.m. &wed04;.  The exam should be stapled and
+        with page numbers and your name on every page.
+      </listitem>
+    </itemizedlist>
+  </listitem>
+  <listitem> &assignment03; (due &assignment03-due;) </listitem>
+  <listitem> &assignment02; (due &assignment02-due;) </listitem>
   <listitem> &assignment01; (due &assignment01-due;) </listitem>
 </itemizedlist>
 
