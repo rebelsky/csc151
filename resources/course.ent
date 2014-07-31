@@ -1,12 +1,12 @@
 <!ENTITY courseid "CSC 151">
-<!ENTITY section "02">
-<!ENTITY semester "2014S">
+<!ENTITY section "01">
+<!ENTITY semester "2014F">
 <!ENTITY coursename "Functional Problem Solving">
 <!ENTITY school "Grinnell College">
-<!ENTITY url "http://www.cs.grinnell.edu/~rebelsky/Courses/CSC151/2014S/">
+<!ENTITY url "http://www.cs.grinnell.edu/~rebelsky/Courses/CSC151/2014F/">
 <!ENTITY courseurl "&url;">
-<!ENTITY grader "grader-151-02@cs.grinnell.edu">
-<!ENTITY grader-email "grader-151-02@cs.grinnell.edu">
+<!ENTITY grader "grader-151-01@cs.grinnell.edu">
+<!ENTITY grader-email "grader-151-01@cs.grinnell.edu">
 <!ENTITY syllabus "../handouts/schedule.html">
 <!ENTITY proftitle "Professor Rebelsky">
 <!ENTITY profpic "/home/rebelsky/glimmer/samples/rebelsky-pic.jpg">
