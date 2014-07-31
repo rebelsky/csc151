@@ -56,8 +56,8 @@ touch:
 	touch */index.sect
 	touch outlines/outline.*.html
 	touch outlines/outline.*.pdf
-	touch eboards/[0-9][0-9].html
-	touch eboards/[0-9][0-9].pdf
+	touch eboards/eboard.*.html
+	touch eboards/eboard.*.pdf
 
 # +--------------+----------------------------------------------------
 # | Fun with git |
