@@ -32,11 +32,20 @@ Pulling Updates from the Generic Course
 Just the normal instructions for pulling from an upstream source (plus
 ensuring that we link to the upstream).
 
-        make generic
-        git fetch generic master
-        git merge upstream/master
+Approach 1:
 
-*Note: These commands should eventually be a target in the Makefile.*
+    make generic
+    git fetch generic master
+    git merge upstream/master
+
+Approach 2:
+
+    make generic
+    git pull generic master
+
+Approach 3:
+
+    make pull-generic
 
 Pushing Updates to the Generic Course
 -------------------------------------
@@ -81,8 +90,24 @@ At the Beginning of the Semester
 
 6. Start editing and creating!
 
+At the End of the Semester
+--------------------------
+
+1. Make sure to commit or throw away any of the remaining changes you've
+   made.  (In an ideal world, you've been doing this as you go.  In the
+   real world, you've probably got a lot to do.)
+
+2. Push to the repository.
+
+3. Since you're about to start a new version of the course, make a branch
+   for this old version.
+
+     git checkout -b 2014S
+     git push origin 2014S
+
 Starting a New Course
 ---------------------
+
 To create a new course, I need to fork the generic course repo. 
 Unfortunately, github is not particularly nice about letting you fork
 your own repositories.  There's a nifty hack that I found at
@@ -91,7 +116,7 @@ your own repositories.  There's a nifty hack that I found at
 It goes something like this.
 
 1. Create the repository for the new course on github.  For this example,
-   I'm using csc000.
+   I'm using csc000.  Do not add a README, LICENSE, or .gitignore.
 
 2. Clone the original repository onto your local machine
 
@@ -99,7 +124,7 @@ It goes something like this.
 
    or
 
-        git clone git@github.com:rebelsky/generic-course.git
+        git clone git@github.com:rebelsky/generic-course.git csc000
 
 3. Edit the Git config file
 
@@ -117,6 +142,29 @@ It goes something like this.
 6. Update the generic site with a link to this fork.
 
 7. Do the normal start of semester activities.
+
+Working with the Outlines and Schedule
+--------------------------------------
+I've set up a slightly complex system for dealing with the course
+schedule, the daily outlines (what I plan to talk about), and the daily
+eboards (what I actually talk about).  When setting up a new course or
+updating an existing course, it's important to do thinking in something
+like the following order:
+
+1. Update resources/subjects.var to list all of the daily subjects.
+
+2. Create appropriate subdirectories of outlines.  (admin, bodies,
+overviews, related, summaries)
+
+3. Create all of the appropriate .md files.  You can use 
+tools/outlines-parts-blank-md, tools/outline-parts-md, or
+tools/all-outline-parts.  (tools/outline-parts-md copies files
+from old Siteweaver courses, and needs to be configured appropriately.)
+
+4. Create the directory handouts/overviews.
+
+5. In the handouts directory, run the command `../tools/schedule-overviews`
+to make XML equivalents to the `md` files.
 
 An Incomplete Strategy for Pushing Updates from Forks
 -----------------------------------------------------
