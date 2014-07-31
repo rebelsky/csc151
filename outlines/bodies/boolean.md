@@ -1,11 +1,13 @@
 Preparation
-===========
+-----------
+
 * What did you learn from the reading?  (Let's try to summarize for each
   other.)
 * What questions do you have?
 
-<code>or</code> and <code>and</code> as control structures
-==========================================================
+`or` and `and` as control structures
+------------------------------------
+
 * How does normal procedure application work?
     * Evaluate all the parameters
     * "Plug them in to the body"
@@ -23,7 +25,8 @@ Preparation
   expressions, stopping when we get the first acceptable one.
 
 Lab
-===
-* Work on [](../Labs/boolean-lab.html)the lab</a>.
+---
+
+* Work on [the lab](../Labs/boolean-lab.html)
 * Be prepared to discuss!
 

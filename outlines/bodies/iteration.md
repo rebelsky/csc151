@@ -33,6 +33,23 @@ Repetition and Map
   implementation of Scheme include a variant of `map` called
   `mapcar`.  And you'll soon learn how to implement that yourself.
 
+Four Mechanisms for Repetition
+------------------------------
+
+We've now seen four mechanisms for repetition: `map`, recursion, `repeat`,
+and for-each.  When do you use each approach?
+
+* `map`: Goal is to transform each element in a list, and you want
+  the list of transformed values as a result.
+* `for-each`: Goal is to do a side-effecting-operation for each element
+  in a list, *in order*, with a focus on accumlating side effects, 
+  rather than on computing a result.
+* `repeat`: Goal is to do exactly the same side-effecting operation
+  a fixed number of times., with an emphasis on accumulating side effects,
+  rather than on computing a result.
+* Recursion: The most general: Intended to do any kind of repetition,
+  either pure or side-effecting operations, any kind of list.
+
 Another approach to this material
 ---------------------------------
 

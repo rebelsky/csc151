@@ -106,11 +106,11 @@ The principle of encapsulation suggests that we should make
 
 <pre>
 (define reverse
-  (letrec ((kernel
+  (letrec [(kernel
             (lambda (remaining so-far)
               (if (null? remaining)
                   so-far
-                  (kernel (cdr remaining) (cons (car remaining) so-far))))))
+                  (kernel (cdr remaining) (cons (car remaining) so-far)))))]
     (lambda (lst)
       (kernel lst null))))
 </pre>
@@ -121,8 +121,8 @@ The pattern of "create a kernel and call it" is so common that
 <pre>
 (define reverse
   (lambda (lst)
-    (let kernel ((remaining lst)
-                 (so-far null))
+    (let kernel [(remaining lst)
+                 (so-far null)]
       (if (null? remaining)
           so-far
           (kernel (cdr remaining) (cons (car remaining) so-far))))))

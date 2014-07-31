@@ -1,5 +1,5 @@
-The Subject Matter of the Course
---------------------------------
+The Subject Matter(s) of the Course
+-----------------------------------
 
 * I'll ask you to fill out what you thought the subject matter was.
 * I'll then reflect on my own perspective.

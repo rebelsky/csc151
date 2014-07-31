@@ -72,3 +72,5 @@ Turtle Graphics in MediaScheme
 
 Lab
 ---
+
+* Make and predict some fun pictures.

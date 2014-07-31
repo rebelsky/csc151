@@ -15,6 +15,9 @@ Sequencing transformations with `compose`
 * When you need to do more than one transformation, you can sequence them
   with `compose` (also `o`).
 * `(image-variant image (o rgb-redder rgb-bluer))`
+* *Note: This is a new approach.  Traditionally, procedures appear
+  immediately after parentheses, and they are doing the work.  Now they
+  are inputs to other procedures, and so do not have parentheses.*
 
 Anonymous transformations
 -------------------------

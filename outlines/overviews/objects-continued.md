@@ -1,2 +1,3 @@
-* Lab, continued.
+* Objects, revisited.
+* Building a four-way switch.
 * Reflection.

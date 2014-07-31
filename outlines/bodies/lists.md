@@ -1,7 +1,7 @@
 Lists
 -----
 
-* Original notion of lists:
+* Our first encounters with lists.
     * Collection of values
     * Homogeneous: All the values in a list are the same type
     * Used primarily with `map` and `for-each`
@@ -9,9 +9,10 @@ Lists
     * Can also be *heterogeneous*: Values in the list may have multiple types.
     * Can examine individual elements with `car`, `cdr`, and `list-ref`.
     * Can be extended (creating new lists) with `cons`.
+    * There's an empty list: `null`.
 * Why is the new view important?
     * It will soon give us the opportunity to manipulate lists in new
-    and interesting ways.
+      and interesting ways.
 
 Implementing Drawings
 ---------------------

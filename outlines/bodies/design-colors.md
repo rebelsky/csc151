@@ -11,14 +11,14 @@ A Bit About Design
     * Does the image maintain your viewer's interest, or is it easy to
       see and dismiss.
 * Successful designers know how to take advantage of certain formal attributes
-  to acheive various goals (including these informal goals)
-* Right now, we're just going to look at some formal issues regarding color
+  to acheive various goals (including these informal goals).
+* Right now, we're just going to look at some formal issues regarding color.
 
 Basics of Color Theory
 ----------------------
 
 * Issue: Do we think in terms of paint (traditional) or in terms of light
-  (computer/modern)?
+  (computer/theatre)?
 * Three models
     * RGB - additive color, based on red, green, and blue lights
         * Adding colors makes things brighter - more light is transmitted
@@ -53,7 +53,7 @@ Basics of Color Theory
 Activities
 ----------
 
-* Another clicker quiz!
+* A few check-ins about HSV.
 * Some sample designs, taken from the Kluber version of Digital Design
 * Maybe more fun with the [Color Scheme Designer](http://colorschemedesigner.com/)
 

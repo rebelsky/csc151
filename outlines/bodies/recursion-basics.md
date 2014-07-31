@@ -112,6 +112,6 @@ Lab
 ---
 
 * Start [the lab on recursion](../Labs/recursion-basics-lab.html)
-* We will continue this lab on Friday.
+* We will continue this lab in the next class session.
 * Be prepared to reflect and to ask questions.
 

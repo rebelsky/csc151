@@ -13,7 +13,7 @@ Background: Guiding Principles
 Background: The Value of Repetition
 -----------------------------------
 
-* The following is variant of something John Stone says ...
+* The following is variant of something my colleague John Stone says ...
 * The first time you read a new procedure structure 
   (such as recursion over a list), you learn something.
 * The second time you read the same structure, you learn something else.
@@ -30,8 +30,10 @@ Procedures as First-Class Values
 --------------------------------
 
 * The big picture ideas: 
-    * You can write procedures (like `map`) that take other procedures as parameters.
-    * You can write procedures (like `left-section`) that return other procedures.
+    * You can write procedures (like `map`) that take other procedures 
+      as parameters.
+    * You can write procedures (like `left-section` and `compose`) that 
+      return other procedures.
     * Doing so makes your code better.
 * So, procedures are, in effect, a new type of value.  What are the questions
   we normally ask about new types of values?

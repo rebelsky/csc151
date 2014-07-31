@@ -10,6 +10,10 @@ About the project
     * Different n - Different images.
     * Same n - Same image.
     * Different sizes - Scales appropriately.
+* Also post that project (code, essays, selected images) to GitHub 
+  with licenses of your choice.
+    * One license for your code.
+    * One license for your images.
 * Note that different people find different things interesting.
 * One of my colleagues in art suggests that a piece is interesting if 
   the viewer cannot easily look at the image and say "I get it".
@@ -19,10 +23,10 @@ About the project
       your work (most typically, other works in the history of art).
     * Most often, you add interest by thinking carefully about a variety
       of design principles.
-* I find that you make more interesting work by focusing on *relationships*:
-  The relationship between different components of the piece, the relationship
-  between the piece and others in the series, the relationship between the
-  piece and the broader world.
+* I find that you can often make more interesting work by focusing on 
+  *relationships*: The relationship between different components of the
+  piece, the relationship between the piece and others in the series,
+  the relationship between the piece and the broader world.
 
 Some design components
 ----------------------
@@ -76,6 +80,7 @@ Broader design elements
   do we achieve that sense.
 * Successful images often carefully *draw the eye* across the image.
 * *Context* - How does it speak to or draw upon the broader world?
+* *Orientation*
 
 Deck Wars
 ---------

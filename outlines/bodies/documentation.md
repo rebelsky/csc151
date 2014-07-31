@@ -55,8 +55,8 @@ Practice
 
 * We'll try writing documentation collaboratively for a variety of 
   procedures.
-* <code>(sqrt val)</code>
-* <code>(rbg-redder val)</code>
 * <code>(max val1 val2 ... valn)</code>
+* <code>(neighbor drawing)</code>
+* <code>(sqrt val)</code>
 * ...
 

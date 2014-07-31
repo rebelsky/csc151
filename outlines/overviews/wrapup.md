@@ -1,2 +1,3 @@
-* The subject matter of the course.
+* The subject matter(s) of the course.
 * Course evaluation.
+* Final comments.

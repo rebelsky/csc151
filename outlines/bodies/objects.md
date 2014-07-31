@@ -83,8 +83,8 @@ Adding State
   (let ((value 5))
     (lambda (message)
       (cond
-        ((eq? message ':get) value)
-        (else (error "fixed-value:" "unknown message"))))))
+        [(eq? message ':get) value]
+        [else (error "fixed-value:" "unknown message")]))))
 </pre>
 * Typically, we use vectors to encapsulate our state because
   we know how to mutate vectors.
@@ -93,11 +93,12 @@ Adding State
   (let ((value (vector 0)))
     (lambda (message)
       (cond
-        ((eq? message ':get) (vector-ref value 0))
-        ((eq? message ':add1!)
+        [(eq? message ':get) 
+         (vector-ref value 0)]
+        [(eq? message ':add1!)
          (vector-set! value 0 
                       (+ 1 (vector-ref value 0))))
-        (else (error "fixed-value:" "unknown message"))))))
+        [else (error "fixed-value:" "unknown message")]))))
 </pre>
 * And an example of its use
 <pre>
@@ -112,4 +113,4 @@ Lab
 ---
 
 * Begin the [lab on objects in Scheme](../labs/objects-lab.html).
-* Plan to continue that lab tomorrow.
+* Plan to continue that lab next class.
