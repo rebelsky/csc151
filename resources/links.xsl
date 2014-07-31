@@ -57,7 +57,7 @@
 </p>
 <p class="links"><b>Related Courses:</b>
   [<a href="http://www.cs.grinnell.edu/~davisjan/csc/151/2013F/">Davis (2013F)</a>]
-  [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CS151/2013S/">Rebelsky (2013S)</a>]
+  [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CS151/2014S/">Rebelsky (2014S)</a>]
   [<a href="http://www.cs.grinnell.edu/~weinman/courses/CSC151/2014F/">Weinman (2014F)</a>]
 </p>
 <p class="links"> <b>Misc:</b> 
