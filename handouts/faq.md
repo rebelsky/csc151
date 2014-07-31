@@ -80,6 +80,32 @@ supplement my understanding of what I am learning in class?
 and Racket.  But our course is unique enough that the best resources
 are probably people.
 
+_I understand that there will be a lot of group work in the course, which is fine. But how do you ensure that all students get hands-on experience with the techniques?_
+        
+> I give you individual work as well as group work and I change your
+partners a lot.  Your mentors and I will also remind people to take
+turns at the keyboard.  I expect that the approaches help ensure that
+everyone thinks about the material.
+
+_The Web site spent a fair amount of time discussing how to cite and use internet sources correctly. how frequently do you expect students to seek help from the Internet?_
+
+> Evidence suggests that students regularly seek help from the Internet.  
+It's rarer in this course, but it's very common in my other courses.
+
+_Why do we use Scheme and not a language more conventionally used in college intro classes (from what I've heard) like C++ or Java?_
+
+Scheme is much simpler.  The definition is small: There are fewer words in the definition of Scheme (well, the previous definition of Scheme) than there are procedures in the Java libraries.  Scheme doesn't have a lot of syntactic rules.  Once you master parentheses, you've gotten most of the syntax.  But, most importantly, Scheme encourages you to think in ways that we think computer scientists should think.  Plus, Scheme is one of the few languages that we can use to write code I might call beautiful.
+
+_I just have one question about your grading policy. You state that "particularly nice work will earn you a check-plus or a plus". Could you please specify what do you mean by "particularly nice work"? Must it involve exceptional creativity?_
+
+> It varies.  Sometimes we'll suggest extra work or extra problems.  Sometimes it's just that you are particularly thorough.  Sometimes, as you suggest, it shows a creative approach - a new way to solve a problem (typically a more elegant or more efficient way to solve that problem).  
+
+_I am wondering how the groups will work.  How will we get into groups and will they change?_
+
+> I will assign you to groups, at least for the first N weeks of the
+semester.  You'll get a partner (group of two) for each week of labs,
+and a pair of partners (group of three) for each homework assignment.
+
 About the Professor (i.e., About SamR)
 --------------------------------------
 
@@ -220,6 +246,63 @@ _What would you do differently if you could do college again?_
 
 > 3. Internships.  I love what I do.  But I really never explored anything but academia.  I should have.
 
+_What are your three favorite types of cheese?_
+
+> Hmmm ... I like bleu, havarti, brie, cheddar, and swiss.  But it depends on the context -  my moods vary.
+
+_What do you like and dislike most about Grinnell?_
+
+> I'd say that I like certain characteristics of the students the most.
+In general, you folks care about learning, you have diverse interests,
+you seek to better the world, and you are nice people.  Grinnell students
+are a great bunch to teach.
+
+> I think we're a bit greedy given our financial state.  I hear too
+much of "We have a lot of money.  Why can't I do *fill in pet project*?"
+And it bothers me that I sometimes feel that way, too.
+
+> I get frustrated that self-gov is not the success it should be.  For
+example, it bothers me that there's a lot of theft in my building
+
+_What's the one food item you can't live without?_
+
+I want to say chocolate, but I think "fruit" is probably the answer if
+you'll accept that.  If I have not narrow, I think it's pears.  Of course,
+to be literal, I think it's water (although water isn't food).
+
+_Which are more organized, your documents in your computer's file system, or your real life (hardcopy) filing system?_
+
+Have you seen my office?  And have you seen my course web?  So ... most of
+my real-life filing system is completely disorganized.  In contrast,
+*some* of my computer file system is carefully organized.
+
+_What are some of your favorite TV shows or musicians/bands?_
+
+I don't watch much TV any more.  My family watches the Big Bang Theory together to celebrate our geekiness.  I also like How I Met Your Mother.  We sometimes watch Bones together, but it's been awhile.
+
+I'm old.  I like the Beatles, Jonathan Richman, Van Morrison, the
+Blasters, the Kinks, Dave Alvin, Tom Russell, the Bad Examples, the Band
+and a bunch of other things.  The best concerts I've seen were Rick
+Danko and Levon Helm (in a lounge at UChicago), REM (at some dive in
+Providence right when Murmur came out - about 1982), the Violent Femmes
+(at the same dive at about the same time), and Billy Bragg (at Harris).
+
+_How many hours do you sleep per day?_
+
+> I try to get eight hours of sleep each day.  These days, I tend to
+get between six and seven on weeknights and then I catch up a little
+on weekends.  It's not an approach I recommend.
+
+_Did you have a favorite (or a few favorite) computer/video games as a youth?_
+
+> I played a lot of Centipede and Defender in high school.  My first
+year of college, I played a lot of Robotron, Joust, and Tempest.  I still
+love those last three games.
+
+_What are five of your favorite movies?_
+
+*Seven Samurai*, *Bedazzled* (the Peter Cook and Dudley Moore version, not the crappy remake), Tati's *Playtime*, *The Great Dictator*, and *Harold and Maude*.
+
 About Assignments
 -----------------
 
@@ -283,4 +366,10 @@ first name?_
 
 > I enjoy playing with notions of power and authority.  I'll probably
 use both first and last names with my students.
+
+_What exactly is the "IRC" and how are students supposed to use it?_
+
+> "Internet Relay Chat".  It's a low-bandwidth way to communicate on the
+Internet, used by a lot of open source projects.  But I haven't been on
+IRC as much these days, so you don't need to worry about it.
 
