@@ -1,0 +1,15 @@
+<!ENTITY prof-contact-times "8am-10pm">
+<!ENTITY prof-contact-options "cell phone - 641-990-2947">
+<!ENTITY exam1-prologue "http://bit.ly/csc151exam1pro">
+<!ENTITY exam1-optional-prologue-due '<listitem>10:30 p.m., Friday, 7 February 2014 (<ulink url="&exam1-prologue;">Prologue</ulink>)</listitem>'>
+<!ENTITY exam1-email-subject "CSC 151.01 Exam 1 (Your Name)">
+<!ENTITY exam1-optional-prologue "
+  <para>
+    This examination has a <ulink url='&exam1-prologue;'>prologue</ulink>
+    that must be completed by the Friday afternoon before the exam is due.
+    The prologue is intended to help you get started thinking about the
+    examination.  The prologue is optional.  However, if you intend to
+    invoke the <quote>there's more to life</quote> option (see below),
+    you must turn in the prologue by the specified deadline.
+  </para>">
+<!ENTITY more-to-life-requirements "filled in the prologue by the specified deadline.  You may count the time you spend on the prologue toward those five hours">
