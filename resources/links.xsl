@@ -31,7 +31,7 @@
   [<a href="../eboards/current.html">EBoard</a>]
   [<a href="../labs/current.html">Lab</a>]
   [<a href="../outlines/current.html">Outline</a>] 
-  [<a href="../partners/current.html">Partners</a>]
+  [<a href="../partners/index.html">Partners</a>]
   [<a href="../readings/current.html">Reading</a>]
 </p>
 <p class="links"> <b>Sections:</b> 

@@ -1,29 +1,29 @@
-<!ENTITY survey-due "10:30 p.m., Tuesday, 20 January 2014">
+<!ENTITY survey-due "10:30 p.m., Tuesday, 21 January 2014">
 <!ENTITY assignment01 "<ulink url='../assignments/assignment.01.html'>HW 1: Introductory Survey</ulink>">
 <!ENTITY assignment01-due "&survey-due;">
 
 <!ENTITY assignment02 "<ulink url='../assignments/assignment.02.html'>HW 2: Starting Scheme</ulink>">
 <!ENTITY assignment02-due "10:30 p.m., Tuesday, 28 January 2014">
 
-<!ENTITY assignment03 "<ulink url='../assignments/assignment.03.html'>HW 3</ulink>">
+<!ENTITY assignment03 "<ulink url='../assignments/assignment.03.html'>HW 3: Drawing Generally and Concisely</ulink>">
 <!ENTITY assignment03-due "10:30 p.m., Tuesday, 4 February 2014">
 
-<!ENTITY assignment04 "<ulink url='../assignments/assignment.04.html'>HW 4</ulink>">
+<!ENTITY assignment04 "<ulink url='../assignments/assignment.04.html'>HW 4: Transforming Colors, Drawings, and Images</ulink>">
 <!ENTITY assignment04-due "10:30 p.m., Tuesday, 18 February 2014">
 
-<!ENTITY assignment05 "<ulink url='../assignments/assignment.05.html'>HW 5</ulink>">
+<!ENTITY assignment05 "<ulink url='../assignments/assignment.05.html'>HW 5: Conditional Transformations and Conditional Images</ulink>">
 <!ENTITY assignment05-due "10:30 p.m., Tuesday, 25 February 2014">
 
-<!ENTITY assignment06 "<ulink url='../assignments/assignment.06.html'>HW 6</ulink>">
+<!ENTITY assignment06 "<ulink url='../assignments/assignment.06.html'>HW 6: Conditionally Computed Images</ulink>">
 <!ENTITY assignment06-due "10:30 p.m., Tuesday, 4 March 2014">
 
-<!ENTITY assignment07 "<ulink url='../assignments/assignment.07.html'>HW 7</ulink>">
-<!ENTITY assignment07-due "10:30 p.m., Tuesday, 1 April 2014">
+<!ENTITY assignment07 "<ulink url='../assignments/assignment.07.html'>HW 7: An introduction to GitHub</ulink>">
+<!ENTITY assignment07-due "10:30 p.m., Wednesday, 2 April 2014">
 
-<!ENTITY assignment08 "<ulink url='../assignments/assignment.08.html'>HW 8</ulink>">
+<!ENTITY assignment08 "<ulink url='../assignments/assignment.08.html'>HW 8: Turtles</ulink>">
 <!ENTITY assignment08-due "10:30 p.m., Tuesday, 8 April 2014">
 
-<!ENTITY assignment09 "<ulink url='../assignments/assignment.09.html'>HW 9</ulink>">
+<!ENTITY assignment09 "<ulink url='../assignments/assignment.09.html'>HW 9: TBD</ulink>">
 <!ENTITY assignment08-due "10:30 p.m., Tuesday, 29 April 2014">
 
 <!ENTITY due01 "">
@@ -64,35 +64,35 @@
 <!ENTITY due29 "">
 <!ENTITY due30 "<ulink url='../assignments/exam.02.html'>Exam 2</ulink> (due 10:30 p.m. via email)">
 <!ENTITY due31 "<ulink url='../assignments/exam.02.html'>Exam 2</ulink> (due in class in paper form)">
-<!ENTITY due32 "Quiz 8">
+<!ENTITY due32 "">
 
 <!ENTITY due33 "">
-<!ENTITY due34 "&assignment07;">
-<!ENTITY due35 "">
-<!ENTITY due36 "Quiz 9">
+<!ENTITY due34 "">
+<!ENTITY due35 "&assignment07;">
+<!ENTITY due36 "Quiz 8">
 
 <!ENTITY due37 "">
 <!ENTITY due38 "&assignment08;; Project assigned">
 <!ENTITY due39 "">
-<!ENTITY due40 "Quiz 10">
+<!ENTITY due40 "Quiz 9">
 
-<!ENTITY due41 "Project proposal due at 10:30 p.m.">
-<!ENTITY due42 "Project proposal images due">
-<!ENTITY due43 "">
-<!ENTITY due44 "Quiz 11">
+<!ENTITY due41 "">
+<!ENTITY due42 "Project proposal due at 10:30 p.m.">
+<!ENTITY due43 "Project proposal images due">
+<!ENTITY due44 "Quiz 10">
 
 <!ENTITY due45 "">
 <!ENTITY due46 "Project due">
 <!ENTITY due47 "">
-<!ENTITY due48 "Quiz 12; <ulink url='../assignments/exam.03.html'>Exam 3</ulink> assigned">
+<!ENTITY due48 "Quiz 11">
 
 <!ENTITY due49 "">
-<!ENTITY due50 "&assignment09;">
-<!ENTITY due51 "">
-<!ENTITY due52 "Quiz 13">
+<!ENTITY due50 "<ulink url='../assignments/exam.03.html'>Exam 3</ulink> (due 10:30 p.m. via email)">
+<!ENTITY due51 "<ulink url='../assignments/exam.03.html'>Exam 3</ulink> (due in class in paper form)">
+<!ENTITY due52 "Quiz 12">
 
-<!ENTITY due53 "<ulink url='../assignments/exam.03.html'>Exam 3</ulink> (due 10:30 p.m. via email)">
-<!ENTITY due54 "<ulink url='../assignments/exam.03.html'>Exam 3</ulink> (due in class in paper form)">
+<!ENTITY due53 "">
+<!ENTITY due54 "&assignment09;;">
 <!ENTITY due55 "">
 <!ENTITY due56 "">
 
