@@ -1,0 +1,25 @@
+<!ENTITY transformations-subject "CSC 151.02 Assignment 4: Transforming Colors, Drawings, and Images">
+<!ENTITY transformations-due "10:30 p.m., &tue05;">
+<!ENTITY transformations-prefix "Assignment 4: ">
+<!ENTITY transformations-prologue "http://bit.ly/151hw4pro">
+<!ENTITY transformations-epilogue "http://bit.ly/151hw4epi">
+<!ENTITY transformations-partners "&url;partners/assignment.04.html">
+<!ENTITY transformations-wrapper '
+<para>
+  <emphasis>Wrapper (Prologue):</emphasis> Individually read through
+  this assignment and make sure that you understand what is required.
+  Then use the form available at <ulink url="&transformations-prologue;"/>
+  to indicate (a) how long you think this assignment will take and (b)
+  what you think will be the most challenging aspect of this assignment.
+</para>
+
+<para>
+  <emphasis>Wrapper (Epilogue):</emphasis> When you are done
+  with the assignment, fill out the form available at <ulink
+  url="&transformations-epilogue;"/> to indicate (a) how long the
+  assignment took, (b) what the most challenging part of the assignment
+  was, and (c) something important you learned from doing the assignment.
+  If you find that the assignment took much less or much more time than
+  you expected, also include (d) a note as to what might have led to
+  that difference.
+</para>'>

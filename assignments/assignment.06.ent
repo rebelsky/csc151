@@ -1,0 +1,26 @@
+<!ENTITY polar-conditionals-subject "CSC 151.02 Assignment 6: Polar Coordinates">
+<!ENTITY polar-conditionals-due "10:30 p.m., &tue06;">
+<!ENTITY polar-conditionals-prefix "Assignment 6: ">
+<!ENTITY polar-conditionals-prologue "http://bit.ly/151hw6pro">
+<!ENTITY polar-conditionals-epilogue "http://bit.ly/151hw6epi">
+<!ENTITY polar-conditionals-partners "&url;partners/assignment.06.html">
+<!ENTITY polar-conditionals-alone "You may also work alone.">
+<!ENTITY polar-conditionals-wrapper '
+<para>
+  <emphasis>Wrapper (Prologue):</emphasis> Individually read through
+  this assignment and make sure that you understand what is required.
+  Then use the form available at <ulink url="&polar-conditionals-prologue;"/>
+  to indicate (a) how long you think this assignment will take and (b)
+  what you think will be the most challenging aspect of this assignment.
+</para>
+
+<para>
+  <emphasis>Wrapper (Epilogue):</emphasis> When you are done
+  with the assignment, fill out the form available at <ulink
+  url="&polar-conditionals-epilogue;"/> to indicate (a) how long the
+  assignment took, (b) what the most challenging part of the assignment
+  was, and (c) something important you learned from doing the assignment.
+  If you find that the assignment took much less or much more time than
+  you expected, also include (d) a note as to what might have led to
+  that difference.
+</para>'>

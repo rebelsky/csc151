@@ -1,0 +1,28 @@
+<!ENTITY drawing-general-due "10:30 p.m., &tue03;">
+<!ENTITY drawing-general-title "Assignment 3: Exploring Drawings">
+<!ENTITY drawing-general-subject "CSC 151.02 Assignment 3: Exploring Drawings">
+<!ENTITY drawing-general-prefix "Assignment 3: ">
+<!ENTITY drawing-general-prologue "http://bit.ly/151hw3pro">
+<!ENTITY drawing-general-epilogue "http://bit.ly/151hw3epi">
+<!ENTITY drawing-general-partners "&url;partners/assignment.03.html">
+<!ENTITY drawing-general-wrapper '
+<para>
+  <emphasis>Wrapper (Prologue):</emphasis> Individually read through
+  this assignment and make sure that you understand what is required.
+  Then use the form available at <ulink url="&drawing-general-prologue;"/>
+  to indicate (a) how long you think this assignment will take and (b)
+  what you think will be the most challenging aspect of this assignment.
+</para>
+
+<para>
+  <emphasis>Wrapper (Epilogue):</emphasis> When you are done
+  with the assignment, fill out the form available at <ulink
+  url="&drawing-general-epilogue;"/> to indicate (a) how long the
+  assignment took, (b) what the most challenging part of the assignment
+  was, and (c) something important you learned from doing the assignment.
+  If you find that the assignment took much less or much more time than
+  you expected, also include (d) a note as to what might have led to
+  that difference.
+</para>'>
+
+
