@@ -51,7 +51,7 @@ div.pagenotes {
 /* Have some fun with my headers */
 H1, H2 { 
   color: white;
-  background-color: gray;
+  background-color: rgb(96,96,96);
   font-weight: bold;
   font-family: Helvetica, sans-serif;
   /* border: solid silver; */
@@ -76,7 +76,7 @@ H2 {
 }
 
 H3 {
-  color: grey;
+  color: rgb(96,96,96);
   font-family: Helvetica, sans-serif;
   border-width: 2px 0em 0em 5px;
   font-size: 1.1em;
@@ -215,6 +215,16 @@ SPAN.errortext {
   color: red;
 }
 
+/**
+ * Standard background color for preformatted sections.
+ */
+PRE,
+PRE.screen,
+PRE.programlisting,
+DIV.literallayout {
+  background-color: rgb(224,224,224);
+}
+
 PRE {
   border-width: 1px;
   border-style: solid;
@@ -228,7 +238,6 @@ PRE.screen {
   border-style: dashed;
   border-color: black;
   color: black;
-  background-color: transparent;
   padding: 5px;
   margin-left: 2em;
   margin-right: 2em;
@@ -247,7 +256,6 @@ PRE.programlisting {
   border-width: 1px;
   border-color: black;
   color: black;
-  background-color: rgb(224,224,224);
   padding: 5px;
   margin-left: 2em;
   margin-right: 2em;
@@ -258,7 +266,6 @@ DIV.literallayout {
   border-width: 1px;
   border-color: black;
   color: black;
-  background-color: rgb(224,224,224);
   padding: 5px;
   margin-left: 2em;
   margin-right: 2em;
