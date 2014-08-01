@@ -48,46 +48,6 @@ div.pagenotes {
   font-size: small;
 }
 
-/* The fascinating history section */
-div.history {
-  margin-left: 3em;
-  padding-left: 1em;
-  border-width: 0.1em 0em 0em 0.1em;
-  border-color: gray; 
-  /* border-width: 0.1em; */
-  color: gray;
-  background-color: white;
-  font-size: small;
-}
-
-div.history p {
-  color: gray;
-}
-div.history li {
-  color: gray;
-}
-div.history ul {
-  color: gray;
-}
-div.history a:link {
-  color: gray;
-}
-div.history a:visited {
-  color: gray;
-}
-
-div.history H3 {
-  color: gray;
-  margin-left: 0em;
-  border-width: 0em;
-}
-
-div.history HR {
-  width: 50%;
-  text-align: right;
-
-}
-
 /* Have some fun with my headers */
 H1, H2 { 
   color: white;
