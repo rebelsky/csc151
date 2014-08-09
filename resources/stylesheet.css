@@ -1,5 +1,5 @@
 /*
- * A generic design for Sam Rebelsky's course sites.
+ * A generic design for Sam Rebelsky's course sites, updated for CSC 151.
  * Copyright (c) 2001-2014 Samuel A. Rebelsky.  All rights reserved.
  */
 
@@ -48,50 +48,10 @@ div.pagenotes {
   font-size: small;
 }
 
-/* The fascinating history section */
-div.history {
-  margin-left: 3em;
-  padding-left: 1em;
-  border-width: 0.1em 0em 0em 0.1em;
-  border-color: gray; 
-  /* border-width: 0.1em; */
-  color: gray;
-  background-color: white;
-  font-size: small;
-}
-
-div.history p {
-  color: gray;
-}
-div.history li {
-  color: gray;
-}
-div.history ul {
-  color: gray;
-}
-div.history a:link {
-  color: gray;
-}
-div.history a:visited {
-  color: gray;
-}
-
-div.history H3 {
-  color: gray;
-  margin-left: 0em;
-  border-width: 0em;
-}
-
-div.history HR {
-  width: 50%;
-  text-align: right;
-
-}
-
 /* Have some fun with my headers */
 H1, H2 { 
   color: white;
-  background-color: gray;
+  background-color: #0b61a4;
   font-weight: bold;
   font-family: Helvetica, sans-serif;
   /* border: solid silver; */
@@ -116,7 +76,7 @@ H2 {
 }
 
 H3 {
-  color: grey;
+  color: #0b61a4;
   font-family: Helvetica, sans-serif;
   border-width: 2px 0em 0em 5px;
   font-size: 1.1em;
@@ -134,7 +94,7 @@ P.course {
   font-size: 1.1em;
   text-align: right;
   color: white;
-  background-color: gray;
+  background-color: #0b61a4;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -183,13 +143,13 @@ SPAN.guimenu {
   font-weight: bold;
   font-size: small;
   font-family: Helvetica, sans-serif;
-  background-color: rgb(224,224,224);
+  background-color: rgb(224,224,240);
 }
 SPAN.guimenuitem {
   font-weight: bold;
   font-size: small;
   font-family: Helvetica, sans-serif;
-  background-color: rgb(224,224,224);
+  background-color: rgb(224,224,240);
 }
 
 SPAN.uimenu {
@@ -268,7 +228,7 @@ PRE.screen {
   border-style: dashed;
   border-color: black;
   color: black;
-  background-color: transparent;
+  background-color: rgb(224,224,240);
   padding: 5px;
   margin-left: 2em;
   margin-right: 2em;
@@ -287,7 +247,7 @@ PRE.programlisting {
   border-width: 1px;
   border-color: black;
   color: black;
-  background-color: rgb(224,224,224);
+  background-color: rgb(224,224,240);
   padding: 5px;
   margin-left: 2em;
   margin-right: 2em;
@@ -298,7 +258,7 @@ DIV.literallayout {
   border-width: 1px;
   border-color: black;
   color: black;
-  background-color: rgb(224,224,224);
+  background-color: rgb(224,224,240);
   padding: 5px;
   margin-left: 2em;
   margin-right: 2em;
@@ -324,7 +284,7 @@ TABLE.schedule TH {
 
 TR.week {
   color: white;
-  background-color: grey;
+  background-color: #0b61a4;
 }
 
 TR.break {
@@ -356,8 +316,8 @@ TABLE.index {
 }
 
 SPAN.guibutton {
-  background-color: rgb(224,224,224);
-  border-color: rgb(192,192,192);
+  background-color: rgb(224,224,240);
+  border-color: rgb(208,208,192);
   border-style: ridge;
   border-width: 2px;
   border-radius: 5px;
@@ -379,4 +339,46 @@ SPAN.break {
  */
 SPAN.overview {
   display: block;
+}
+
+/*
+ * Override some of the Docbook decisions
+ */
+
+.userinput {
+  font-weight: normal;
+}
+
+/*
+ * Formatted Scheme code
+ */
+
+.comment {
+  color: rgb(193,116,31);
+  font-style: oblique;
+}
+
+.keyword {
+  font-weight: bold;
+  color: rgb(38,38,128);
+}
+
+.number {
+  color: rgb(41,128,38);
+}
+
+.paren {
+  color: rgb(132,60,36);
+}
+
+.strbdy {
+  text-decoration: underline;
+}
+
+.string {
+  color: rgb(41,128,38);
+}
+
+.symbol {
+  color: rgb(38,38,128);
 }
