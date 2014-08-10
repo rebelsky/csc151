@@ -19,6 +19,12 @@ clean:
                 *.list \
                 outline.*
 
+# +---------+---------------------------------------------------------
+# | Globals |
+# +---------+
+
+# The current directory
+DIR = $(shell pwd | sed -s 's/.*\///g')
 
 # +-----------------------+-------------------------------------------
 # | Converting file types |
@@ -39,6 +45,8 @@ clean:
 		--stringparam html.stylesheet "../resources/stylesheet.css" \
 		--stringparam process.empty.source.toc "1" \
 		--stringparam toc.section.depth "3" \
+                --stringparam filename "$@" \
+		--stringparam directory "$(DIR)" \
 		common.xsl $< \
                 | sed -e 's/<html>/<html lang="en">/' \
                 > $@

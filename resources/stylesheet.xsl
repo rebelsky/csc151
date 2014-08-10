@@ -14,6 +14,9 @@
 
 <xsl:import href="../resources/links.xsl"/>
 
+<xsl:param name="filename" select="index.html"/>
+<xsl:param name="directory"/>
+
 <xsl:template name="body.attributes">
   <xsl:attribute name="style">background-image:url(../Images/logo.png);</xsl:attribute>
 </xsl:template>
@@ -53,6 +56,17 @@ or send a letter to Creative Commons, 543 Howard Street, 5th Floor,
 San Francisco, California, 94105, USA.
 <!--/Creative Commons License-->
 </p>
+
+<div class="NOPRINT">
+<p>
+  <a>
+    <xsl:attribute name="href">
+      <xsl:value-of select="concat('http://wave.webaim.org/report#/&url;',$directory,'/',$filename)"/>
+    </xsl:attribute>
+    Check this page's accessibility on WAVE
+  </a>.
+</p>
+</div>
 
 <!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <Work rdf:about="">
