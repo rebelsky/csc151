@@ -22,6 +22,7 @@
 </xsl:template>
 
 <xsl:template name="user.header.content">
+<header>
 <p class="course">
   &coursename; (&courseid; &semester;) : &group;
 <br/>
@@ -30,10 +31,11 @@
 <xsl:call-template name="navlinks"/>
 <p><a name="body"></a></p>
 </div>
+</header>
 </xsl:template>
 
 <xsl:template name="user.footer.content">
-
+<footer>
 <div class="foot">
 
 <div class="NOPRINT">
@@ -43,6 +45,17 @@
 </div><!--noprint-->
 
 <div class="pagenotes">
+
+<div class="NOPRINT">
+<p>
+  <a>
+    <xsl:attribute name="href">
+      <xsl:value-of select="concat('http://wave.webaim.org/report#/&url;',$directory,'/',$filename)"/>
+    </xsl:attribute>
+    Check this page's accessibility on WAVE
+  </a>.
+</p>
+</div>
 
 <p>
 Copyright &copy; 2014 Samuel A. Rebelsky.  
@@ -57,17 +70,6 @@ San Francisco, California, 94105, USA.
 <!--/Creative Commons License-->
 </p>
 
-<div class="NOPRINT">
-<p>
-  <a>
-    <xsl:attribute name="href">
-      <xsl:value-of select="concat('http://wave.webaim.org/report#/&url;',$directory,'/',$filename)"/>
-    </xsl:attribute>
-    Check this page's accessibility on WAVE
-  </a>.
-</p>
-</div>
-
 <!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <Work rdf:about="">
         <license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
@@ -78,7 +80,7 @@ San Francisco, California, 94105, USA.
 </div><!--/pagenotes-->
 
 </div><!--/foot-->
-
+</footer>
 </xsl:template>
 
 </xsl:stylesheet>
