@@ -18,6 +18,11 @@ BODY {
   background-repeat: no-repeat;
 }
 
+/* Get rid of the stupid HR that appears at the top. */
+div.titlepage hr {
+  display: none;
+}
+
 /* The head and the foot. */
 div.head {
   background-color: rgb(232,232,232); 
@@ -346,4 +351,55 @@ SPAN.break {
  */
 SPAN.overview {
   display: block;
+}
+
+/*
+ * Set up for printing
+ */
+@media print {
+  div.head {
+    display: none;
+  }
+  div.NOPRINT {
+    display: none;
+  }
+
+  @page {
+    margin: 0.5in;
+  }
+
+  H1, H2 { 
+    background-color: rgb(96,96,96);
+  }
+
+  H1 {
+    padding-top: 0;
+  }
+
+  H1, H2, H3 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  H1, H2, H3 {
+    font-size: 100%;
+  }
+
+  P.course {
+    font-size: small;
+    color: rgb(128,128,128);
+  }
+
+  P.course,
+  div.section,
+  div.titlepage {
+    margin: 0;
+    padding: 0;
+  }
+
+  PRE {
+    font-size: 90%;
+  }
 }
