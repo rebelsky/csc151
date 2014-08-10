@@ -34,12 +34,14 @@ clean:
 	../tools/sect2docbook $* > $*.docbook
 
 %.html: %.docbook *.ent ../resources/* common.xsl stylesheet.xsl
-	xsltproc -o $*.html \
+	xsltproc \
 		--xinclude \
 		--stringparam html.stylesheet "../resources/stylesheet.css" \
 		--stringparam process.empty.source.toc "1" \
 		--stringparam toc.section.depth "3" \
-		common.xsl $<
+		common.xsl $< \
+                | sed -e 's/<html>/<html lang="en">/' \
+                > $@
 
 %-md.html: %.md
 	Markdown.pl $< > $@
