@@ -18,6 +18,11 @@ BODY {
   background-repeat: no-repeat;
 }
 
+/* Get rid of the stupid HR that appears at the top. */
+div.titlepage hr {
+  display: none;
+}
+
 /* The head and the foot. */
 div.head {
   background-color: rgb(232,232,232); 
@@ -217,6 +222,16 @@ SPAN.schemeerror {
 
 SPAN.errortext {
   color: red;
+}
+
+/**
+ * Standard background color for preformatted sections.
+ */
+PRE,
+PRE.screen,
+PRE.programlisting,
+DIV.literallayout {
+  background-color: rgb(224,224,224);
 }
 
 PRE {
