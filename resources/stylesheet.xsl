@@ -1,5 +1,7 @@
 <?xml version='1.0'?>
 <!DOCTYPE stylesheet [
+  <!ENTITY % CommonEntities SYSTEM "../resources/common.ent">
+    %CommonEntities;
   <!ENTITY % CourseEntities SYSTEM "../resources/course.ent">
     %CourseEntities;
   <!ENTITY % GroupEntities SYSTEM "group.ent">
@@ -12,11 +14,15 @@
 
 <xsl:import href="../resources/links.xsl"/>
 
+<xsl:param name="filename" select="index.html"/>
+<xsl:param name="directory"/>
+
 <xsl:template name="body.attributes">
   <xsl:attribute name="style">background-image:url(../Images/logo.png);</xsl:attribute>
 </xsl:template>
 
 <xsl:template name="user.header.content">
+<header>
 <p class="course">
   &coursename; (&courseid; &semester;) : &group;
 <br/>
@@ -25,10 +31,11 @@
 <xsl:call-template name="navlinks"/>
 <p><a name="body"></a></p>
 </div>
+</header>
 </xsl:template>
 
 <xsl:template name="user.footer.content">
-
+<footer>
 <div class="foot">
 
 <div class="NOPRINT">
@@ -41,12 +48,23 @@
 
 <div class="pagenotes">
 
+<div class="NOPRINT">
+<p>
+  <a>
+    <xsl:attribute name="href">
+      <xsl:value-of select="concat('http://wave.webaim.org/report#/&url;',$directory,'/',$filename)"/>
+    </xsl:attribute>
+    Check this page's accessibility on WAVE
+  </a>.
+</p>
+</div>
+
 <p>
 Samuel A. Rebelsky, <a href="mailto:rebelsky@grinnell.edu">rebelsky@grinnell.edu</a>
 </p>
 
 <p>
-Copyright (c) 2007-2014 Janet Davis, Samuel A. Rebelsky, and Jerod Weinman.  
+Copyright &copy; 2007-2014 Janet Davis, Samuel A. Rebelsky, and Jerod Weinman.  
 (Selected materials are copyright by John David Stone or Henry Walker
 and are used with permission.)
 </p>
@@ -63,7 +81,7 @@ San Francisco, California, 94105, USA.
 </div><!--/pagenotes-->
 
 </div><!--/foot-->
-
+</footer>
 </xsl:template>
 
 </xsl:stylesheet>

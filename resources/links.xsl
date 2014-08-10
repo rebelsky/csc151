@@ -68,8 +68,10 @@
   [<a href="https://github.com/rebelsky/csc151/issues">Issue Tracker (Course)</a>]
 </p>
 <form class="search" method="get" action="../home/search.cgi">
-  Search:
-  <input type="text" name="keyword"/>
+  <label>
+    Search:
+    <input type="text" name="keyword"/>
+  </label>
 </form>
 </div><!--noprint-->
 </xsl:template>
