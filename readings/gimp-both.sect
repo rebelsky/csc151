@@ -1,0 +1,20 @@
+<section id="gimp-both"><title>Fun with GIMP</title>
+
+<para>
+  There are two separate readings for the next class.
+</para>
+
+<itemizedlist>
+  <listitem>
+    <ulink url="gimp-reading.html">The GNU Image Manipulation Program</ulink>
+  </listitem>
+  <listitem>
+    <ulink url="gimp-tools-reading.html">Scripting the GNU Image Manipulation Program</ulink>
+  </listitem>
+</itemizedlist>
+
+<para>
+  Read both.
+</para>
+
+</section> <!-- id="starting-151" -->
