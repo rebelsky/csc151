@@ -104,3 +104,10 @@ pull-generic-old: generic
 	git fetch generic master
 	git merge generic /master
 
+quick: .quick
+.quick: resources/subjects.var resources/due.ent
+	cd resources; make
+	make touch
+	make
+	touch .quick
+
