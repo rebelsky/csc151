@@ -7,8 +7,8 @@ The Problem of Sorting
   Given a list, array, vector, sequence, or file of comparable elements,
   put the elements in order.
     * *In order* typically means that each element is no bigger than
-    the next element.  (You can also sort in decreasing order, in
-    which case each element is no smaller than the next element.)
+      the next element.  (You can also sort in decreasing order, in
+      which case each element is no smaller than the next element.)
 * We'll look at techniques for sorting vectors and lists.
 
 Designing Sorting Algorithms
@@ -19,11 +19,11 @@ Designing Sorting Algorithms
     * We may find a few different ways to sort by hand.
     * We'll probably leave the Scheme-ification to the end.
 * Generalize what you're doing.  
-    * What is the "philosophy" of your techinque?
+    * What is the "philosophy" of your technique?
     * What are the key steps.
 * Come up with some initial test cases.
 * Consider whether there are any deficiences to your technique.
-* Decide on your parameters (e.g., are you sorting a list or a vector).
+* Decide on your *parameters* (e.g., are you sorting a list or a vector).
 * Translate your algorithm into Scheme.
 * Test test test.
 
@@ -71,6 +71,6 @@ A More Formal Description
     * Postconditions?
 * Here are some postconditions I typically think about:
     * You also need to ensure that all elements in the original
-    list are in the sorted list.
+      list are in the sorted list.
     * You also need to ensure that no other elements are in the list.
 

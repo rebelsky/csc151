@@ -34,6 +34,5 @@ Lab
 ---
 
 * Any preliminary questions?
-* Do [the lab](../Labs/pairs-lab.html)the lab</a>.
+* Do [the lab](../Labs/pairs-lab.html)the lab.
 * Be prepared to reflect.
-

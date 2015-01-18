@@ -4,12 +4,12 @@ Patterns of Recursion
 While we've seen and written a variety of examples of direct recursion, 
 they typically have the following form:
 
-    (define *recursive-proc*
-      (lambda (*params*)
-        (if (*base-case-test*)
-            (*base-case* *params*)
-            (*combine* (*partof* *params*)
-                       (*recursive-proc* (*simplify* *params*))))))
+    (define RECURSIVE-PROC
+      (lambda (PARAMS)
+        (if (BASE-CASE-TEST)
+            (BASE-CASE PARAMS)
+            (COMBINE (PART-OF PARAMS)
+                     (RECURSIVE-PROC (SIMPLIFY PARAMS))))))
 
 For lists, the simplification was almost always "take the cdr"
 and the "part-of" was almost always "take the car".

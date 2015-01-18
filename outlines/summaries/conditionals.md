@@ -1,2 +1,2 @@
 We begin to explore Scheme's *conditional* control structures,
-particularly `if` and `cond`.
+particularly `if`, `when`, and `cond`.

@@ -4,7 +4,7 @@ Lists
 * Our first encounters with lists.
     * Collection of values
     * Homogeneous: All the values in a list are the same type
-    * Used primarily with `map` and `for-each`
+    * Used primarily with `map`
 * Extending that notion
     * Can also be *heterogeneous*: Values in the list may have multiple types.
     * Can examine individual elements with `car`, `cdr`, and `list-ref`.
@@ -23,7 +23,7 @@ Implementing Drawings
 * But the general process is the same
     * Group the values in a list
     * When we need to render or manipulate a drawing, use the list operations
-    to extract parts.
+      to extract parts.
 
 Lab
 ---

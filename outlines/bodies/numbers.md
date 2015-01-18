@@ -1,10 +1,23 @@
 Types
 -----
 
+* If you reflect on the first algorithms we wrote, you'll note that we
+  worked with different kinds of things (e.g., knives, jars, bags).  
+* While there are some commonalities between what you do with things
+  (e.g., you can drop a knife or jar or bag on the floor), different
+  things often imply different operations (e.g., you can unscrew a jar,
+  but not a knife).
+* Computer scientists use the term *type* to refer to the things/values
+  we work with.
+* In order to design algorithms, we need to know what kinds of operations
+  the computer already knows.  Typically, these operations are associated
+  with types.  For example, you can multiply numbers and concatenate
+  strings.  (You can't do much at all with symbols, other than make them
+  and compare them.)
 * As you may have noted in your first experiments with Scheme, Scheme
-  assigns *types* to variables.
-* For example, a value might be a number, or a string, or an image 
-  identifier, or a procedure, or a drawing, or ....
+  assigns *types* to values.
+* For example, a value might be a number, or a string, or 
+  a procedure, or ....
 * Computer scientists often think of types in two different ways:
     * *Data-driven*: A type is a set of values.
     * *Purpose-driven*: A type provides information on the valid
@@ -26,6 +39,8 @@ Types
     * What operations are possible on values in the type.  For example, we
       can use the addition operation (<code>+</code>) on numbers and we
       can use the <code>string-append</code> operation on strings.
+* Each time we encounter a type, I'll either tell you or ask you (or both)
+  how you might express values and what obvious operations there are.
 
 Lab
 ---

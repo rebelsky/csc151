@@ -1,4 +1,5 @@
 * Reading: [Drawings as Values](../readings/drawings-reading.html)
 * Reading: [Writing Your Own Procedures](../readings/procedures-reading.html)
+* Reading: [How Scheme Evaluates Expressions (v2)](../readings/scheme-eval-2.html)
 * Lab: [Drawings as Values](../labs/drawings-lab.html)
 * Lab: [Writing Your Own Procedures](../labs/procedures-lab.html)

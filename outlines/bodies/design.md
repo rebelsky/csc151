@@ -10,10 +10,6 @@ About the project
     * Different n - Different images.
     * Same n - Same image.
     * Different sizes - Scales appropriately.
-* Also post that project (code, essays, selected images) to GitHub 
-  with licenses of your choice.
-    * One license for your code.
-    * One license for your images.
 * Note that different people find different things interesting.
 * One of my colleagues in art suggests that a piece is interesting if 
   the viewer cannot easily look at the image and say "I get it".
@@ -27,6 +23,29 @@ About the project
   *relationships*: The relationship between different components of the
   piece, the relationship between the piece and others in the series,
   the relationship between the piece and the broader world.
+
+Quick code examples
+-------------------
+
+* We'll look at two incomplete projects.
+* One project is intended to explore issues of repetition and scale.  It is
+  based on an approach by Colin Brooks '14.
+    * We divide the image into n+1 columns.  
+    * We fill the first column with one oval.  We fill the second column
+      with two ovals.  We fill the third column with three ovals.  And so
+      on and so forth.
+* Another project is intended to explore issues of self-similarity.  It is
+  based on work by Benoit Mandelbrot and problem 8 of the exam.
+    * We turn each point in the plane into a complex number in a relatively
+      limited range.
+    * We count the number of times we can call a function and still stay
+      within a designated range.
+        * We use the function `(+ (square current) original)` to compute
+          the next complex number.
+        * We ask whether its distance from the origin is less than 4.
+        * After some number of times, we give up and just assume that
+          it stays within the range.
+    * We use that count to select a color.
 
 Some design components
 ----------------------

@@ -1,3 +1,8 @@
+*There are two models for the project reviews.  In one, a member of the
+studio art faculty (or sometimes an advanced student) leads the review.
+In the other, we do things more collaboratively.  The notes below are for
+the collaborative version.  Guest leaders choose their own approaches.*
+
 Reviewing images: Big picture
 -----------------------------
 

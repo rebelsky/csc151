@@ -63,6 +63,11 @@ An Everyday Algorithm
 * Each group will write its solution on one of the four boards.
 * SamR will play the role of the sentient, but malicious and clueless
   "follower of instructions".
-* We will do some debriefing today, and will continue debriefing in the
-  next class period.
 
+Debriefing
+----------
+
+* We will consider some of the implications of the activity today.
+* Model: Discuss implications in your small group.  Then pick a few
+  important topics to share with the larger group.
+* We will continue debriefing in the next class period.

@@ -20,7 +20,7 @@ Searching
   known arrangement to the list.  For example, the books on the MathLan
   book shelves are not in an arrangement that would make it easy to
   search for a book with a particular title or by a particular author.
-* For unordered collections, the typical search is *sequential
+* For unordered collections, the typical search is *sequential::N
   search*, look at each element in turn.
 * Sometimes, the collection is *sorted*.  That is, the collection
   is organized by the primary key in which we search.  
@@ -52,9 +52,7 @@ and Phone number (string).  We might search by any of the four criteria
         ("Brown"     "Bruin"  2016 8123 "x9000")
         ("Doe"       "J"      2018 9999 "none")
         ("Smith"     "Kieran" 2015 4112 "x9231")
-        ("Taylor"    "Mic"    2017 1234 "x0001")
-
-      ))
+        ("Taylor"    "Mic"    2017 1234 "x0001")))
 
 * Right now, we have things sorted by last name (and, surprisingly, by
   first name), so we might search by last name (or by first name).  
@@ -82,4 +80,3 @@ Lab
 
 * Do [the lab](../Labs/binary-search-lab.html)
 * Be prepared to reflect.
-

@@ -11,7 +11,7 @@ Basics of Helper Recursion
 Tail Recursion
 --------------
 
-* Note that the two forms of recurison we've seen (direct recursion and
+* Note that the two forms of recursion we've seen (direct recursion and
   helper recursion) have a somewhat different post-recursion step
     * In the first kinds of recursive procedures we wrote, there's still
       work to do after the recursive call finishes.
@@ -34,7 +34,7 @@ Old Notes
 _These are from a previous time I taught the class.  I leave them around
 for historical reasons._
 
-=== Delayed Evalution in Recursive Procedures
+### Delayed Evalution in Recursive Procedures
 
 * A number of you have noted that recursion, as written, builds up a
   bunch of stuff to evaluate.
@@ -50,7 +50,7 @@ for historical reasons._
 * For the latter group, we look for a strategy that helps us evaluate
   partial results along the way.
 
-=== Helper Recursion
+### Helper Recursion
 
 * The model that we call *helper recursion* (and that many of our
   colleagues call "tail recursion") adds an extra parameter

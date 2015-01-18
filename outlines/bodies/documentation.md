@@ -1,3 +1,19 @@
+Reflecting on Procedures
+------------------------
+
+* Two starting questions:
+    * What were the key ideas you took from the reading/lab?
+    * What were the more difficult issues for you to grasp?
+* A few notes from my observations.
+    * Try to pick procedure names and parameter names that would make
+      sense to your human reader.
+    * If we specify a procedure name, please use that name.
+    * Control-up-arrow in the interactions pane brings up a previous
+      command.  (You can also use escape-p.)
+    * Once you've defined your procedure, you'll need to call it.  
+      To call a procedure, you write an open parenthesis, the name of
+      the procedure, the inputs (actual parameters), and a close parenthesis.
+
 Documentation
 -------------
 
@@ -55,6 +71,8 @@ Practice
 
 * We'll try writing documentation collaboratively for a variety of 
   procedures.
+    * I'll probably ask you to think for a few minutes before answering
+      (and you can talk to your neighbors)
 * <code>(max val1 val2 ... valn)</code>
 * <code>(neighbor drawing)</code>
 * <code>(sqrt val)</code>

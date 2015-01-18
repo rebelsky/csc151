@@ -19,9 +19,11 @@ The `image-compute` model
   image and a function from colors to colors.
 * We will consider a variant of this model - images as functions
   from *positions* to colors.
-* That is, given an (x,y) pair, determine a color for the pixel at
-  (x,y).
+* That is, given an (x,y) pair, use a function to determine a color for 
+  the pixel at (x,y).
 * Syntax: `(image-compute *function* *width* *height*)`
+    * No exclamation point because we are not changing anything that alread
+      exists; we are simply computing a new image.
 
 Examples
 --------

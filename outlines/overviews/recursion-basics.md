@@ -1,3 +1,4 @@
 * Some challenges.
 * The idea of recursion.
-* A sample recursive procedure: `sum`.
+* Some sample recursive procedures.
+* Expressing recursion in Scheme.

@@ -22,26 +22,33 @@ Repetition
     * Naively find a name in the phone book
     * Do I have a CD by Van Morrison?
 * We know a few ways to repeat actions:
-    * Using lists: `map` and `for-each` 
+    * Using lists: `map` 
     * Using images: `image-variant`, `image-transform!`,
     and `image-compute-pixels!`.
-    * With side-effecting actions: `repeat`.
 * Today we begin to consider more general forms of repetition.
 
 Some Challenges
 ---------------
 
-* I'm going to challenge you to write algorithms that deal with a
-  collection of values.
-* You may look at one value in the collection.
-* You may hand the rest of the collection to someone else and ask
-  them to do something.
+* You may recall that one of the issues in writing algorithms is that
+  we are often limited to a few basic operations.  Let's explore how
+  we might accomplish some more challenging tasks with only a few
+  basic operations and a powerful helper function.
+* We will develop some functions to answer questions about lists under
+  the following assumptions:
+    * You get a collection of values
+    * You may assess only the first item in the collection (assuming
+      there is such an item)
+    * You may pass the rest of the collection to the person next to
+      you and ask one question of that person
+    * You have answer to give if there are no items in the collection
 * Here are some possibilities
     * Counting the number of values we have
     * Determining whether a collection contains a value
     * Finding the alphabetically first thing in a collection
     * Finding all values in a collection that meet some criteria
     * (Maybe) summing some values
+* After I've done a few, I'll have you write a few
 * If we do this right, you'll see some interesting patterns
 
 Recursion
@@ -79,34 +86,34 @@ at some concrete forms, too._
 
 Here's the form of a typical recursive procedure:
 
-    (define *proc*
-      (lambda (*val*)
-        (if (*base-case-test*)
-            (*base-case* *val*)
-            (*combine* (*partof* *val*)
-                        (*proc* (*update* *val*))))))
+    (define PROC
+      (lambda (VAL)
+        (if (BASE-CASE-TEST)
+            (COMPUTE-BASE-CASE VAL)
+            (COMBINE (EXTRACT-DATA VAL)
+                     (PROC (SIMPLIFY VAL))))))
 
 When the value you're working with is a list and your base case
 is the null list, the form is somewhat simpler:
 
-    (define *proc*
-      (lambda (*lst*)
-        (if (null? *lst*)
-            *null-case*
-            (*combine* (*onestep* (car *lst*))
-                       (*proc* (cdr *lst*))))))
+    (define PROC
+      (lambda (LST)
+        (if (null? LST)
+            NULL-CASE
+            (COMBINE (EXTRACT-DATA (car LST))
+                     (PROC (cdr LST))))))
 
 Sometimes it's useful to grab the recursive result first, particularly
 if you're going to use it in multiple ways.
 
-    (define *proc*
-      (lambda (*lst*)
-        (if (null? *lst*)
-            *null-cse*
-            (let ((recursive-result (*proc* (cdr *lst*))))
-              (if (*test*)
-                  (*combine1* (*step1* (car *lst*)) recursive-result)
-                  (*combine2* (*step2* (car *lst*)) recursive-result))))))
+    (define PROC
+      (lambda (LST)
+        (if (null? LST)
+            NULL-CASE
+            (let ((recursive-result (PROC (cdr LST))))
+              (if (TEST)
+                  (COMBINE-1 (EXTRACT-DATA-1 (car LST)) recursive-result)
+                  (COMBINE-2 (EXTRACT_DATA-2 (car LST)) recursive-result))))))
 
 Lab
 ---

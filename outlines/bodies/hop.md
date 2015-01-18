@@ -2,6 +2,9 @@ Background: Guiding Principles
 ------------------------------
 
 * *Write less, not more*
+    * It (usually) makes you faster.
+    * It (usually) makes your code more readable.
+    * It (usually) makes your code easier to maintain.
 * *Refactor* 
     * Don't write repetitious code 
     * If you are programming by copy-paste-change, you're probably wasting
@@ -13,30 +16,39 @@ Background: Guiding Principles
 Background: The Value of Repetition
 -----------------------------------
 
-* The following is variant of something my colleague John Stone says ...
+*The following is variant of something my colleague John Stone says ...*
+
+You learn from reading.
+
 * The first time you read a new procedure structure 
   (such as recursion over a list), you learn something.
 * The second time you read the same structure, you learn something else.
 * The third time, you learn a bit more.
 * After that, reading doesn't give much benefit.
+
+You learn from writing.
+
 * The first time you write the same structure, you learn something more
   about that structure
 * The second time, you learn even more.
 * The third time, you learn a bit more.
-* After that, there's no benefit.
-* So ... extract the common code so you don't have to write it again.
+* After that, there's almost no benefit.
+
+So ... extract the common code so you don't have to write it again.
 
 Procedures as First-Class Values
 --------------------------------
 
+* We'll look at one way to achieve our guiding principles and write
+  common code.
 * The big picture ideas: 
     * You can write procedures (like `map`) that take other procedures 
       as parameters.
     * You can write procedures (like `left-section` and `compose`) that 
       return other procedures.
     * Doing so makes your code better.
-* So, procedures are, in effect, a new type of value.  What are the questions
-  we normally ask about new types of values?
+* Procedures are, in effect, yet another kind of value.  What are the 
+  questions we normally ask about new types of values?
 * Taking a procedure as a parameter is easy.  You just include it as a normal
   parameter and use it as a normal procedure.
 <pre>

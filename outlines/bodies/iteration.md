@@ -37,7 +37,7 @@ Four Mechanisms for Repetition
 ------------------------------
 
 We've now seen four mechanisms for repetition: `map`, recursion, `repeat`,
-and for-each.  When do you use each approach?
+and `for-each`.  When do you use each approach?
 
 * `map`: Goal is to transform each element in a list, and you want
   the list of transformed values as a result.

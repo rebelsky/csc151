@@ -1,7 +1,7 @@
 Raster Graphics
 ---------------
 
-* Yet another model of images.
+* Another model of images.
 * This one corresponds closely to how computers actually represent images.
 * The image is a grid of colors.
 * You already know about the numbering of the grid points:  
@@ -57,4 +57,5 @@ Those Weird Color Numbers
     * We use that representation because it makes everything faster.
 * Even those of us who designed and implemented that representation
   can't read the values presented in that representation.
-
+* The formula for computing those numbers:
+    * 256*256*red + 256*green + blue

@@ -15,7 +15,6 @@ Drawings
     * What kinds of values do I have?
     * How do I represent those values?
     * What operations do I have?
-
 * We start with a few basic values (the unit square and the unit circle).
     * We represent these as `drawing-unit-square` and
       `drawing-unit-circle`
@@ -31,7 +30,7 @@ Drawings
         * If `d1` and `d2` are drawings, so is `(drawing-group d1 d2)`
 * Once we've described a drawing, we can view it with
   `(image-show (drawing->image d width height))`
-* We will explore what benefits (and obstacles) this new approach gives us.
+* We will explore what benefits (and obstacles) this approach gives us.
 * This model of images models one of the ways we sometimes think about
   images: Every image can be thought of as a composition of simpler 
   components.

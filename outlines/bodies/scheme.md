@@ -3,7 +3,7 @@ Lab
 
 * You will learn Scheme better by trying than by listening, so I'm just
   going to have you work on the
-  [lab](../Labs/starting-scheme-lab.html)
+  [lab](../labs/starting-scheme-lab.html).
 * I hope to spend a few minutes at the end of class giving you
   a chance to reflect on your first real experiences with Scheme.
 

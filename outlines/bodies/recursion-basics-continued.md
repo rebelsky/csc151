@@ -12,7 +12,7 @@ Questions
 Lab
 ---
 
-* Continue [the lab on recursion](../Labs/recursion-basics-lab.html)
+* Begin [the lab on recursion](../Labs/recursion-basics-lab.html)
 * Be prepared to reflect and to ask questions.
 
 Reflection

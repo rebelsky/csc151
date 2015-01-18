@@ -1,7 +1,59 @@
+Structure of Today's Class
+--------------------------
+
+* Sam: Additional class issues. [5 min]
+* Get together with people with the same card value that you have.
+* Small group: Discuss the reading on algorithms.  [5 min]
+    * Don't forget to introduce yourselves!
+    * Make sure that you are ready to answer questions I might ask about 
+      the parts of an algorithm. 
+    * Develop a list of questions for me.
+    * Fill in your blank name cards.
+* Large group: Overview of Algorithms. [5 min]
+* Small group: Example of each component from PB&J discussion [5 min]
+* Large group: Review examples. [5 min]
+* Lab [20 min]
+* Leave
+
+About This Course
+-----------------
+
+* Computer Science 151 has a number of goals
+    * To introduce you to fundamental ideas of computer science: abstraction,
+      algorithms, and data
+    * To enhance your problem-solving skills and give you experience
+      in formal representation of problems and solutions.
+    * To introduce you to two primary paradigms of problem solving:
+      functional and imperative.
+    * To give you some programming skills that you can apply to problems
+      in other disciplines.
+    * To improve other learning and thinking skills (as we hope all
+      Grinnell classes will do).
+* I expect and hope that you will find CSC151 different from any class
+  you've taken in the past.
+    * We use a different format than many classes: a collaborative,
+      workshop-style format.  (You may have seen this format in other
+      introductory science courses; we do it somewhat differently, particularly
+      in that we ask you to do reading and reflection before each class.)
+    * Computers and computer science also require you to think differently.
+      I expect that you'll exercise some brain cells you may have forgotten
+      you have.  (And after all, isn't liberal arts education an exercise
+      in thinking in as many ways as you can?)
+* Like most computer science courses, CSC151 will have both theoretical
+  and practical components.  I hope you will enjoy relating the two.
+* And, hey, we're going to make pretty pictures, too.
+    * That is, you can solve problems in many different domains.  We are
+      going to use image making as our problem domain.  
+    * We've found that images are useful for a wide variety of reasons,
+      not least of which is that it's sometimes much easier to "see" where
+      things went wrong.
+
 Reflections on Making Sandwiches
 --------------------------------
 
-*What else did you learn from the Nut Butter and Jelly exercise?*
+*What else did you learn from the No-Nut Butter and Jelly exercise?*
+
+* I've put responses in the [lessons learned](../handouts/lessons.html) page.
 
 The Components of an Algorithm
 ------------------------------
@@ -79,32 +131,10 @@ The Components of an Algorithm
 * We can also use them in other algorithms.
 * We call these helper algorithms "*subroutines*".
 
-About This Class
-----------------
+### Debriefing, Revisited
 
-* Computer Science 151 has a number of goals
-    * To introduce you to fundamental ideas of computer science: abstraction,
-      algorithms, and data
-    * To enhance your problem-solving skills and give you experience
-      in formal representation of problems and solutions.
-    * To introduce you to two primary paradigms of problem solving:
-      functional and imperative.
-    * To give you some programming skills that you can apply to problems
-      in other disciplines.
-    * To improve other learning and thinking skills (as we hope all
-      Grinnell classes will do).
-* I expect and hope that you will find CSC151 different from any class
-  you've taken in the past.
-    * We use a different format than many classes: a collaborative,
-      workshop-style format.  (You may have seen this format in other
-      introductory science courses; we do it somewhat differently.)
-    * Computers and computer science also require you to think differently.
-      I expect that you'll exercise some brain cells you may have forgotten
-      you have.  (And after all, isn't liberal arts education an exercise
-      in thinking in as many ways as you can?)
-* Like most computer science courses, CSC151 will have both theoretical
-  and practical components.  I hope you will enjoy relating the two.
-* And, hey, we're going to make pretty pictures, too.
+* Where did you see each aspect of an algorithm in the sandwich making
+  exercise?
 
 Lab: Getting Started with Linux
 -------------------------------
@@ -144,7 +174,7 @@ the outline mostly for your edification.*
 * The labs
     * Available online. 
 * The homework
-    * Weekly, due on Wednesdays
+    * Weekly, due on Tuesdays.
 * Academic honesty
     * Core to the academic process.
     * The college's basic policy: Cite carefully.

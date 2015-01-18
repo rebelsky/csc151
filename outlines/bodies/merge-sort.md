@@ -35,4 +35,3 @@ Lab
 
 * Do [the lab](../Labs/mergesort-lab.html)
 * Pause to reflect.
-

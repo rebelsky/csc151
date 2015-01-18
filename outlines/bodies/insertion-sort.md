@@ -9,6 +9,6 @@ Preparation: A Few Questions on Insertion Sort
 Lab
 ---
 
-* Do [the lab on isertion sort](../Labs/insertion-sort-lab.html).
+* Do [the lab on insertion sort](../Labs/insertion-sort-lab.html).
 * Be prepared to reflect.
 
