@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Add some Javascript to the head of a document.  
+
+# Here's the Javascript to add
+JS='<script src="http:\/\/www.cs.grinnell.edu\/~weinman\/courses\/CSC151\/2014S\/resources\/highlight.pack.js"><\/script>\n<script>hljs.tabReplace="    ";hljs.initHighlightingOnLoad();<\/script>\n';
+
+# Here's the lovely sed command to do so
+sed -e "s/<\/head>/$JS<\/head>/";
