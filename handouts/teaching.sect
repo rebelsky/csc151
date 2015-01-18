@@ -47,6 +47,14 @@
 </para>
 
 <para>
+  I recommend that you "read actively".  That is, when you're reading
+  about new ideas in Scheme, you should try some of them out to see
+  if you understand them and can use them.  It's certainly okay if you
+  don't understand everything; that's why we have labs (and short Q&amp;A
+  sessions at the start of most classes).
+</para>
+
+<para>
   I <emphasis>lecture</emphasis>, <emphasis>lead discussions</emphasis>,
   and <emphasis>conduct recitations</emphasis> on the topics of the
   course.  Sometimes these will be based on readings and assignments,
@@ -63,8 +71,9 @@
   you need to try.  Please feel free to say <quote>I'm not sure</quote>
   when I call on you.  At times, I'll step through the class in
   a predictable order, asking a question of each student in turn.
-  At others, I'll call on you individually.  I tend to call more on
-  students I interact with regularly.
+  At others, I will call on students randomly, typically using a 
+  stack of cards to ensure that there is no bias.  And, at times,
+  I'll ask for volunteers and call on you individually.
 </para>
 
 <para>
@@ -139,16 +148,16 @@
   the time, I'll be willing to help.  Once in a while, I'll be working on
   a project and will ask you to come back later.  Students always have
   first priority during office hours.  You should also feel free 
-  to <ulink url="../handouts/irc.html">use IRC</ulink>, to send
-  me electronic mail, which I read regularly, and to call me.  
+  to <ulink url="../handouts/irc.html">use IRC</ulink>; to send
+  me electronic mail, which I read regularly; and to call me.  
 </para>
 
 <para>
   At times, I <emphasis>survey</emphasis> my students to better understand
   how the class is going.  Because I do research on the effects of
-  computers on learning, I sometimes give surveys to gather data.  If
-  I plan to use my surveys for research purposes, I clear my work with
-  the College's Institutional Review Board (IRB).
+  computers on learning, I sometimes give surveys to gather data.  If I
+  plan to use my surveys for research purposes, I usually clear my work
+  with the College's Institutional Review Board (IRB).
 </para>
 
 </section>
@@ -195,7 +204,8 @@
 <para>
   To help eliminate biases, I typically use a numerical grading scale.
   94-100 is an A, 90-93 is an A-, 87-89 is a B+, 84-86 is a B, and so
-  on and so forth.
+  on and so forth.  I do not scale grades.  It is possible for everyone
+  in my class to earn an A, if you all do exceptional work.
 </para>
 
 </section> <!-- my-role -->
