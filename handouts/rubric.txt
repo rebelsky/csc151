@@ -1,4 +1,4 @@
-CSC 151 Grading Sheet, v 0.1.2
+CSC 151 Grading Sheet, v 0.1.3
 ==============================
 
 Assignment: 
@@ -41,7 +41,8 @@ Style
 -----
 
 Do the programmers choose good variable and method names and segment
-the program into appropriate procedures?
+the program into appropriate procedures?  Do the programmers avoid
+repeated code and choose efficient solutions to the problems?
 
 [ ] Yes.  No modifications to base grade.
 [ ] Usually (a few exceptions, but generally appropriate).  No 
@@ -70,6 +71,7 @@ If particular forms of extra credit were specified on the assignment,
 did the students correctly do those forms of extra credit?
 
 [ ] Yes.  Increase by one grade.
+[ ] The assignment did not specify particular forms of extra credit.
 
 Does the submission have characteristics that clearly go beyond the central
 requirements of the assignment?  For example, are there particularly creative,
