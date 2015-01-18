@@ -1,0 +1,319 @@
+<section id="numeric-recursion-reading"><title>Numeric Recursion</title>
+
+<para>
+  <emphasis>Summary:</emphasis>
+  We consider techniques for recursion over natural numbers.
+</para>
+
+<section id="introduction"><title>Introduction</title>
+
+<para>
+  We have written a wide variety of recursive procedures so far.
+  We have written recursive procedures that return lists (e.g.,
+  a variety of procedures that select or filter elements from lists),
+  numbers (e.g., procedures that tally elements in a list, as well as
+  things like <function>sum</function> and <function>product</function>),
+  and even Boolean values (e.g., the <function>all-___?</function> and
+  <function>any-___?</function> predicates).  Yet the procedures have
+  had one thing in common: All of them took lists as parameters.
+</para>
+
+<para>
+  While the recursive procedures we've written so far have used lists
+  as the basis of recursion, we can also write recursive procedures
+  with other types as the basis of recursion.  All we really need to
+  do recursion are (a) a way to determine if a value is simple enough
+  that we can compute an answer directly and (b) a way to simplify
+  the value.  
+</para>
+
+<para>
+  Natural numbers provide a nice basis of recursion.
+  Like lists, natural numbers have a recursive structure of which
+  we can take advantage when we write direct-recursion procedures.
+  A natural number, <parameter>n</parameter>, is either (a) zero, or
+  (b) the successor of a smaller natural number, which we can obtain by
+  subtracting 1 from <parameter>n</parameter>.
+</para>
+
+</section> <!-- id="introduction" -->
+
+<section id="recursive-structure"><title>The Structure of Recursive Procedures</title>
+
+<para>
+  Recall that the common format of a recursive procedure is
+</para>
+
+<programlisting>
+(define <emphasis>recursive-proc</emphasis>
+  (lambda (<emphasis>val</emphasis>)
+    (if (<emphasis>base-case-test</emphasis>)
+        (<emphasis>base-case</emphasis> <emphasis>val</emphasis>)
+        (<emphasis>combine</emphasis> (<emphasis>partof</emphasis> <emphasis>val</emphasis>)
+                 (<emphasis>recursive-proc</emphasis> (<emphasis>simplify</emphasis> <emphasis>val</emphasis>))))))
+</programlisting>
+
+<para>
+  For lists, the test for a base case was typically <quote>is the list empty</quote>
+  or <quote>does the list have only one value</quote>, which we would express
+  as <code>(empty? lst)</code> and <code>(empty? (cdr lst))</code>, respectively.
+  We typically simplify a list by taking the cdr of the lst.  Hence, the
+  simplest form of a recursive procedure for lists is
+</para>
+
+<programlisting>
+(define <emphasis>recursive-proc</emphasis>
+  (lambda (lst)
+    (if (null? lst)
+        (<emphasis>base-case</emphasis>)
+        (<emphasis>combine</emphasis> (car lst)
+                 (<emphasis>recursive-proc</emphasis> (cdr lst))))))
+</programlisting>
+
+<para>
+  Clearly, with other data types, we'll have different tests for the base
+  case and different mechanisms for simplifying values.
+</para>
+
+</section> <!-- id="recursive-structure" -->
+
+<section id="numeric-base"><title>Numeric Base Cases</title>
+
+<para>
+  To write recursive procedures with numeric arguments, we first
+  need a technique for identifying the base case.  With natural
+  numbers, 0 often provides an appropriate base case.  Standard Scheme
+  provides the predicate <function>zero?</function> to distinguish
+  between the base and recursive cases, which permits us to use an
+  <function>if</function>-expression to ensure that only the expression
+  for the appropriate case is evaluated.  We can potentially write a
+  procedure that applies to <emphasis>any</emphasis> natural number if
+  we know (a) what value it should return when the argument is 0 and (b)
+  how to convert the value that the procedure would return for the next
+  smaller natural number into the appropriate return value for a given
+  non-zero natural number.
+</para>
+
+<para>
+  Hence, a typical numeric recursive procedure will look something like
+</para>
+
+<programlisting>
+(define <emphasis>recursive-proc</emphasis>
+  (lambda (<emphasis>val</emphasis>)
+    (if (zero? <emphasis>val</emphasis>)
+        (<emphasis>base-case</emphasis>)
+        (<emphasis>combine</emphasis> <emphasis>val</emphasis> (<emphasis>recursive-proc</emphasis> (- <emphasis>val</emphasis> 1))))))
+</programlisting>
+
+<para>
+  In this sample code, we subtract 1 to simplify the number.  However,
+  one can also subtract more than 1, or divide the number by 2, or do
+  anything else that gives a result that is closer to zero.
+</para>
+
+</section> <!-- id="numeric-base" -->
+
+<section id="example-termial"><title>An Example: Termial</title>
+
+<para>
+  For instance, here is a procedure that, given a natural
+  number, <parameter>number</parameter>, computes the result of
+  adding together all of the natural numbers up to and including
+  <parameter>number</parameter>.  This result is traditionally called the
+  <emphasis>termial</emphasis> of the number.
+</para>
+
+<programlisting>
+<xi:include href="../procs/termial-doc.scm" parse="text" xmlns:xi="http://www.w3.org/2001/XInclude"
+/><xi:include href="../procs/termial-v1.scm" parse="text" xmlns:xi="http://www.w3.org/2001/XInclude"
+/></programlisting>
+
+<para>
+  Whereas in a <ulink url="../readings/recursion-basics-reading.html">list
+  recursion</ulink>, we called the <function>cdr</function>
+  procedure to reduce the length
+  of the list in making the recursive call, the operation that we apply
+  in recursion with natural numbers is reducing the number by 1.
+</para>
+
+<section id="termial-steps" 
+        ><title>Watching <code>termial</code> in Action</title>
+
+<para>
+  Here's a summary of what
+  actually happens during the evaluation of a call to the
+  <function>termial</function> procedure, say, <code>(termial 5)</code>:
+</para>
+
+<screen>
+   (termial 5)
+=&gt; (+ 5 (termial 4))
+=&gt; (+ 5 (+ 4 (termial 3)))
+=&gt; (+ 5 (+ 4 (+ 3 (termial 2))))
+=&gt; (+ 5 (+ 4 (+ 3 (+ 2 (termial 1)))))
+=&gt; (+ 5 (+ 4 (+ 3 (+ 2 (+ 1 (termial 0))))))
+=&gt; (+ 5 (+ 4 (+ 3 (+ 2 (+ 1 0)))))
+=&gt; (+ 5 (+ 4 (+ 3 (+ 2 1))))
+=&gt; (+ 5 (+ 4 (+ 3 3)))
+=&gt; (+ 5 (+ 4 6))
+=&gt; (+ 5 10)
+=&gt; 15
+</screen>
+
+</section> <!-- id="termial-steps" -->
+
+<section id="termial-preconditions"><title>Preconditions for <code>termial</code></title>
+
+<para>
+  The restriction that <function>termial</function> takes only non-negative
+  integers as arguments is an important one:  If we gave it a negative
+  number or a non-integer, we'd have a runaway recursion.  We
+  cannot get to zero by subtracting 1 repeatedly from a negative number or
+  from a non-integer, and so the base case would never be reached.  For
+  example,
+</para>
+
+<screen>
+   (termial -5)
+=&gt; (+ -5 (termial -6))
+=&gt; (+ -5 (+ -6 (termial -7)))
+=&gt; (+ -5 (+ -6 (+ -7 (termial -8))))
+=&gt; (+ -5 (+ -6 (+ -7 (+ -8 (termial -9)))))
+=&gt; ...
+</screen>
+
+<para>
+  Similarly, if we gave the <code>termial</code> procedure an approximation
+  rather than an exact number, we might or might not be able to reach
+  zero, depending on how accurate the approximation is and how much of
+  that accuracy is preserved by the subtraction procedure.
+</para>
+
+<screen>
+   (termial 4.1)
+=&gt; (+ 4.1 (termial 3.1))
+=&gt; (+ 4.1 (+ 3.1 (termial 2.1)))
+=&gt; (+ 4.1 (+ 3.1 (+ 2.1 (termial 1.1))))
+=&gt; (+ 4.1 (+ 3.1 (+ 2.1 (+ 1.1 (termial 0.1)))))
+=&gt; (+ 4.1 (+ 3.1 (+ 2.1 (+ 1.1 (+ 0.1 (termial -0.9))))))
+=&gt; (+ 4.1 (+ 3.1 (+ 2.1 (+ 1.1 (+ 0.1 (+ -0.9 (termial -1.9)))))))
+=&gt; ...
+</screen>
+
+<para>
+  Hence, we might use a husk-and-kernel strategy to protect our procedure.
+  If you haven't seen husk-and-kernel, don't worry, we'll get to it soon.
+  The basic idea is that you design code to check that the preconditions
+  are met.
+</para>
+
+<programlisting>
+<xi:include href="../procs/termial-v2a.scm" parse="text" xmlns:xi="http://www.w3.org/2001/XInclude"
+/></programlisting>
+
+</section> <!-- id="termial-preconditions" -->
+
+<section id="termial-note"><title>A Note on the Implementation of <code>termial</code></title>
+
+<para>
+  Note that our <quote>sum all the values</quote> algorithm is not the only way to
+  compute the termial of a natural number.  Many of you may have learned
+  a more efficient (or at least more elegant) algorithm.  We'll return to
+  this algorithm later.
+</para>
+
+</section> <!-- id="termial-note" -->
+
+</section> <!-- id="termial-example" -->
+
+<section id="numeric-base-cases"><title>Other Numeric Base Cases</title>
+
+<para>
+  The important part of getting recursion to work is making sure that the
+  base case is inevitably reached by performing the simplification operation
+  enough times.  For instance, we can use direct recursion on exact positive
+  integers with a base case of 1, rather than 0.
+</para>
+
+<programlisting>
+<xi:include href="../procs/factorial.scm" parse="text" xmlns:xi="http://www.w3.org/2001/XInclude"
+/></programlisting>
+
+<para>
+  We require the invoker of this <code>factorial</code> procedure to provide
+  an exact, strictly positive integer.  (Zero won't work in this case,
+  because we can't reach the base case, 1, by repeated subtractions if we
+  start from 0.)
+</para>
+
+<para>
+  But our base case need not be a small number.
+  We can use direct recursion to approach the base case from below 
+  by repeated additions of 1, if we know that our starting point is less than 
+  or equal to that base case.  Here's an example.
+</para>
+
+<programlisting>
+<xi:include href="../procs/count-from.scm" parse="text" xmlns:xi="http://www.w3.org/2001/XInclude"
+/></programlisting>
+
+<para>
+  Why is this useful?  Well, it acts much like a generalized version of
+  <function>iota</function>, and we've already seen that 
+  <function>iota</function> is useful in many different situations.
+</para>
+
+<para>
+  You may also recall much more manually intensive ways of making such
+  lists in the past, such as listing all the integers between 0 and 16.
+</para>
+
+</section> <!-- id="numeric-base-cases" -->
+
+<section id="numeric-recursion-self-checks"><title>Self Checks</title>
+
+<section id="numeric-recursion-check-01"><title>Check 1: Recursive Forms</title>
+
+<para>
+  The reading shows you how the basic <ulink
+  url="recursion-patterns.html">patterns of recursion</ulink> we have
+  seen apply to numbers just as well as lists. Identify the standard
+  pieces of the recursive procedure <function>count-from</function> by
+  filling in the blanks below.
+</para>
+
+
+<itemizedlist>
+  <listitem>
+    The <emphasis>base case test</emphasis> is ________________,
+    which checks whether ________________.
+  </listitem>
+
+  <listitem>
+    The <emphasis>base-case-computation</emphasis> is ______________________.
+  </listitem>
+
+  <listitem>
+    The <emphasis>partof</emphasis> procedure is ______________________.
+  </listitem>
+
+  <listitem>
+    The <emphasis>simplify</emphasis> procedure is
+    _____________, which _________________, thereby
+    giving us a "simpler value."
+  </listitem>
+
+  <listitem>
+    Finally, the <emphasis>combine</emphasis> procedure is
+    ___________________, which _____________________.
+  </listitem>
+</itemizedlist>
+
+
+</section>  <!-- id="numeric-recursion-check-01" -->
+
+</section> <!-- id="numeric-recursion-self-checks" -->
+
+
+</section> <!-- id="numeric-recursion-reading" -->
