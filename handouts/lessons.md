@@ -1,137 +1,205 @@
 Lessons from ...
 ================
 
+In [assignment 1](../assignments/assignment.01.html), students were asked
+to provide two things they learned by reading the course web and two things
+they learned from the first day of class.  This document summarizes
+their answers.  I have chosen not to credit individual students by name
+or initials.  Credit for the compound document therefore belongs to the 
+Students of CSC 151.01 2014F.
+
+*Note: Followups from SamR appear in italics.*
+
 Lessons from the the course web
 -------------------------------
 
-* Seek help early!
+I learned reading the daily material will be vital to the learning process. 
 
-* Assignments have "wrappers", which sound interesting.
+I discovered where to find the assignments for upcoming classes.
 
-* I can encrypt my email.
+Much of the work we will be doing must be done in a CS Lab, so we should be proactive about starting early and leaving time to spend time at those computers. [*I will provide you with a mechanism for doing work on your own computers.  But you're still better off working in the lab because help is readily available.*]
 
-* Sleep is important to success.
+Always cite the resources you use. [*I would hope you learned that in your tutorial.  But not all of you have been through tutorial.  And, as at least one of you noted, code may feel different.*] [x4]
 
-* In this course, you are rewarded for effort, not just for getting
-  a "right" answer. [x4]
+We should cite borrowed code in as much detail as possible and note when the page was last updated and when we visited it. [*I prefer detailed citations, but I'll take "quick and dirty" citations if such citations make you more likely to cite.*]
 
-* Extra credit is availble for attending talks and some other events.
+I also learned how to better cite things used in computer science. I would have assumed that recording the URL was sufficient for most purposes.  [*It depends on how you think about sources.  If you're citing just for academic honesty purposes, a URL should suffice.  However, if you want to trace the evolution of ideas, more care is necessary.*]
 
-* The final examination is optional.
+Expect to spend around eight to ten hours working on assignments for this particular class.  [*That should be total outside-of-class work, including reading and studying for the quizzes.*]
 
-* For this course, you must include two statements on the cover page of
-  take-home exams: "I have neither received nor given inappropriate
-  assistance on this examination."  "I am not aware of any other
-  students who have given or received inappropriate assistance on this
-  examination." [x2]
+Choose subject lines wisely: use "CSC 151 *Assignment*: *Title* (*Your Names*)" when turning in homework, and use the keyword "question" or "help" when asking for help.
 
-* For this course, you cite programing code by giving: the original 
-  author, the date the original code was written, the date that you
-  used the code, a summary of modifications you made, and how to find
-  the original code. [x2]
+Time efficiency in this course is a must; otherwise the work may feel very stressful. [*Isn't that true of all Grinnell classes?  I've heard from some students that the regular pace in 151 is better than what they see as uneven pace in other classes.*]
 
-* Sam may be gathering data on his students' learning.
+Reading is going to be very important in the class.  Stay on top of the assigned readings and get ahead if possible. [*Getting ahead may not be a good idea.  Each reading builds on the previous one.*]
 
-* Cite class discussions.  Credit classmates.
+Prof. Rebelsky cares about the well-being of his students and  has put policies in place to support that well-being. [x2]
 
-* If you're spending less than 8-10 hours per week on this course, it may
-  be that you're not doing enough.  If you're spending more than 8-10
-  hours per week on the course, you're probably doing too much.  In both
-  cases, you should talk to SamR.
+I will need to work hard in order to achieve an A. 
 
-* There are late work policies.
+This part of the assignment gave me a better understanding of what is expected of me in the class (i.e. legitimate effort, rather than simple results).   [*I care about both effort and results.  But I think you deserve a lot of credit for effort even if you do not achieve all the results we'd hope for.*]
 
-* Sam prefers plus/check/minus grading for homework.
+I learned that you are very thorough (pushing on wordy).  [*Yup.  I need a good editor.*]
 
-* There are a wide variety of resources available for the course. [x2]
+It's a strange concept at first, but code is created through ideas, and is the intellectual property of whoever wrote it. By not citing code, it's exactly like copy and pasting a paragraph into your essay.
 
-* The CS faculty have tried to design the course in a way that encourages
-  success.
+Programming isn't necessarily more effective done solo. With more minds, code can seen with different lenses and modifications can be made more effectively.
 
-* We should do work in the CS labs, rather than on our own computers.
+One thing I've learned in this part of the course is that I can eat snacks during class while keeping them away from the computers. 
 
-* I need to be creative and thorough in order to get an A.
+I learned the name of the language we're going to be starting with (Scheme).
 
-* TLA stands for "Three-Letter Acronym".
+I learned about the SQ3R method when reading, which I consider really important and helpful. (I probably should have done it for the course materials, too.) [x4]
 
-* I learned the grading system Sam will use.
+This course is not only about CS. It will help me to develop
+problem–solving skills, thinking skills, and even discussion skills.
 
-* Active participation in class discussions plays a role in learning. 
-  Sam therefore expects you to participate. [x3]
+I learned that we are occasionally allowed to substitute an assignment for another one which we did poorly on, as well as dropping one assignment grade. 
 
-* The class has a moderately large time committment.  (Sam thinks it's
-  typical for Grinnell classes.)
+I learned that your exams are primarily given to check on our mastery of the concepts rather than facts, which is why most examinations are take-home.
 
-* Time management is important.
+I've learned and appreciate that you are very transparent with your expectations of your students.
 
-* We'll be talking about a lot of different things.  (See the schedule
-  for more details.)
+I learned what PGP is and how I can protect myself from email forgery and NSA snooping (email-wise at least).  [x3]
 
-* The class has many different kinds of work.
+I learned I'll need to format and style my code correctly in order to receive full credit on an assignment.
 
-* I learned how to navigate the course web. [x2]
+I leaned that I should do the readings in advance.  [*Good advice for almost every class.*]
 
-* Work should not just be correct, it should be exceptional.
+I learned that I should begin my assignments early.  [*Good advice for almost every class.*]
 
-* We will learn more than computer science in this course.  
+I learned that Sam does in fact care about his students’ opinions. I learned this specifically from question 9. Sam is willing to change the policies of his class if the student has a reasonable concern. 
 
-* It's okay to be wrong in front of other people.
+I also learned that you can use a program to sort emails depending on titles.
 
-* SQ3R as an approach to reading.
+I learned that "first-year" is the preferred term because "freshman" mentions "man" and is thus somewhat sexist.  
+
+I learned that a rigid documentation system is not required as long as your comments are descriptive, concise, and relevant.  [*Well ... I actually have fairly rigid documentation requirements for this course because you are just learning to document code, and I find that careful requirements are useful.*]
+
+There's a Google calendar for the course.
+
+I learned that the due date time of 10:30 is so we can get a decent amount of sleep which is really great because I like sleep.
+
+Attending class is very important. Missing class is not only harmful to oneself, but will also go very noticed, and even punished. [*I'm not sure that "punished" is the right word, but attendance is part of your grade.  See the next comment for an alternative way to think about this*]
+
+I learned that showing up every day and being an active learner will reward me.
+
+I learned that I have a variety of resources to receive help, if needed.
+
+When one knows that a class is going to go missed, one must inform Sam with an email by 5 PM of that day at the very latest. [*I do know that there are extenuating circumstances.*]
+
+That homework is graded on if you know the general picture. [*I'm not sure I'd phrase it quite that way, but okay.*] [2x]
+
+The excused absence policy.
+
+I learned how to navigate the website. [x2]
+
+I learned how you will be running class.
+
+A lot of work is going to be group work. 
+
+Collaboration is an important skill in CS and elsewhere.
+
+Good work will only get a B.
+
+I learned that it is important to relay to you when I have a question right away rather than wait until the last minute. 
+
+I've also noted that it is important to have a good subject line in an email so there is no confusion. 
+
+I also learned that it’s important to keep chocolate on hand.  [*Hmmm.  I'm not sure how that came about, but okay.*]
+
+I can get extra credit for extra work. 
+
+You are open to help at almost any time and for almost anything (or should I say – for anything) [*"Almost anything" is right.*]
+
+Your grading policies are a little unusual, I think it’s important that I learned about them now. 
+
+The eboard seems like it will be a useful resource.
+
+Participation does not refer to not just the quantity of comments and questions, but the quality of participation, meaning that shallow answers and simple questions do not carry much weight. 
+
+We are encouraged to speak up immediately during class if we are confused as we do not want to waste class time.
 
 Lessons from the first day of class
 -----------------------------------
 
-* The faculty member whose name is "Samuel A. Rebelsky" prefers to be
-  addressed as "Sam" or "SamR", not "Professor Rebelsky".  He really
-  does not like to be addressed in the generic. (Okay, the student
-  first student who made this comment wrote "I learned to call you Sam.") [x3]
+Computers take everything literally, so it is best to be as specific
+as possible (e.g., make sure to say which end of the knife to grab). [x14]
 
-* It is important to think of a computer as a thing that will try its
-  utmost best to locate and identify loopholes in your code.  For example,
-  someone might interpret "side" as the side of the table, rather
-  than along the edge of the top of the table.  So it is absolutely
-  imperative to lay out specific, lucid statements with the greatest of
-  precision and clarity.  (Sam phrases the first part of this response as
-  "computers are sentient and malicious".) (Another student phrases this
-  as "Don't freak out".) [x11]
+Order of operations is important.
 
-* Working with partners aids in the learning process.
+We will find it useful to revise algorithms after we try them out.
 
-* We will be expected to work in groups. 
+It is also crucial that I assume that the computer does not know anything.
 
-* Laugh at SamR's jokes.
+I learned that detailed instructions are a necessity in the art of
+computer science.
 
-* Have patience.
+ It is difficult to program computers to open twist ties.
 
-* Computer science is the study of algorithms.
+I learned that I should think about how to handle errors correctly (so,
+in the PB&J example, you wouldn't be told to scoop peanut butter out of
+the jar if you had failed to take the cap off of the jar).
 
-* We write algorithms in English, computer languages, hardware, and more.
+I learned that programming might not be as scary as I think it will be,
+because I'm good at being specific and attending to details.
 
-* No background is required to succeed in this course. [x4]
+I learned that I should be proactive in starting assignments because
+there is a lot of trial and error and "working out the kinks" in CS.
 
-* Sam has an informal teaching style.
+Professor Rebelsky really emphasizes active participation meaning that everyone should be able to talk at least once.  Students are often called-on in class either randomly, in a predictable order, or individually by volunteers [*I prefer "Sam" to "Professor Rebelsky"*]
 
-* Collaboration will be important. In the nut butter and jelly exercise, 
-  a more precise set of instructions could be made by collaborating with 
-  your group.
+This class will be challenging, but whether a student accepts the
+challenge or falls in despair depends on the person.  
 
-* Band-aids are necessary for making nut butter and jelly sandwiches.
+Computers can be very useful if used properly.  As long as you are extremely specific with your instructions, you can get a computer to do almost anything.
 
-* Sandwiches are complicated.
+Given the amount of students in the class, one-on-one time with Prof. Rebelsky is going to be hard to come by in class.  Make use of the office hours.  [*There will be quick bursts of one-on-one time during labs.  You can also make use of email.  (I spend way too much time responding to email, but I think it's a worthwhile use of my time.)*]
 
-* Class can go by quickly.
+I learned that this class is going to teach me a lot about algorithms
 
-* Computer science uses its own methodologies, which are not just the 
-  scientific method.
+I learned that I need to be pretty careful when I'm writing code (as evidenced by the peanut butter and jelly sandwich).
 
-* Take notes, even though Sam puts a lot on the EBoard.  Notes can be
-  used on the examinations, and in many other situations.
+Computers are pretty empty headed without instructions.
 
-* Stay positive.
+Never assume anything.  [*Wow.  That's a bit extreme.*]
 
-* It's okay to say "I'm not sure".
+I learned to tackle one thing at a time instead of jumping around. [*I actually think there can be some value to jumping around a bit, particularly if you're stuck on something.  If you can't figure out how to describe how to open the bread, move on to opening the no-nut butter.*]
 
-* Mentors can be helpful.
+I learned what computer science involves in general from the "What is CS" 
+section of the class.
 
-* I may know more than I thought I did.
+I learned that I didn't quite understand Sam's definition of CS.
+
+I learned that we gain more knowledge and write better algorithms through collaboration with others because of the different views we have. 
+ 
+Before the class, I did not perceive computer science as a science (such as physics or chemistry).  I learned how experimental practices in computer science make it similar to the other sciences.
+
+I learned that computer science can be taught through sandwiches!
+
+We should not make assumptions when we give computers instructions.
+
+It's ok to laugh when things go wrong, which they will.
+
+I should participate in class discussions.
+
+I learned that there are fun ways of teaching rather simple concepts and ideas (no-nut butter and jelly analogy.) 
+
+I also learned that you can’t be lazy with computer programs. There are no shortcuts. (only desktop icons) [*Funny*]
+
+We're all clearly at different levels and that’s ok. [*An interesting way to put in two things.*]
+
+I learned that we can get extra credit for attending our peers' matches/games/meets/events. [x2]
+
+What my co-students look like. 
+
+The names of my fellow students.
+
+What I sound like, when I stand-up to speak in front of them.
+
+That you teach in a different mannerism than most professors.
+
+You have unusual teaching methods – interactive, funny and efficient. 
+
+I also learned we will be working with partners on most tasks.
+
