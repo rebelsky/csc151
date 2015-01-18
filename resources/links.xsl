@@ -31,7 +31,6 @@
   [<a href="../eboards/current.html">EBoard</a>]
   [<a href="../labs/current.html">Lab</a>]
   [<a href="../outlines/current.html">Outline</a>] 
-  [<a href="../partners/index.html">Partners</a>]
   [<a href="../readings/current.html">Reading</a>]
 </p>
 <p class="links"> <b>Sections:</b> 
@@ -41,17 +40,18 @@
   [<a href="../handouts/">Handouts</a>] 
   [<a href="../labs/">Labs</a>] 
   [<a href="../outlines/">Outlines</a>] 
-  [<a href="../partners/">Partners</a>] 
   [<a href="../readings/">Readings</a>]
 </p>
 <p class="links"> <b>Reference:</b> 
   [<a href="../reference/setup.html">Setup</a>]
+  [<a href="../reference/virtual-machine.html">VM</a>]
+  [<a href="../reference/error-messages.html">Errors</a>]
   -
   [<a href="../reference/a-z.html">Functions A-Z</a>]
   [<a href="../reference/index.html">Functions By Topic</a>]
   -
   [<a href="http://docs.racket-lang.org/">Racket</a>]
-  [<a href="http://www.cs.grinnell.edu/courses/Scheme/r5rs-html/r5rs_toc.html">Scheme Report (R5RS)</a>]
+  [<a href="http://www.schemers.org/Documents/Standards/R5RS/HTML/">Scheme Report (R5RS)</a>]
   [<a href="http://www.r6rs.org/">R6RS</a>]
   [<a href="http://www.scheme.com/tspl4/">TSPL4</a>]
 </p>
@@ -61,10 +61,13 @@
   [<a href="http://www.cs.grinnell.edu/~weinman/courses/CSC151/2014F/">Weinman (2014F)</a>]
 </p>
 <p class="links"> <b>Misc:</b> 
+  [<a href="http://bit.ly/151questions">Submit Questions</a>]
+  -
   [<a href="http://www.cs.grinnell.edu/~rebelsky/">SamR</a>]
   [<a href="http://www.cs.grinnell.edu/glimmer/">Glimmer Labs</a>]
   [<a href="http://www.cs.grinnell.edu/">CS@Grinnell</a>]
   [<a href="http://www.grinnell.edu/">Grinnell</a>]
+  -
   [<a href="https://github.com/rebelsky/csc151/issues">Issue Tracker (Course)</a>]
 </p>
 <form class="search" method="get" action="../home/search.cgi">

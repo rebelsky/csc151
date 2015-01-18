@@ -1,21 +1,21 @@
 <!ENTITY assignment01 "<ulink url='../assignments/assignment.01.html'>HW 1: Introductory Survey</ulink>">
-<!ENTITY survey-due "10:30 p.m., &mon01;">
+<!ENTITY survey-due "10:30 p.m., &sun00;">
 <!ENTITY assignment01-due "&survey-due;">
 
-<!ENTITY assignment02 "HW 2">
+<!ENTITY assignment02 "<ulink url='../assignments/assignment.02.html'>HW 2: Starting Scheme by Scoring Swimmers</ulink>">
 <!ENTITY assignment02-due "10:30 p.m. &tue02;">
 
-<!ENTITY assignment03 "HW 3">
+<!ENTITY assignment03 "<ulink url='../assignments/assignment.03.html'>HW 3: Drawing Generally and Concisely</ulink>">
 <!ENTITY assignment03-due "10:30 p.m. &tue03;">
 
-<!ENTITY assignment04 "HW 4">
+<!ENTITY assignment04 "<ulink url='../assignments/assignment.04.html'>HW 4: Transforming Colors, Drawings, and Images</ulink>">
 <!ENTITY assignment04-due "10:30 p.m. &tue05;">
 
-<!ENTITY assignment05 "HW 5">
+<!ENTITY assignment05 "<ulink url='../assignments/assignment.05.html'>HW 5: Conditionals and Colors</ulink>">
 <!ENTITY assignment05-due "10:30 p.m. &tue06;">
 
-<!ENTITY assignment06 "HW 6">
-<!ENTITY assignment06-due "10:30 p.m. &tue07;">
+<!ENTITY assignment06 "<ulink url='../assignments/assignment.06.html'>HW 6: Exercises in Recursion</ulink>">
+<!ENTITY assignment06-due "10:30 p.m. &tue09;">
 
 <!ENTITY assignment07 "HW 7">
 <!ENTITY assignment07-due "10:30 p.m. &tue10;">
@@ -27,7 +27,7 @@
 <!ENTITY assignment09-due "10:30 p.m. &tue13;">
 
 <!ENTITY due01 "">
-<!ENTITY due02 "&assignment01; (due 10:30 p.m.)">
+<!ENTITY due02 "&assignment01; (due 10:30 p.m. Sunday night)">
 <!ENTITY due03 "">
 <!ENTITY due04 "">
 <!ENTITY due05 "Quiz 1">
@@ -43,7 +43,7 @@
 <!ENTITY due13 "Quiz 3">
 
 <!ENTITY due14 "">
-<!ENTITY due15 "<ulink url='../assignments/exam.01.html'>Exam 1</ulink> (due 10:31 p.m. via email)">
+<!ENTITY due15 "<ulink url='../assignments/exam.01.html'>Exam 1</ulink> (due 10:30 p.m. via email)">
 <!ENTITY due16 "<ulink url='../assignments/exam.01.html'>Exam 1</ulink> (due in class in paper form)">
 <!ENTITY due17 "Quiz 4">
 
@@ -53,46 +53,46 @@
 <!ENTITY due21 "Quiz 5">
 
 <!ENTITY due22 "">
-<!ENTITY due23 "&assignment05;">
+<!ENTITY due23 "&assignment05;; Exam 2 assigned">
 <!ENTITY due24 "">
 <!ENTITY due25 "Quiz 6">
 
 <!ENTITY due26 "">
-<!ENTITY due27 "&assignment06; due">
-<!ENTITY due28 "">
+<!ENTITY due27 "<ulink url='../assignments/exam.02.html'>Exam 2</ulink> (due 10:30 p.m. via email)">
+<!ENTITY due28 "<ulink url='../assignments/exam.02.html'>Exam 2</ulink> (due in class in paper form)">
 <!ENTITY due29 "Quiz 7">
 
 <!ENTITY due30 "">
-<!ENTITY due31 "Exam 2 Assigned">
-<!ENTITY due32 "&assignment07;">
+<!ENTITY due31 "">
+<!ENTITY due32 "">
 <!ENTITY due33 "Quiz 8">
 
 <!ENTITY due34 "">
-<!ENTITY due35 "<ulink url='../assignments/exam.02.html'>Exam 2</ulink> (due 10:30 p.m. via email)">
-<!ENTITY due36 "<ulink url='../assignments/exam.02.html'>Exam 2</ulink> (due in class in paper form)">
+<!ENTITY due35 "&assignment06;; Exam 3 distributed">
+<!ENTITY due36 "">
 <!ENTITY due37 "Quiz 9">
 
 <!ENTITY due38 "">
-<!ENTITY due39 "&assignment08;; Project assigned">
-<!ENTITY due40 "">
+<!ENTITY due39 "<ulink url='../assignments/exam.03.html'>Exam 3</ulink> (due 10:30 p.m. via email); Project assigned">
+<!ENTITY due40 "<ulink url='../assignments/exam.03.html'>Exam 3</ulink> (due in class in paper form)">
 <!ENTITY due41 "Quiz 10">
 
-<!ENTITY due42 "">
-<!ENTITY due43 "Project proposal due at 10:30 p.m.">
-<!ENTITY due44 "Project proposal images due">
+<!ENTITY due42 "Project proposal due at 10:30 p.m.">
+<!ENTITY due43 "Project proposal images due">
+<!ENTITY due44 "">
 <!ENTITY due45 "Quiz 11">
 
-<!ENTITY due46 "Project due">
-<!ENTITY due47 "">
-<!ENTITY due48 "">
+<!ENTITY due46 "">
+<!ENTITY due47 "Project due">
+<!ENTITY due48 "Exam 4 distributed">
 
 <!ENTITY due49 "">
-<!ENTITY due50 "<ulink url='../assignments/exam.03.html'>Exam 3</ulink> (due 10:30 p.m. via email)">
-<!ENTITY due51 "<ulink url='../assignments/exam.03.html'>Exam 3</ulink> (due in class in paper form)">
-<!ENTITY due52 "Quiz 12">
+<!ENTITY due50 "">
+<!ENTITY due51 "">
+<!ENTITY due52 "">
 
-<!ENTITY due53 "">
-<!ENTITY due54 "&assignment09;;">
+<!ENTITY due53 "<ulink url='../assignments/exam.04.html'>Exam 4</ulink> (due 10:30 p.m. via email)">
+<!ENTITY due54 "<ulink url='../assignments/exam.04.html'>Exam 4</ulink> (due in class in paper form)">
 <!ENTITY due55 "">
 <!ENTITY due56 "">
 

@@ -93,6 +93,11 @@ H3 {
   /* margin-left: -5px; */
 }
 
+H4 {
+  color: #0b61a4;
+  font-family: Helvetica, sans-serif;
+}
+
 P {
   /* text-align: justify; */
 }
@@ -432,7 +437,15 @@ SPAN.overview {
     margin-left: 0;
   }
 
-  H1, H2, H3 {
+  H1 {
+    border-bottom: 1px solid #0b61a4;
+  }
+
+  div.foot {
+    border-top: 1px solid #0b61a4;
+  }
+
+  H2, H3 {
     font-size: 100%;
   }
 
@@ -451,4 +464,14 @@ SPAN.overview {
   PRE {
     font-size: 90%;
   }
+
+   a {
+     text-decoration: none;
+   }
+   a:link {
+     color: blue;
+   }
+   a:visited {
+     color: blue;
+   }
 }

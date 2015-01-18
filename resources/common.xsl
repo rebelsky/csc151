@@ -24,6 +24,8 @@
                 xmlns="http://www.w3.org/TR/xhtml1/transitional"
                 exclude-result-prefixes="#default">
 
+<!-- xsl:import href="/home/rebelsky/share/docbook-xsl-1.78.1/html/docbook.xsl"/ -->
+<!-- xsl:import href="/home/rebelsky/share/docbook-xsl-ns-1.78.1/html/docbook.xsl"/ -->
 <xsl:import href="/home/rebelsky/share/docbook-xsl/html/docbook.xsl"/>
 <xsl:import href="stylesheet.xsl"/>
 
@@ -89,6 +91,44 @@
 <!-- Overviews in the schedule -->
 <xsl:template match="overview">
   <span class="overview"><xsl:apply-templates/></span>
+</xsl:template>
+
+<!-- Chunks of Scheme Code -->
+<xsl:template match="scheme">
+  <div class="scheme"><xsl:apply-templates/></div>
+</xsl:template>
+
+<!-- Comments -->
+<xsl:template match="comment">
+  <em class="comment"><xsl:apply-templates/></em>
+</xsl:template>
+
+<!-- Keywords -->
+<xsl:template match="keyword">
+  <strong class="keyword"><xsl:apply-templates/></strong>
+</xsl:template>
+
+<!-- Numbers -->
+<xsl:template match="number">
+  <span class="number"><xsl:apply-templates/></span>
+</xsl:template>
+
+<!-- Parentheses -->
+<xsl:template match="paren">
+  <span class="paren"><xsl:apply-templates/></span>
+</xsl:template>
+
+<!-- Strings -->
+<xsl:template match="string">
+  <span class="string"><xsl:apply-templates/></span>
+</xsl:template>
+<xsl:template match="strbdy">
+  <span class="strbdy"><xsl:apply-templates/></span>
+</xsl:template>
+
+<!-- Symbols -->
+<xsl:template match="symbol">
+  <span class="symbol"><xsl:apply-templates/></span>
 </xsl:template>
 
 </xsl:stylesheet>
