@@ -14,7 +14,7 @@ approaches (as well as imperative and object-oriented approaches).
 As in all Grinnell classes, we'll also be working on general skills,
 from group work to thinking on your feet.
 
-Starting about sevens years ago, we developed a new approach to CSC151.
+Starting about seven years ago, we developed a new approach to CSC151.
 In both sections of the course, we will be emphasizing *media computation*
 - the application of algorithmic problem solving techniques to media.
 We will particularly emphasize algorithms for creating and manipulating
@@ -61,14 +61,16 @@ Optional review sessions hosted by the class mentors TBD.
 *Instructor*: 
 [Samuel A. Rebelsky](http://www.cs.grinnell.edu/~rebelsky/)
 [[rebelsky](mailto:rebelsky@grinnell.edu)],
-Science 3824.  269-4410 (office).  990-2947 (cell).  
-Office hours:  TBD.
+Science 3824.  641-269-4410 (office).  641-990-2947 (cell).  
+Office hours:  MThF 1:45-3:15.  I have "walking hours" MThF 1:15-1:45 (you can
+sign up to walk with me and chat while we walk).
 I also tend to follow an open door policy: Feel
 free to stop by when my door is open or to make an appointment for
 another time.
 
 *Class Mentors*: 
-Alex Greenberg.
+Alex Greenberg '16 and Evan Bruns '16.  Mentor sessions Wednesday at
+8:00 p.m. and Thursday at 8:00 p.m.
 
 *Grading* (subject to change):
 
@@ -77,15 +79,17 @@ Alex Greenberg.
 * Lab writeups: 10%
 * Project: 10%;
 * Quizzes: 10%;
-* Exams: 45% (3 graded exams plus optional final);
-* Best of individual work (quizzes, average exam, final): 5%.
+* Exams (4 graded exams plus optional final): 44%;
+* Best of individual work (quizzes, average exam, final): 6%.
 
 The final examination for this course is *optional*.
 It can be used as a makeup for one examination.  I will count the
 final examination only if it is higher than your lowest examination, and
-it will replace the grade for that examination.  Once the registrar
-tells me when our exam is scheduled, I will update this page with its
-dates.
+it will replace the grade for that examination.  Our final examination
+is scheduled for 9:00 a.m. on Friday, Dec. 19.  However, since my other
+course has a final at 9:00 a.m. on Tuesday, December 16, I can also offer
+the final then.  (If neither time works for you, let's talk.  I'll find
+another time.)
 
 I will drop the grade on one quiz (the quiz with the lowest grade).
 
@@ -136,9 +140,6 @@ most computers.
 
 *Printing Pages*:
 Most of the pages in the course web are designed for viewing onscreen.
-If you'd like to print them, you may want to use PDF versions, which
-are designed for paper.  To find the PDF version, simply replace
-the `html` at the end of the URL with `pdf`.
 If you do decide to print, you should consider printing the document
 double-sided and two-up (that is, two pages side-by-side on one
 physical page) so as to conserve paper.  When I distribute documents,
@@ -173,7 +174,7 @@ are required.  You should make it a point to load the page of the day
 at the beginning of each class to check announcements and such.
 
 Weinman, Jerod (2014)
-[The CSC 151.01 2014F Course Web](http://www.cs.grinnell.edu/~weinman/courses/CSC151/2014F/).
+[The CSC 151.02 2014F Course Web](http://www.cs.grinnell.edu/~weinman/courses/CSC151/2014F/).
 
-> The course web for the other section of this course.
+> The course web for the other section of this course.  
 
