@@ -1,0 +1,11 @@
+
+  /* I took the following inline link idea from 
+     http://www.smashingmagazine.com/2011/11/24/how-to-set-up-a-print-style-sheet/
+     I modified it a lot (styling with colors and fonts and more)
+   */
+   a:after {
+     content: " <"  attr(href) ">";
+     font-size: 80%;
+     color: black;
+     font-family: Monospace;
+   }
