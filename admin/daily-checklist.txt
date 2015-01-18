@@ -4,18 +4,23 @@ Daily Checklist for Updating Courses
 Before Class
 ------------
 
+[ ] Look at the questions link to see if there are new questions.
+
+[ ] Make sure that there is a Google form for the lab.
+
 [ ] Work on the clicker questions (optional)
 
 [ ] Work on the daily pre-class display (optional)
 
 [ ] Edit files in the outlines directory
+    [ ] admin/NN.md
+    [ ] related/NN.md
     [ ] summaries/ABBREV.md
     [ ] overviews/ABBREV.md
     [ ] bodies/ABBREV.md
-    [ ] admin/admin.NN.md
-    [ ] related/related.NN.md
+    [ ] related/ABBREV.md
 
-[ ] Make and preview the current outline: `mk outline.NN.{md,html}``
+[ ] Make and preview the current outline: `make outline.NN.{md,html}``
 
 [ ] Create the rough version of the current eboard: `eb NN`
 [ ] Edit the current eboard to remove extra text
@@ -36,3 +41,4 @@ After Class
 [ ] Preview the formatted eboard
 
 [ ] Update the current readings to point to the next day
+[ ] Check in anything that has changed
