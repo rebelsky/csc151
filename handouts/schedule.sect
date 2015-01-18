@@ -1,15 +1,11 @@
 <section id="schedule"><title>Schedule</title>
 
+<!-- This page generated automatically.  Please do not edit by hand. -->
+
 <para>
   <emphasis>This is an <emphasis type="strong">approximate</emphasis>
   schedule.  Expect dates and topics to change.  (I will try to keep
   due dates the same.)</emphasis>
-</para>
-
-<para>
-  Some of the information here can also be found in
-  <ulink url="&gcal;">the Google calendar for the course</ulink>, which
-  is available at &lt;<ulink url="&gcal;"/>&gt;.
 </para>
 
 <table class="schedule">
@@ -72,6 +68,17 @@
         <td>&lab04; <break/><emphasis>&writeup04;</emphasis></td>
         <td>&due04;</td>
       </tr>
+      <tr>
+        <td>05</td>
+        <td>&date05;</td>
+        <td>
+          <ulink url="../outlines/outline.05.html"><emphasis role="strong">&title05;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev05;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading05;</td>
+        <td>&lab05; <break/><emphasis>&writeup05;</emphasis></td>
+        <td>&due05;</td>
+      </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -86,17 +93,6 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
-      <tr>
-        <td>05</td>
-        <td>&date05;</td>
-        <td>
-          <ulink url="../outlines/outline.05.html"><emphasis role="strong">&title05;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev05;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading05;</td>
-        <td>&lab05; <break/><emphasis>&writeup05;</emphasis></td>
-        <td>&due05;</td>
-      </tr>
       <tr>
         <td>06</td>
         <td>&date06;</td>
@@ -130,6 +126,17 @@
         <td>&lab08; <break/><emphasis>&writeup08;</emphasis></td>
         <td>&due08;</td>
       </tr>
+      <tr>
+        <td>09</td>
+        <td>&date09;</td>
+        <td>
+          <ulink url="../outlines/outline.09.html"><emphasis role="strong">&title09;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev09;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading09;</td>
+        <td>&lab09; <break/><emphasis>&writeup09;</emphasis></td>
+        <td>&due09;</td>
+      </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -144,17 +151,6 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
-      <tr>
-        <td>09</td>
-        <td>&date09;</td>
-        <td>
-          <ulink url="../outlines/outline.09.html"><emphasis role="strong">&title09;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev09;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading09;</td>
-        <td>&lab09; <break/><emphasis>&writeup09;</emphasis></td>
-        <td>&due09;</td>
-      </tr>
       <tr>
         <td>10</td>
         <td>&date10;</td>
@@ -188,6 +184,17 @@
         <td>&lab12; <break/><emphasis>&writeup12;</emphasis></td>
         <td>&due12;</td>
       </tr>
+      <tr>
+        <td>13</td>
+        <td>&date13;</td>
+        <td>
+          <ulink url="../outlines/outline.13.html"><emphasis role="strong">&title13;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev13;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading13;</td>
+        <td>&lab13; <break/><emphasis>&writeup13;</emphasis></td>
+        <td>&due13;</td>
+      </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -202,17 +209,6 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
-      <tr>
-        <td>13</td>
-        <td>&date13;</td>
-        <td>
-          <ulink url="../outlines/outline.13.html"><emphasis role="strong">&title13;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev13;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading13;</td>
-        <td>&lab13; <break/><emphasis>&writeup13;</emphasis></td>
-        <td>&due13;</td>
-      </tr>
       <tr>
         <td>14</td>
         <td>&date14;</td>
@@ -246,6 +242,17 @@
         <td>&lab16; <break/><emphasis>&writeup16;</emphasis></td>
         <td>&due16;</td>
       </tr>
+      <tr>
+        <td>17</td>
+        <td>&date17;</td>
+        <td>
+          <ulink url="../outlines/outline.17.html"><emphasis role="strong">&title17;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev17;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading17;</td>
+        <td>&lab17; <break/><emphasis>&writeup17;</emphasis></td>
+        <td>&due17;</td>
+      </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -260,17 +267,6 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
-      <tr>
-        <td>17</td>
-        <td>&date17;</td>
-        <td>
-          <ulink url="../outlines/outline.17.html"><emphasis role="strong">&title17;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev17;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading17;</td>
-        <td>&lab17; <break/><emphasis>&writeup17;</emphasis></td>
-        <td>&due17;</td>
-      </tr>
       <tr>
         <td>18</td>
         <td>&date18;</td>
@@ -304,6 +300,17 @@
         <td>&lab20; <break/><emphasis>&writeup20;</emphasis></td>
         <td>&due20;</td>
       </tr>
+      <tr>
+        <td>21</td>
+        <td>&date21;</td>
+        <td>
+          <ulink url="../outlines/outline.21.html"><emphasis role="strong">&title21;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev21;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading21;</td>
+        <td>&lab21; <break/><emphasis>&writeup21;</emphasis></td>
+        <td>&due21;</td>
+      </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -318,17 +325,6 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
-      <tr>
-        <td>21</td>
-        <td>&date21;</td>
-        <td>
-          <ulink url="../outlines/outline.21.html"><emphasis role="strong">&title21;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev21;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading21;</td>
-        <td>&lab21; <break/><emphasis>&writeup21;</emphasis></td>
-        <td>&due21;</td>
-      </tr>
       <tr>
         <td>22</td>
         <td>&date22;</td>
@@ -362,6 +358,17 @@
         <td>&lab24; <break/><emphasis>&writeup24;</emphasis></td>
         <td>&due24;</td>
       </tr>
+      <tr>
+        <td>25</td>
+        <td>&date25;</td>
+        <td>
+          <ulink url="../outlines/outline.25.html"><emphasis role="strong">&title25;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev25;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading25;</td>
+        <td>&lab25; <break/><emphasis>&writeup25;</emphasis></td>
+        <td>&due25;</td>
+      </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -376,17 +383,6 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
-      <tr>
-        <td>25</td>
-        <td>&date25;</td>
-        <td>
-          <ulink url="../outlines/outline.25.html"><emphasis role="strong">&title25;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev25;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading25;</td>
-        <td>&lab25; <break/><emphasis>&writeup25;</emphasis></td>
-        <td>&due25;</td>
-      </tr>
       <tr>
         <td>26</td>
         <td>&date26;</td>
@@ -420,6 +416,22 @@
         <td>&lab28; <break/><emphasis>&writeup28;</emphasis></td>
         <td>&due28;</td>
       </tr>
+      <tr>
+        <td>29</td>
+        <td>&date29;</td>
+        <td>
+          <ulink url="../outlines/outline.29.html"><emphasis role="strong">&title29;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev29;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading29;</td>
+        <td>&lab29; <break/><emphasis>&writeup29;</emphasis></td>
+        <td>&due29;</td>
+      </tr>
+    <tr class="break">
+      <th colspan="6">
+        Fall Break
+      </th>
+    </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -434,17 +446,6 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
-      <tr>
-        <td>29</td>
-        <td>&date29;</td>
-        <td>
-          <ulink url="../outlines/outline.29.html"><emphasis role="strong">&title29;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev29;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading29;</td>
-        <td>&lab29; <break/><emphasis>&writeup29;</emphasis></td>
-        <td>&due29;</td>
-      </tr>
       <tr>
         <td>30</td>
         <td>&date30;</td>
@@ -478,11 +479,17 @@
         <td>&lab32; <break/><emphasis>&writeup32;</emphasis></td>
         <td>&due32;</td>
       </tr>
-    <tr class="break">
-      <th colspan="6">
-        Spring Break
-      </th>
-    </tr>
+      <tr>
+        <td>33</td>
+        <td>&date33;</td>
+        <td>
+          <ulink url="../outlines/outline.33.html"><emphasis role="strong">&title33;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev33;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading33;</td>
+        <td>&lab33; <break/><emphasis>&writeup33;</emphasis></td>
+        <td>&due33;</td>
+      </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -497,17 +504,6 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
-      <tr>
-        <td>33</td>
-        <td>&date33;</td>
-        <td>
-          <ulink url="../outlines/outline.33.html"><emphasis role="strong">&title33;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev33;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading33;</td>
-        <td>&lab33; <break/><emphasis>&writeup33;</emphasis></td>
-        <td>&due33;</td>
-      </tr>
       <tr>
         <td>34</td>
         <td>&date34;</td>
@@ -541,6 +537,17 @@
         <td>&lab36; <break/><emphasis>&writeup36;</emphasis></td>
         <td>&due36;</td>
       </tr>
+      <tr>
+        <td>37</td>
+        <td>&date37;</td>
+        <td>
+          <ulink url="../outlines/outline.37.html"><emphasis role="strong">&title37;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev37;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading37;</td>
+        <td>&lab37; <break/><emphasis>&writeup37;</emphasis></td>
+        <td>&due37;</td>
+      </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -555,17 +562,6 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
-      <tr>
-        <td>37</td>
-        <td>&date37;</td>
-        <td>
-          <ulink url="../outlines/outline.37.html"><emphasis role="strong">&title37;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev37;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading37;</td>
-        <td>&lab37; <break/><emphasis>&writeup37;</emphasis></td>
-        <td>&due37;</td>
-      </tr>
       <tr>
         <td>38</td>
         <td>&date38;</td>
@@ -599,6 +595,17 @@
         <td>&lab40; <break/><emphasis>&writeup40;</emphasis></td>
         <td>&due40;</td>
       </tr>
+      <tr>
+        <td>41</td>
+        <td>&date41;</td>
+        <td>
+          <ulink url="../outlines/outline.41.html"><emphasis role="strong">&title41;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev41;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading41;</td>
+        <td>&lab41; <break/><emphasis>&writeup41;</emphasis></td>
+        <td>&due41;</td>
+      </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -613,17 +620,6 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
-      <tr>
-        <td>41</td>
-        <td>&date41;</td>
-        <td>
-          <ulink url="../outlines/outline.41.html"><emphasis role="strong">&title41;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev41;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading41;</td>
-        <td>&lab41; <break/><emphasis>&writeup41;</emphasis></td>
-        <td>&due41;</td>
-      </tr>
       <tr>
         <td>42</td>
         <td>&date42;</td>
@@ -657,6 +653,17 @@
         <td>&lab44; <break/><emphasis>&writeup44;</emphasis></td>
         <td>&due44;</td>
       </tr>
+      <tr>
+        <td>45</td>
+        <td>&date45;</td>
+        <td>
+          <ulink url="../outlines/outline.45.html"><emphasis role="strong">&title45;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev45;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading45;</td>
+        <td>&lab45; <break/><emphasis>&writeup45;</emphasis></td>
+        <td>&due45;</td>
+      </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -671,17 +678,6 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
-      <tr>
-        <td>45</td>
-        <td>&date45;</td>
-        <td>
-          <ulink url="../outlines/outline.45.html"><emphasis role="strong">&title45;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev45;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading45;</td>
-        <td>&lab45; <break/><emphasis>&writeup45;</emphasis></td>
-        <td>&due45;</td>
-      </tr>
       <tr>
         <td>46</td>
         <td>&date46;</td>
@@ -715,6 +711,11 @@
         <td>&lab48; <break/><emphasis>&writeup48;</emphasis></td>
         <td>&due48;</td>
       </tr>
+    <tr class="break">
+      <th colspan="6">
+        Thanksgiving Break
+      </th>
+    </tr>
 
     <tr class="week">
       <th colspan="6">
