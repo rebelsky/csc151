@@ -1,14 +1,15 @@
-<!ENTITY conditional-transforms-subject "CSC 151.02 Assignment 5: Conditionals">
-<!ENTITY conditional-transforms-due "10:30 p.m., &tue06;">
-<!ENTITY conditional-transforms-prefix "Assignment 5: ">
-<!ENTITY conditional-transforms-prologue "http://bit.ly/151hw5pro">
-<!ENTITY conditional-transforms-epilogue "http://bit.ly/151hw5epi">
-<!ENTITY conditional-transforms-partners "&url;partners/assignment.05.html">
-<!ENTITY conditional-transforms-wrapper '
+<!ENTITY conditionals-and-colors-subject "CSC 151.&section; Assignment 5: Conditionals">
+<!ENTITY conditionals-and-colors-due "10:30 p.m., &tue06;">
+<!ENTITY conditionals-and-colors-prefix "Assignment 5: ">
+<!ENTITY conditionals-and-colors-prologue "http://bit.ly/151hw5pro">
+<!ENTITY conditionals-and-colors-epilogue "http://bit.ly/151hw5epi">
+<!ENTITY conditionals-and-colors-partners "&url;partners/assignment.05.html">
+<!ENTITY conditionals-and-colors-collaboration "If you have been assigned to a group, you must work with your assigned partners on this assignment. The partner assignments are available at <ulink url='http://www.cs.grinnell.edu/~rebelsky/Courses/CSC151/2014F/partners/assignment.05.html'/>. You may discuss this assignment with anyone, provided you credit such discussions when you submit the assignment.">
+<!ENTITY conditionals-and-colors-wrapper '
 <para>
   <emphasis>Wrapper (Prologue):</emphasis> Individually read through
   this assignment and make sure that you understand what is required.
-  Then use the form available at <ulink url="&conditional-transforms-prologue;"/>
+  Then use the form available at <ulink url="&conditionals-and-colors-prologue;"/>
   to indicate (a) how long you think this assignment will take and (b)
   what you think will be the most challenging aspect of this assignment.
 </para>
@@ -16,7 +17,7 @@
 <para>
   <emphasis>Wrapper (Epilogue):</emphasis> When you are done
   with the assignment, fill out the form available at <ulink
-  url="&conditional-transforms-epilogue;"/> to indicate (a) how long the
+  url="&conditionals-and-colors-epilogue;"/> to indicate (a) how long the
   assignment took, (b) what the most challenging part of the assignment
   was, and (c) something important you learned from doing the assignment.
   If you find that the assignment took much less or much more time than

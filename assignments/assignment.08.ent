@@ -1,4 +1,4 @@
-<!ENTITY polygons-subject "CSC 151.02 Assignment 8: Producing Playful Polygons">
+<!ENTITY polygons-subject "CSC 151.&section; Assignment 8: Producing Playful Polygons">
 <!ENTITY polygons-due "&assignment08-due;">
 <!ENTITY polygons-prefix "Assignment 8: ">
 <!ENTITY polygons-prologue "http://bit.ly/151hw8pro">

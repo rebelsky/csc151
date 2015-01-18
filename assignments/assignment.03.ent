@@ -1,6 +1,6 @@
 <!ENTITY drawing-general-due "10:30 p.m., &tue03;">
 <!ENTITY drawing-general-title "Assignment 3: Exploring Drawings">
-<!ENTITY drawing-general-subject "CSC 151.02 Assignment 3: Exploring Drawings">
+<!ENTITY drawing-general-subject "CSC 151.&section; Assignment 3: Exploring Drawings">
 <!ENTITY drawing-general-prefix "Assignment 3: ">
 <!ENTITY drawing-general-prologue "http://bit.ly/151hw3pro">
 <!ENTITY drawing-general-epilogue "http://bit.ly/151hw3epi">

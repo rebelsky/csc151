@@ -1,4 +1,4 @@
-<!ENTITY git-subject "CSC 151.02 Assignment 7: Introducing Git and GitHub">
+<!ENTITY git-subject "CSC 151.&section; Assignment 7: Introducing Git and GitHub">
 <!ENTITY git-due "&assignment07-due;">
 <!ENTITY git-prefix "Assignment 7: ">
 <!ENTITY git-prologue "http://bit.ly/151hw7pro">

@@ -1,6 +1,6 @@
 <!ENTITY starting-scheme-due "10:30 p.m., &tue02;">
-<!ENTITY starting-scheme-title "Assignment 2: Starting Scheme">
-<!ENTITY starting-scheme-subject "CSC 151.02 Assignment 2: Starting Scheme">
+<!ENTITY starting-scheme-title "Assignment 2: Starting Scheme by Scoring Swimmers">
+<!ENTITY starting-scheme-subject "CSC 151.&section; Assignment 2: Starting Scheme">
 <!ENTITY starting-scheme-prologue "http://bit.ly/151hw2pro">
 <!ENTITY starting-scheme-epilogue "http://bit.ly/151hw2epi">
 <!ENTITY starting-scheme-partners "&url;partners/assignment.02.html">
