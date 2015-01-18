@@ -140,6 +140,7 @@ else {
   print STDERR "   mtwf-fall: A MTuWF Fall lab class.\n";
   print STDERR "   mtwf-fall-writeups: A MTuWF Fall lab class with writeups.\n";
   print STDERR "   mtwf-spring: A MTuWF Spring lab class.\n";
+  print STDERR "   mtwf-spring-mlk-writeups: A MTuWF Spring class with writeups and no class on MLK day.\n";
   print STDERR "   mwf-spring: A MWF Spring class.\n";
   print STDERR "   th-spring: A Thursday-only Spring class.\n";
   exit 1;
