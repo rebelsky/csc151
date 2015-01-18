@@ -7,6 +7,7 @@
 #       lab class with writeups.
 #     lfa-fall: Learning from Alumni in the Fall (one day per week)
 #     mtwf-spring: A Monday, Tuesday, Wednesday, and Friday spring lab class.
+#     mtwf-spring-mlk, A MWTF spring lab class, with no MLK day
 #     th-spring: Meets Thursday in the spring
 #     mwf-spring: A MWF spring class (no labs)
 #     mwf-spring-notes: A MWF spring class (no labs, note takers)
@@ -76,6 +77,16 @@ elsif ($type eq "mtwf-spring") {
   top();
   print "<tbody>\n";
   weeks(8,4,1);  
+  break("Spring Break", 6);
+  weeks(6,4,1);   
+  print "</tbody>\n";
+  bottom();
+} # mtwf-spring
+elsif ($type eq "mtwf-spring-mlk") {
+  top();
+  print "<tbody>\n";
+  weeks(1,3,1);         # 1 week of 3 days because of MLK
+  weeks(7,4,1);         # 7 more weeks of 4 days
   break("Spring Break", 6);
   weeks(6,4,1);   
   print "</tbody>\n";
