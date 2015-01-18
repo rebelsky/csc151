@@ -1,0 +1,25 @@
+<!ENTITY exploring-colors-subject "CSC 151.&section; Assignment 4: Transforming Colors, Drawings, and Images">
+<!ENTITY exploring-colors-due "10:30 p.m., &tue05;">
+<!ENTITY exploring-colors-prefix "Assignment 4: ">
+<!ENTITY exploring-colors-prologue "http://bit.ly/151hw4pro">
+<!ENTITY exploring-colors-epilogue "http://bit.ly/151hw4epi">
+<!ENTITY exploring-colors-partners "&url;partners/assignment.04.html">
+<!ENTITY exploring-colors-wrapper '
+<para>
+  <emphasis>Wrapper (Prologue):</emphasis> Individually read through
+  this assignment and make sure that you understand what is required.
+  Then use the form available at <ulink url="&exploring-colors-prologue;"/>
+  to indicate (a) how long you think this assignment will take and (b)
+  what you think will be the most challenging aspect of this assignment.
+</para>
+
+<para>
+  <emphasis>Wrapper (Epilogue):</emphasis> When you are done
+  with the assignment, fill out the form available at <ulink
+  url="&exploring-colors-epilogue;"/> to indicate (a) how long the
+  assignment took, (b) what the most challenging part of the assignment
+  was, and (c) something important you learned from doing the assignment.
+  If you find that the assignment took much less or much more time than
+  you expected, also include (d) a note as to what might have led to
+  that difference.
+</para>'>
