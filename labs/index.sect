@@ -1,244 +1,109 @@
 <section id="index-labs"><title>Labs</title>
 
 <itemizedlist>
-  <listitem>
-    Class 56: <emphasis>No lab</emphasis> (&date56;)
-  </listitem>
-  <listitem>
-    Class 55: <emphasis>No lab</emphasis> (&date55;)
-  </listitem>
-  <listitem>
-    Class 54: &lab54; (held &date54;) <break/><emphasis>&writeup54;</emphasis>
-  </listitem>
-  <listitem>
-    Class 53: &lab53; (held &date53;) <break/><emphasis>&writeup53;</emphasis>
-  </listitem>
+  <listitem>Class 56: <emphasis>No lab</emphasis> (&date56;) <break/><emphasis>&writeup56;</emphasis></listitem>
+  <listitem>Class 55: &lab55; (held &date55;) <break/><emphasis>&writeup55;</emphasis></listitem>
+  <listitem>Class 54: <emphasis>No lab</emphasis> (&date54;) <break/><emphasis>&writeup54;</emphasis></listitem>
+  <listitem>Class 53: &lab53; (held &date53;) <break/><emphasis>&writeup53;</emphasis></listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 52: &lab52; (held &date52;) <break/><emphasis>&writeup52;</emphasis></listitem>
+  <listitem>Class 51: <emphasis>No lab</emphasis> (&date51;) <break/><emphasis>&writeup51;</emphasis></listitem>
+  <listitem>Class 50: <emphasis>No lab</emphasis> (&date50;) <break/><emphasis>&writeup50;</emphasis></listitem>
+  <listitem>Class 49: &lab49; (held &date49;) <break/><emphasis>&writeup49;</emphasis></listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 48: <emphasis>No lab</emphasis> (&date48;) <break/><emphasis>&writeup48;</emphasis></listitem>
+  <listitem>Class 47: &lab47; (held &date47;) <break/><emphasis>&writeup47;</emphasis></listitem>
+  <listitem>Class 46: <emphasis>No lab</emphasis> (&date46;) <break/><emphasis>&writeup46;</emphasis></listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 45: <emphasis>No lab</emphasis> (&date45;) <break/><emphasis>&writeup45;</emphasis></listitem>
+  <listitem>Class 44: &lab44; (held &date44;) <break/><emphasis>&writeup44;</emphasis></listitem>
+  <listitem>Class 43: &lab43; (held &date43;) <break/><emphasis>&writeup43;</emphasis></listitem>
+  <listitem>Class 42: &lab42; (held &date42;) <break/><emphasis>&writeup42;</emphasis></listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 41: &lab41; (held &date41;) <break/><emphasis>&writeup41;</emphasis></listitem>
+  <listitem>Class 40: &lab40; (held &date40;) <break/><emphasis>&writeup40;</emphasis></listitem>
+  <listitem>Class 39: &lab39; (held &date39;) <break/><emphasis>&writeup39;</emphasis></listitem>
+  <listitem>Class 38: <emphasis>No lab</emphasis> (&date38;) <break/><emphasis>&writeup38;</emphasis></listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 37: &lab37; (held &date37;) <break/><emphasis>&writeup37;</emphasis></listitem>
+  <listitem>Class 36: &lab36; (held &date36;) <break/><emphasis>&writeup36;</emphasis></listitem>
+  <listitem>Class 35: &lab35; (held &date35;) <break/><emphasis>&writeup35;</emphasis></listitem>
+  <listitem>Class 34: &lab34; (held &date34;) <break/><emphasis>&writeup34;</emphasis></listitem>
+</itemizedlist> 
+
+<itemizedlist>
+  <listitem>Class 33: &lab33; (held &date33;) <break/><emphasis>&writeup33;</emphasis></listitem>
+  <listitem>Class 32: &lab32; (held &date32;) <break/><emphasis>&writeup32;</emphasis></listitem>
+  <listitem>Class 31: &lab31; (held &date31;) <break/><emphasis>&writeup31;</emphasis></listitem>
+  <listitem>Class 30: &lab30; (held &date30;) <break/><emphasis>&writeup30;</emphasis></listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 29: &lab29; (held &date29;) <break/><emphasis>&writeup29;</emphasis></listitem>
+  <listitem>Class 28: &lab28; (held &date28;) <break/><emphasis>&writeup28;</emphasis></listitem>
+  <listitem>Class 27: &lab27; (held &date27;) <break/><emphasis>&writeup27;</emphasis></listitem>
+  <listitem>Class 26: &lab26; (held &date26;) <break/><emphasis>&writeup26;</emphasis></listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 25: &lab25; (held &date25;) <break/><emphasis>&writeup25;</emphasis></listitem>
+  <listitem>Class 24: &lab24; (held &date24;) <break/><emphasis>&writeup24;</emphasis></listitem>
+  <listitem>Class 23: &lab23; (held &date23;) <break/><emphasis>&writeup23;</emphasis></listitem>
+  <listitem>Class 22: &lab22; (held &date22;) <break/><emphasis>&writeup22;</emphasis></listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 21: &lab21; (held &date21;) <break/><emphasis>&writeup21;</emphasis></listitem>
+  <listitem>Class 20: &lab20; (held &date20;) <break/><emphasis>&writeup20;</emphasis></listitem>
+  <listitem>Class 19: &lab19; (held &date19;) <break/><emphasis>&writeup19;</emphasis></listitem>
+  <listitem>Class 18: &lab18; (held &date18;) <break/><emphasis>&writeup18;</emphasis></listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 17: &lab17; (held &date17;) <break/><emphasis>&writeup17;</emphasis></listitem>
+  <listitem>Class 16: &lab16; (held &date16;) <break/><emphasis>&writeup16;</emphasis></listitem>
+  <listitem>Class 15: &lab15; (held &date15;) <break/><emphasis>&writeup15;</emphasis></listitem>
+  <listitem>Class 14: &lab14; (held &date14;) <break/><emphasis>&writeup14;</emphasis></listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 13: &lab13; (held &date13;) <break/><emphasis>&writeup13;</emphasis></listitem>
+  <listitem>Class 12: &lab12; (held &date12;) <break/><emphasis>&writeup12;</emphasis></listitem>
+  <listitem>Class 11: <emphasis>No lab</emphasis> (&date11;) <break/><emphasis>&writeup11;</emphasis></listitem>
+  <listitem>Class 10: &lab10; (held &date10;) <break/><emphasis>&writeup10;</emphasis></listitem>
+</itemizedlist>
+
+<itemizedlist>
+  <listitem>Class 9: &lab09; (held &date09;) <break/><emphasis>&writeup09;</emphasis></listitem>
+  <listitem>Class 8: <emphasis>No lab</emphasis> (&date08;) <break/><emphasis>&writeup08;</emphasis></listitem>
+  <listitem>Class 7: &lab07; (held &date07;) <break/><emphasis>&writeup07;</emphasis></listitem>
+  <listitem>Class 6: &lab06; (held &date06;) <break/><emphasis>&writeup06;</emphasis></listitem>
 </itemizedlist>
 
 <itemizedlist>
   <listitem>
-    Class 52: &lab52; (held &date52;) <break/><emphasis>&writeup52;</emphasis>
+    Class 5: &lab05; (held &date05;) <break/><emphasis>&writeup05;</emphasis>
   </listitem>
   <listitem>
-    Class 51: <emphasis>No lab</emphasis> (&date51;)
+    Class 4: &lab04; (held &date04;) <break/><emphasis>&writeup04;</emphasis>
   </listitem>
   <listitem>
-    Class 50: <emphasis>No lab</emphasis> (&date50;)
+    Class 3: &lab03; (held &date03;) <break/><emphasis>&writeup03;</emphasis>
   </listitem>
   <listitem>
-    Class 49: &lab49; (held &date49;) <break/><emphasis>&writeup49;</emphasis>
+    Class 2: &lab02; (held &date02;) <break/><emphasis>&writeup02;</emphasis>
   </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 48: &lab48; (held &date48;) <break/><emphasis>&writeup48;</emphasis>
-  </listitem>
-  <listitem>
-    Class 47: <emphasis>No lab</emphasis> (&date47;)
-  </listitem>
-  <listitem>
-    Class 46: &lab46; (held &date46;) <break/><emphasis>&writeup46;</emphasis>
-  </listitem>
-  <listitem>
-    Class 45: &lab45; (held &date45;) <break/><emphasis>&writeup45;</emphasis>
-  </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 44: <emphasis>No lab</emphasis> (&date44;)
-  </listitem>
-  <listitem>
-    Class 43: &lab43; (held &date43;) <break/><emphasis>&writeup43;</emphasis>
-  </listitem>
-  <listitem>
-    Class 42: &lab42; (held &date42;) <break/><emphasis>&writeup42;</emphasis>
-  </listitem>
-  <listitem>
-    Class 41: &lab41; (held &date41;) <break/><emphasis>&writeup41;</emphasis>
-  </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 40: &lab40; (held &date40;) <break/><emphasis>&writeup40;</emphasis>
-  </listitem>
-  <listitem>
-    Class 39: &lab39; (held &date39;) <break/><emphasis>&writeup39;</emphasis>
-  </listitem>
-  <listitem>
-    Class 38: <emphasis>No Lab</emphasis> (&date38;)
-  </listitem>
-  <listitem>
-    Class 37: &lab37; (held &date37;) 
-    <break/><emphasis>&writeup37;</emphasis>
-  </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 36: &lab36; (held &date36;) 
-    <break/><emphasis>&writeup36;</emphasis>
-  </listitem>
-  <listitem>
-    Class 35: &lab35; (held &date35;) 
-    <break/><emphasis>&writeup35;</emphasis>
-  </listitem>
-  <listitem>
-    Class 34: &lab34; (held &date34;) 
-    <break/><emphasis>&writeup34;</emphasis>
-  </listitem>
-  <listitem>
-    Class 33: &lab33; (held &date33;) 
-    <break/><emphasis>&writeup33;</emphasis>
-  </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 32: &lab32; (held &date32;) 
-    <break/><emphasis>&writeup32;</emphasis>
-  </listitem>
-  <listitem>
-    Class 31: &lab31; (held &date31;) 
-    <break/><emphasis>&writeup31;</emphasis>
-  </listitem>
-  <listitem>
-    Class 30: &lab30; (held &date30;) 
-    <break/><emphasis>&writeup30;</emphasis>
-  </listitem>
-  <listitem>
-    Class 29: <emphasis>No Lab</emphasis> (&date29;)
-  </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 28: &lab28; (held &date28;) 
-    <break/><emphasis>&writeup28;</emphasis>
-  </listitem>
-  <listitem>
-    Class 27: &lab27; (held &date27;) 
-    <break/><emphasis>&writeup27;</emphasis>
-  </listitem>
-  <listitem>
-    Class 26: &lab26; (held &date26;) 
-    <break/><emphasis>&writeup26;</emphasis>
-  </listitem>
-  <listitem>
-    Class 25: &lab25; (held &date25;) 
-    <break/><emphasis>&writeup25;</emphasis>
-  </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 24: &lab24; (held &date24;) 
-    <break/><emphasis>&writeup24;</emphasis>
-  </listitem>
-  <listitem>
-    Class 23: &lab23; (held &date23;) 
-    <break/><emphasis>&writeup23;</emphasis>
-  </listitem>
-  <listitem>
-    Class 22: &lab22; (held &date22;) 
-    <break/><emphasis>&writeup22;</emphasis>
-  </listitem>
-  <listitem>
-    Class 21: &lab21; (held &date21;) 
-    <break/><emphasis>&writeup21;</emphasis>
-  </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 20: &lab20; (held &date20;) 
-    <break/><emphasis>&writeup20;</emphasis>
-  </listitem>
-  <listitem>
-    Class 19: &lab19; (held &date19;) 
-    <break/><emphasis>&writeup19;</emphasis>
-  </listitem>
-  <listitem>
-    Class 18: &lab18; (held &date18;) 
-    <break/><emphasis>&writeup18;</emphasis>
-  </listitem>
-  <listitem>
-    Class 17: <emphasis>No Lab</emphasis> (&date17;)
-  </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 16: &lab16; (held &date16;) 
-    <break/><emphasis>&writeup16;</emphasis>
-  </listitem>
-  <listitem>
-    Class 15: &lab15; (held &date15;) 
-    <break/><emphasis>&writeup15;</emphasis>
-  </listitem>
-  <listitem>
-    Class 14: &lab14; (held &date14;) 
-    <break/><emphasis>&writeup14;</emphasis>
-  </listitem>
-  <listitem>
-    Class 13: &lab13; (held &date13;) 
-    <break/><emphasis>&writeup13;</emphasis>
-  </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 12: &lab12; (held &date12;) 
-    <break/><emphasis>&writeup12;</emphasis>
-  </listitem>
-  <listitem>
-    Class 11: <emphasis>No Lab</emphasis> (&date11;)
-    <break/><emphasis>&writeup11;</emphasis>
-  </listitem>
-  <listitem>
-    Class 10: &lab10; (held &date10;) 
-    <break/><emphasis>&writeup10;</emphasis>
-  </listitem>
-  <listitem>
-    Class 9: &lab09; (held &date09;) 
-    <break/><emphasis>&writeup09;</emphasis>
-  </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 8: <emphasis>No Lab</emphasis> (&date08;)
-    <break/><emphasis>&writeup08;</emphasis>
-  </listitem>
-  <listitem>
-    Class 7: &lab07; (held &date07;) 
-    <break/><emphasis>&writeup07;</emphasis>
-  </listitem>
-  <listitem>
-    Class 6: &lab06; (held &date06;) 
-    <break/><emphasis>&writeup06;</emphasis>
-  </listitem>
-  <listitem>
-    Class 5: &lab05; (held &date05;) 
-    <break/><emphasis>&writeup05;</emphasis>
-  </listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 4: &lab04; (held &date04;) 
-    <break/><emphasis>&writeup04;</emphasis>
-  </listitem>
-  <listitem>
-    Class 3: &lab03; (held &date03;) 
-    <break/><emphasis>&writeup03;</emphasis>
-  </listitem>
-  <listitem>
-    Class 2: &lab02; (held &date02;) 
-    <break/><emphasis>&writeup02;</emphasis>
-  </listitem>
+  <listitem> Class 1: <emphasis>No lab</emphasis> (&date01;) </listitem>
 </itemizedlist>
 
 </section> <!-- index-labs; -->
