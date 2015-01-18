@@ -1,4 +1,19 @@
-<!ENTITY project-proposal-due "&tue11;">
-<!ENTITY project-due "&tue12;">
+<!ENTITY project-proposal-due "10:30 p.m., &mon11;">
+<!ENTITY project-due "10:30 p.m. &tue12;">
 <!ENTITY project-subject "Project">
 <!ENTITY project-dropbox "/home/rebelsky/Web/Courses/CSC151/2014S/dropbox">
+<!ENTITY optional-project-examples
+  "  <varlistentry>
+    <term>
+      Can we see examples of past students' work?
+    </term>
+    <listitem>
+      Yes; see <ulink
+      url='http://mediascripting.wordpress.com/gallery-2/student-examples/'>student
+      examples</ulink> on the <ulink
+      url='http://mediascripting.wordpress.com'>MediaScripting site</ulink>.
+      Many of the images and animations on
+      <ulink url='http://glimmer.grinnell.edu'>MIST</ulink> were also created
+      using techniques from 151.
+    </listitem>
+  </varlistentry>">
