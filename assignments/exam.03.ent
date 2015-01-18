@@ -1,15 +1,25 @@
 <!ENTITY prof-contact-times "8am-10pm">
 <!ENTITY prof-contact-options "cell phone (text only) - 641-990-2947">
-<!ENTITY exam3-prologue "http://bit.ly/csc151exam3pro">
-<!ENTITY exam3-optional-prologue-due '<listitem>10:30 p.m., Monday, 28 April 2014 (<ulink url="&exam3-prologue;">Prologue</ulink>)</listitem>'>
-<!ENTITY exam3-email-subject "CSC 151.02 Exam 3 (Your Name)">
+<!ENTITY exam3-prologue "http://bit.ly/151-2014F-exam3pro">
+<!ENTITY exam3-prologue-due '<listitem>10:30 p.m., Friday, 7 November 2014 (<ulink url="&exam3-prologue;">Prologue</ulink>)</listitem>'>
+<!ENTITY exam3-epilogue-due '<listitem>10:30 p.m., Wednesday, 12 November 2014 (<ulink url="&exam3-epilogue;">Epilogue</ulink>)</listitem>'>
+<!ENTITY exam3-epilogue "http://bit.ly/151-2014F-exam3epi">
+<!ENTITY exam3-email-subject "CSC 151.&section; Exam 3 (Your Name)">
 <!ENTITY exam3-optional-prologue "
   <para>
     This examination has a <ulink url='&exam3-prologue;'>prologue</ulink>
-    that must be completed by the Sunday evening before the exam is due.
+    that must be completed by the Friday evening before the exam is due.
     The prologue is intended to help you get started thinking about the
-    examination.  The prologue is optional.  However, if you intend to
-    invoke the <quote>there's more to life</quote> option (see below),
-    you must turn in the prologue by the specified deadline.
+    examination.  The prologue is required.  Failure to fill in the
+    prologue by the designated time will incur a penalty of five points
+    on the examination.
   </para>">
-<!ENTITY more-to-life-requirements "filled in the prologue by the specified deadline.  You may count the time you spend on the prologue toward those five hours">
+<!ENTITY exam3-optional-epilogue "
+  <para>
+    This examination has an <ulink url='&exam3-epilogue;'>epilogue</ulink>
+    that must be completed by the evening after the exam is due.
+    The epilogue is intended to help you reflect carefully on the 
+    examination.  The epilogue is required.  Failure to fill in the
+    epilogue will incur a penalty of five points on the exam.
+  </para>">
+<!ENTITY more-to-life-requirements "filled in the prologue by the specified deadline and arranged for a meeting with me within one week of receiving your graded exam.  You may count the time you spend on the prologue toward those five hours">
