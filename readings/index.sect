@@ -1,100 +1,56 @@
 <section id="index-readings;"><title>Readings</title>
 
-<itemizedlist>
-  <listitem>Class 56: No Reading (&date56;)</listitem>
-  <listitem>Class 55: No Reading (&date55;)</listitem>
-  <listitem>Class 54: &reading54; (due &date54;)</listitem>
-  <listitem>Class 53: &reading53; (due &date53;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 52: &reading52; (due &date52;)</listitem>
-  <listitem>Class 51: No Reading (&date51;)</listitem>
-  <listitem>Class 50: No Reading (&date50;)</listitem>
-  <listitem>Class 49: &reading49; (due &date49;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 48: No Reading (&date48;)</listitem>
-  <listitem>Class 47: &reading47; (due &date47;)</listitem>
-  <listitem>Class 46: &reading46; (due &date46;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 45: No Reading (&date45;)</listitem>
-  <listitem>Class 44: &reading44; (due &date44;)</listitem>
-  <listitem>Class 43: &reading43; (due &date43;)</listitem>
-  <listitem>Class 42: &reading42; (due &date42;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 41: &reading41; (due &date41;)</listitem>
-  <listitem>Class 40: &reading40; (due &date40;)</listitem>
-  <listitem>Class 39: &reading39; (due &date39;)</listitem>
-  <listitem>Class 38: &reading38; (due &date38;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 37: &reading37; (due &date37;)</listitem>
-  <listitem>Class 36: &reading36; (due &date36;)</listitem>
-  <listitem>Class 35: &reading35; (due &date35;)</listitem>
-  <listitem>Class 34: &reading34; (due &date34;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 33: &reading33; (due &date33;)</listitem>
-  <listitem>Class 32: &reading32; (due &date32;)</listitem>
-  <listitem>Class 31: &reading31; (due &date31;)</listitem>
-  <listitem>Class 30: &reading30; (due &date30;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 29: &reading29; (due &date29;)</listitem>
-  <listitem>Class 28: &reading28; (due &date28;)</listitem>
-  <listitem>Class 27: &reading27; (due &date27;)</listitem>
-  <listitem>Class 26: &reading26; (due &date26;)</listitem>
-</itemizedlist> 
-
-<itemizedlist>
-  <listitem>Class 25: &reading25; (due &date25;)</listitem>
-  <listitem>Class 24: &reading24; (due &date24;)</listitem>
-  <listitem>Class 23: &reading23; (due &date23;)</listitem>
-  <listitem>Class 22: &reading22; (due &date22;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 21: &reading21; (due &date21;)</listitem>
-  <listitem>Class 20: &reading20; (due &date20;)</listitem>
-  <listitem>Class 19: &reading19; (due &date19;)</listitem>
-  <listitem>Class 18: &reading18; (due &date18;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 17: &reading17; (due &date17;)</listitem>
-  <listitem>Class 16: &reading16; (due &date16;)</listitem>
-  <listitem>Class 15: &reading15; (due &date15;)</listitem>
-  <listitem>Class 14: &reading14; (due &date14;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 13: &reading13; (due &date13;)</listitem>
-  <listitem>Class 12: &reading12; (due &date12;)</listitem>
-  <listitem>Class 11: &reading11; (due &date11;)</listitem>
-  <listitem>Class 10: &reading10; (due &date10;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 9: &reading09; (due &date09;)</listitem>
-  <listitem>Class 8: &reading08; (due &date08;)</listitem>
-  <listitem>Class 7: &reading07; (due &date07;)</listitem>
-  <listitem>Class 6: &reading06; (due &date06;)</listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 5: &reading05; (due &date05;)</listitem>
-  <listitem>Class 4: &reading04; (due &date04;)</listitem>
-  <listitem>Class 3: &reading03; (due &date03;)</listitem>
-  <listitem>Class 2: &reading02; (due &date02;)</listitem>
-</itemizedlist>
+<table class="index">
+  <tr><td>Class 51</td><td width="50%">&reading51;</td><td>due &date51;</td></tr>
+  <tr><td>Class 50</td><td width="50%">&reading50;</td><td>due &date50;</td></tr>
+  <tr><td>Class 49</td><td width="50%">&reading49;</td><td>due &date49;</td></tr>
+  <tr><td>Class 48</td><td width="50%">&reading48;</td><td>due &date48;</td></tr>
+  <tr><td>Class 47</td><td width="50%">&reading47;</td><td>due &date47;</td></tr>
+  <tr><td>Class 46</td><td width="50%">&reading46;</td><td>due &date46;</td></tr>
+  <tr><td>Class 45</td><td width="50%">&reading45;</td><td>due &date45;</td></tr>
+  <tr><td>Class 44</td><td width="50%">&reading44;</td><td>due &date44;</td></tr>
+  <tr><td>Class 43</td><td width="50%">&reading43;</td><td>due &date43;</td></tr>
+  <tr><td>Class 42</td><td width="50%">&reading42;</td><td>due &date42;</td></tr>
+  <tr><td>Class 41</td><td width="50%">&reading41;</td><td>due &date41;</td></tr>
+  <tr><td>Class 40</td><td width="50%">&reading40;</td><td>due &date40;</td></tr>
+  <tr><td>Class 39</td><td width="50%">&reading39;</td><td>due &date39;</td></tr>
+  <tr><td>Class 38</td><td width="50%">&reading38;</td><td>due &date38;</td></tr>
+  <tr><td>Class 37</td><td width="50%">&reading37;</td><td>due &date37;</td></tr>
+  <tr><td>Class 36</td><td width="50%">&reading36;</td><td>due &date36;</td></tr>
+  <tr><td>Class 35</td><td width="50%">&reading35;</td><td>due &date35;</td></tr>
+  <tr><td>Class 34</td><td width="50%">&reading34;</td><td>due &date34;</td></tr>
+  <tr><td>Class 33</td><td width="50%">&reading33;</td><td>due &date33;</td></tr>
+  <tr><td>Class 32</td><td width="50%">&reading32;</td><td>due &date32;</td></tr>
+  <tr><td>Class 31</td><td width="50%">&reading31;</td><td>due &date31;</td></tr>
+  <tr><td>Class 30</td><td width="50%">&reading30;</td><td>due &date30;</td></tr>
+  <tr><td>Class 29</td><td width="50%">&reading29;</td><td>due &date29;</td></tr>
+  <tr><td>Class 28</td><td width="50%">&reading28;</td><td>due &date28;</td></tr>
+  <tr><td>Class 27</td><td width="50%">&reading27;</td><td>due &date27;</td></tr>
+  <tr><td>Class 26</td><td width="50%">&reading26;</td><td>due &date26;</td></tr>
+  <tr><td>Class 25</td><td width="50%">&reading25;</td><td>due &date25;</td></tr>
+  <tr><td>Class 24</td><td width="50%">&reading24;</td><td>due &date24;</td></tr>
+  <tr><td>Class 23</td><td width="50%">&reading23;</td><td>due &date23;</td></tr>
+  <tr><td>Class 22</td><td width="50%">&reading22;</td><td>due &date22;</td></tr>
+  <tr><td>Class 21</td><td width="50%">&reading21;</td><td>due &date21;</td></tr>
+  <tr><td>Class 20</td><td width="50%">&reading20;</td><td>due &date20;</td></tr>
+  <tr><td>Class 19</td><td width="50%">&reading19;</td><td>due &date19;</td></tr>
+  <tr><td>Class 18</td><td width="50%">&reading18;</td><td>due &date18;</td></tr>
+  <tr><td>Class 17</td><td width="50%">&reading17;</td><td>due &date17;</td></tr>
+  <tr><td>Class 16</td><td width="50%">&reading16;</td><td>due &date16;</td></tr>
+  <tr><td>Class 15</td><td width="50%">&reading15;</td><td>due &date15;</td></tr>
+  <tr><td>Class 14</td><td width="50%">&reading14;</td><td>due &date14;</td></tr>
+  <tr><td>Class 13</td><td width="50%">&reading13;</td><td>due &date13;</td></tr>
+  <tr><td>Class 12</td><td width="50%">&reading12;</td><td>due &date12;</td></tr>
+  <tr><td>Class 11</td><td width="50%">&reading11;</td><td>due &date11;</td></tr>
+  <tr><td>Class 10</td><td width="50%">&reading10;</td><td>due &date10;</td></tr>
+  <tr><td>Class 9</td><td width="50%">&reading09;</td><td>due &date09;</td></tr>
+  <tr><td>Class 8</td><td width="50%">&reading08;</td><td>due &date08;</td></tr>
+  <tr><td>Class 7</td><td width="50%">&reading07;</td><td>due &date07;</td></tr>
+  <tr><td>Class 6</td><td width="50%">&reading06;</td><td>due &date06;</td></tr>
+  <tr><td>Class 5</td><td width="50%">&reading05;</td><td>due &date05;</td></tr>
+  <tr><td>Class 4</td><td width="50%">&reading04;</td><td>due &date04;</td></tr>
+  <tr><td>Class 3</td><td width="50%">&reading03;</td><td>due &date03;</td></tr>
+  <tr><td>Class 2</td><td width="50%">&reading02;</td><td>due &date02;</td></tr>
+</table>
 
 </section> <!-- index-readings; -->
