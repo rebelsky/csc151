@@ -4,7 +4,7 @@ Front Door
 Introduction
 ------------
 
-Welcome to one of the Fall 2014 sections of Grinnell College's CSC
+Welcome to the Spring 2015 sections of Grinnell College's CSC
 151, *Functional Problem Solving*, which is described relatively briefly
 in the official [blurb](../handouts/blurb.html).  My own take on this
 course is that we'll be starting to develop your knowledge of computer
@@ -14,7 +14,7 @@ approaches (as well as imperative and object-oriented approaches).
 As in all Grinnell classes, we'll also be working on general skills,
 from group work to thinking on your feet.
 
-Starting about seven years ago, we developed a new approach to CSC151.
+Starting about seven years ago, we developed a new approach to CSC 151.
 In both sections of the course, we will be emphasizing *media computation*
 - the application of algorithmic problem solving techniques to media.
 We will particularly emphasize algorithms for creating and manipulating
@@ -36,7 +36,7 @@ can provide them for you.
 Important Warnings
 ------------------
 
-*Warning!*  Experience shows that CSC151 exercises different parts of
+*Warning!*  Experience shows that CSC 151 exercises different parts of
 your brain than other courses, even than math courses.  In general,
 such exercise is a good thing - one of the key points of a liberal arts
 education is that it exercises different parts of your brain.  However,
@@ -51,45 +51,53 @@ for help.
 *Warning!*  We are using some cutting-edge software, which means that
 things will occasionally crash for no good reason.
 
+*Warning!*  For the first time, I am teaching both sections of CSC 151. 
+That means that when I have grading to do (e.g., the four exams, the
+first assignment), I will have approximately 70 things to grade, which
+should take me upwards of twenty hours.
+
+*Warning!*  I have extra administrative responsibilities this semester,
+and the College is not always good about paying attention to my office
+hours.  You may find that my availability switches from week to week.  I
+will, however, do my best to be available via email.
+
 Basics
 ------
 
-*Meets*: MTWF 10:00-10:50, Science 3813.
-Optionnl review sessions with SamR, Thursdays, 10:00-10;50, Science 3813.
+*Meets*: MTWF 9:00-9:50 (morning section) or 1:15-2:05 (afternoon session)
+in Science 3813.
+Optional review sessions with SamR, Thursdays, 9:00-9:50 and 1:15-2:05, Science 3813.
 Optional review sessions hosted by the class mentors TBD.
 
 *Instructor*: 
 [Samuel A. Rebelsky](http://www.cs.grinnell.edu/~rebelsky/)
 [[rebelsky](mailto:rebelsky@grinnell.edu)],
 Science 3824.  641-269-4410 (office).  641-990-2947 (cell).  
-Office hours:  MThF 1:45-3:15.  I have "walking hours" MThF 1:15-1:45 (you can
-sign up to walk with me and chat while we walk).
-I also tend to follow an open door policy: Feel
-free to stop by when my door is open or to make an appointment for
-another time.
+Office hours:  MTWF 10:00-11:00, M 3:15-4:00.  Sign up for office
+hours at <https://rebelsky.youcanbook.me/>.
+I also tend to follow an open door policy: Feel free to stop by when my
+door is open or to make an appointment for another time.
 
 *Class Mentors*: 
-Alex Greenberg '16 and Evan Bruns '16.  Mentor sessions Wednesday at
-8:00 p.m. and Thursday at 8:00 p.m.
+Morning section: Erin Gaschott and Albert Owusu-Asare.  Afternoon section: Alex
+Greenberg and Sarah Trop.
 
 *Grading* (subject to change):
 
 * Class participation: 10%;
-* Regular homework: 10%;
+* Regular homework: 10% (revised to 0%);
 * Lab writeups: 10%
-* Project: 10%;
-* Quizzes: 10%;
-* Exams (4 graded exams plus optional final): 44%;
-* Best of individual work (quizzes, average exam, final): 6%.
+* Project: 10% (revised to 12%);
+* Weekly quizzes: 10% (revised to 12%);
+* Exams (4 graded exams plus optional final): 45% (revised to 50%);
+* Best of individual work (average quiz grade, average exam grade, final): 5% (revised to 6%).
 
 The final examination for this course is *optional*.
 It can be used as a makeup for one examination.  I will count the
 final examination only if it is higher than your lowest examination, and
-it will replace the grade for that examination.  Our final examination
-is scheduled for 9:00 a.m. on Friday, Dec. 19.  However, since my other
-course has a final at 9:00 a.m. on Tuesday, December 16, I can also offer
-the final then.  (If neither time works for you, let's talk.  I'll find
-another time.)
+it will replace the grade for that examination.  I have not yet received
+information from the registrar on the available times for our final
+examination.
 
 I will drop the grade on one quiz (the quiz with the lowest grade).
 
@@ -100,8 +108,8 @@ More information on grading can be found in the
 Computer science 151 is taught in a *collaborative workshop style*.
 Each day, you'll work on laboratory problems with other students in
 the class.  We may also start or end each class session with a short
-lecture/discussion or a clicker activity.  Some labs will require short
-writeups, which you will do with your lab partner.
+lecture/discussion.  Some labs will require short writeups, which you
+will normally do with your lab partner.
 
 *Extra Credit*:
 I will often offer one unit of extra credit for attending a specified
@@ -116,17 +124,22 @@ you must send me a short (one paragraph) note about the activity within
 two days of the activity.
 
 *Tutoring*:
-The CS Lab makes tutors for 151 available at regularly scheduled times.
-As soon as tutors have been scheduled, I'll let you know what those times
-are (and post them on this page).
+The CS department makes tutors for CSC 151 available from 7:00-10:00
+p.m. on Sunday through Thursday evening.  We also have individual and
+small group tutors available for students who feel that they would benefit
+from that extra support.  We generally do not assign individual tutors
+until after the first exam and are likely to encourage students to work
+with personal tutors in pairs or triplets rather than individually.
 
 *Good-Faith Grade Guarantee*: 
-Because I realize that computer science does not "click" with all
-students, I reward effort as well as outcome.  Hence, students who make
-a "good faith" effort in this class will pass the class, with at least
-a C+.   A good-faith effort includes missing no more than two classes,
-turning in every homework assignment and at least 95% of the laboratory
-writeups, and spending the requisite time on each examination.
+Because I realize that computer science may require a transition in
+the way you think, and different students adapt to that transition at
+different rates, in CSC 151 I reward effort as well as outcome.  Hence,
+students who make a "good faith" effort in this class will pass the class,
+with at least a C+.   A good-faith effort includes missing no more than
+two classes, turning in every homework assignment and at least 95% of the
+laboratory writeups, and spending the requisite time on each examination.
+A good-faith effort also includes following the course policies.
 
 *Class Software*:
 For this course, we will be using [DrRacket](http://racket-lang.org) and
@@ -138,12 +151,21 @@ ability to get help.  Since some students have reasons to work away
 from our lab, we also provide a virtual machine that you can run on
 most computers.
 
+*Appropriate Use of Technology*:
+A key aspect of Grinnell's culture of self-governance is that we treat
+each other with respect.  Because this course includes considerations
+of appropriate uses of technology, using technology to harass or
+denigrate other people is completely unacceptable and therefore grounds
+for immediate failure in this class.
+
 *Printing Pages*:
 Most of the pages in the course web are designed for viewing onscreen.
-If you do decide to print, you should consider printing the document
-double-sided and two-up (that is, two pages side-by-side on one
-physical page) so as to conserve paper.  When I distribute documents,
-I will do my best to distribute them in this form.
+However, I know that there can be value for printing pages and marking
+them up; you learn a lot when you read actively.  If you do decide
+to print, you should consider printing the document double-sided and
+two-up (that is, two pages side-by-side on one physical page) so as
+to conserve paper.  When I distribute documents, I will do my best to
+distribute them in this form.
 
 Optional Books and Other Readings
 ---------------------------------
@@ -165,16 +187,11 @@ Edition.  Cambridge, MA: The MIT Press.  Available online at
 
 > A longer and more readable reference on the Scheme programming language.
 
-Rebelsky, Samuel (2014).
-[The CS151.01 2014F Course Web](index.html).
+Rebelsky, Samuel (2015).
+[The CS151 2015S Course Web](index.html).
 
 > The hypertext that you are currently reading.  Many of these materials
 (particularly those under [Readings](../readings/) and [Labs](../labs/)
 are required.  You should make it a point to load the page of the day
 at the beginning of each class to check announcements and such.
-
-Weinman, Jerod (2014)
-[The CSC 151.02 2014F Course Web](http://www.cs.grinnell.edu/~weinman/courses/CSC151/2014F/).
-
-> The course web for the other section of this course.  
 
