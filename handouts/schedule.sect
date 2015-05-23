@@ -4,8 +4,14 @@
 
 <para>
   <emphasis>This is an <emphasis type="strong">approximate</emphasis>
-  schedule.  Expect dates and topics to change.  (I will try to keep
-  due dates the same.)</emphasis>
+  schedule.  Expect topics and dates of topics to change.  (I will try 
+  to keep due dates of assignments the same.)</emphasis>
+</para>
+
+<para>
+  Some of the information here can also be found in
+  <ulink url="&gcal;">the Google calendar for the course</ulink>, which
+  is available at &lt;<ulink url="&gcal;"/>&gt;.
 </para>
 
 <table class="schedule">
@@ -57,6 +63,20 @@
         <td>&lab03; <break/><emphasis>&writeup03;</emphasis></td>
         <td>&due03;</td>
       </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 02: &week02;
+      </th>
+    </tr>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
+    <th>Work Due</th>
+  </tr>
       <tr>
         <td>04</td>
         <td>&date04;</td>
@@ -79,20 +99,6 @@
         <td>&lab05; <break/><emphasis>&writeup05;</emphasis></td>
         <td>&due05;</td>
       </tr>
-
-    <tr class="week">
-      <th colspan="6">
-        Week 02: &week02;
-      </th>
-    </tr>
-  <tr>
-    <th></th>
-    <th>Date</th>
-    <th width="35%">Topic</th>
-    <th width="20%">Reading</th>
-    <th width="20%">Lab</th>
-    <th>Work Due</th>
-  </tr>
       <tr>
         <td>06</td>
         <td>&date06;</td>
@@ -115,6 +121,20 @@
         <td>&lab07; <break/><emphasis>&writeup07;</emphasis></td>
         <td>&due07;</td>
       </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 03: &week03;
+      </th>
+    </tr>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
+    <th>Work Due</th>
+  </tr>
       <tr>
         <td>08</td>
         <td>&date08;</td>
@@ -137,20 +157,6 @@
         <td>&lab09; <break/><emphasis>&writeup09;</emphasis></td>
         <td>&due09;</td>
       </tr>
-
-    <tr class="week">
-      <th colspan="6">
-        Week 03: &week03;
-      </th>
-    </tr>
-  <tr>
-    <th></th>
-    <th>Date</th>
-    <th width="35%">Topic</th>
-    <th width="20%">Reading</th>
-    <th width="20%">Lab</th>
-    <th>Work Due</th>
-  </tr>
       <tr>
         <td>10</td>
         <td>&date10;</td>
@@ -173,6 +179,20 @@
         <td>&lab11; <break/><emphasis>&writeup11;</emphasis></td>
         <td>&due11;</td>
       </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 04: &week04;
+      </th>
+    </tr>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
+    <th>Work Due</th>
+  </tr>
       <tr>
         <td>12</td>
         <td>&date12;</td>
@@ -195,20 +215,6 @@
         <td>&lab13; <break/><emphasis>&writeup13;</emphasis></td>
         <td>&due13;</td>
       </tr>
-
-    <tr class="week">
-      <th colspan="6">
-        Week 04: &week04;
-      </th>
-    </tr>
-  <tr>
-    <th></th>
-    <th>Date</th>
-    <th width="35%">Topic</th>
-    <th width="20%">Reading</th>
-    <th width="20%">Lab</th>
-    <th>Work Due</th>
-  </tr>
       <tr>
         <td>14</td>
         <td>&date14;</td>
@@ -231,6 +237,20 @@
         <td>&lab15; <break/><emphasis>&writeup15;</emphasis></td>
         <td>&due15;</td>
       </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 05: &week05;
+      </th>
+    </tr>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
+    <th>Work Due</th>
+  </tr>
       <tr>
         <td>16</td>
         <td>&date16;</td>
@@ -253,20 +273,6 @@
         <td>&lab17; <break/><emphasis>&writeup17;</emphasis></td>
         <td>&due17;</td>
       </tr>
-
-    <tr class="week">
-      <th colspan="6">
-        Week 05: &week05;
-      </th>
-    </tr>
-  <tr>
-    <th></th>
-    <th>Date</th>
-    <th width="35%">Topic</th>
-    <th width="20%">Reading</th>
-    <th width="20%">Lab</th>
-    <th>Work Due</th>
-  </tr>
       <tr>
         <td>18</td>
         <td>&date18;</td>
@@ -289,6 +295,20 @@
         <td>&lab19; <break/><emphasis>&writeup19;</emphasis></td>
         <td>&due19;</td>
       </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 06: &week06;
+      </th>
+    </tr>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
+    <th>Work Due</th>
+  </tr>
       <tr>
         <td>20</td>
         <td>&date20;</td>
@@ -311,20 +331,6 @@
         <td>&lab21; <break/><emphasis>&writeup21;</emphasis></td>
         <td>&due21;</td>
       </tr>
-
-    <tr class="week">
-      <th colspan="6">
-        Week 06: &week06;
-      </th>
-    </tr>
-  <tr>
-    <th></th>
-    <th>Date</th>
-    <th width="35%">Topic</th>
-    <th width="20%">Reading</th>
-    <th width="20%">Lab</th>
-    <th>Work Due</th>
-  </tr>
       <tr>
         <td>22</td>
         <td>&date22;</td>
@@ -347,6 +353,20 @@
         <td>&lab23; <break/><emphasis>&writeup23;</emphasis></td>
         <td>&due23;</td>
       </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 07: &week07;
+      </th>
+    </tr>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
+    <th>Work Due</th>
+  </tr>
       <tr>
         <td>24</td>
         <td>&date24;</td>
@@ -369,20 +389,6 @@
         <td>&lab25; <break/><emphasis>&writeup25;</emphasis></td>
         <td>&due25;</td>
       </tr>
-
-    <tr class="week">
-      <th colspan="6">
-        Week 07: &week07;
-      </th>
-    </tr>
-  <tr>
-    <th></th>
-    <th>Date</th>
-    <th width="35%">Topic</th>
-    <th width="20%">Reading</th>
-    <th width="20%">Lab</th>
-    <th>Work Due</th>
-  </tr>
       <tr>
         <td>26</td>
         <td>&date26;</td>
@@ -405,6 +411,20 @@
         <td>&lab27; <break/><emphasis>&writeup27;</emphasis></td>
         <td>&due27;</td>
       </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 08: &week08;
+      </th>
+    </tr>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
+    <th>Work Due</th>
+  </tr>
       <tr>
         <td>28</td>
         <td>&date28;</td>
@@ -427,25 +447,6 @@
         <td>&lab29; <break/><emphasis>&writeup29;</emphasis></td>
         <td>&due29;</td>
       </tr>
-    <tr class="break">
-      <th colspan="6">
-        Fall Break
-      </th>
-    </tr>
-
-    <tr class="week">
-      <th colspan="6">
-        Week 08: &week08;
-      </th>
-    </tr>
-  <tr>
-    <th></th>
-    <th>Date</th>
-    <th width="35%">Topic</th>
-    <th width="20%">Reading</th>
-    <th width="20%">Lab</th>
-    <th>Work Due</th>
-  </tr>
       <tr>
         <td>30</td>
         <td>&date30;</td>
@@ -468,6 +469,25 @@
         <td>&lab31; <break/><emphasis>&writeup31;</emphasis></td>
         <td>&due31;</td>
       </tr>
+    <tr class="break">
+      <th colspan="6">
+        Spring Break
+      </th>
+    </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 09: &week09;
+      </th>
+    </tr>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
+    <th>Work Due</th>
+  </tr>
       <tr>
         <td>32</td>
         <td>&date32;</td>
@@ -490,20 +510,6 @@
         <td>&lab33; <break/><emphasis>&writeup33;</emphasis></td>
         <td>&due33;</td>
       </tr>
-
-    <tr class="week">
-      <th colspan="6">
-        Week 09: &week09;
-      </th>
-    </tr>
-  <tr>
-    <th></th>
-    <th>Date</th>
-    <th width="35%">Topic</th>
-    <th width="20%">Reading</th>
-    <th width="20%">Lab</th>
-    <th>Work Due</th>
-  </tr>
       <tr>
         <td>34</td>
         <td>&date34;</td>
@@ -526,6 +532,20 @@
         <td>&lab35; <break/><emphasis>&writeup35;</emphasis></td>
         <td>&due35;</td>
       </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 10: &week10;
+      </th>
+    </tr>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
+    <th>Work Due</th>
+  </tr>
       <tr>
         <td>36</td>
         <td>&date36;</td>
@@ -548,20 +568,6 @@
         <td>&lab37; <break/><emphasis>&writeup37;</emphasis></td>
         <td>&due37;</td>
       </tr>
-
-    <tr class="week">
-      <th colspan="6">
-        Week 10: &week10;
-      </th>
-    </tr>
-  <tr>
-    <th></th>
-    <th>Date</th>
-    <th width="35%">Topic</th>
-    <th width="20%">Reading</th>
-    <th width="20%">Lab</th>
-    <th>Work Due</th>
-  </tr>
       <tr>
         <td>38</td>
         <td>&date38;</td>
@@ -584,6 +590,20 @@
         <td>&lab39; <break/><emphasis>&writeup39;</emphasis></td>
         <td>&due39;</td>
       </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 11: &week11;
+      </th>
+    </tr>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
+    <th>Work Due</th>
+  </tr>
       <tr>
         <td>40</td>
         <td>&date40;</td>
@@ -606,20 +626,6 @@
         <td>&lab41; <break/><emphasis>&writeup41;</emphasis></td>
         <td>&due41;</td>
       </tr>
-
-    <tr class="week">
-      <th colspan="6">
-        Week 11: &week11;
-      </th>
-    </tr>
-  <tr>
-    <th></th>
-    <th>Date</th>
-    <th width="35%">Topic</th>
-    <th width="20%">Reading</th>
-    <th width="20%">Lab</th>
-    <th>Work Due</th>
-  </tr>
       <tr>
         <td>42</td>
         <td>&date42;</td>
@@ -642,6 +648,20 @@
         <td>&lab43; <break/><emphasis>&writeup43;</emphasis></td>
         <td>&due43;</td>
       </tr>
+
+    <tr class="week">
+      <th colspan="6">
+        Week 12: &week12;
+      </th>
+    </tr>
+  <tr>
+    <th></th>
+    <th>Date</th>
+    <th width="35%">Topic</th>
+    <th width="20%">Reading</th>
+    <th width="20%">Lab</th>
+    <th>Work Due</th>
+  </tr>
       <tr>
         <td>44</td>
         <td>&date44;</td>
@@ -664,20 +684,6 @@
         <td>&lab45; <break/><emphasis>&writeup45;</emphasis></td>
         <td>&due45;</td>
       </tr>
-
-    <tr class="week">
-      <th colspan="6">
-        Week 12: &week12;
-      </th>
-    </tr>
-  <tr>
-    <th></th>
-    <th>Date</th>
-    <th width="35%">Topic</th>
-    <th width="20%">Reading</th>
-    <th width="20%">Lab</th>
-    <th>Work Due</th>
-  </tr>
       <tr>
         <td>46</td>
         <td>&date46;</td>
@@ -700,22 +706,6 @@
         <td>&lab47; <break/><emphasis>&writeup47;</emphasis></td>
         <td>&due47;</td>
       </tr>
-      <tr>
-        <td>48</td>
-        <td>&date48;</td>
-        <td>
-          <ulink url="../outlines/outline.48.html"><emphasis role="strong">&title48;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev48;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading48;</td>
-        <td>&lab48; <break/><emphasis>&writeup48;</emphasis></td>
-        <td>&due48;</td>
-      </tr>
-    <tr class="break">
-      <th colspan="6">
-        Thanksgiving Break
-      </th>
-    </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -730,6 +720,17 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
+      <tr>
+        <td>48</td>
+        <td>&date48;</td>
+        <td>
+          <ulink url="../outlines/outline.48.html"><emphasis role="strong">&title48;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev48;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading48;</td>
+        <td>&lab48; <break/><emphasis>&writeup48;</emphasis></td>
+        <td>&due48;</td>
+      </tr>
       <tr>
         <td>49</td>
         <td>&date49;</td>
@@ -763,17 +764,6 @@
         <td>&lab51; <break/><emphasis>&writeup51;</emphasis></td>
         <td>&due51;</td>
       </tr>
-      <tr>
-        <td>52</td>
-        <td>&date52;</td>
-        <td>
-          <ulink url="../outlines/outline.52.html"><emphasis role="strong">&title52;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev52;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading52;</td>
-        <td>&lab52; <break/><emphasis>&writeup52;</emphasis></td>
-        <td>&due52;</td>
-      </tr>
 
     <tr class="week">
       <th colspan="6">
@@ -788,6 +778,17 @@
     <th width="20%">Lab</th>
     <th>Work Due</th>
   </tr>
+      <tr>
+        <td>52</td>
+        <td>&date52;</td>
+        <td>
+          <ulink url="../outlines/outline.52.html"><emphasis role="strong">&title52;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev52;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&reading52;</td>
+        <td>&lab52; <break/><emphasis>&writeup52;</emphasis></td>
+        <td>&due52;</td>
+      </tr>
       <tr>
         <td>53</td>
         <td>&date53;</td>
@@ -820,17 +821,6 @@
         <td>&reading55;</td>
         <td>&lab55; <break/><emphasis>&writeup55;</emphasis></td>
         <td>&due55;</td>
-      </tr>
-      <tr>
-        <td>56</td>
-        <td>&date56;</td>
-        <td>
-          <ulink url="../outlines/outline.56.html"><emphasis role="strong">&title56;</emphasis></ulink>
-          <xi:include href="overviews/&abbrev56;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        </td>
-        <td>&reading56;</td>
-        <td>&lab56; <break/><emphasis>&writeup56;</emphasis></td>
-        <td>&due56;</td>
       </tr>
 </tbody>
 </table>
