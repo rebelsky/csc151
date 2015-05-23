@@ -1,109 +1,56 @@
 <section id="index-labs"><title>Labs</title>
 
-<itemizedlist>
-  <listitem>Class 56: <emphasis>No lab</emphasis> (&date56;) <break/><emphasis>&writeup56;</emphasis></listitem>
-  <listitem>Class 55: &lab55; (held &date55;) <break/><emphasis>&writeup55;</emphasis></listitem>
-  <listitem>Class 54: <emphasis>No lab</emphasis> (&date54;) <break/><emphasis>&writeup54;</emphasis></listitem>
-  <listitem>Class 53: &lab53; (held &date53;) <break/><emphasis>&writeup53;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 52: &lab52; (held &date52;) <break/><emphasis>&writeup52;</emphasis></listitem>
-  <listitem>Class 51: <emphasis>No lab</emphasis> (&date51;) <break/><emphasis>&writeup51;</emphasis></listitem>
-  <listitem>Class 50: <emphasis>No lab</emphasis> (&date50;) <break/><emphasis>&writeup50;</emphasis></listitem>
-  <listitem>Class 49: &lab49; (held &date49;) <break/><emphasis>&writeup49;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 48: <emphasis>No lab</emphasis> (&date48;) <break/><emphasis>&writeup48;</emphasis></listitem>
-  <listitem>Class 47: &lab47; (held &date47;) <break/><emphasis>&writeup47;</emphasis></listitem>
-  <listitem>Class 46: <emphasis>No lab</emphasis> (&date46;) <break/><emphasis>&writeup46;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 45: <emphasis>No lab</emphasis> (&date45;) <break/><emphasis>&writeup45;</emphasis></listitem>
-  <listitem>Class 44: &lab44; (held &date44;) <break/><emphasis>&writeup44;</emphasis></listitem>
-  <listitem>Class 43: &lab43; (held &date43;) <break/><emphasis>&writeup43;</emphasis></listitem>
-  <listitem>Class 42: &lab42; (held &date42;) <break/><emphasis>&writeup42;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 41: &lab41; (held &date41;) <break/><emphasis>&writeup41;</emphasis></listitem>
-  <listitem>Class 40: &lab40; (held &date40;) <break/><emphasis>&writeup40;</emphasis></listitem>
-  <listitem>Class 39: &lab39; (held &date39;) <break/><emphasis>&writeup39;</emphasis></listitem>
-  <listitem>Class 38: <emphasis>No lab</emphasis> (&date38;) <break/><emphasis>&writeup38;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 37: &lab37; (held &date37;) <break/><emphasis>&writeup37;</emphasis></listitem>
-  <listitem>Class 36: &lab36; (held &date36;) <break/><emphasis>&writeup36;</emphasis></listitem>
-  <listitem>Class 35: &lab35; (held &date35;) <break/><emphasis>&writeup35;</emphasis></listitem>
-  <listitem>Class 34: &lab34; (held &date34;) <break/><emphasis>&writeup34;</emphasis></listitem>
-</itemizedlist> 
-
-<itemizedlist>
-  <listitem>Class 33: &lab33; (held &date33;) <break/><emphasis>&writeup33;</emphasis></listitem>
-  <listitem>Class 32: &lab32; (held &date32;) <break/><emphasis>&writeup32;</emphasis></listitem>
-  <listitem>Class 31: &lab31; (held &date31;) <break/><emphasis>&writeup31;</emphasis></listitem>
-  <listitem>Class 30: &lab30; (held &date30;) <break/><emphasis>&writeup30;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 29: &lab29; (held &date29;) <break/><emphasis>&writeup29;</emphasis></listitem>
-  <listitem>Class 28: &lab28; (held &date28;) <break/><emphasis>&writeup28;</emphasis></listitem>
-  <listitem>Class 27: &lab27; (held &date27;) <break/><emphasis>&writeup27;</emphasis></listitem>
-  <listitem>Class 26: &lab26; (held &date26;) <break/><emphasis>&writeup26;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 25: &lab25; (held &date25;) <break/><emphasis>&writeup25;</emphasis></listitem>
-  <listitem>Class 24: &lab24; (held &date24;) <break/><emphasis>&writeup24;</emphasis></listitem>
-  <listitem>Class 23: &lab23; (held &date23;) <break/><emphasis>&writeup23;</emphasis></listitem>
-  <listitem>Class 22: &lab22; (held &date22;) <break/><emphasis>&writeup22;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 21: &lab21; (held &date21;) <break/><emphasis>&writeup21;</emphasis></listitem>
-  <listitem>Class 20: &lab20; (held &date20;) <break/><emphasis>&writeup20;</emphasis></listitem>
-  <listitem>Class 19: &lab19; (held &date19;) <break/><emphasis>&writeup19;</emphasis></listitem>
-  <listitem>Class 18: &lab18; (held &date18;) <break/><emphasis>&writeup18;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 17: &lab17; (held &date17;) <break/><emphasis>&writeup17;</emphasis></listitem>
-  <listitem>Class 16: &lab16; (held &date16;) <break/><emphasis>&writeup16;</emphasis></listitem>
-  <listitem>Class 15: &lab15; (held &date15;) <break/><emphasis>&writeup15;</emphasis></listitem>
-  <listitem>Class 14: &lab14; (held &date14;) <break/><emphasis>&writeup14;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 13: &lab13; (held &date13;) <break/><emphasis>&writeup13;</emphasis></listitem>
-  <listitem>Class 12: &lab12; (held &date12;) <break/><emphasis>&writeup12;</emphasis></listitem>
-  <listitem>Class 11: <emphasis>No lab</emphasis> (&date11;) <break/><emphasis>&writeup11;</emphasis></listitem>
-  <listitem>Class 10: &lab10; (held &date10;) <break/><emphasis>&writeup10;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>Class 9: &lab09; (held &date09;) <break/><emphasis>&writeup09;</emphasis></listitem>
-  <listitem>Class 8: <emphasis>No lab</emphasis> (&date08;) <break/><emphasis>&writeup08;</emphasis></listitem>
-  <listitem>Class 7: &lab07; (held &date07;) <break/><emphasis>&writeup07;</emphasis></listitem>
-  <listitem>Class 6: &lab06; (held &date06;) <break/><emphasis>&writeup06;</emphasis></listitem>
-</itemizedlist>
-
-<itemizedlist>
-  <listitem>
-    Class 5: &lab05; (held &date05;) <break/><emphasis>&writeup05;</emphasis>
-  </listitem>
-  <listitem>
-    Class 4: &lab04; (held &date04;) <break/><emphasis>&writeup04;</emphasis>
-  </listitem>
-  <listitem>
-    Class 3: &lab03; (held &date03;) <break/><emphasis>&writeup03;</emphasis>
-  </listitem>
-  <listitem>
-    Class 2: &lab02; (held &date02;) <break/><emphasis>&writeup02;</emphasis>
-  </listitem>
-  <listitem> Class 1: <emphasis>No lab</emphasis> (&date01;) </listitem>
-</itemizedlist>
+<table class="index">
+  <tr> <td>Class 50</td> <td>&lab50;</td> <td>&day50;</td> <td>&cal50;</td> <td><emphasis>&writeup50;</emphasis></td> </tr>
+  <tr> <td>Class 49</td> <td>&lab49;</td> <td>&day49;</td> <td>&cal49;</td> <td><emphasis>&writeup49;</emphasis></td> </tr>
+  <tr> <td>Class 48</td> <td>&lab48;</td> <td>&day48;</td> <td>&cal48;</td> <td><emphasis>&writeup48;</emphasis></td> </tr>
+  <tr> <td>Class 47</td> <td>&lab47;</td> <td>&day47;</td> <td>&cal47;</td> <td><emphasis>&writeup47;</emphasis></td> </tr>
+  <tr> <td>Class 46</td> <td>&lab46;</td> <td>&day46;</td> <td>&cal46;</td> <td><emphasis>&writeup46;</emphasis></td> </tr>
+  <tr> <td>Class 45</td> <td>&lab45;</td> <td>&day45;</td> <td>&cal45;</td> <td><emphasis>&writeup45;</emphasis></td> </tr>
+  <tr> <td>Class 44</td> <td>&lab44;</td> <td>&day44;</td> <td>&cal44;</td> <td><emphasis>&writeup44;</emphasis></td> </tr>
+  <tr> <td>Class 43</td> <td>&lab43;</td> <td>&day43;</td> <td>&cal43;</td> <td><emphasis>&writeup43;</emphasis></td> </tr>
+  <tr> <td>Class 42</td> <td>&lab42;</td> <td>&day42;</td> <td>&cal42;</td> <td><emphasis>&writeup42;</emphasis></td> </tr>
+  <tr> <td>Class 41</td> <td>&lab41;</td> <td>&day41;</td> <td>&cal41;</td> <td><emphasis>&writeup41;</emphasis></td> </tr>
+  <tr> <td>Class 40</td> <td>&lab40;</td> <td>&day40;</td> <td>&cal40;</td> <td><emphasis>&writeup40;</emphasis></td> </tr>
+  <tr> <td>Class 39</td> <td>&lab39;</td> <td>&day39;</td> <td>&cal39;</td> <td><emphasis>&writeup39;</emphasis></td> </tr>
+  <tr> <td>Class 38</td> <td>&lab38;</td> <td>&day38;</td> <td>&cal38;</td> <td><emphasis>&writeup38;</emphasis></td> </tr>
+  <tr> <td>Class 37</td> <td>&lab37;</td> <td>&day37;</td> <td>&cal37;</td> <td><emphasis>&writeup37;</emphasis></td> </tr>
+  <tr> <td>Class 36</td> <td>&lab36;</td> <td>&day36;</td> <td>&cal36;</td> <td><emphasis>&writeup36;</emphasis></td> </tr>
+  <tr> <td>Class 35</td> <td>&lab35;</td> <td>&day35;</td> <td>&cal35;</td> <td><emphasis>&writeup35;</emphasis></td> </tr>
+  <tr> <td>Class 34</td> <td>&lab34;</td> <td>&day34;</td> <td>&cal34;</td> <td><emphasis>&writeup34;</emphasis></td> </tr>
+  <tr> <td>Class 33</td> <td>&lab33;</td> <td>&day33;</td> <td>&cal33;</td> <td><emphasis>&writeup33;</emphasis></td> </tr>
+  <tr> <td>Class 32</td> <td>&lab32;</td> <td>&day32;</td> <td>&cal32;</td> <td><emphasis>&writeup32;</emphasis></td> </tr>
+  <tr> <td>Class 31</td> <td>&lab31;</td> <td>&day31;</td> <td>&cal31;</td> <td><emphasis>&writeup31;</emphasis></td> </tr>
+  <tr> <td>Class 30</td> <td>&lab30;</td> <td>&day30;</td> <td>&cal30;</td> <td><emphasis>&writeup30;</emphasis></td> </tr>
+  <tr> <td>Class 29</td> <td>&lab29;</td> <td>&day29;</td> <td>&cal29;</td> <td><emphasis>&writeup29;</emphasis></td> </tr>
+  <tr> <td>Class 28</td> <td>&lab28;</td> <td>&day28;</td> <td>&cal28;</td> <td><emphasis>&writeup28;</emphasis></td> </tr>
+  <tr> <td>Class 27</td> <td>&lab27;</td> <td>&day27;</td> <td>&cal27;</td> <td><emphasis>&writeup27;</emphasis></td> </tr>
+  <tr> <td>Class 26</td> <td>&lab26;</td> <td>&day26;</td> <td>&cal26;</td> <td><emphasis>&writeup26;</emphasis></td> </tr>
+  <tr> <td>Class 25</td> <td>&lab25;</td> <td>&day25;</td> <td>&cal25;</td> <td><emphasis>&writeup25;</emphasis></td> </tr>
+  <tr> <td>Class 24</td> <td>&lab24;</td> <td>&day24;</td> <td>&cal24;</td> <td><emphasis>&writeup24;</emphasis></td> </tr>
+  <tr> <td>Class 23</td> <td>&lab23;</td> <td>&day23;</td> <td>&cal23;</td> <td><emphasis>&writeup23;</emphasis></td> </tr>
+  <tr> <td>Class 22</td> <td>&lab22;</td> <td>&day22;</td> <td>&cal22;</td> <td><emphasis>&writeup22;</emphasis></td> </tr>
+  <tr> <td>Class 21</td> <td>&lab21;</td> <td>&day21;</td> <td>&cal21;</td> <td><emphasis>&writeup21;</emphasis></td> </tr>
+  <tr> <td>Class 20</td> <td>&lab20;</td> <td>&day20;</td> <td>&cal20;</td> <td><emphasis>&writeup20;</emphasis></td> </tr>
+  <tr> <td>Class 19</td> <td>&lab19;</td> <td>&day19;</td> <td>&cal19;</td> <td><emphasis>&writeup19;</emphasis></td> </tr>
+  <tr> <td>Class 18</td> <td>&lab18;</td> <td>&day18;</td> <td>&cal18;</td> <td><emphasis>&writeup18;</emphasis></td> </tr>
+  <tr> <td>Class 17</td> <td>&lab17;</td> <td>&day17;</td> <td>&cal17;</td> <td><emphasis>&writeup17;</emphasis></td> </tr>
+  <tr> <td>Class 16</td> <td>&lab16;</td> <td>&day16;</td> <td>&cal16;</td> <td><emphasis>&writeup16;</emphasis></td> </tr>
+  <tr> <td>Class 15</td> <td>&lab15;</td> <td>&day15;</td> <td>&cal15;</td> <td><emphasis>&writeup15;</emphasis></td> </tr>
+  <tr> <td>Class 14</td> <td>&lab14;</td> <td>&day14;</td> <td>&cal14;</td> <td><emphasis>&writeup14;</emphasis></td> </tr>
+  <tr> <td>Class 13</td> <td>&lab13;</td> <td>&day13;</td> <td>&cal13;</td> <td><emphasis>&writeup13;</emphasis></td> </tr>
+  <tr> <td>Class 12</td> <td>&lab12;</td> <td>&day12;</td> <td>&cal12;</td> <td><emphasis>&writeup12;</emphasis></td> </tr>
+  <tr> <td>Class 11</td> <td>&lab11;</td> <td>&day11;</td> <td>&cal11;</td> <td><emphasis>&writeup11;</emphasis></td> </tr>
+  <tr> <td>Class 10</td> <td>&lab10;</td> <td>&day10;</td> <td>&cal10;</td> <td><emphasis>&writeup10;</emphasis></td> </tr>
+  <tr> <td>Class 9</td> <td>&lab09;</td> <td>&day09;</td> <td>&cal09;</td> <td><emphasis>&writeup09;</emphasis></td> </tr>
+  <tr> <td>Class 8</td> <td>&lab08;</td> <td>&day08;</td> <td>&cal08;</td> <td><emphasis>&writeup08;</emphasis></td> </tr>
+  <tr> <td>Class 7</td> <td>&lab07;</td> <td>&day07;</td> <td>&cal07;</td> <td><emphasis>&writeup07;</emphasis></td> </tr>
+  <tr> <td>Class 6</td> <td>&lab06;</td> <td>&day06;</td> <td>&cal06;</td> <td><emphasis>&writeup06;</emphasis></td> </tr>
+  <tr> <td>Class 5</td> <td>&lab05;</td> <td>&day05;</td> <td>&cal05;</td> <td><emphasis>&writeup05;</emphasis></td> </tr>
+  <tr> <td>Class 4</td> <td>&lab04;</td> <td>&day04;</td> <td>&cal04;</td> <td><emphasis>&writeup04;</emphasis></td> </tr>
+  <tr> <td>Class 3</td> <td>&lab03;</td> <td>&day03;</td> <td>&cal03;</td> <td><emphasis>&writeup03;</emphasis></td> </tr>
+  <tr> <td>Class 2</td> <td>&lab02;</td> <td>&day02;</td> <td>&cal02;</td> <td><emphasis>&writeup02;</emphasis></td> </tr>
+  <tr> <td width="10%">Class 1</td> <td>&lab01;</td> <td>&day01;</td> <td width="15%">&cal01;</td> <td><emphasis>&writeup01;</emphasis></td> </tr>
+</table>
 
 </section> <!-- index-labs; -->
