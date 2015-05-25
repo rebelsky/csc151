@@ -2,89 +2,102 @@
 
 <itemizedlist>
   <listitem>
-    <ulink url="../assignments/sample-final.html">Sample Final Examination</ulink> (final Tuesday, Dec 16, 9-noon or Friday, Dec 19, 9-noon)
+    <ulink url="sample-final.html">Sample Final Examination</ulink>
+    (actual final is offered at four separate times: 9am or 2pm on
+    Tuesday, 12 May 2015 or Wednesday, 13 May 2015.
   </listitem>
-  <listitem> <ulink url="../assignments/exam.04.html">Exam 4: Sophisticated Scheming</ulink>
+  <listitem> 
+    <ulink url="exam.04.html">Exam 4: Recursion and Repetition</ulink>
     <itemizedlist>
       <listitem>
-        <ulink url="http://bit.ly/151-2014F-exam4pro">Prologue</ulink> due
-        10:30 p.m. &fri13; (<emphasis>required</emphasis>)
+        Prologue due 10:30 p.m. Friday, 1 May 2015 at
+        <ulink url="http://bit.ly/151-2015S-exam4pro"/>.
       </listitem>
       <listitem>
-        <ulink url="http://bit.ly/151-2014F-exam4">Electronic copy</ulink> due 10:30 p.m. &mon14;
+        Electronic version due 10:30 p.m., Monday, 4 May 2015 at 
+        <ulink url="http://bit.ly/151-2015S-exam4"/>.
       </listitem>
       <listitem>
-        Printed exam due 10:00 a.m. &tue14;.  The exam should be stapled,
-        with page numbers and your assigned number on every page.  Turn in
-        a separate cover sheet with your name, number, and academic honesty
-        statements.
+        Epilogue due 11:00 p.m., Monday, 4 May 2015 at
+        <ulink url="http://bit.ly/151-2015S-exam4epi"/>.
       </listitem>
       <listitem>
-        <ulink url="http://bit.ly/151-2014F-exam4epi">Epilogue</ulink> due
-        10:30 p.m. &wed14; (<emphasis>required</emphasis>)
+        Printed version due at the start of class, Tuesday, 5 May 2015.
       </listitem>
     </itemizedlist>
   </listitem>
-  <listitem> <ulink url="../assignments/project.html">Project: A Procedure is Worth a Thousand Images</ulink>
+  <listitem> <ulink url="../assignments/project.html">Project: A Procedure is Wo
+rth a Thousand Images</ulink>
     <itemizedlist>
-      <listitem>Part one (Proposal) due: &mon11;</listitem>
-      <listitem>Sketches due: &tue11;</listitem>
-      <listitem>Part two (Implementation) due: &tue12;</listitem>
+      <listitem>Part one (Proposal) due: &mon12;</listitem>
+      <listitem>Sketches due: &tue12;</listitem>
+      <listitem>Part two (Implementation) due: &tue13;</listitem>
     </itemizedlist>
   </listitem>
-  <listitem> <ulink url="../assignments/exam.03.html">Exam 3: Recursion and Repetition</ulink>
+  <listitem> 
+    <ulink url="exam.03.html">Exam 3: Recursion and Repetition</ulink>
     <itemizedlist>
       <listitem>
-        <ulink url="http://bit.ly/151-2014F-exam3pro">Prologue</ulink> due
-        10:30 p.m. &fri09; (<emphasis>required</emphasis>)
+        Prologue due 10:30 p.m. Friday, 10 April 2015 at
+        <ulink url="http://bit.ly/151-2015S-exam3pro"/>.
       </listitem>
       <listitem>
-        Exam due 10:30 p.m. &tue10; via email.
+        Electronic version due 10:30 p.m., Tuesday, 14 April 2015 at 
+        <ulink url="http://bit.ly/151-2015S-exam3"/>.
       </listitem>
       <listitem>
-        Printed exam due 10:00 a.m. &wed10;.  The exam should be stapled,
-        with page numbers
+        Epilogue due 11:00 p.m., Tuesday, 14 April 2015 at
+        <ulink url="http://bit.ly/151-2015S-exam3epi"/>.
       </listitem>
       <listitem>
-        <ulink url="http://bit.ly/151-2014F-exam3epi">Epilogue</ulink> due
-        10:30 p.m. &thu10; (<emphasis>required</emphasis>)
+        Printed version due at the start of class, Wednesday, 15 April 
+        2015.
+      </listitem>
+    </itemizedlist>
+  </listitem>
+  <listitem> &assignment07; (due &assignment07-due;) </listitem>
+  <listitem> 
+    <ulink url="exam.02.html">Exam 2: Colors and Control</ulink>
+    <itemizedlist>
+      <listitem>
+        Prologue due 10:30 p.m. Sunday, 8 March 2015 at
+        <ulink url="http://bit.ly/151-2015S-exam2pro"/>.
+      </listitem>
+      <listitem>
+        Electronic version due 10:30 p.m., Thursday, 12 March 2015 at 
+        <ulink url="http://bit.ly/151-2015S-exam2"/>.
+      </listitem>
+      <listitem>
+        Epilogue due 11:00 p.m., Thursday, 12 March 2015 at
+        <ulink url="http://bit.ly/151-2015S-exam2epi"/>.
+      </listitem>
+      <listitem>
+        Printed version due at the start of class, Friday, 13 March 
+        2015.
       </listitem>
     </itemizedlist>
   </listitem>
   <listitem> &assignment06; (due &assignment06-due;) </listitem>
-  <listitem> <ulink url="../assignments/exam.02.html">Exam 2: Control and Color</ulink>
-    <itemizedlist>
-      <listitem>
-        <ulink url="http://bit.ly/151-2014F-exam2pro">Prologue</ulink> due
-        10:30 p.m. &fri06; (optional)
-      </listitem>
-      <listitem>
-        Exam due 10:30 p.m. &tue07; via email.
-      </listitem>
-      <listitem>
-        Printed exam due 10:00 a.m. &wed07;.  The exam should be stapled,
-        with page numbers and your name on every page.
-      </listitem>
-      <listitem>
-        <ulink url="http://bit.ly/151-2014F-exam2epi">Epilogue</ulink> due
-        10:30 p.m. &thu07; (<emphasis>not</emphasis> optional)
-      </listitem>
-    </itemizedlist>
-  </listitem>
   <listitem> &assignment05; (due &assignment05-due;) </listitem>
   <listitem> &assignment04; (due &assignment04-due;) </listitem>
-  <listitem> <ulink url="../assignments/exam.01.html">Exam 1: Scheme and Image Basics</ulink>
+  <listitem> 
+    <ulink url="exam.01.html">Exam 1: Scheme and Image Basics</ulink>
     <itemizedlist>
       <listitem>
-        <ulink url="http://bit.ly/csc151exam1pro">Prologue</ulink> due
-        10:30 p.m. &fri03; (optional)
+        Prologue due 10:30 p.m. Friday, 6 February 2015 at
+        <ulink url="http://bit.ly/151-2015S-exam1pro"/>.
       </listitem>
       <listitem>
-        Exam due 10:30 p.m. &tue04; via email.
+        Electronic version due 10:30 p.m., Tuesday, 10 February 2015 at 
+        <ulink url="http://bit.ly/151-2015S-exam1"/>.
       </listitem>
       <listitem>
-        Printed exam due 10:00 a.m. &wed04;.  The exam should be stapled,
-        with page numbers and your name on every page.
+        Printed version due at the start of class, Wednesday, 11 February
+        2015.
+      </listitem>
+      <listitem>
+        Epilogue due 10:30 p.m. Wednesday, 11 February 2015 at
+        <ulink url="http://bit.ly/151-2015S-exam1epi"/>.
       </listitem>
     </itemizedlist>
   </listitem>
