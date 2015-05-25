@@ -5,6 +5,13 @@
 </para>
 
 <para>
+  <emphasis role="strong">Note:</emphasis> There are more than a dozen
+  questions in Part Two of this assignment.  Some students seem to miss
+  some of those questions because they don't flip the sheet.  Please
+  remember to look on all sides.
+</para>
+
+<para>
   <emphasis role="strong">Summary:</emphasis>  In this assignment, you
   will gather information about the structure of the course and then
   respond to a few basic questions about the course and about yourself.
@@ -13,7 +20,8 @@
 <para>
   <emphasis role="strong">Purposes:</emphasis>  To encourage you to
   learn about the structure of the course and the course web.  To give
-  me a bit more information about you.  
+  me a bit more information about you.  To get you started thinking
+  about the course.
 </para>
 
 <para>
@@ -47,6 +55,14 @@
   <emphasis role="strong">Warning:</emphasis> So that this assignment
   is a learning experience for everyone, I may spend class time publicly
   critiquing your work.
+</para>
+
+<para>
+  <emphasis role="strong">Advance Notice:</emphasis> Experience suggests that
+  it takes about fifteen minutes for me to work through one student's
+  assignment.  I have about seventy students between the two sections 
+  of CSC 151.  It will take me at least a week to get through the nearly 
+  twenty hours of grading this assignment requires.
 </para>
 
 <section id="assignment"><title>Assignment</title>
@@ -88,7 +104,12 @@
   </listitem>
 
   <listitem>
-    The grading rubric for the course, available at
+    My additional notes on taking notes, available at
+    <code><ulink url="&url;handouts/taking-notes.html"/></code>.
+  </listitem>
+
+  <listitem>
+    The grading rubric for homework assignments in the course, available at
     <code><ulink url="&url;handouts/rubric.txt"/></code>.
   </listitem>
 
@@ -139,7 +160,9 @@
   <listitem>
     Suppose you get everything correct on a homework assignment.
     What grade should you expect to receive on that assignment?
-    What does that grade mean?
+    What does that grade mean?  (Note that you should refer to
+    both my notes on grading and my grading rubric in answering
+    this question.)
   </listitem>
      
   <listitem>
@@ -148,7 +171,12 @@
 
   <listitem>
     Explain what an eboard is (or seems to be) and list a few ways one
-    can get the eboard for a particular class.  
+    can find the eboard for a particular class.  
+  </listitem>
+
+  <listitem>
+    Why will I have a few stacks of blank index cards in the room 
+    starting on the second day of class?
   </listitem>
 
   <listitem>
@@ -172,10 +200,11 @@
   <listitem>
     Do you agree to abide by my 
     <ulink url="../handouts/academic-honesty.html">policies on
-    academic honesty</ulink>?  If you feel that you can't agree with them, 
-    we'll need to have a meeting ASAP to discuss your concerns or questions,
-    as they are in effect for the course.  (If I feel that your concerns
-    or questions are reasonable, I will likely revise those policies.)
+    academic honesty</ulink>?  If you feel that you can't agree with
+    them, we'll need to have a meeting ASAP to discuss your concerns
+    or questions, as these polices are in effect for the course.  (If I
+    feel that your concerns or questions are reasonable, I will likely
+    revise those policies.)
   </listitem>
 
   <listitem>
@@ -185,6 +214,9 @@
 
   <listitem>
     What are two important things you learned on the first day of class?
+    If you weren't there on the first day of class, what was your first day
+    in my class and what are two important things you learned from that
+    day of class?
   </listitem>
 
   <listitem>
@@ -239,11 +271,6 @@
   </listitem>
 
   <listitem>
-    <emphasis>Optional</emphasis>: Where can I find your <ulink
-    url="../handouts/email.html">PGP key</ulink>?  
-  </listitem>
-
-  <listitem>
     What is your major (or intended major)?  And yes, it's okay to say
     <quote>I have no idea.</quote>
   </listitem>
@@ -259,9 +286,9 @@
   </listitem>
 
   <listitem>
-    Tell me a little bit about your background with computers.  And yes,
-    it's fine if you have no background.  It's also fine if you have a
-    lot, or any amount in between.
+    Tell me a little bit about your background with computers.  It's fine
+    if you have no background; we assume none for this course.  It's also
+    fine if you have a lot, or any amount in between.
   </listitem>
 
   <listitem>
@@ -308,7 +335,8 @@
     Since I'm asking you all of these questions, it is only fair that
     you get to ask me some questions.  What, if anything, would you
     like to know about me?  (You need not ask anything; I'm just
-    trying to provide you with an option.)
+    trying to provide you with an option.  And I certainly reserve
+    the right not to answer questions.)
   </listitem>
 </orderedlist>
 
@@ -317,7 +345,7 @@
 <section id="the-reading"><title>Part Three: Start Reading</title>
 
 <para>
-  Do <ulink url="../readings/linux-reading.html">the readings
+  Do <ulink url="../readings/starting-151.html">the readings
   for the next class</ulink>, which can be found at <code><ulink
   url="&url;readings/linux-reading.html"/></code> and
   <code><ulink url="&url;readings/algorithms-reading.html"/></code>.
@@ -344,20 +372,21 @@
 <para>
   Please submit this work via two separate email messages to
   <email>rebelsky@grinnell.edu</email>.  The first should have
-  a subject of <quote>CSC 151.01 Course Details (<emphasis>*Your
-  Name*</emphasis>)</quote> and should contain your answers to the first
+  a subject of <quote>CSC 151 Course Details (<emphasis>Your
+  Name</emphasis>)</quote> and should contain your answers to the first
   part of this assignment.  The second should have a subject of <quote>CSC
-  151.01 Survey Answers (<emphasis>*Your Name*</emphasis>)</quote> and
+  151 Survey Answers (<emphasis>Your Name</emphasis>)</quote> and
   should contain your answers to the second part of this assignment.
+  You should replace the phrase <quote><emphasis>Your Name</emphasis></quote>
+  with your name.
   For example, if I were to submit answers to the first set of
-  questions, it would be titled <quote>CSC 151.01 Course Details (Samuel
+  questions, it would be titled <quote>CSC 151 Course Details (Samuel
   A. Rebelsky)</quote>.
 </para>
 
 <para>
-  Please send your work as the body of an email message.  I don't like
-  attachments and prefer not to receive them when they can be
-  avoided.
+  Please send your work in the body of each email message.  I don't like
+  attachments and prefer not to receive them when they can be avoided.
 </para>
 
 </section>  <!-- submitting -->
