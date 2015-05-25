@@ -1,2 +1,2 @@
 * Lab, continued.
-* Questions.
+* Questions and reflection.

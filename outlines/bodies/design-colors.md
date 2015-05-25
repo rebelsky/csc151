@@ -9,7 +9,7 @@ A Bit About Design
 * Informal goals
     * How does the image lead your eye?
     * Does the image maintain your viewer's interest, or is it easy to
-      see and dismiss.
+      see and dismiss?
 * Successful designers know how to take advantage of certain formal attributes
   to acheive various goals (including these informal goals).
 * Right now, we're just going to look at some formal issues regarding color.

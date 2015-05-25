@@ -27,4 +27,4 @@ Reviewing images: Individual series
   to improve their images.
 * The group will talk about design principles and the feelings they were
   trying to evoke.
-* THe next 'volunteer' will ask the group one question.
+* The next 'volunteer' will ask the group one question.

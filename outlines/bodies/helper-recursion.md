@@ -22,11 +22,43 @@ Tail Recursion
   recursive procedures that do not further process recursive results.
 * Because of this efficiency, we have a special term for such procedures.
   We call them *tail-recursive procedures*.  
-* If any recursive call is a the last operation of a procedure (that is, the
+* If all the recursive calls are the last operation of a procedure (that is, the
   "tail" of the procedure), then we say that the procedure
   is tail recursive.
     * If some work may be required after one of the recursive calls, then we
     say that the procedure is not tail recursive.
+
+Clarity in Tail Recursion
+-------------------------
+
+Some programmers find tail recursion much easier to understand.  It's
+certainly easier to chart.  And that may make it easier to design.
+We can also keep track of what's going on a bit better.
+
+Let's do an example: Let's count the number of bright colors in a
+list.
+
+What should we keep track of along the way?
+
+* The elements of the list we haven't examined yet.
+* The count of the bright colors we've already seen.
+
+When are we done?
+
+* When there's nothing left in the list.
+
+What do we return?
+
+* The count.
+
+What do we do in other situations?
+
+* ...
+
+Note: For whatever reason, I see some students who find tail recursion
+very natural and standard recursion confusing, and some students who find
+standard recursion confusing and tail recursion natural.  I'll push you to
+work on both.
 
 Old Notes
 ---------

@@ -2,18 +2,16 @@ Structure of Today's Class
 --------------------------
 
 * Sam: Additional class issues. [5 min]
-* Get together with people with the same card value that you have.
 * Small group: Discuss the reading on algorithms.  [5 min]
     * Don't forget to introduce yourselves!
     * Make sure that you are ready to answer questions I might ask about 
       the parts of an algorithm. 
     * Develop a list of questions for me.
-    * Fill in your blank name cards.
 * Large group: Overview of Algorithms. [5 min]
-* Small group: Example of each component from PB&J discussion [5 min]
+* Small group: Example of each component from AB&J discussion [5 min]
 * Large group: Review examples. [5 min]
-* Lab [20 min]
-* Leave
+* Lab. [20 min]
+* Leave.
 
 About This Course
 -----------------

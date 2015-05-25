@@ -27,7 +27,9 @@ About the project
 Quick code examples
 -------------------
 
-* We'll look at two incomplete projects.
+* We'll look at a few incomplete projects.
+* One project we'll develop together and is intended to give a sense of
+  negation.
 * One project is intended to explore issues of repetition and scale.  It is
   based on an approach by Colin Brooks '14.
     * We divide the image into n+1 columns.  

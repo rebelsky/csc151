@@ -14,6 +14,11 @@ Reflecting on Procedures
       To call a procedure, you write an open parenthesis, the name of
       the procedure, the inputs (actual parameters), and a close parenthesis.
 
+Pair Programming
+----------------
+
+* What did you take from the reading?
+
 Documentation
 -------------
 

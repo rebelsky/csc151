@@ -22,7 +22,9 @@ Searching
   search for a book with a particular title or by a particular author.
 * For unordered collections, the typical search is *sequential::N
   search*, look at each element in turn.
-* Sometimes, the collection is *sorted*.  That is, the collection
+    * If we distribute things between multiple computers, we can spend
+      the same total computing effort, but significantly less time.
+* Sometimes, the collection is *ordered*.  That is, the collection
   is organized by the primary key in which we search.  
     * For example, a phone book is sorted by name.
 * However, we can also use something known as *binary search*:

@@ -37,8 +37,8 @@ Types
       values by surrounding them with double-quotation-marks and we express
       numbers in much the way we always have.
     * What operations are possible on values in the type.  For example, we
-      can use the addition operation (<code>+</code>) on numbers and we
-      can use the <code>string-append</code> operation on strings.
+      can use the addition operation (`+`) on numbers and we
+      can use the `string-append` operation on strings.
 * Each time we encounter a type, I'll either tell you or ask you (or both)
   how you might express values and what obvious operations there are.
 
@@ -69,18 +69,18 @@ Scheme's Numeric Types
     (We'll return to this issue later.)
 * Some important numeric predicates (procedures that return true or
   false):
-  <code>number?</code>,
-  <code>real?</code>,
-  <code>integer?</code>,
-  <code>exact?</code>, and
-  <code>inexact?</code>.
+  `number?`,
+  `real?`,
+  `integer?`,
+  `exact?`, and
+  `inexact?`.
 
 Modulo
 ------
 
-* The <code>mod</code> (modulo, modulus) operation is one of the trickier 
+* The `mod` (modulo, modulus) operation is one of the trickier 
   operations we use in this class (and we use it a lot).
-* Essentially, <code>mod</code> is used to break up the number line into
+* Essentially, `mod` is used to break up the number line into
   even chunks.
     * If you mod by 7, you break the number line up into chunks of size 7.
     * If you mod by 23, you break the number line up into chunks of size 23.
@@ -90,6 +90,6 @@ Modulo
 Number line:  -9 -8|-7 -6 -5 -4 -3 -2 -1| 0  1  2  3  4  5  6| 7  8  9 10 11 
 Modulo 7:      5  6| 0  1  2  3  4  5  6| 0  1  2  3  4  5  6| 0  1  2  3  4 
 </pre>
-* The <code>(modulo *i* *n*)</code> operation allows us to 
-  *cycle* through the numbers between 0 and <code>*n*</code>-1.
+* The `(modulo *i* *n*)` operation allows us to 
+  *cycle* through the numbers between 0 and `*n*`-1.
 

@@ -1,3 +1,43 @@
+Learning Outcomes
+-----------------
+
+* There are a host of errors we see in procedures. 
+* Tests can help us identify those errors.
+* But that means we have to think carefully about possible cases for
+  the procedure.
+* And we find that as we do more tests, our code gets longer.
+* Sometimes we can see problems better than we can write code that tests
+  for those problems.
+
+Postconditions for `center-at`
+------------------------------
+
+* Correct position
+* Correct width and height
+* Correct image (shape and color)
+
+Testing `center-at`
+-------------------
+
+* Different starting points: origin, each quadrant, axes, whole and fractional
+  positions, exact and inexact positions.
+* Different ending points: origin, each quadrant, axes, whole and fractional
+  positions, exact and inexact positions.
+* Shapes: Squares, circles, non-square rectangles, non-circular ellipses.
+* Sizes: unit, large, small
+* Colors: At least one in which we've changed the color
+
+Making Testing More Efficient
+-----------------------------
+
+* If your code is the same, write something that's common.  
+* See the extras on the lab.
+
+Old Notes
+---------
+
+*The following notes are from a previous offering.*
+
 Using testing to assess candidate solutions
 -------------------------------------------
 

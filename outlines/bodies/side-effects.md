@@ -19,4 +19,3 @@ More Image Procedures
 * `image-load` - load an image from a file
 * `image-save` - save an image to a file
 * `drawing-render!` - put a drawing on an image
-

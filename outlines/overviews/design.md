@@ -1,5 +1,5 @@
 * Background: About the project.
-* Two sample projects.
+* Some examples.
 * General elements of design.
 * Relationships between elements.
 * Broader design principles.
