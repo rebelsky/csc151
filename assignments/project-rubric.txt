@@ -1,0 +1,199 @@
+NAMES: 
+
+PROJECT THEME: 
+
+PROPOSAL DESIGN STATEMENT [5 points]: The proposal design statement is
+complete and accurate.
+
+[ ] 5 The design statement makes excellent use of design terminology to
+      explain the intended effects of the images on the viewer, addressing
+      both color and composition.
+
+[ ] 4 The design statement uses design terminology correctly and
+      justifies the most important aspects of the design.
+
+[ ] 3 The design statement makes some mistakes in using design terminology 
+      or fails to discuss some important aspects of the design.
+
+[ ] 2 The design statement does not use appropriate terminology or does 
+      not accurately describe the images.
+
+PROPOSAL TECHNIQUE STATEMENT [5 points]: The proposed technique statement
+completely and accurately describes the algorithmic techniques used.
+
+[ ] 10 The statement completely and accurately describes the algorithm,
+       clearly indicating the three (or more) techniques used. The
+       statement persuades the reader that the procedure produces 1000
+       distinct images.
+
+[ ] 9 The statement accurately describes the algorithms used but leaves
+      a question or two remaining. The statement is somewhat persuasive
+      that the procedure produces 1000 distinct images and uses 3
+      distinct techniques.
+
+[ ] 8 The statement has some minor inaccuracies or raises several
+      questions. There is some attempt to argue that the procedure
+      produces 1000 distinct images and uses at least 3 techniques.
+
+[ ] 6 The statement is significantly incomplete and/or inaccurate. 
+      The statement does not argue that the code meets the project
+      specifications.
+
+FINAL DESIGN STATEMENT [5 points]: The revised design statement is
+complete and accurate.
+
+[ ] 5 The design statement makes excellent use of design terminology to
+      explain the intended effects of the images on the viewer, addressing
+      both color and composition.
+
+[ ] 4 The design statement uses design terminology correctly and
+      justifies the most important aspects of the design.
+
+[ ] 3 The design statement makes some mistakes in using design terminology 
+      or fails to discuss some important aspects of the design.
+
+[ ] 2 The design statement does not use appropriate terminology or does 
+      not accurately describe the images.
+
+FINAL TECHNIQUE STATEMENT [5 points]: The revised technique statement
+completely and accurately describes the algorithmic techniques used.
+
+[ ] 5 The statement completely and accurately describes the algorithm,
+      clearly indicating the three (or more) techniques used. The
+      statement persuades the reader that the procedure produces 1000
+      distinct images.
+
+[ ] 4 The statement accurately describes the algorithms used but leaves
+      a question or two remaining. The statement is somewhat persuasive
+      that the procedure produces 1000 distinct images and uses 3
+      distinct techniques.
+
+[ ] 3 The statement has some minor inaccuracies or raises several
+      questions. There is some attempt to argue that the procedure
+      produces 1000 distinct images and uses at least 3 techniques.
+
+[ ] 2 The statement is significantly incomplete and/or inaccurate. 
+      The statement does not argue that the code meets the project
+      specifications.
+
+FORM OF SUBMISSION [5 points]: The work is submitted in the specified
+manner with the specified form.
+
+[ ] 5 The work is submitted in the specified manner, with the appropriate 
+      files included (statements, code, representative large images, 
+      representative scaled/stretched images), and with the each file 
+      having an appropriate file name.
+
+[ ] 4 There are one or two minor errors in naming, one file is missing, or
+      a similar minor lack of attention to detail.
+
+[ ] 3 Two files are missing, or one file is missing and there are a few
+      minor errors in naming, or there are multiple errors in naming, or
+      a similar lack of attention to detail.
+
+[ ] 2 More than two files are missing, but the files are named correctly.
+
+[ ] 0 Significant lack of attention to form.
+
+PROCEDURE SIGNATURE [5 points]: The image-series procedure takes an integer
+(0 through 999) as a parameter, along with a width and height, and
+produces an image of the correct size.
+
+[ ] 5 The procedure has the correct signature and name.
+
+[ ] 4 The procedure has the correct signature but a different name.
+
+[ ] 3 The procedure takes the correct parameters but does not produce 
+      a new image.
+
+[ ] 2 The procedure does not take the specified parameters.
+
+IMAGE DISTINCTIVENESS [15 points]: The procedure generates at least 1000
+distinct images.
+
+[ ] 15 The procedure generates at least 1000 distinct images.
+
+[ ] 13 Images for nearby values of n are very similar, but distinct upon
+       close inspection.
+
+[ ] 11 A few values of n produce images that are indistinguishable from
+       each other.
+
+[ ] 8 Some values of n result in errors, or many values of n result in
+      indistinguishable images.
+
+IMAGE REPRODUCIBILITY: The images are reproducible and vary based solely on n.
+
+[ ] 5 The images are reproducible.  
+
+[ ] 2 The images are not reproducible, e.g., due to the use of random numbers.
+
+IMAGE SCALABILITY [15 points]: The technique scales and stretches
+appropriately. That is, larger images look similar to smaller images
+for the same value of n, and the image look similar even if the aspect
+ratio changes.
+
+[ ] 15 Scaling and stretching are nearly perfect for all reasonable sizes; 
+       any differences are due to fixed brush sizes or rounding error at 
+       the pixel level.
+
+[ ] 13 The image mostly scales and stretches correctly but has one or two 
+       minor discrepancies.
+
+[ ] 11 Although there is an attempt at scaling and stretching, some element 
+       of the image obviously does not scale correctly.
+
+[ ] 8 Although there is an attempt at scaling and stretching, several elements 
+      of the image obviously do not scale or stretch correctly.
+
+ALGORITHMIC TECHNIQUES [10 points]: The project uses at least three distinct
+techniques for generating images.
+
+[ ] 10 The project develops new techniques or is particularly creative in
+       its combination of three or more existing techniques.
+
+[ ] 8 The project uses a novel combination and elaboration of three or 
+      more existing techniques.
+
+[ ] 7 The project uses three techniques but does not introduce any new
+      ideas.  The project images may resemble work for a prior homework
+      assignment.  
+
+[ ] 5 The project uses only one or two techniques.
+
+CODE QUALITY [10 points]: The code is elegant, concise, and efficient.
+
+[ ] 10 The code is nearly flawless in conciseness and efficiency, or impressive
+       in its elegance.
+
+[ ] 9 The code has a few minor problems with conciseness or efficiency.
+
+[ ] 8 The code has one significant problem with efficiency or several 
+      problems with conciseness.
+
+[ ] 6 The project has significant problems with conciseness and efficiency.
+
+CODE READABILITY [10 points]: The code is well-documented and easy
+to understand.
+
+[ ] 10 All procedures are documented with 6Ps. Procedure, parameter, and
+       variable names are crystal clear. Code is correctly formatted. Short
+       comments explain the purpose of expressions that might otherwise
+       be unclear.
+
+[ ] 9 All procedures are documented with the 6Ps and there may be a few
+      internal comments where needed. Procedure, parameter, and variable names
+      are mostly clear. Code is formatted correctly.
+
+[ ] 8 Most procedures are documented with the 6Ps. Procedure, variable, 
+      and parameter names are at least suggestive. Formatting is mostly 
+      correct.
+
+[ ] 6 There is little documentation. Much of the code is incorrectly 
+      formatted. Several procedures, variables, or parameters have opaque or
+      meaningless names.
+
+OTHER COMMENTS
+
+Total: ___/100
+
