@@ -1,15 +1,14 @@
-<!ENTITY git-subject "CSC 151.&section; Assignment 7: Introducing Git and GitHub">
-<!ENTITY git-due "&assignment07-due;">
-<!ENTITY git-prefix "Assignment 7: ">
-<!ENTITY git-prologue "http://bit.ly/151hw7pro">
-<!ENTITY git-epilogue "http://bit.ly/151hw7epi">
-<!ENTITY git-partners "&url;partners/assignment.07.html">
-<!ENTITY git-alone "You may also work alone.">
-<!ENTITY git-wrapper '
+<!ENTITY polygons-subject "CSC 151.&section; Assignment 7: Producing Playful Polygons">
+<!ENTITY polygons-due "&assignment07-due;">
+<!ENTITY polygons-prefix "Assignment 7: ">
+<!ENTITY polygons-prologue "http://bit.ly/151hw7pro">
+<!ENTITY polygons-epilogue "http://bit.ly/151hw7epi">
+<!ENTITY polygons-collaboration "You may work alone or in groups of two or three.  You may discuss the assignment with anyone, provided you cite such collaboration.">
+<!ENTITY polygons-wrapper '
 <para>
   <emphasis>Wrapper (Prologue):</emphasis> Individually read through
   this assignment and make sure that you understand what is required.
-  Then use the form available at <ulink url="&git-prologue;"/>
+  Then use the form available at <ulink url="&polygons-prologue;"/>
   to indicate (a) how long you think this assignment will take and (b)
   what you think will be the most challenging aspect of this assignment.
 </para>
@@ -17,7 +16,7 @@
 <para>
   <emphasis>Wrapper (Epilogue):</emphasis> When you are done
   with the assignment, fill out the form available at <ulink
-  url="&git-epilogue;"/> to indicate (a) how long the
+  url="&polygons-epilogue;"/> to indicate (a) how long the
   assignment took, (b) what the most challenging part of the assignment
   was, and (c) something important you learned from doing the assignment.
   If you find that the assignment took much less or much more time than

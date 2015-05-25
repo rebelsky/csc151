@@ -1,16 +1,15 @@
-<!ENTITY recursion-subject "CSC 151.&section; Assignment 6: Exercises in Recursion">
-<!ENTITY recursion-due "10:30 p.m., &tue09;">
-<!ENTITY recursion-prefix "Assignment 6: ">
-<!ENTITY recursion-prologue "http://bit.ly/151hw6pro">
-<!ENTITY recursion-epilogue "http://bit.ly/151hw6epi">
-<!ENTITY recursion-partners "&url;partners/assignment.06.html">
-<!ENTITY recursion-collaboration "If you have been assigned to a group, you must work with your assigned partners on this assignment. The partner 
-assignments are available at <ulink url='http://www.cs.grinnell.edu/~rebelsky/Courses/CSC151/2014F/partners/assignment.06.html'/>. You may discuss this assignment with anyone, provided you credit such discussions when you submit the assignment.">
-<!ENTITY recursion-wrapper '
+<!ENTITY polar-conditionals-subject "CSC 151.&section; Assignment 6: Polar Coordinates">
+<!ENTITY polar-conditionals-due "10:30 p.m., &tue07;">
+<!ENTITY polar-conditionals-prefix "Assignment 6: ">
+<!ENTITY polar-conditionals-prologue "http://bit.ly/151hw6pro">
+<!ENTITY polar-conditionals-epilogue "http://bit.ly/151hw6epi">
+<!ENTITY polar-conditionals-partners "&url;partners/assignment.06.html">
+<!ENTITY polar-conditionals-collaboration "You chose to work alone or were assigned partners in class.">
+<!ENTITY polar-conditionals-wrapper '
 <para>
   <emphasis>Wrapper (Prologue):</emphasis> Individually read through
   this assignment and make sure that you understand what is required.
-  Then use the form available at <ulink url="&recursion-prologue;"/>
+  Then use the form available at <ulink url="&polar-conditionals-prologue;"/>
   to indicate (a) how long you think this assignment will take and (b)
   what you think will be the most challenging aspect of this assignment.
 </para>
@@ -18,7 +17,7 @@ assignments are available at <ulink url='http://www.cs.grinnell.edu/~rebelsky/Co
 <para>
   <emphasis>Wrapper (Epilogue):</emphasis> When you are done
   with the assignment, fill out the form available at <ulink
-  url="&recursion-epilogue;"/> to indicate (a) how long the
+  url="&polar-conditionals-epilogue;"/> to indicate (a) how long the
   assignment took, (b) what the most challenging part of the assignment
   was, and (c) something important you learned from doing the assignment.
   If you find that the assignment took much less or much more time than

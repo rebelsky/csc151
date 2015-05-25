@@ -1,9 +1,11 @@
 <!ENTITY prof-contact-times "8am-10pm">
 <!ENTITY prof-contact-options "cell phone (text only) - 641-990-2947">
-<!ENTITY exam3-prologue "http://bit.ly/151-2014F-exam3pro">
-<!ENTITY exam3-prologue-due '<listitem>10:30 p.m., Friday, 7 November 2014 (<ulink url="&exam3-prologue;">Prologue</ulink>)</listitem>'>
-<!ENTITY exam3-epilogue-due '<listitem>10:30 p.m., Wednesday, 12 November 2014 (<ulink url="&exam3-epilogue;">Epilogue</ulink>)</listitem>'>
-<!ENTITY exam3-epilogue "http://bit.ly/151-2014F-exam3epi">
+<!ENTITY exam3-prologue "http://bit.ly/151-2015S-exam3pro">
+<!ENTITY exam3-optional-prologue-due '<listitem>10:30 p.m., Friday, 10 April 2015 (<ulink url="&exam3-prologue;">Prologue</ulink>)</listitem>'>
+<!ENTITY exam3-optional-epilogue-due '<listitem>11:00 p.m., Tuesday, 14 April 2015 (<ulink url="&exam3-epilogue;">Epilogue</ulink>)</listitem>'>
+<!ENTITY exam3-epilogue-due '&exam3-optional-epilogue-due;'>
+<!ENTITY exam3-epilogue "http://bit.ly/151-2015S-exam3epi">
+<!ENTITY exam3-submit-url "http://bit.ly/151-2015S-exam3">
 <!ENTITY exam3-email-subject "CSC 151.&section; Exam 3 (Your Name)">
 <!ENTITY exam3-optional-prologue "
   <para>
@@ -22,4 +24,35 @@
     examination.  The epilogue is required.  Failure to fill in the
     epilogue will incur a penalty of five points on the exam.
   </para>">
-<!ENTITY more-to-life-requirements "filled in the prologue by the specified deadline and arranged for a meeting with me within one week of receiving your graded exam.  You may count the time you spend on the prologue toward those five hours">
+<!ENTITY more-to-life-requirements "
+  recorded the time spent on each problem, filled in the prologue by the
+  specified deadline, filled in the epilogue, and arranged for a meeting
+  with me within one week of receiving your graded exam.  You may count
+  the time you spend on the prologue toward those five hours, but not
+  the time you spend on the epilogue.">
+<!ENTITY turnin-printed "
+  <para>
+    For the physical copy, you must write all of your answers using the
+    computer, print them out, number the pages, staple them together
+    (except for the cover sheet), and hand me the printed copy.  For your
+    benefit and for ours, we are doing <emphasis>blind grading</emphasis>
+    on this examination, so you have been assigned a number to use on
+    your exam.  Please make sure that your number appears at the top of
+    every page.  You should turn in a <emphasis>separate</emphasis> cover
+    sheet along with your stapled and printed answers. The cover sheet
+    should include (1) the two hand-written academic honesty statements
+    (individually signed and dated, if it is appropriate for you to sign
+    each), (2) your name, and (3) your assigned number.  If you choose to
+    invoke the <quote>there's more to life than computer science</quote>
+    option, then you must indicate that option on the cover sheet, and
+    you should indicate it <emphasis>only</emphasis> on the cover sheet.
+  </para>">
+<!ENTITY turnin-electronic "
+  <para>
+    You must also submit the code for your examination at <ulink
+    url='&exam3-submit-url;'/>.  Ideally, you would put all of the code
+    for the exam in a single Racket file.  However, if you have created
+    separate files for the separate parts of the exam, you can just
+    paste them one after another when you submit, provided you put a
+    clear separator, such as <code>; PROBLEM 2</code>, between sections.
+  </para>">

@@ -1,15 +1,15 @@
-<!ENTITY conditionals-and-colors-subject "CSC 151.&section; Assignment 5: Conditionals">
-<!ENTITY conditionals-and-colors-due "10:30 p.m., &tue06;">
-<!ENTITY conditionals-and-colors-prefix "Assignment 5: ">
-<!ENTITY conditionals-and-colors-prologue "http://bit.ly/151hw5pro">
-<!ENTITY conditionals-and-colors-epilogue "http://bit.ly/151hw5epi">
-<!ENTITY conditionals-and-colors-partners "&url;partners/assignment.05.html">
-<!ENTITY conditionals-and-colors-collaboration "If you have been assigned to a group, you must work with your assigned partners on this assignment. The partner assignments are available at <ulink url='http://www.cs.grinnell.edu/~rebelsky/Courses/CSC151/2014F/partners/assignment.05.html'/>. You may discuss this assignment with anyone, provided you credit such discussions when you submit the assignment.">
-<!ENTITY conditionals-and-colors-wrapper '
+<!ENTITY transforming-colors-and-images-subject "CSC 151.&section; Assignment 5: Conditionals">
+<!ENTITY transforming-colors-and-images-due "10:30 p.m., &tue06;">
+<!ENTITY transforming-colors-and-images-prefix "Assignment 5: ">
+<!ENTITY transforming-colors-and-images-prologue "http://bit.ly/151hw5pro">
+<!ENTITY transforming-colors-and-images-epilogue "http://bit.ly/151hw5epi">
+<!ENTITY transforming-colors-and-images-partners "&url;partners/assignment.05.html">
+<!ENTITY transforming-colors-and-images-collaboration "You may work individually or with your assigned partner on this assignment.  You may discuss this assignment with anyone, provided you credit such discussions when you submit the assignment.">
+<!ENTITY transforming-colors-and-images-wrapper '
 <para>
   <emphasis>Wrapper (Prologue):</emphasis> Individually read through
   this assignment and make sure that you understand what is required.
-  Then use the form available at <ulink url="&conditionals-and-colors-prologue;"/>
+  Then use the form available at <ulink url="&transforming-colors-and-images-prologue;"/>
   to indicate (a) how long you think this assignment will take and (b)
   what you think will be the most challenging aspect of this assignment.
 </para>
@@ -17,7 +17,7 @@
 <para>
   <emphasis>Wrapper (Epilogue):</emphasis> When you are done
   with the assignment, fill out the form available at <ulink
-  url="&conditionals-and-colors-epilogue;"/> to indicate (a) how long the
+  url="&transforming-colors-and-images-epilogue;"/> to indicate (a) how long the
   assignment took, (b) what the most challenging part of the assignment
   was, and (c) something important you learned from doing the assignment.
   If you find that the assignment took much less or much more time than

@@ -1,15 +1,16 @@
-<!ENTITY transforming-colors-and-images-subject "CSC 151.&section; Assignment 4: Transforming Colors, Drawings, and Images">
-<!ENTITY transforming-colors-and-images-due "10:30 p.m., &tue05;">
-<!ENTITY transforming-colors-and-images-prefix "Assignment 4: ">
-<!ENTITY transforming-colors-and-images-prologue "http://bit.ly/151hw4pro">
-<!ENTITY transforming-colors-and-images-epilogue "http://bit.ly/151hw4epi">
-<!ENTITY transforming-colors-and-images-partners "&url;partners/assignment.04.html">
-<!ENTITY transforming-colors-and-images-collaboration 'You must work with assigned partners on this assignment (assignments distributed via email).  You must collaborate on every problem - do not break up the work so that one person works on problem 1, another on problem 2, and another on problem 3. (The <quote>do not break up the work</quote> policy applies on every assignment. This note is just a reminder.)'>
-<!ENTITY transforming-colors-and-images-wrapper '
+<!ENTITY filters-subject "CSC 151.&section; Assignment 4">
+<!ENTITY filters-due "10:30 p.m., &tue05;">
+<!ENTITY filters-prefix "Assignment 4:">
+<!ENTITY filters-prologue "http://bit.ly/151hw4pro">
+<!ENTITY filters-epilogue "http://bit.ly/151hw4epi">
+<!ENTITY filters-partners "&url;partners/assignment.04.html">
+<!ENTITY filters-collaboration 'You must work with assigned partners on this assignment.  You must collaborate on every problem - do not break up the work so that one person works on problem 1, another on problem 2, and another on problem 3. (The <quote>do not break up the work</quote> policy applies on every assignment. This note is just a reminder.)'>
+<!ENTITY filters-wrapper ''>
+<!ENTITY filters-wrapper-normal '
 <para>
   <emphasis>Wrapper (Prologue):</emphasis> Individually read through
   this assignment and make sure that you understand what is required.
-  Then use the form available at <ulink url="&transforming-colors-and-images-prologue;"/>
+  Then use the form available at <ulink url="&filters-prologue;"/>
   to indicate (a) how long you think this assignment will take and (b)
   what you think will be the most challenging aspect of this assignment.
 </para>
@@ -17,7 +18,7 @@
 <para>
   <emphasis>Wrapper (Epilogue):</emphasis> When you are done
   with the assignment, fill out the form available at <ulink
-  url="&transforming-colors-and-images-epilogue;"/> to indicate (a) how long the
+  url="&filters-epilogue;"/> to indicate (a) how long the
   assignment took, (b) what the most challenging part of the assignment
   was, and (c) something important you learned from doing the assignment.
   If you find that the assignment took much less or much more time than
