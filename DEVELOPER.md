@@ -67,6 +67,10 @@ At the Beginning of the Semester
 
 1. Add the dates files (whatever form that takes)
 
+2. Link some dates file to dates.ent.
+
+3. Link the current calendar file to calendar.ent.
+
 ### For An Individual Course ###
 
 1. If you're starting a new course, follow the *Starting a New Course*
@@ -76,50 +80,61 @@ At the Beginning of the Semester
    course.  E.g.,
 
         cd /home/rebelsky/Web/Courses/CSC000/
-        git clone https://github.com/rebelsky/csc000 2013F
-        cd 2013F
+        git clone git@github.com:rebelsky/csc000.git 2015F
+        cd 2015F
 
-   you may also want to use
+   If for some reason you want http as opposed to ssh, use
 
-        git clone git@github.com:rebelsky/csc.git 2013F
+        git clone https://github.com/rebelsky/csc000 2015F
 
-3. Edit `resources/course.ent`, which has the course-specific information.
+3. Pull any changes from the generic repository
+
+        make pull-generic
+
+4. Edit `resources/course.ent`, which has the course-specific information.
 
         vi resources/course.ent
 
-4. Edit `resources/links.xsl`, which contains the links to previous offerings
+5. Make sure that `resources/dates.ent` is linked to the appropriate
+   list of dates for the current course.
+
+6. Edit `resources/links.xsl`, which contains the links to previous offerings
 (among other things).
 
-5. Make `resources/subjects.ent`, which is required by a bunch of other files.
+7. Make `resources/subjects.ent`, which is required by a bunch of other files.
 
         cd resources
         make subjects.ent
 
-6. Edit `home/index.sect` or `home/index.md`, which contains the front
-door for the course.
+8. Edit `home/index.sect` or `home/index.md`, which contains the front
+   door for the course.
 
-7. Set up the schedule files (some details in a section below)
+9. Set up the schedule files (some details in a section below)
 
-a. Make the `overviews` directory and run `../tools/schedule-overviews`
+a. Make the directory `handouts/overviews`.
 
-b. Also make sure to check `handouts/Makefile`, since `schedule.html` and
-`sched.html` are automatically generated from that file.
+b. In the `handouts` directory, run `../tools/schedule-overviews`.
 
-8. Clear out and rebuild the daily administrative notes.
+c. Also make sure to check `handouts/Makefile`, since `schedule.html` and
+   `sched.html` are automatically generated from that file.
+
+10. Clear out and rebuild the daily administrative notes.
 
         cd outlines
         rm admin/*
         ../tools/all-outline-parts 56
         
-9. Run Make at the top level, just to make sure that things are okay
+11. Run Make at the top level, just to make sure that things are okay
 
         make
 
-10. Look at a page on the Web
+12. Look at a page on the Web
 
-11. Commit the changes that you've just made.
+13. Commit and push the changes that you've just made.
 
-12. Start editing and creating!
+14. Create a separate dev site (optional).
+
+15. Start editing and creating!
 
 At the End of the Semester
 --------------------------
