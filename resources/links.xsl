@@ -22,25 +22,29 @@
   [<a href="../handouts/faq.html">FAQ</a>]
   [<a href="../handouts/teaching.html">Teaching &amp; Learning</a>]
   [<a href="../handouts/grading.html">Grading</a>]
+  [<a href="../handouts/taking-notes.html">Taking Notes</a>]
   [<a href="../handouts/rubric.txt">Rubric</a>]
   -
   [<a href="http://bit.ly/151gcal">Calendar</a>]
 </p>
 <p class="links"><b>Current:</b>
   [<a href="../assignments/current.html">Assignment</a>]
-  [<a href="../eboards/current.html">EBoard</a>]
+  [<a href="../eboards.am/current.html">EBoard am</a>]
+  [<a href="../eboards.pm/current.html">EBoard pm</a>]
   [<a href="../labs/current.html">Lab</a>]
   [<a href="../outlines/current.html">Outline</a>] 
   [<a href="../readings/current.html">Reading</a>]
 </p>
 <p class="links"> <b>Sections:</b> 
   [<a href="../assignments/">Assignments</a>] 
-  [<a href="../eboards/">EBoards</a>] 
-  [<a href="../examples/">Examples</a>] 
-  [<a href="../handouts/">Handouts</a>] 
+  [<a href="../eboards.am/">EBoards am</a>] 
+  [<a href="../eboards.pm/">EBoards pm</a>] 
   [<a href="../labs/">Labs</a>] 
   [<a href="../outlines/">Outlines</a>] 
   [<a href="../readings/">Readings</a>]
+  -
+  [<a href="../examples/">Examples</a>] 
+  [<a href="../handouts/">Handouts</a>] 
 </p>
 <p class="links"> <b>Reference:</b> 
   [<a href="../reference/setup.html">Setup</a>]
@@ -57,7 +61,7 @@
 </p>
 <p class="links"><b>Related Courses:</b>
   [<a href="http://www.cs.grinnell.edu/~davisjan/csc/151/2013F/">Davis (2013F)</a>]
-  [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CS151/2014S/">Rebelsky (2014S)</a>]
+  [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CS151/2014F/">Rebelsky (2014F)</a>]
   [<a href="http://www.cs.grinnell.edu/~weinman/courses/CSC151/2014F/">Weinman (2014F)</a>]
 </p>
 <p class="links"> <b>Misc:</b> 
@@ -67,6 +71,8 @@
   [<a href="http://www.cs.grinnell.edu/glimmer/">Glimmer Labs</a>]
   [<a href="http://www.cs.grinnell.edu/">CS@Grinnell</a>]
   [<a href="http://www.grinnell.edu/">Grinnell</a>]
+  -
+  [<a href="http://rebelsky.youcanbook.me">Book Office Hours</a>]
   -
   [<a href="https://github.com/rebelsky/csc151/issues">Issue Tracker (Course)</a>]
 </p>
