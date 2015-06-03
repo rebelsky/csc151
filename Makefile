@@ -8,7 +8,8 @@
 
 # A list of the primary sections (subdirectories that should be processed)
 SECTIONS = assignments \
-        eboards \
+        eboards.am \
+        eboards.pm \
 	handouts \
 	home \
 	labs \
@@ -46,7 +47,6 @@ touch:
 	for dir in $(SECTIONS); do \
 	  cd $$dir; \
 	  touch *.html; \
-	  touch *.pdf; \
 	  cd ..; \
 	done
 	sleep 1
@@ -55,9 +55,8 @@ touch:
 	touch handouts/schedule.sect
 	touch */index.sect
 	touch outlines/outline.*.html
-	touch outlines/outline.*.pdf
-	touch eboards/eboard.*.html
-	touch eboards/eboard.*.pdf
+	touch eboards.am/eboard.*.html
+	touch eboards.pm/eboard.*.html
 
 # +--------------+----------------------------------------------------
 # | Fun with git |
@@ -80,14 +79,10 @@ update:
 subjects:
 	cd resources; make subjects.ent
 	touch */*.html
-	touch */*.pdf
 	touch outlines/outline.*.html
-	touch outlines/outline.*.pdf
 	touch eboards/*.html
-	touch eboards/*.pdf
 	touch */index.sect
 	touch handouts/schedule.sect
-	make pdf
 
 # Create a branch for the generic courses repository (somewhat upstream)
 .PHONY: generic
