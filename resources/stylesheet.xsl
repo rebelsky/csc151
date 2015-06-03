@@ -64,7 +64,7 @@ Samuel A. Rebelsky, <a href="mailto:rebelsky@grinnell.edu">rebelsky@grinnell.edu
 </p>
 
 <p>
-Copyright &copy; 2007-2014 Janet Davis, Samuel A. Rebelsky, and Jerod Weinman.  
+Copyright &copy; 2007-2015 Janet Davis, Samuel A. Rebelsky, and Jerod Weinman.  
 (Selected materials are copyright by John David Stone or Henry Walker
 and are used with permission.)
 </p>
