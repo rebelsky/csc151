@@ -1,6 +1,6 @@
 /*
  * A generic design for Sam Rebelsky's course sites, updated for CSC 151.
- * Copyright (c) 2001-2014 Samuel A. Rebelsky.  All rights reserved.
+ * Copyright (c) 2001-2015 Samuel A. Rebelsky.  All rights reserved.
  */
 
 /* 
@@ -331,6 +331,10 @@ TABLE.schedule {
   vertical-align: top;
 }
 
+DIV.index {
+  border-bottom: 1em solid rgb(240,240,240);
+}
+
 TABLE.index {
   margin-left: 5%;
   width: 90%;
@@ -338,6 +342,15 @@ TABLE.index {
   border-style: none;
   vertical-align: top;
 }
+
+TABLE.index tr:nth-child(even) {
+  background-color: rgb(224,224,224); 
+}
+
+TABLE.index tr:nth-child(odd) {
+  background-color: white;
+}
+
 
 SPAN.guibutton {
   background-color: rgb(224,224,240);
@@ -475,3 +488,4 @@ SPAN.overview {
      color: blue;
    }
 }
+
