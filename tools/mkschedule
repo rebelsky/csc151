@@ -379,11 +379,13 @@ sub mwfTop()
   due dates the same.)</emphasis>
 </para>
 
+<!--
 <para>
   Some of the information here can also be found in
   <ulink url="&gcal;">the Google calendar for the course</ulink>, which
   is available at &lt;<ulink url="&gcal;"/>&gt;.
 </para>
+-->
 
 <table class="schedule">
   <thead>
