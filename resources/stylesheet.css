@@ -1,7 +1,44 @@
 /*
- * A generic design for Sam Rebelsky's course sites.
- * Copyright (c) 2001-2014 Samuel A. Rebelsky.  All rights reserved.
+ * A generic design for Sam Rebelsky's course sites. 
+ * Copyright (c) 2001-2015 Samuel A. Rebelsky.  All rights reserved.
  */
+
+/*
+ * We set enough colors that it's useful to put them in one place.
+ *
+ * Note that one should also look at @media print below
+ */
+
+H1,
+H2,
+P.course,
+TR.week
+{
+  background-color: rgb(64,64,64);
+}
+
+H3, 
+H4
+{
+  color: rgb(64,64,64);
+}  
+
+div.head,
+div.body,
+div.section,
+div.foot,
+span.guimenu,
+span.guimenuitem
+{
+  background-color: rgb(240,240,240);
+}
+
+pre.screen,
+pre.programlisting,
+div.literallayout
+{
+  background-color: rgb(224,224,224);
+}
 
 /* 
  * Here's a nice overall appearance.  Some extra whitespace at the sides.  
@@ -25,22 +62,16 @@ div.titlepage hr {
 
 /* The head and the foot. */
 div.head {
-  background-color: rgb(232,232,232); 
   border-bottom: thin solid black;
 }
 
-div.body {
-  background-color: rgb(240,240,240);
-}
-
-div.section {
-  background-color: rgb(240,240,240);
+div.titlepage hr {
+  display: none;
 }
 
 div.foot {  
   border-top: solid black;
   border-bottom: thin solid black;
-  background-color: rgb(232,232,232); 
   border-width: 3px 0em 0em 5px;
   margin-top: 5px;
   padding-right: 0.2em;
@@ -56,7 +87,6 @@ div.pagenotes {
 /* Have some fun with my headers */
 H1, H2 { 
   color: white;
-  background-color: rgb(96,96,96);
   font-weight: bold;
   font-family: Helvetica, sans-serif;
   /* border: solid silver; */
@@ -81,12 +111,15 @@ H2 {
 }
 
 H3 {
-  color: rgb(96,96,96);
   font-family: Helvetica, sans-serif;
   border-width: 2px 0em 0em 5px;
   font-size: 1.1em;
   font-style: italic;
   /* margin-left: -5px; */
+}
+
+H4 {
+  font-family: Helvetica, sans-serif;
 }
 
 P {
@@ -99,7 +132,6 @@ P.course {
   font-size: 1.1em;
   text-align: right;
   color: white;
-  background-color: gray;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -132,7 +164,7 @@ form.search {
 HR {
   width: 50%;
   text-align: right;
-  color: maroon;
+  color: black;
   background-color: white;
 }
 HR.history {
@@ -148,13 +180,11 @@ SPAN.guimenu {
   font-weight: bold;
   font-size: small;
   font-family: Helvetica, sans-serif;
-  background-color: rgb(224,224,224);
 }
 SPAN.guimenuitem {
   font-weight: bold;
   font-size: small;
   font-family: Helvetica, sans-serif;
-  background-color: rgb(224,224,224);
 }
 
 SPAN.uimenu {
@@ -226,9 +256,6 @@ SPAN.errortext {
 PRE,
 PRE.screen,
 PRE.programlisting,
-DIV.literallayout {
-  background-color: rgb(224,224,224);
-}
 
 PRE {
   border-width: 1px;
@@ -296,7 +323,6 @@ TABLE.schedule TH {
 
 TR.week {
   color: white;
-  background-color: grey;
 }
 
 TR.break {
@@ -319,6 +345,10 @@ TABLE.schedule {
   vertical-align: top;
 }
 
+DIV.index {
+  border-bottom: 1em solid rgb(240,240,240);
+}
+
 TABLE.index {
   margin-left: 5%;
   width: 90%;
@@ -327,9 +357,17 @@ TABLE.index {
   vertical-align: top;
 }
 
+TABLE.index tr:nth-child(even) {
+  background-color: rgb(224,224,224); 
+}
+
+TABLE.index tr:nth-child(odd) {
+  background-color: white;
+}
+
+
 SPAN.guibutton {
-  background-color: rgb(224,224,224);
-  border-color: rgb(192,192,192);
+  border-color: rgb(208,208,192);
   border-style: ridge;
   border-width: 2px;
   border-radius: 5px;
@@ -354,6 +392,48 @@ SPAN.overview {
 }
 
 /*
+ * Override some of the Docbook decisions
+ */
+
+.userinput {
+  font-weight: normal;
+}
+
+/*
+ * Formatted Scheme code
+ */
+
+.comment {
+  color: rgb(193,116,31);
+  font-style: oblique;
+}
+
+.keyword {
+  font-weight: bold;
+  color: rgb(38,38,128);
+}
+
+.number {
+  color: rgb(41,128,38);
+}
+
+.paren {
+  color: rgb(132,60,36);
+}
+
+.strbdy {
+  text-decoration: underline;
+}
+
+.string {
+  color: rgb(41,128,38);
+}
+
+.symbol {
+  color: rgb(38,38,128);
+}
+
+/*
  * Set up for printing
  */
 @media print {
@@ -369,7 +449,7 @@ SPAN.overview {
   }
 
   H1, H2 { 
-    background-color: rgb(96,96,96);
+    color: rgb(64,64,64);
   }
 
   H1 {
@@ -383,13 +463,21 @@ SPAN.overview {
     margin-left: 0;
   }
 
-  H1, H2, H3 {
+  H1 {
+    border-bottom: 1px solid rgb(64,64,64);
+  }
+
+  div.foot {
+    border-top: 1px solid rgb(64,64,64);
+  }
+
+  H2, H3 {
     font-size: 100%;
   }
 
   P.course {
     font-size: small;
-    color: rgb(128,128,128);
+    color: rgb(64,64,64);
   }
 
   P.course,
@@ -402,4 +490,15 @@ SPAN.overview {
   PRE {
     font-size: 90%;
   }
+
+   a {
+     text-decoration: none;
+   }
+   a:link {
+     color: blue;
+   }
+   a:visited {
+     color: blue;
+   }
 }
+
