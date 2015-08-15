@@ -3,6 +3,43 @@
  * Copyright (c) 2001-2015 Samuel A. Rebelsky.  All rights reserved.
  */
 
+/*
+ * We set enough colors that it's useful to put them in one place.
+ *
+ * Note that one should also look at @media print below
+ */
+
+H1,
+H2,
+P.course,
+TR.week
+{
+  background-color: rgb(64,64,64);
+}
+
+H3, 
+H4
+{
+  color: rgb(64,64,64);
+}  
+
+div.head,
+div.body,
+div.section,
+div.foot,
+span.guimenu,
+span.guimenuitem
+{
+  background-color: rgb(240,240,240);
+}
+
+pre.screen,
+pre.programlisting,
+div.literallayout
+{
+  background-color: rgb(224,224,224);
+}
+
 /* 
  * Here's a nice overall appearance.  Some extra whitespace at the sides.  
  * Mostly white.  Note that the 100px at the left is intended to be
@@ -25,7 +62,6 @@ div.titlepage hr {
 
 /* The head and the foot. */
 div.head {
-  background-color: rgb(232,232,232); 
   border-bottom: thin solid black;
 }
 
@@ -33,18 +69,9 @@ div.titlepage hr {
   display: none;
 }
 
-div.body {
-  background-color: rgb(240,240,240);
-}
-
-div.section {
-  background-color: rgb(240,240,240);
-}
-
 div.foot {  
   border-top: solid black;
   border-bottom: thin solid black;
-  background-color: rgb(232,232,232); 
   border-width: 3px 0em 0em 5px;
   margin-top: 5px;
   padding-right: 0.2em;
@@ -60,7 +87,6 @@ div.pagenotes {
 /* Have some fun with my headers */
 H1, H2 { 
   color: white;
-  background-color: #0b61a4;
   font-weight: bold;
   font-family: Helvetica, sans-serif;
   /* border: solid silver; */
@@ -85,7 +111,6 @@ H2 {
 }
 
 H3 {
-  color: #0b61a4;
   font-family: Helvetica, sans-serif;
   border-width: 2px 0em 0em 5px;
   font-size: 1.1em;
@@ -94,7 +119,6 @@ H3 {
 }
 
 H4 {
-  color: #0b61a4;
   font-family: Helvetica, sans-serif;
 }
 
@@ -108,7 +132,6 @@ P.course {
   font-size: 1.1em;
   text-align: right;
   color: white;
-  background-color: #0b61a4;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -141,7 +164,7 @@ form.search {
 HR {
   width: 50%;
   text-align: right;
-  color: maroon;
+  color: black;
   background-color: white;
 }
 HR.history {
@@ -159,11 +182,11 @@ SPAN.guimenu {
   font-family: Helvetica, sans-serif;
   background-color: rgb(224,224,240);
 }
+
 SPAN.guimenuitem {
   font-weight: bold;
   font-size: small;
   font-family: Helvetica, sans-serif;
-  background-color: rgb(224,224,240);
 }
 
 SPAN.uimenu {
@@ -235,9 +258,6 @@ SPAN.errortext {
 PRE,
 PRE.screen,
 PRE.programlisting,
-DIV.literallayout {
-  background-color: rgb(224,224,224);
-}
 
 PRE {
   border-width: 1px;
@@ -308,7 +328,6 @@ TABLE.schedule TH {
 
 TR.week {
   color: white;
-  background-color: #0b61a4;
 }
 
 TR.break {
@@ -353,7 +372,6 @@ TABLE.index tr:nth-child(odd) {
 
 
 SPAN.guibutton {
-  background-color: rgb(224,224,240);
   border-color: rgb(208,208,192);
   border-style: ridge;
   border-width: 2px;
@@ -436,7 +454,7 @@ SPAN.overview {
   }
 
   H1, H2 { 
-    color: #0b61a4;
+    color: rgb(64,64,64);
   }
 
   H1 {
@@ -455,7 +473,7 @@ SPAN.overview {
   }
 
   div.foot {
-    border-top: 1px solid #0b61a4;
+    border-top: 1px solid rgb(64,64,64);
   }
 
   H2, H3 {
@@ -464,7 +482,7 @@ SPAN.overview {
 
   P.course {
     font-size: small;
-    color: rgb(128,128,128);
+    color: rgb(64,64,64);
   }
 
   P.course,

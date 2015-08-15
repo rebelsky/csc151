@@ -5,6 +5,8 @@
 #     mtwf-fall: A Monday, Tuesday, Wednesday, and Friday fall lab class.
 #     mtwf-fall-writeups: A Monday, Tuesday, Wednesday, and Friday fall 
 #       lab class with writeups.
+#     mtwf-fall-writeups-review: A Monday, Tuesday, Wednesday, and Friday fall 
+#       lab class with writeups and review sessions.
 #     lfa-fall: Learning from Alumni in the Fall (one day per week)
 #     mtwf-spring: A Monday, Tuesday, Wednesday, and Friday spring lab class.
 #     mtwf-spring-mlk, A MWTF spring lab class, with no MLK day
@@ -42,7 +44,13 @@ my $INCLUDE_WRITEUPS = 0;
 if ($type =~ s/-writeups//) {  
   $INCLUDE_WRITEUPS = 1;
 }
-  
+
+# Do we include review sessions?  (Needs improvement.)
+my $INCLUDE_REVIEW_SESSIONS = 0;
+if ($type =~ s/-review//) {
+  $INCLUDE_REVIEW_SESSIONS = 1;
+}
+
 # Deal with the different kinds of classes
 if ($type eq "mtwf-fall") {
   top();
@@ -184,6 +192,10 @@ sub weeks($$$)
   my $W = shift;        # Number of weeks
   my $D = shift;        # Number of days
   my $headings = shift; # Do we have headings?
+  # Hack!  I assume review sessions are on Thursdays in MTWF classes.
+  if ($INCLUDE_REVIEW_SESSIONS) {
+    $D -= 1;
+  }
 
   my $w;                # Week counter
   my $d;                # Day counter
@@ -198,8 +210,13 @@ sub weeks($$$)
     for ($d = 0; $d < $D; $d++) {
       day();
     } # for each day
+    # Add the review sessions and any extra days
+    if ($INCLUDE_REVIEW_SESSIONS) {
+      review();
+      day();
+    }
   } # for
-} # labWeek
+} # weeks
 
 # week()
 #   Prints the header for the next week
@@ -244,6 +261,22 @@ sub day()
       </tr>
 DAY
 } # day
+
+sub review()
+{
+  print<<"REVIEW";
+      <tr>
+        <td></td>
+        <td>&thu$WEEK;</td>
+        <td>
+          <emphasis role="strong"><emphasis><ulink url="../eboards/extra.$WEEK.html">Optional Review Session</ulink></emphasis></emphasis>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+REVIEW
+}
 
 # days(N)
 #   Print N days
