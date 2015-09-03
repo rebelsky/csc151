@@ -1,0 +1,20 @@
+<section id="rgb"><title>RGB Colors</title>
+
+<para>
+  There are two separate readings for the next class.
+</para>
+
+<itemizedlist>
+  <listitem>
+    <link xlink:href="design-and-color-reading.html" xmlns:xlink="http://www.w3.org/1999/xlink">Design and Color</link>
+  </listitem>
+  <listitem>
+    <link xlink:href="rgb-early-reading.html" xmlns:xlink="http://www.w3.org/1999/xlink">RGB Colors</link>
+  </listitem>
+</itemizedlist>
+
+<para>
+  Do both.
+</para>
+
+</section> <!-- id="raster-and-rgb" -->
