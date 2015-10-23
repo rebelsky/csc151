@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Usage makereport NAME EMAIL
+echo "Making report for $1 [$2@grinnell.edu]"
+./report "$1" $2 > reports/$2
