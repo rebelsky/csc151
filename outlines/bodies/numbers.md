@@ -80,6 +80,10 @@ Modulo
 
 * The `mod` (modulo, modulus) operation is one of the trickier 
   operations we use in this class (and we use it a lot).
+* `mod` is like `remainder` except that it always gives positive
+  values, even when the dividend is negative.
+    * For negative dividend, `(mod dividend divisor)` is
+      (+ divisor (quotient dividend divisor)).
 * Essentially, `mod` is used to break up the number line into
   even chunks.
     * If you mod by 7, you break the number line up into chunks of size 7.

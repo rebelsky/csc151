@@ -10,6 +10,8 @@ Repetition
     * *repetition*: the ability to do something multiple times;
     * *input* and *output*: the ability to get and report
     values.
+    * *basic values and operations*: the things we can work with
+    * *sequencing* choosing the order in which we do things
 * We've already seen how to do all of these things.
 * Examples of repetition from baking:
     * Stir the mix 50 times
@@ -24,7 +26,7 @@ Repetition
 * We know a few ways to repeat actions:
     * Using lists: `map` 
     * Using images: `image-variant`, `image-transform!`,
-    and `image-compute-pixels!`.
+      and `image-compute-pixels!`.
 * Today we begin to consider more general forms of repetition.
 
 Some Challenges
@@ -42,6 +44,12 @@ Some Challenges
     * You may pass the rest of the collection to the person next to
       you and ask one question of that person
     * You have answer to give if there are no items in the collection
+* The silly model I have:
+    * You have an executive assistant.  You can ask your executive
+      assistant to do most of the work, but not all of it.
+    * In particular, if you have a non-empty list, you have to remove 
+      the car of the list and you may not look at the cdr.  (You have to
+      ask your assistant to deal with the cdr.)
 * Here are some possibilities
     * Counting the number of values we have
     * Determining whether a collection contains a value

@@ -28,14 +28,24 @@ Transforming Colors
 * Why?
     * Deepens our understanding of colors.
     * We can apply a color transformation to a pixel in the image.
-    * We can apply a color transformation to each pixel in an image.  (More on that
-    tomorrow.)
-
-An Example
-----------
-
+    * We can apply a color transformation to each pixel in an image.  
+      (More on that tomorrow.)
 * MediaScript comes with a variety of built-in color transformations.
-* However, we can also define our own (yay!).
+
+Building New Transformations
+----------------------------
+
+* How do we build our own transformation?
+* We'll learn a variety of techniques over the next few classes.
+* Right now, our first technique is *composition*.
+
+An Old Example
+--------------
+
+_This example comes from when we covered procedure definitions before
+covering colors._
+
+* We can also define our own (yay!).
 * The normal framework for a color transformation is
 <pre class="programlisting">
 (define color-transform

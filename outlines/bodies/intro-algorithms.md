@@ -58,8 +58,10 @@ An Everyday Algorithm
 * We'll explore the problems of writing clear instructions through a
   simple exercise.
 * Challenge: Write a clear, unambiguous, and detailed set of instructions
-  for making a nut butter and jelly sandwich.
+  for making a nut butter and preserves sandwich.
 * Format: Work in groups of about four. 
+    * I will distribute playing cards to help you identify those
+      groups.
 * Each group will write its solution on one of the four boards.
 * SamR will play the role of the sentient, but malicious and clueless
   "follower of instructions".

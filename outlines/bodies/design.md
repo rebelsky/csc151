@@ -11,7 +11,7 @@ About the project
     * Same n - Same image.
     * Different sizes - Scales appropriately.
 * Note that different people find different things interesting.
-* One of my colleagues in art suggests that a piece is interesting if 
+* One of my colleagues in studio art suggests that a piece is interesting if 
   the viewer cannot easily look at the image and say "I get it".
     * Sometimes you add interest by violating expectations or by contrasting
       opposites.
@@ -24,10 +24,10 @@ About the project
   piece, the relationship between the piece and others in the series,
   the relationship between the piece and the broader world.
 
-Quick code examples
--------------------
+Quick code examples (not this year)
+-----------------------------------
 
-* We'll look at a few incomplete projects.
+* We may look at a few incomplete projects.
 * One project we'll develop together and is intended to give a sense of
   negation.
 * One project is intended to explore issues of repetition and scale.  It is

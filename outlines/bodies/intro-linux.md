@@ -1,6 +1,24 @@
 Structure of Today's Class
 --------------------------
 
+* Administrivia [5 min]
+* Small group: Making groups [5 min]
+* Small group: What did you learn yesterday? [5 min]
+    * Yes, we all got "be precise!"  What else?
+    * Introduce yourselves!
+    * Five or so learning outcomes from yesterday.
+* Large group: Share answers [5 min]
+    * I will call on folks randomly
+* Small group: What did you learn about algorithms? [5 min]
+    * Think about what I might ask.
+    * Come up with questions for me.
+* Large group: Overview of algorithms [5 min]
+* Lab [20 min]
+    * Leave when you are done.
+
+Alternate Structure of Today's Class
+------------------------------------
+
 * Sam: Additional class issues. [5 min]
 * Small group: Discuss the reading on algorithms.  [5 min]
     * Don't forget to introduce yourselves!
@@ -51,8 +69,6 @@ Reflections on Making Sandwiches
 
 *What else did you learn from the No-Nut Butter and Jelly exercise?*
 
-* I've put responses in the [lessons learned](../handouts/lessons.html) page.
-
 The Components of an Algorithm
 ------------------------------
 
@@ -61,20 +77,6 @@ The Components of an Algorithm
   we write.  
 * It is worthwhile to think about these algorithm parts
   because we can rely on them when we write new algorithms. 
-
-### Variables: Named Values
-
-* As we write algorithms, we like to name things.  
-* Sometimes we use long names, such as "the piece of bread in 
-  your dominant hand".
-* Sometimes, we use shorter names, such as "bread-dom".  
-* As we start to write more formal algorithms, we will need
-  techniques for noting which names we are using and indicating
-  what they name (and, sometimes, what kind of thing they name).
-* We call these named values *variables*, even though they
-  don't always vary.
-* We need to be careful to use unambiguous names.  Recall the 
-  problems with using "it" in your descriptions.
 
 ### Parameters: Named Inputs
 
@@ -89,6 +91,20 @@ The Components of an Algorithm
   "reasonable" (we can't find the square root of a piece of bread,
   we can't make a sandwich with pi).
 * We call these inputs *parameters*.
+
+### Variables: Named Values
+
+* As we write algorithms, we like to name things.  
+* Sometimes we use long names, such as "the piece of bread in 
+  your dominant hand".
+* Sometimes, we use shorter names, such as "bread-dom".  
+* As we start to write more formal algorithms, we will need
+  techniques for noting which names we are using and indicating
+  what they name (and, sometimes, what kind of thing they name).
+* We call these named values *variables*, even though they
+  don't always vary.
+* We need to be careful to use unambiguous names.  Recall the 
+  problems with using "it" in your descriptions.
 
 ### Conditionals: Handling Different Situations
 

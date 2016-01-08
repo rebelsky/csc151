@@ -80,5 +80,4 @@ and Phone number (string).  We might search by any of the four criteria
 Lab
 ---
 
-* Do [the lab](../Labs/binary-search-lab.html)
-* Be prepared to reflect.
+* We will do the [the lab](../Labs/binary-search-lab.html) next week.

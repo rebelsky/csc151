@@ -1,15 +1,13 @@
 Reflecting on Procedures
 ------------------------
 
-* Two starting questions:
+* Two starting questions for you and your partner:
     * What were the key ideas you took from the reading/lab?
     * What were the more difficult issues for you to grasp?
 * A few notes from my observations.
     * Try to pick procedure names and parameter names that would make
       sense to your human reader.
     * If we specify a procedure name, please use that name.
-    * Control-up-arrow in the interactions pane brings up a previous
-      command.  (You can also use escape-p.)
     * Once you've defined your procedure, you'll need to call it.  
       To call a procedure, you write an open parenthesis, the name of
       the procedure, the inputs (actual parameters), and a close parenthesis.
@@ -17,7 +15,8 @@ Reflecting on Procedures
 Pair Programming
 ----------------
 
-* What did you take from the reading?
+* What did you take from the reading?  (Assume we need to make a list of
+  the key points for those who didn't read it.)
 
 Documentation
 -------------
@@ -66,7 +65,7 @@ The Six P's
 * We also have a variety of other P's to use.
     * Practicum: Examples
     * Process: The how.  (Sometimes useful)
-    * Philosophy: Bigger poicture
+    * Philosophy: Bigger picture
     * Problems: When things don't work
     * Props: Citations
     * ...
@@ -78,8 +77,9 @@ Practice
   procedures.
     * I'll probably ask you to think for a few minutes before answering
       (and you can talk to your neighbors)
-* <code>(max val1 val2 ... valn)</code>
-* <code>(neighbor drawing)</code>
-* <code>(sqrt val)</code>
+* `(may val1 val2)`
+* `(max val1 val2 ... valn)`
+* `(irgb-average color1 color2)`
+* `(sqrt val)`
 * ...
 

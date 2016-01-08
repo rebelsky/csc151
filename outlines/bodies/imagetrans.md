@@ -1,3 +1,5 @@
+_All of these notes come from the old model of this course._
+
 Transforming images by transforming each pixel
 ----------------------------------------------
 
