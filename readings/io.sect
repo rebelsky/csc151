@@ -1,0 +1,20 @@
+<section id="side-effects"><title>Side Effects: Output, Images, and Beyond</title>
+
+<para>
+  There are two readings for today.
+</para>
+
+<itemizedlist>
+  <listitem>
+    <ulink url="output-reading.html">Simple Output in Scheme</ulink> and
+  </listitem>
+  <listitem>
+    <ulink url="simple-input-reading.html">Simple Input in Scheme</ulink>.
+  </listitem>
+</itemizedlist>
+
+<para>
+  Do them both.
+</para>
+
+</section>

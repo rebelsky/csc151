@@ -1,0 +1,12 @@
+
+<section id="procedures-check-02"><title>Check 2: Postconditions</title>
+
+<para>
+  In the documentation for <code>irgb-grey</code>, we wrote that
+  <quote><code>(abs (- (irgb-red grey) brightness)) &lt; 1</code></quote>.
+  Explain why we didn't just write that
+  <quote><code>(irgb-red grey) = brightness</code></quote>.
+</para>
+
+</section> <!-- anchor-procedures-check-02 -->
+
