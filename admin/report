@@ -11,7 +11,7 @@
 my $DETAILED = 1;
 
 # Is this a real or estimated grade report
-my $ESTIMATED = 1;
+my $ESTIMATED = 0;
 
 # +--------+----------------------------------------------------------
 # | "Main" |
@@ -200,31 +200,12 @@ if ($notes) {
    print "$notes\n";
 }
 
-my $hack = 0;
-if (($numeric) && ($numeric ne "x")) {
-  print "Numeric grade: $numeric\n";
-  $hack = 1;
-} # if ($numeric)
-if (($letgrade) && ($letgrade ne "x")) {
-  print "Letter grade:  $letgrade\n";
-  print "\n";
-  $hack = 0;
-} # if ($letgrade)
-if ($hack) {
-  print "\n";
-}
-
-print "SUMMARY REPORT (original metric)\n";
-print "--------------------------------\n";
+print "SUMMARY REPORT\n";
+print "--------------\n";
 print "\n";
 # printSummary(participation,hw,lab,quiz,project,exam,individual)
 printSummary("10.0", "10.0", "10.0", "10.0", "10.0", "45.0", " 5.0");
 
-print "SUMMARY REPORT (revised metric)\n";
-print "-------------------------------\n";
-print "\n";
-# printSummary(participation,hw,lab,quiz,project,exam,individual)
-printSummary("10.0", " 0.0", "10.0", "12.0", "12.0", "50.0", " 6.0");
 
 if ($DETAILED) {
   print "DETAILED INFORMATION\n";
@@ -519,16 +500,37 @@ sub printSummary($$$$$$$)
   if ($possible != 0) {
     my $total = round1($total);
     my $est = round1(100 * $total/$possible);
-    my $adjusted = round1($est + $extra/4);
+    my $total_alt = round1($total - $homework * $hw_percent/100);
+    my $possible_alt = $possible - $hw_percent;
+    my $est_alt = round1(100 * $total_alt/$possible_alt);
+    my $adjusted = round1(max($est, $est_alt) + $extra/4);
     if ($ESTIMATED) {
-      print "Estimated numeric grade: $total/$possible  = $est\n";
-      print "Estimated numeric grade with extra credit: $adjusted\n";
+      print "Estimated numeric grade: $total/$possible = $est\n";
+      print "Estimated numeric grade (no hw): $total_alt/$possible_alt = $est_alt\n";
+
+      print "Estimated numeric grade with $extra units of extra credit: $adjusted\n";
     } # if ($ESTIMATED)
     else { # if (!$ESTIMATED)
-      print "Numeric grade: $est\n";
-      print "Numeric grade with extra credit: $adjusted\n";
+      print "Numeric grade (base, computed): $est\n";
+      print "Numeric grade (base, no hw): $total_alt/$possible_alt = $est_alt\n";
+      print "Numeric grade (with extra credit): $adjusted\n";
+      print "\n";
+      my $hack = 0;
+      if (($numeric) && ($numeric ne "x")) {
+        print "Numeric grade: $numeric\n";
+        $hack = 1;
+      } # if ($numeric)
+      if (($letgrade) && ($letgrade ne "x")) {
+        print "Letter grade:  $letgrade\n";
+        print "\n";
+        $hack = 0;
+      } # if ($letgrade)
+      if ($hack) {
+        print "\n";
+      }
     } # if (!ESTIMATED)
-    print "\n";
   } # if there are some possible grades
+
+  return ($total,$possible);
 } # printSummary
 
