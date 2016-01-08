@@ -1,6 +1,9 @@
 <section id="index-readings;"><title>Readings</title>
 
 <table class="index">
+  <tr><td>Class 54</td><td width="50%">&reading54;</td><td>due &date54;</td></tr>
+  <tr><td>Class 53</td><td width="50%">&reading53;</td><td>due &date53;</td></tr>
+  <tr><td>Class 52</td><td width="50%">&reading52;</td><td>due &date52;</td></tr>
   <tr><td>Class 51</td><td width="50%">&reading51;</td><td>due &date51;</td></tr>
   <tr><td>Class 50</td><td width="50%">&reading50;</td><td>due &date50;</td></tr>
   <tr><td>Class 49</td><td width="50%">&reading49;</td><td>due &date49;</td></tr>
