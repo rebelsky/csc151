@@ -3,101 +3,120 @@
 <itemizedlist>
   <listitem>
     <ulink url="sample-final.html">Sample Final Examination</ulink>
-    (actual final is offered at four separate times: 9am or 2pm on
-    Tuesday, 12 May 2015 or Wednesday, 13 May 2015.
+    (actual final is offered at two separate times: 9am or 2pm on
+    Tuesday, 15 December 2015.
   </listitem>
-  <listitem> 
-    <ulink url="exam.04.html">Exam 4: Recursion and Repetition</ulink>
+  <listitem>
+    <ulink url="exam.04.html">Exam 4: Scheme Structures and Strategies</ulink>
     <itemizedlist>
       <listitem>
-        Prologue due 10:30 p.m. Friday, 1 May 2015 at
-        <ulink url="http://bit.ly/151-2015S-exam4pro"/>.
+        Prologue due 10:30 p.m. Friday, 4 December 2015 at
+        <ulink url="http://bit.ly/151-2015F-exam4pro"/>.
       </listitem>
       <listitem>
-        Electronic version due 10:30 p.m., Monday, 4 May 2015 at 
-        <ulink url="http://bit.ly/151-2015S-exam4"/>.
+        Electronic version due 10:30 p.m., Monday, 7 December 2015 via
+        email to rebelsky@grinnell.edu.
       </listitem>
       <listitem>
-        Epilogue due 11:00 p.m., Monday, 4 May 2015 at
-        <ulink url="http://bit.ly/151-2015S-exam4epi"/>.
+        Cover sheet due at the start of class, Tuesday, 8 December 2015.
       </listitem>
       <listitem>
-        Printed version due at the start of class, Tuesday, 5 May 2015.
+        Epilogue due 10:30 p.m. Tuesday, 8 December 2015 at
+        <ulink url="http://bit.ly/151-2015F-exam4epi"/>.
       </listitem>
     </itemizedlist>
   </listitem>
-  <listitem> <ulink url="../assignments/project.html">Project: A Procedure is Wo
-rth a Thousand Images</ulink>
+  <listitem> <ulink url="../assignments/project.html">Project: A Procedure is Worth a Thousand Images</ulink>
     <itemizedlist>
-      <listitem>Part one (Proposal) due: &mon12;</listitem>
-      <listitem>Sketches due: &tue12;</listitem>
-      <listitem>Part two (Implementation) due: &tue13;</listitem>
+      <listitem>Part one (Proposal) due: &mon11;</listitem>
+      <listitem>Sketches due: &tue11;</listitem>
+      <listitem>Part two (Implementation) due: &tue12;</listitem>
     </itemizedlist>
   </listitem>
-  <listitem> 
-    <ulink url="exam.03.html">Exam 3: Recursion and Repetition</ulink>
+  <listitem>
+    <ulink url="exam.03.html">Exam 3: Advanced Scheming</ulink>
     <itemizedlist>
       <listitem>
-        Prologue due 10:30 p.m. Friday, 10 April 2015 at
-        <ulink url="http://bit.ly/151-2015S-exam3pro"/>.
+        Prologue due 10:30 p.m. Friday, 6 November 2015 at
+        <ulink url="http://bit.ly/151-2015F-exam3pro"/>.
       </listitem>
       <listitem>
-        Electronic version due 10:30 p.m., Tuesday, 14 April 2015 at 
-        <ulink url="http://bit.ly/151-2015S-exam3"/>.
+        Electronic version due 10:30 p.m., Tuesday, 10 November 2015 at
+        <ulink url="http://bit.ly/151-2015F-exam3code"/>.
       </listitem>
       <listitem>
-        Epilogue due 11:00 p.m., Tuesday, 14 April 2015 at
-        <ulink url="http://bit.ly/151-2015S-exam3epi"/>.
-      </listitem>
-      <listitem>
-        Printed version due at the start of class, Wednesday, 15 April 
+        Printed version due at the start of class, Wednesday,11 November 
         2015.
       </listitem>
-    </itemizedlist>
-  </listitem>
-  <listitem> &assignment07; (due &assignment07-due;) </listitem>
-  <listitem> 
-    <ulink url="exam.02.html">Exam 2: Colors and Control</ulink>
-    <itemizedlist>
       <listitem>
-        Prologue due 10:30 p.m. Sunday, 8 March 2015 at
-        <ulink url="http://bit.ly/151-2015S-exam2pro"/>.
-      </listitem>
-      <listitem>
-        Electronic version due 10:30 p.m., Thursday, 12 March 2015 at 
-        <ulink url="http://bit.ly/151-2015S-exam2"/>.
-      </listitem>
-      <listitem>
-        Epilogue due 11:00 p.m., Thursday, 12 March 2015 at
-        <ulink url="http://bit.ly/151-2015S-exam2epi"/>.
-      </listitem>
-      <listitem>
-        Printed version due at the start of class, Friday, 13 March 
-        2015.
+        Epilogue due 10:30 p.m. Wednesday, 11 November 2015 at
+        <ulink url="http://bit.ly/151-2015F-exam3epi"/>.
       </listitem>
     </itemizedlist>
   </listitem>
   <listitem> &assignment06; (due &assignment06-due;) </listitem>
+  <listitem>
+    <ulink url="exam.02.html">Exam 2: Expanding Our Vocabulary: Conditional Control Structures and New Image Models</ulink>
+    <itemizedlist>
+      <listitem>
+        Prologue due 10:30 p.m. Friday, 9 October 2015 at
+        <ulink url="http://bit.ly/151-2015F-exam2pro"/>.
+      </listitem>
+      <listitem>
+        Electronic version due 10:30 p.m., Tuesday, 13 October 2015 at
+        <ulink url="http://bit.ly/151-2015F-exam2code"/>.
+      </listitem>
+      <listitem>
+        Epilogue due 10:30 p.m. Wednesday, 14 October 2015 at
+        <ulink url="http://bit.ly/151-2015F-exam2epi"/>.
+      </listitem>
+      <listitem>
+        Printed version due at the start of class, Wednesday, 14 October 
+        2015.
+      </listitem>
+    </itemizedlist>
+  </listitem>
+  <listitem>
+    <ulink url="makeup.01.html">Makeup Exam 1: Scheme and Image Basics</ulink>
+    <itemizedlist>
+      <listitem>
+        Prologue due 10:30 p.m. Friday, 9 October 2015 at
+        <ulink url="http://bit.ly/151-2015F-makeup1pro"/>.
+      </listitem>
+      <listitem>
+        Electronic version due 10:30 p.m., Tuesday, 13 October 2015 at
+        <ulink url="http://bit.ly/151-2015F-makeup1code"/>.
+      </listitem>
+      <listitem>
+        Epilogue due 10:30 p.m. Wednesday, 14 October 2015 at
+        <ulink url="http://bit.ly/151-2015F-makeup1epi"/>.
+      </listitem>
+      <listitem>
+        Printed version due at the start of class, Wednesday, 14 October 
+        2015.
+      </listitem>
+    </itemizedlist>
+  </listitem>
   <listitem> &assignment05; (due &assignment05-due;) </listitem>
   <listitem> &assignment04; (due &assignment04-due;) </listitem>
-  <listitem> 
+  <listitem>
     <ulink url="exam.01.html">Exam 1: Scheme and Image Basics</ulink>
     <itemizedlist>
       <listitem>
-        Prologue due 10:30 p.m. Friday, 6 February 2015 at
-        <ulink url="http://bit.ly/151-2015S-exam1pro"/>.
+        Prologue due 10:30 p.m. Friday, 18 September 2015 at
+        <ulink url="http://bit.ly/151-2015F-exam1pro"/>.
       </listitem>
       <listitem>
-        Electronic version due 10:30 p.m., Tuesday, 10 February 2015 at 
-        <ulink url="http://bit.ly/151-2015S-exam1"/>.
+        Electronic version due 10:30 p.m., Tuesday, 22 September 2015 at
+        <ulink url="http://bit.ly/151-2015F-exam1"/>.
       </listitem>
       <listitem>
-        Printed version due at the start of class, Wednesday, 11 February
+        Epilogue due 10:30 p.m. Tuesday, 22 February 2015 at
+        <ulink url="http://bit.ly/151-2015F-exam1epi"/>.
+      </listitem>
+      <listitem>
+        Printed version due at the start of class, Wednesday, 23 September
         2015.
-      </listitem>
-      <listitem>
-        Epilogue due 10:30 p.m. Wednesday, 11 February 2015 at
-        <ulink url="http://bit.ly/151-2015S-exam1epi"/>.
       </listitem>
     </itemizedlist>
   </listitem>
