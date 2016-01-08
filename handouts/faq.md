@@ -110,9 +110,9 @@ assignments are or if you will only tell us in class?_
 
 > I will tell you each day in class.  Both my outline for the class and the eboard for the class are available online, and that's a good place to look.  The latest eboard is probably the best place to look.
 
-> <http://www.cs.grinnell.edu/~rebelsky/Courses/CSC151/2015S/outlines/current.html>
+> <http://www.cs.grinnell.edu/~rebelsky/Courses/CSC151/2015F/outlines/current.html>
 
-> <http://www.cs.grinnell.edu/~rebelsky/Courses/CSC151/2015S/eboards.am/current.html>
+> <http://www.cs.grinnell.edu/~rebelsky/Courses/CSC151/2015F/eboards/current.html>
 
 _Are we going to be given due dates for each extra credit assignment, or are they due the night of the event?_
 
@@ -171,7 +171,7 @@ as it were.  I've never looked back.
 
 > Over the past few years, I've started making art (mostly 
 non-representational, sometimes with a performative aspect).  I find
-making art and programming have many similarities, including the great
+art-making and programming have many similarities, including the great
 positive of making something new and interesting.
 
 _Pick a category of objects and list five of your favorite objects in 
@@ -191,11 +191,11 @@ _What are your favorite board games?_
 > Mostly ones that few people have heard of (well, two of these board
 gamers know, but not many other people): Cosmic Encounter. Yacht Race,
 Carcasonne, and Circus Maximus.  But I play a lot of different games.
-One current fave in the Rebelsky household is "Apples Against Humanity":
+One recent fave in the Rebelsky household is "Apples Against Humanity":
 questions from Cards Against Humanity with answers from Apples to Apples.
 (The answers in Cards Against Humanity are not suitable for children or,
 well, anyone.)  My eldest would like us to play more Canasta.  I'd like
-to play more Roborally, but there's rarely time.
+to play more games, but there's rarely time.
 
 _What is your favorite programming language? It may be easy to deny, but most people have a preference._
 
@@ -261,13 +261,26 @@ _What would you do differently if you could do college again?_
 
 _What's the one food item you can't live without?_
 
-I want to say chocolate, but I think "fruit" is probably the answer if
+> I want to say chocolate, but I think "fruit" is probably the answer if
 you'll accept that.  If I have not narrow, I think it's pears.  Of course,
 to be literal, I think it's water (although water isn't food).
 
 _What is your favorite section of computer Science?_
 
 > My favorite courses to teach: CSC 151, because I like introducing students to the field. CSC 207, because I think it's where you really start to develop the tools of computer scientist and software designer. My one-credit "C & Unix" seminar, because I can make sure you learn things that are essential. (Whoops, that's three.)  Oh, I also like teaching tutorial.
+
+_I was really surprised to see that your "maladaption of Bloch’s example" (at first I thought you were referring to the French historian Marc Bloch) in the taking notes section is a historical one. Are you interested in history, and if so, which geographic region or time period are you most interested in?_
+
+> I stole the historical example from Bloch (no, not Marc Bloch).  I appreciate history, and occasionally read popular history books for pleasure.  I'm not sure that there are particular periods, though.  Right now, I'm mostly reading things related to the history of technology (and I'm on a history of technology mailing list, which I find fascinating).
+
+_What are 3 thing in your life that you cannot be happy without?_
+
+> My family.  Reading.  Sunlight.
+
+_Also, what, to you, is the most important part of being a professor?_
+
+> There are two ways to interpret that question.  One is "What one characteristic must a professor have to be successful?"  Another is "What importance do you derive from being a professor?"  For the former, I'm not sure that there is one characteristic that every professor needs to share.  Some are successful because of their incredible clarity.  Some are successful because they understand so well what it means to have difficulty with complex material and can adapt to differences.  I think I'm successful because of the deep care I have for my students.  For the latter, I derive importance from making a difference in the lives of young people and from helping them grow.
+
 
 About Assignments
 -----------------
@@ -304,8 +317,7 @@ _Just to be sure, how am I supposed to figure out when assignments are due?_
 
 > You can remember that almost all assignments are due Tuesday at 
 10:30 p.m.  (But not all of them.)  I'd recommend checking the
-course schedule, which lists all of the kinds of assignments.  I
-will also try to put major assignments on the Google calendar.
+course schedule, which lists all of the kinds of assignments.  
 
 About Other Things
 ------------------
@@ -319,10 +331,6 @@ I also say that to myself, because I use TLAs a lot.  These days,
 TLA may also stand for Grinnell's Center for Teaching, Learning, and
 Assessment.
 
-_What's the attachment that seems to accompany every email message you send?_
-
-> A digital signature. See [http://www.cs.grinnell.edu/~rebelsky/gpg.html](http://www.cs.grinnell.edu/~rebelsky/gpg.html).  Because Outlook365 doesn't like digital signatures, I don't use them as much as I used to.
-
 _Do you prefer "freshman" or "first-year"?_
 
 > The term "freshman" is gendered, and so the Grinnell Style Guide
@@ -334,4 +342,17 @@ first name?_
 
 > I enjoy playing with notions of power and authority.  I'll probably
 use both first and last names with my students.
+
+_When a command given to a computer can be interpreted or carried out
+in several ways, will the computer simply not do anything or will it
+just randomly choose a way to carry out the command?_
+
+In my experience, the computer will interpret an ambiguous command in
+the way that is least convenient for you.  But it's also hard to give
+truly ambiguous commands.  Most of the time, a computer will issue an
+error message for an ambiguous command.
+
+_What is the most important part of being a student?_
+
+> Asking questions.
 
