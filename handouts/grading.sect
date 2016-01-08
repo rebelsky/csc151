@@ -212,17 +212,15 @@
 <para>
   To encourage you to think carefully about the material, for most labs
   I will ask you to write up one or two exercises and submit them for
-  review.  I will do my best to let you know which exercises to write up,
-  and will also post them on the course web site, both on the 
-  <ulink url="../handouts/schedule.html">schedule</ulink> and the
-  <ulink url="../labs/index.html">list of labs</ulink>.
+  review.  
 </para>
 
 <para>
-  You and your lab partner(s) may complete the writeup together or 
-  individually; you should decide which by the end of class. If you 
-  do the lab writeup on your own, you must acknowledge your partner 
-  (any anyone else who gave you help) in your writeup.
+  You and your lab partner(s) should generally plan to complete the
+  lab writeup together.  However, in some cases you may decide to do
+  so individually.  In either case, you should decide which by the end
+  of class. If you do the lab writeup on your own, you must acknowledge
+  your partner (any anyone else who gave you help) in your writeup.
 </para>
 
 <para>
@@ -237,7 +235,8 @@
 </para>
 
 <para>
-  You will submit your lab writeups online using Google docs.
+  You will submit your lab writeups via electronic mail to
+  &grader;.
 </para>
 
 <para>
@@ -269,12 +268,13 @@
 <section id="exams"><title>Examinations</title>
 
 <para>
-  When grading exams this semester, I will begin each student at 100 points
-  and remove points for each error I encounter.  When I encounter something
-  particularly exceptional, I may add points.  I typically guarantee
-  minimum grades on examinations for students who spend a reasonable amount
-  of time on the exam.  (Warning: My view of <quote>reasonable</quote> may be
-  somewhat longer than your view.)
+  When grading exams this semester, I will begin each student at 100
+  points and remove points for each error I encounter.  When I encounter
+  something particularly exceptional, I may add points.  I typically
+  guarantee minimum grades on examinations for students who spend a
+  reasonable amount of time on the exam and get a minimum number of
+  problems correct.  (Warning: My view of <quote>reasonable</quote>
+  may be somewhat longer than your view.)
 </para>
 
 </section>  <!-- exams -->
