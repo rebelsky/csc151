@@ -8,8 +8,7 @@
 
 # A list of the primary sections (subdirectories that should be processed)
 SECTIONS = assignments \
-        eboards.am \
-        eboards.pm \
+        eboards \
 	handouts \
 	home \
 	labs \
@@ -28,7 +27,7 @@ DIRTY = $(SECTIONS) \
 
 default: 
 	cd resources; make
-	for dir in $(SECTIONS); do cd $$dir; make; cd ..; done
+	for dir in $(SECTIONS); do cd $$dir && make && cd ..; done
 
 clean:
 	for dir in $(DIRTY); do cd $$dir; make clean; cd ..; done
