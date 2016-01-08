@@ -1,5 +1,5 @@
-<!ENTITY project-proposal-due "10:30 p.m., &mon12;">
-<!ENTITY project-due "10:30 p.m. &tue13;">
+<!ENTITY project-proposal-due "10:30 p.m., &mon11;">
+<!ENTITY project-due "10:30 p.m. &tue12;">
 <!ENTITY project-subject "Project">
 <!ENTITY project-dropbox "/home/rebelsky/Web/Courses/CSC151/2014S/dropbox">
 <!ENTITY optional-project-examples
