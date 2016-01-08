@@ -1,1 +1,443 @@
-../mediascheme/labs/numeric-recursion-lab.sect
+<section id="numeric-recursion-lab"><title>Laboratory: Numeric Recursion</title>
+
+<para>
+  <emphasis>Summary:</emphasis> 
+  Although most of our prior experiments with
+  recursion have emphasized recursion over lists, it is also possible
+  to use other values as the basis of recursion.  In this laboratory,
+  you will explore the use of natural numbers (non-negative integers)
+  as the basis of recursion.
+</para>
+ 
+<section id="numeric-recursion-reference"><title>Reference</title>
+
+<para>
+  Here is a template for the simplest kind of numeric recursive
+  procedures.
+</para>
+
+<programlisting>
+(define <emphasis>recursive-proc</emphasis>
+  (lambda (n)
+    (if (zero? n)
+        <emphasis>base-case</emphasis>
+        (<emphasis>combine</emphasis> <emphasis>n</emphasis> (<emphasis>recursive-proc</emphasis> (- n 1))))))
+</programlisting>
+
+<!--
+<para>
+  If you choose to use a local kernel, here is one common form.
+</para>
+
+<programlisting>
+(define recursive-proc
+  (letrec ([kernel (lambda (so-far n)
+                     (if (zero? n)
+                         so-far
+                         (kernel (<emphasis>update</emphasis> so-far n)
+                                 (- n 1))))])
+    (lambda (n)
+      (kernel <emphasis>starting-value</emphasis> n))))
+</programlisting>
+
+<para>
+  We can also use a kernel to count up from 1 to <parameter>n</parameter>.
+  (A slight change lets you count up from 0 to <parameter>n</parameter>.)
+</para>
+
+<programlisting>
+(define recursive-proc
+  (letrec ([kernel (lambda (so-far i n)
+                     (if (&gt; i n)
+                         so-far
+                         (kernel (<emphasis>update</emphasis> so-far i) (+ i 1) n)))])
+    (lambda (n)
+      (kernel <emphasis>starting-value</emphasis> 1 n))))
+</programlisting>
+-->
+
+<!-- The following replaces some of the above, which was commented
+     out when we moved numeric recursion before husk/kernel and
+     local procedure bindings. . -->
+
+<para>
+  You can also use helper recursion to achieve a variety of other goals.
+  For example, helper recursion can let you count up from 1 to
+  <parameter>n</parameter>.  (A slight change to the following code will
+  allow you to count up from 0 to <parameter>n</parameter>.)
+</para>
+
+<programlisting>
+(define helper
+  (lambda (so-far i n)
+    (if (&gt; i n)
+        so-far
+        (helper (<emphasis>update</emphasis> so-far i) (+ i 1) n))))
+
+(define primary
+  (lambda (n)
+    (kernel <emphasis>starting-value</emphasis> 1 n)))
+</programlisting>
+
+</section> <!-- id="numeric-recursion-reference" --> 
+
+<section id="numeric-recursion-preparation"><title>Preparation</title>
+
+<para>
+  Make a copy of <ulink
+  url="../code/numeric-recursion-lab.rkt"><filename>numeric-recursion-lab.rkt</filename></ulink>, which contains important code from the reading.
+</para>
+
+</section> <!-- id="numeric-recursion-preparation" -->
+
+<section id="numeric-recursion-exercises"><title>Exercises</title>
+
+<!--
+<section id="numeric-recursion-01"><title>Exercise 1: Termial, Revisited</title>
+
+<para>
+  Rewrite <function>termial</function> so that the kernel is local.  
+</para>
+
+</section> --> <!-- id="numeric-recursion-01" -->
+
+<anchor id="anchor-numeric-recursion-01"/>
+<section id="numeric-recursion-01"><title>Exercise 1: Counting Down</title>
+
+<para>
+  Define and test a <emphasis>recursive</emphasis> Scheme
+  procedure, <code>(<function>count-down</function>
+  <parameter>val</parameter>)</code>, that takes a natural number as
+  argument and returns a list of all the natural numbers less than or
+  equal to that number, in descending order.
+</para>
+
+<screen>
+<prompt>&gt;</prompt> <userinput>(count-down 5)</userinput>
+<computeroutput>'(5 4 3 2 1 0)</computeroutput>
+<prompt>&gt;</prompt> <userinput>(count-down 0)</userinput>
+<computeroutput>'(0)</computeroutput>
+</screen>
+
+<para>
+  Note that you should use <code>cons</code> to build up the list.
+</para>
+
+<para>
+  Note also that you are better off writing this with direct recursion
+  (the first pattern above), rather than using a helper procedure.
+</para>
+
+<para>
+  When you are finished, you may want to read <link
+  linkend="anchor-numeric-recursion-notes-01">the notes on this
+  exercise</link>.
+</para>
+
+</section> <!-- id="numeric-recursion-01" -->
+
+<anchor id="anchor-numeric-recursion-02"/>
+<section id="numeric-recursion-02"><title>Exercise 2: Filling Lists</title>
+
+<para>
+  Define and test a Scheme procedure,
+  <code>(<function>value-replicate</function> 
+  <parameter>count</parameter> <parameter>value</parameter>)</code>, 
+  that takes two arguments, the
+  first of which is a natural number, and returns a list consisting of
+  the specified number of repetitions of the second argument.
+</para>
+
+<screen>
+<prompt>&gt;</prompt> <userinput>(value-replicate 5 "sample")</userinput>
+<computeroutput>'("sample" "sample" "sample" "sample" "sample")</computeroutput>
+<prompt>&gt;</prompt> <userinput>(value-replicate 3 10)</userinput>
+<computeroutput>'(10 10 10)</computeroutput>
+<prompt>&gt;</prompt> <userinput>(value-replicate 1 null)</userinput>
+<computeroutput>'(())</computeroutput>
+<prompt>&gt;</prompt> <userinput>(value-replicate 2 null)</userinput>
+<computeroutput>'(() ())</computeroutput>
+<prompt>&gt;</prompt> <userinput>(value-replicate 0 "hello")</userinput>
+<computeroutput>'()</computeroutput>
+</screen>
+
+<para>
+  You should not call the built-in <function>make-list</function>
+  procedure.  Instead, implement <code>value-replicate</code> recursively.
+</para>
+
+<para>
+  When you are finished writing this procedure, compare it to 
+  <link linkend="anchor-numeric-recursion-notes-02">the notes on
+  this exercise</link>.
+</para>
+
+</section> <!-- id="numeric-recursion-02" -->
+
+<section id="numeric-recursion-03"><title>Exercise 3: Counting To</title>
+
+<para>
+  As you may recall, <function>iota</function> is a procedure that takes
+  a natural number as argument and returns a list of all the natural
+  numbers that are strictly less than the argument, in ascending order.
+  As you've seen, the <function>iota</function> procedure is quite
+  useful.  Unfortunately, it does not come as part of standard Scheme.
+  (We include it in MediaScheme because it is so useful.)  
+</para>
+
+<para>
+  Implement and test your own version of <function>iota</function>.
+  (You should not call the MediaScheme <function>iota</function>.)
+</para>
+
+<para>
+  For example,
+</para>
+
+<screen>
+<prompt>&gt;</prompt> <userinput>(my-iota 3)</userinput>
+<computeroutput>'(0 1 2)</computeroutput>
+<prompt>&gt;</prompt> <userinput>(my-iota 5)</userinput>
+<computeroutput>'(0 1 2 3 4)</computeroutput>
+<prompt>&gt;</prompt> <userinput>(my-iota 1)</userinput>
+<computeroutput>'(0)</computeroutput>
+</screen>
+
+<para>
+  Note that you will probably need to use a helper of some sort to
+  write <function>my-iota</function>.  You might use the traditional form
+  of helper, which adds an extra parameter.  You might also use a helper
+  that simply computes the list in the reverse order.  (Most students write
+  a backwards version in the first attempt; instead of throwing it away,
+  rename it and call it from <function>my-iota</function>.)
+</para>
+
+</section> <!-- id="numeric-recursion-03" -->
+
+<section id="numeric-recursion-04"><title>Exercise 4: Counting Between</title>
+
+<para>
+  You may recall the <function>count-from</function> procedure from
+  <ulink url="../readings/numeric-recursion-reading.html">the 
+  reading on recursion
+  over natural numbers</ulink>, which is available in the code
+  for this lab.
+</para>
+
+
+<para>
+  a.  What is the value of the call <code>(count-from -10 10)</code>?  
+</para>
+
+<para>
+  b. Check your answer experimentally.
+</para>
+
+<para>
+  c. It is possible to implement <function>count-from</function> in terms
+  of <function>iota</function>.  The implementation looks something like
+  the following.
+</para>
+
+<programlisting>
+(define count-from
+  (lambda (lower upper)
+     (map (l-s + _____) (iota _____))))
+</programlisting>
+
+<para>
+  Finish this definition.
+</para>
+
+<para>
+  d. What do you see as the advantages and disadvantages of each way of
+  defining <function>count-from</function>?
+</para>
+
+</section> <!-- id="numeric-recursion-04" -->
+
+</section> <!-- id="numeric-recursion-exercises" -->
+
+<section id="numeric-recursion-extra"><title>For Those Who Finish Early</title>
+
+<section id="numeric-recursion-extra-01"><title>Extra 1: The Nth Element</title>
+
+<para>
+  Write a procedure, <code>(<function>my-list-ref</function>
+  <parameter>lst</parameter> <parameter>n</parameter>)</code>, that 
+  extracts element <parameter>n</parameter> of a list.  For example,
+</para>
+
+<screen>
+<prompt>&gt;</prompt> <userinput>(my-list-ref (list "red" "orange" "yellow" "green" "blue" "indigo" "violet") 5)</userinput>
+<computeroutput>"indigo"</computeroutput>
+<prompt>&gt;</prompt> <userinput>(my-list-ref (list "red" "orange" "yellow" "green" "blue" "indigo" "violet") 0)</userinput>
+<computeroutput>"red"</computeroutput>
+</screen>
+
+<para>
+  Even though this procedure does the same thing as
+  <function>list-ref</function>, you should not use
+  <function>list-ref</function> to implement it.  Instead, your goal
+  is to figure out how <function>list-ref</function> works, which means
+  that you will need to implement this procedure using direct recursion.
+</para>
+
+<para>
+  <emphasis>Hint: When recursing, you will need to simplify the numeric
+  parameter (probably by subtracting 1) and the list parameter (probably
+  by taking its cdr).</emphasis>
+</para>
+
+</section> <!-- id="numeric-recursion-extra-01" -->
+
+<section id="numeric-recursion-02"><title>Extra 2: Computing List Prefixes</title>
+
+<para>
+  <!-- a. --> Define and test a recursive procedure, <code>(list-prefix
+  <parameter>lst</parameter> <parameter>n</parameter>)</code>, that
+  returns a list consisting of the first <parameter>n</parameter> elements
+  of the list, <parameter>lst</parameter>, in their original order.
+  You might also think of <function>list-prefix</function> as returning
+  all the values that appear before index <parameter>n</parameter>.
+</para>
+
+<para>
+For example,
+</para>
+
+<screen>
+<prompt>&gt;</prompt> <userinput>(list-prefix (list "a" "b" "c" "d" "e") 3)</userinput>
+<computeroutput>("a" "b" "c")</computeroutput>
+<prompt>&gt;</prompt> <userinput>(list-prefix (list 2 3 5 7 9 11 13 17) 2)</userinput>
+<computeroutput>(2 3)</computeroutput>
+<prompt>&gt;</prompt> <userinput>(list-prefix (list "here" "are" "some" "words") 0)</userinput>
+<computeroutput>()</computeroutput>
+<prompt>&gt;</prompt> <userinput>(list-prefix (list null null) 2)</userinput>
+<computeroutput>(() ())</computeroutput>
+<prompt>&gt;</prompt> <userinput>(map rgb-&gt;color-name (list-prefix (map color-name-&gt;rgb (list "black" "white" "green") 1))</userinput> 
+<computeroutput>("black")</computeroutput>
+</screen>
+
+<para>
+  While your procedure has much the same purpose as 
+  <function>list-take</function>, you should not call
+  <function>list-take</function>.  Rather, your goal is to implement
+  the procedure recursively.
+</para>
+
+<!--
+<para>
+  b. Update your procedure to check appropriate preconditions.  In particular,
+  your procedure should signal an error if <parameter>lst</parameter>
+  is not a list, if <parameter>n</parameter> is not an exact integer,
+  if <parameter>n</parameter> is negative, or if <parameter>n</parameter>
+  is greater than the length of <parameter>lst</parameter>.
+</para>
+
+<para>
+  Note that in order to signal such errors, you may want to take advantage
+  of the husk-and-kernel programming style.  You can use named let or
+  <code>letrec</code>.
+</para>
+
+<para>
+  c. Compare your error messages for various invalid parameters with
+  those given by <function>list-take</function>.
+</para>
+-->
+</section> <!-- id="numeric-recursion-extra-02" -->
+
+<!--
+<section id="numeric-recursion-extra-03"><title>Extra 3: Taking Some More Elements</title>
+
+<para>
+  Rewrite <function>list-prefix</function> to use whichever of named
+  <function>let</function> and <function>letrec</function> you didn't
+  use in the previous exercise.
+</para>
+
+</section> --> <!-- id="numeric-recursion-extra-03" -->
+
+</section>
+
+<section id="numeric-recursion-notes"><title>Notes</title>
+
+<anchor id="anchor-numeric-recursion-notes-01"/>
+<section id="numeric-recursion-notes-01"><title>Notes on Exercise 1: Counting Down</title>
+
+<para>
+  Here's a possible solution to the problem.  The base case is easy.  If
+  the number is zero, then the list of all non-negative numbers less than or
+  equal to zero is the list that contains only zero.
+</para>
+
+<programlisting>
+    (if (zero? n)
+        (list 0)
+</programlisting>
+
+<para>
+  In the recursive case, we assume that we can compute the list of all
+  numbers less than or equal to <parameter>n</parameter>-1.  To get the 
+  complete list, we simply add <parameter>n</parameter> to the front.
+</para>
+
+<programlisting>
+        (cons n (count-down (- n 1)))
+</programlisting>
+
+<para>
+  Putting it all together, we get
+</para>
+
+<programlisting>
+<xi:include href="../procs/count-down.scm" parse="text" xmlns:xi="http://www.w3.org/2001/XInclude"
+/></programlisting>
+
+<para>
+  <link linkend="anchor-numeric-recursion-01">Return to the problem</link>.
+</para>
+
+</section> <!-- id="numeric-recursion-notes-01" -->
+
+<anchor id="anchor-numeric-recursion-notes-02"/>
+<section id="numeric-recursion-notes-02"><title>Notes on Exercise 2: Filling Lists</title>
+
+<para>
+  We begin by considering the base case.  The last example gives a hint: If
+  you want zero copies, you end up with the empty list.
+</para>
+
+<programlisting>
+    (if (zero? n)
+        null
+</programlisting>
+
+<para>
+  Now, on to the recursive case.  If we can create a list of
+  <parameter>n</parameter>-1 copies, we can then create a list of
+  <parameter>n</parameter> copies by prepending one more copy.
+</para>
+
+<programlisting>
+        (cons val (value-replicate val (- n 1)))
+</programlisting>
+
+<para>
+  Putting it all together, we get
+</para>
+
+<programlisting>
+<xi:include href="../procs/value-replicate.scm" parse="text" xmlns:xi="http://www.w3.org/2001/XInclude"
+/></programlisting>
+
+<para>
+  <link linkend="anchor-numeric-recursion-02">Return to the problem</link>.
+</para>
+
+</section> <!-- id="numeric-recursion-notes-02" -->
+
+</section> <!-- id="numeric-recursion-notes" -->
+
+</section> <!-- id="numeric-recursion-lab" -->
