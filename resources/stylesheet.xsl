@@ -18,7 +18,6 @@
 <xsl:param name="directory"/>
 
 <xsl:template name="body.attributes">
-  <xsl:attribute name="style">background-image:url(../Images/logo.png);</xsl:attribute>
 </xsl:template>
 
 <xsl:template name="user.header.content">
@@ -64,7 +63,7 @@ Samuel A. Rebelsky, <a href="mailto:rebelsky@grinnell.edu">rebelsky@grinnell.edu
 </p>
 
 <p>
-Copyright &copy; 2007-2015 Janet Davis, Samuel A. Rebelsky, and Jerod Weinman.  
+Copyright &copy; 2007-2015 Charlie Curtsinger, Janet Davis, Samuel A. Rebelsky, and Jerod Weinman.  
 (Selected materials are copyright by John David Stone or Henry Walker
 and are used with permission.)
 </p>
