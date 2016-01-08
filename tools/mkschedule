@@ -112,6 +112,18 @@ elsif ($type eq "mtwf-spring-alt") {
   print "</tbody>\n";
   bottom();
 } # mtwf-spring-alt
+elsif ($type eq "th-fall") {
+  top();
+  print "<thead>\n";
+  headings();
+  print "</thead>\n";
+  print "<tbody>\n";
+  days(8);
+  break("Fall Break", 6);
+  days(6);
+  print "</tbody>\n";
+  bottom();
+} # th-spring
 elsif ($type eq "th-spring") {
   top();
   print "<thead>\n";
@@ -211,10 +223,10 @@ sub weeks($$$)
       day();
     } # for each day
     # Add the review sessions and any extra days
-    if ($INCLUDE_REVIEW_SESSIONS) {
+    if ($INCLUDE_REVIEW_SESSIONS && ($D == 3)) {
       review();
-      day();
     }
+    day();
   } # for
 } # weeks
 
@@ -267,7 +279,7 @@ sub review()
   print<<"REVIEW";
       <tr>
         <td></td>
-        <td>&thu$WEEK;</td>
+        <td>Thursday, &thu$WEEK;</td>
         <td>
           <emphasis role="strong"><emphasis><ulink url="../eboards/extra.$WEEK.html">Optional Review Session</ulink></emphasis></emphasis>
         </td>
