@@ -4,7 +4,7 @@
 ./makereport "$1" "$2"
 
 echo "Sending report for $1 to $2@grinnell.edu"
-cat reports/$2 | mail -s "CSC151 2015S: Grade Report for $1" -c rebelsky@grinnell.edu $2@grinnell.edu
+cat reports/$2 | mail -s "CSC151 2015F: Grade Report for $1" -c rebelsky@grinnell.edu $2@grinnell.edu
 
 if [ -n "$3" ]; then
   echo "Pausing for $3 seconds.";
