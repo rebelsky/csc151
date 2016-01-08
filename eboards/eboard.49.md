@@ -1,0 +1,102 @@
+CSC151.01 2015F, Class 49: Project Assessment: Images
+=====================================================
+
+* Sit wherever you would like.
+
+_Overview_
+
+* Preliminaries.
+    * Admin.
+    * Upcoming Work.
+    * Extra Credit.
+    * Questions.
+* Reviewing images: The "big picture".
+* Reviewing images: Policies for doing individual images.
+* Image review.
+* Debrief, if appropriate.
+
+Preliminaries
+-------------
+
+### Admin
+
+* Welcome back!  I hope you had a great break.
+* Today will be crits of your artworks.
+* Tuesday will be crits of your code.
+* Wednesday will be back to binary search.
+* Some of you wanted to know about the final.  I've posted
+  [a sample final](../assignments/sample-final.html) to the
+  assignments page.  
+    * It's one I wrote last year, so it has more overlap with the current
+      exam than I expect the real exam to have.
+    * We will talk about it more the last day of class.
+    * The final is at 9 or 2 on December 15.
+    * Yes, I will try to have grades to you before the last day of class
+      so that you can decide whether or not to take the final.
+
+### Upcoming Work
+
+* No reading for Tuesday.
+* No lab writeup.
+* Exam 4 prologue due Friday, Dec. 4.
+* Exam 4 due Monday, Dec. 7.  Email it to me as an attachment.
+* Exam 4 cover sheet due Tuesday, Dec. 8.
+* Exam 4 epilogue due Tuesday, Dec. 8.
+
+### Extra Credit Opportunities
+
+* If possible, send me these in advance.
+
+#### Academic
+
+* Any visit to the current show in the Faulconer gallery.
+* CS Table, Tuesday, ???
+* Future of the Libraries Talk, December 3, Noon, JRC 101.
+* CS Extras, Thursday, Summer Research at UMich.
+
+#### Peer Support
+
+* December 1 at 4pm in Cultural Education Center, JM translated!
+* Dance Ensemble, Friday and Saturday at 7:30 p.m.
+* Women's Basketball vs. St. Norbert, Dec. 5 at 3:00 p.m.
+* One-act Festival Dec. 5 at 2pm & 6 at 7pm.
+* Choir Concert, Dec. 6 at 2pm in Herrick.
+
+#### Regular Peer Support
+
+* Pals of PALS, pals@grinnell.edu, normally Saturday at 7:45 am (breakfast
+  included; felines only), and Mondays at 4:45.  Requires sign up in 
+  advance.    MORE HELP NEEDED!
+* Socrates Cafe', Saturdays, Younker, 2pm. 
+* Pun Club, Saturdays, 4pm, Way over Younker. 
+
+#### Upcoming Peer Support
+
+* Women's Basketball vs. Carroll, Dec. 12 at 3:00 p.m.
+
+#### Miscellaneous
+
+* Choosing a Major, December 1 at 11 a.m.
+  (Yes, you can come even if you've already chosen a major; you'll just
+  serve as a resource for the students who are thinking about choosing
+  a major.)
+* Stay sober at Winter Waltz.
+
+### Other Good Things (No Extra Credit)
+
+* Jingle Bell Holiday December 4.
+
+### Questions
+
+Reviewing images: The "big picture"
+-----------------------------------
+
+Reviewing images: Policies for doing individual images
+------------------------------------------------------
+
+Image review
+------------
+
+Debrief, if appropriate
+-----------------------
+
