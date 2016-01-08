@@ -1,3 +1,3 @@
-* Transforming images by transforming each pixel.
-* Sequencing transformations with compose.
+* From transforming colors to transforming images.
+* Sectioning.
 * Anonymous transformations.

@@ -1,3 +1,3 @@
 * The subject matter(s) of the course.
-* Topics within each subject matter.
-* Looking behond the class.
+* More about the subject matter(s).
+* Looking beyond the course.
