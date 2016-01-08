@@ -1,2 +1,1 @@
-Today we explore common ways in which to transform colors, pixels, and 
-images.  
+Today we explore common ways in which to transform colors.
