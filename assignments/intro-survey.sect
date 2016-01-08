@@ -48,7 +48,9 @@
 <para>
   <emphasis role="strong">Submitting:</emphasis> Email your answers to
   <email>rebelsky@grinnell.edu</email> with appropriate subject lines.
-  More details <link linkend="anchor-submitting">below</link>.
+  You will send one message for part one of the assignment and a
+  second message for part two of the assignment.  More details <link
+  linkend="anchor-submitting">below</link>.
 </para>
 
 <para>
@@ -58,11 +60,11 @@
 </para>
 
 <para>
-  <emphasis role="strong">Advance Notice:</emphasis> Experience suggests that
-  it takes about fifteen minutes for me to work through one student's
-  assignment.  I have about seventy students between the two sections 
-  of CSC 151.  It will take me at least a week to get through the nearly 
-  twenty hours of grading this assignment requires.
+  <emphasis role="strong">Note:</emphasis> It takes about fifteen minutes
+  to read, reflect on, and respond to one submission.  Given my personal
+  wellness policies for this semester, that means I will probably
+  respond to no more than eight submissions per day.  I will respond in
+  approximately the order I receive them.
 </para>
 
 <section id="assignment"><title>Assignment</title>
@@ -119,6 +121,12 @@
   </listitem>
 
   <listitem>
+    The Computer Science Department's policy on academic honesty,
+    available at
+    <code><ulink url="http://www.cs.grinnell.edu/academic-honesty-policy"/></code>>
+  </listitem>
+
+  <listitem>
     My notes on students with disabilities, available at
     <code><ulink url="&url;handouts/disabilities.html"/></code>.
   </listitem>
@@ -144,7 +152,8 @@
 
   <listitem>
     Anything that seems to be necessary to answer the following 
-    questions.
+    questions.  (Yes, you may have to come back to this after
+    you've read the questions.)
   </listitem>
 </itemizedlist>
 
@@ -160,11 +169,12 @@
   <listitem>
     Suppose you get everything correct on a homework assignment.
     What grade should you expect to receive on that assignment?
-    What does that grade mean?  (Note that you should refer to
-    both my notes on grading and my grading rubric in answering
-    this question.)
+    What does that grade mean?  (Note that you should refer to both
+    <ulink url="&url;/handouts/grading.html">my notes on grading</ulink>
+    and <ulink url="&url;/handouts/rubric.txt">my grading rubric</ulink>
+    in answering this question.)
   </listitem>
-     
+
   <listitem>
     What happens if you turn in a homework assignment late?
   </listitem>
@@ -199,12 +209,12 @@
 
   <listitem>
     Do you agree to abide by my 
-    <ulink url="../handouts/academic-honesty.html">policies on
-    academic honesty</ulink>?  If you feel that you can't agree with
-    them, we'll need to have a meeting ASAP to discuss your concerns
-    or questions, as these polices are in effect for the course.  (If I
-    feel that your concerns or questions are reasonable, I will likely
-    revise those policies.)
+    <ulink url="../handouts/academic-honesty.html">policies on academic
+    honesty</ulink> and the department policies?  If you feel that
+    you can't agree with these policies, we'll need to have a meeting
+    ASAP to discuss your concerns or questions, as these polices are in
+    effect for the course.  (If I feel that your concerns or questions
+    are reasonable, I will likely revise those policies.)
   </listitem>
 
   <listitem>
@@ -375,7 +385,7 @@
   a subject of <quote>CSC 151 Course Details (<emphasis>Your
   Name</emphasis>)</quote> and should contain your answers to the first
   part of this assignment.  The second should have a subject of <quote>CSC
-  151 Survey Answers (<emphasis>Your Name</emphasis>)</quote> and
+  151 Survey Responses (<emphasis>Your Name</emphasis>)</quote> and
   should contain your answers to the second part of this assignment.
   You should replace the phrase <quote><emphasis>Your Name</emphasis></quote>
   with your name.
