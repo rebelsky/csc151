@@ -1,12 +1,15 @@
+<!ENTITY exam3-preliminaries 'Please read the <ulink url="preliminaries.03.html">information on this examination</ulink>, which includes both instructions and a checklist.'>
 <!ENTITY prof-contact-times "8am-10pm">
+<!ENTITY prof-contact-extra "">
 <!ENTITY prof-contact-options "cell phone (text only) - 641-990-2947">
-<!ENTITY exam3-prologue "http://bit.ly/151-2015S-exam3pro">
-<!ENTITY exam3-optional-prologue-due '<listitem>10:30 p.m., Friday, 10 April 2015 (<ulink url="&exam3-prologue;">Prologue</ulink>)</listitem>'>
-<!ENTITY exam3-optional-epilogue-due '<listitem>11:00 p.m., Tuesday, 14 April 2015 (<ulink url="&exam3-epilogue;">Epilogue</ulink>)</listitem>'>
-<!ENTITY exam3-epilogue-due '&exam3-optional-epilogue-due;'>
-<!ENTITY exam3-epilogue "http://bit.ly/151-2015S-exam3epi">
-<!ENTITY exam3-submit-url "http://bit.ly/151-2015S-exam3">
+<!ENTITY exam3-prologue "http://bit.ly/151-2015F-exam3pro">
+<!ENTITY exam3-optional-prologue-due '<listitem>10:30 p.m., Friday, November 6th, 2015 (<ulink url="&exam3-prologue;">Prologue</ulink>)</listitem>'>
+<!ENTITY exam3-optional-epilogue-due '<listitem>10:30 p.m., Wednesday, November 11th, 2015 (<ulink url="&exam3-epilogue;">Epilogue</ulink>)</listitem>'>
+<!ENTITY exam3-epilogue-due '<listitem>10:30 p.m., Wednesday, November 11th, 2015 (<ulink url="&exam3-epilogue;">Epilogue</ulink>)</listitem>'>
+<!ENTITY exam3-epilogue "http://bit.ly/151-2015F-exam3epi">
+<!ENTITY exam3-submit-url "http://bit.ly/151-2015F-exam3code">
 <!ENTITY exam3-email-subject "CSC 151.&section; Exam 3 (Your Name)">
+<!ENTITY exam3-code-path "exam3.2015F/">
 <!ENTITY exam3-optional-prologue "
   <para>
     This examination has a <ulink url='&exam3-prologue;'>prologue</ulink>
@@ -24,13 +27,16 @@
     examination.  The epilogue is required.  Failure to fill in the
     epilogue will incur a penalty of five points on the exam.
   </para>">
+<!ENTITY checklist-optional-prologue "<listitem>Have you filled out the prologue? (Goal: ASAP; Due: Friday)</listitem>">
+<!ENTITY checklist-optional-epilogue "<listitem>Have you filled out the epilogue? (Due: Wednesday)</listitem>">
 <!ENTITY more-to-life-requirements "
   recorded the time spent on each problem, filled in the prologue by the
-  specified deadline, filled in the epilogue, and arranged for a meeting
+  specified deadline, filled in the epilogue by the specified deadline, 
+  gotten at least two problems mostly right, and arranged for a meeting
   with me within one week of receiving your graded exam.  You may count
   the time you spend on the prologue toward those five hours, but not
   the time you spend on the epilogue.">
-<!ENTITY turnin-printed "
+<!ENTITY exam3-turnin-printed "
   <para>
     For the physical copy, you must write all of your answers using the
     computer, print them out, number the pages, staple them together
@@ -47,12 +53,10 @@
     option, then you must indicate that option on the cover sheet, and
     you should indicate it <emphasis>only</emphasis> on the cover sheet.
   </para>">
-<!ENTITY turnin-electronic "
+<!ENTITY exam3-turnin-electronic "
   <para>
     You must also submit the code for your examination at <ulink
-    url='&exam3-submit-url;'/>.  Ideally, you would put all of the code
-    for the exam in a single Racket file.  However, if you have created
-    separate files for the separate parts of the exam, you can just
-    paste them one after another when you submit, provided you put a
-    clear separator, such as <code>; PROBLEM 2</code>, between sections.
+    url='&exam3-submit-url;'/>.  Please include the whole code
+    file, including the supplied code that appears at the bottom 
+    of the template file.
   </para>">

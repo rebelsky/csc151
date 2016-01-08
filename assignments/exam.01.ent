@@ -1,11 +1,11 @@
 <!ENTITY prof-contact-times "8am-10pm">
 <!ENTITY prof-contact-options "cell phone (text only) - 641-990-2947">
-<!ENTITY exam1-prologue "http://bit.ly/151-2015S-exam1pro">
-<!ENTITY exam1-optional-prologue-due '<listitem>10:30 p.m., Friday, 6 February 2015 (<ulink url="&exam1-prologue;">Prologue</ulink>)</listitem>'>
-<!ENTITY exam1-optional-epilogue-due '<listitem>10:30 p.m., Wednesday, 11 February 2015 (<ulink url="&exam1-epilogue;">Epilogue</ulink>)</listitem>'>
-<!ENTITY exam1-epilogue-due '<listitem>10:30 p.m., Wednesday, 11 February 2015 (<ulink url="&exam1-epilogue;">Epilogue</ulink>)</listitem>'>
-<!ENTITY exam1-epilogue "http://bit.ly/151-2015S-exam1epi">
-<!ENTITY exam1-submit-url "http://bit.ly/151-2015S-exam1">
+<!ENTITY exam1-prologue "http://bit.ly/151-2015F-exam1pro">
+<!ENTITY exam1-optional-prologue-due '<listitem>10:30 p.m., Friday, 18 September 2015 (<ulink url="&exam1-prologue;">Prologue</ulink>)</listitem>'>
+<!ENTITY exam1-optional-epilogue-due '<listitem>10:30 p.m., Tuesday, 22 September (<ulink url="&exam1-epilogue;">Epilogue</ulink>)</listitem>'>
+<!ENTITY exam1-epilogue-due '<listitem>10:30 p.m., Tuesday, 22 September 2015 (<ulink url="&exam1-epilogue;">Epilogue</ulink>)</listitem>'>
+<!ENTITY exam1-epilogue "http://bit.ly/151-2015F-exam1epi">
+<!ENTITY exam1-submit-url "http://bit.ly/151-2015F-exam1">
 <!ENTITY exam1-email-subject "CSC 151.&section; Exam 1 (Your Name)">
 <!ENTITY exam1-optional-prologue "
   <para>
@@ -24,9 +24,12 @@
     examination.  The epilogue is required.  Failure to fill in the
     epilogue will incur a penalty of five points on the exam.
   </para>">
+<!ENTITY checklist-optional-prologue "<listitem>Have you filled out the prologue? (Goal: Wednesday; Due: Friday)</listitem>">
+<!ENTITY checklist-optional-epilogue "<listitem>Have you filled out the epilogue? (Due: Tuesday)</listitem>">
 <!ENTITY more-to-life-requirements "
   recorded the time spent on each problem, filled in the prologue by the
-  specified deadline, filled in the epilogue, and arranged for a meeting
+  specified deadline, filled in the epilogue by the specified deadline, 
+  gotten at least two problems mostly right, and arranged for a meeting
   with me within one week of receiving your graded exam.  You may count
   the time you spend on the prologue toward those five hours, but not
   the time you spend on the epilogue.">

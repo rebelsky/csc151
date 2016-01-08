@@ -1,6 +1,6 @@
-<!ENTITY algorithms-due "10:30 p.m., &tue02;">
-<!ENTITY algorithms-title "Assignment 2: Exploring Algorithms">
-<!ENTITY algorithms-subject "CSC 151.&section; Assignment 2: Exploring Algorithms">
-<!ENTITY algorithms-prologue "http://bit.ly/151hw2pro">
-<!ENTITY algorithms-epilogue "http://bit.ly/151hw2epi">
-<!ENTITY algorithms-partners "&url;partners/assignment.02.html">
+<!ENTITY starting-scheme-due "10:30 p.m., &tue02;">
+<!ENTITY starting-scheme-title "Assignment 2: Exploring Algorithms">
+<!ENTITY starting-scheme-subject "CSC 151 Assignment 2: Exploring Algorithms">
+<!ENTITY starting-scheme-prologue "http://bit.ly/151hw2pro">
+<!ENTITY starting-scheme-epilogue "http://bit.ly/151hw2epi">
+<!ENTITY starting-scheme-partners "&url;partners/assignment.02.html">

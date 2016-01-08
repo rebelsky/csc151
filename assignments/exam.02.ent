@@ -1,16 +1,17 @@
 <!ENTITY prof-contact-times "8am-10pm">
 <!ENTITY prof-contact-options "cell phone (text only) - 641-990-2947">
-<!ENTITY exam2-prologue "http://bit.ly/151-2015S-exam2pro">
-<!ENTITY exam2-optional-prologue-due '<listitem>10:30 p.m., Sunday, 8 March 2015 (<ulink url="&exam2-prologue;">Prologue</ulink>)</listitem>'>
-<!ENTITY exam2-optional-epilogue-due '<listitem>11:00 p.m., Thursday, 12 March 2015 (<ulink url="&exam2-epilogue;">Epilogue</ulink>)</listitem>'>
-<!ENTITY exam2-epilogue-due '&exam2-optional-epilogue-due;'>
-<!ENTITY exam2-epilogue "http://bit.ly/151-2015S-exam2epi">
-<!ENTITY exam2-submit-url "http://bit.ly/151-2015S-exam2">
-<!ENTITY exam2-email-subject "CSC 151.&section; Exam 2 (Your Name)">
+<!ENTITY exam2-prologue "http://bit.ly/151-2015F-exam2pro">
+<!ENTITY exam2-optional-prologue-due '<listitem>10:30 p.m., Friday, 9 October 2015 (<ulink url="&exam2-prologue;">Prologue</ulink>)</listitem>'>
+<!ENTITY exam2-optional-epilogue-due '<listitem>10:30 p.m., Tuesday, 13 October 2015 (<ulink url="&exam2-epilogue;">Epilogue</ulink>)</listitem>'>
+<!ENTITY exam2-epilogue-due '<listitem>10:30 p.m., Wednesday, 14 October 2015 (<ulink url="&exam2-epilogue;">Epilogue</ulink>)</listitem>'>
+<!ENTITY exam2-epilogue "http://bit.ly/151-2015F-exam2epi">
+<!ENTITY exam2-submit-url "http://bit.ly/151-2015F-exam2code">
+<!ENTITY exam2-email-subject "CSC 151.&section; Exam 1 (Your Name)">
+<!ENTITY exam2-code-path "exam2.2015F/">
 <!ENTITY exam2-optional-prologue "
   <para>
     This examination has a <ulink url='&exam2-prologue;'>prologue</ulink>
-    that must be completed by the Sunday evening before the exam is due.
+    that must be completed by the Friday evening before the exam is due.
     The prologue is intended to help you get started thinking about the
     examination.  The prologue is required.  Failure to fill in the
     prologue by the designated time will incur a penalty of five points
@@ -24,9 +25,12 @@
     examination.  The epilogue is required.  Failure to fill in the
     epilogue will incur a penalty of five points on the exam.
   </para>">
+<!ENTITY checklist-optional-prologue "<listitem>Have you filled out the prologue? (Goal: Wednesday; Due: Friday)</listitem>">
+<!ENTITY checklist-optional-epilogue "<listitem>Have you filled out the epilogue? (Due: Tuesday)</listitem>">
 <!ENTITY more-to-life-requirements "
   recorded the time spent on each problem, filled in the prologue by the
-  specified deadline, filled in the epilogue, and arranged for a meeting
+  specified deadline, filled in the epilogue by the specified deadline, 
+  gotten at least two problems mostly right, and arranged for a meeting
   with me within one week of receiving your graded exam.  You may count
   the time you spend on the prologue toward those five hours, but not
   the time you spend on the epilogue.">
@@ -50,9 +54,7 @@
 <!ENTITY turnin-electronic "
   <para>
     You must also submit the code for your examination at <ulink
-    url='&exam2-submit-url;'/>.  Ideally, you would put all of the code
-    for the exam in a single Racket file.  However, if you have created
-    separate files for the separate parts of the exam, you can just
-    paste them one after another when you submit, provided you put a
-    clear separator, such as <code>; PROBLEM 2</code>, between sections.
+    url='&exam2-submit-url;'/>.  Please include the whole code
+    file, including the supplied code that appears at the bottom 
+    of the template file.
   </para>">
