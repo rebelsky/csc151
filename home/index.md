@@ -4,7 +4,7 @@ Front Door
 Introduction
 ------------
 
-Welcome to the Spring 2015 sections of Grinnell College's CSC
+Welcome to the Fall 2015 section of Grinnell College's CSC
 151, *Functional Problem Solving*, which is described relatively briefly
 in the official [blurb](../handouts/blurb.html).  My own take on this
 course is that we'll be starting to develop your knowledge of computer
@@ -12,9 +12,8 @@ science and *algorithmic problem solving*.  We will be using Scheme as
 our development language, which gives us the abililty to use functional
 approaches (as well as imperative and object-oriented approaches).
 As in all Grinnell classes, we'll also be working on general skills,
-from group work to thinking on your feet.
+from group work to "thinking on your feet".
 
-Starting about seven years ago, we developed a new approach to CSC 151.
 In both sections of the course, we will be emphasizing *media computation*
 - the application of algorithmic problem solving techniques to media.
 We will particularly emphasize algorithms for creating and manipulating
@@ -51,53 +50,52 @@ for help.
 *Warning!*  We are using some cutting-edge software, which means that
 things will occasionally crash for no good reason.
 
-*Warning!*  For the first time, I am teaching both sections of CSC 151. 
-That means that when I have grading to do (e.g., the four exams, the
-first assignment), I will have approximately 70 things to grade, which
-should take me upwards of twenty hours.
+*Warning!*  I am teaching three new courses this fall (in addition to CSC 151)
+and serving as department chair.  I have instituted a wellness schedule:
+Except on weeks in which I have an exam to grade, I am limiting myself to
+two hours of evening work and five hours of weekend work.
 
-*Warning!*  I have extra administrative responsibilities this semester,
-and the College is not always good about paying attention to my office
-hours.  You may find that my availability switches from week to week.  I
-will, however, do my best to be available via email.
+*Warning!*  Nationwide, computer science is one of the highest reporters
+of academic honesty issues.  Please make sure that you understand both
+[the CS department's policy on academic honesty](http://www.cs.grinnell.edu/academic-honesty-policy)
+and 
+[the course policy on academic honesty](../handouts/academic-honesty.html).
 
 Basics
 ------
 
-*Meets*: MTWF 9:00-9:50 (morning section) or 1:15-2:05 (afternoon session)
-in Science 3813.
-Optional review sessions with SamR, Thursdays, 9:00-9:50 and 1:15-2:05, Science 3813.
+*Meets*: MTWF 10:00-10:50 (morning section) in Science 3813.
+Optional review sessions with SamR, Thursdays, 10:00-10:50, Science 3813.
 Optional review sessions hosted by the class mentors TBD.
 
 *Instructor*: 
 [Samuel A. Rebelsky](http://www.cs.grinnell.edu/~rebelsky/)
 [[rebelsky](mailto:rebelsky@grinnell.edu)],
 Science 3824.  641-269-4410 (office).  641-990-2947 (cell).  
-Office hours:  MTWF 10:00-11:00, M 3:15-4:00.  Sign up for office
-hours at <https://rebelsky.youcanbook.me/>.
+Office hours:  TBD.
 I also tend to follow an open door policy: Feel free to stop by when my
 door is open or to make an appointment for another time.
 
 *Class Mentors*: 
-Morning section: Erin Gaschott and Albert Owusu-Asare.  Afternoon section: Alex
-Greenberg and Sarah Trop.
+Morning section: Erin Gaschott and Zachary Segall.  
 
 *Grading* (subject to change):
 
 * Class participation: 10%;
-* Regular homework: 10% (revised to 0%);
+* Regular homework: 10%
 * Lab writeups: 10%
-* Project: 10% (revised to 12%);
-* Weekly quizzes: 10% (revised to 12%);
-* Exams (4 graded exams plus optional final): 45% (revised to 50%);
-* Best of individual work (average quiz grade, average exam grade, final): 5% (revised to 6%).
+* Project: 10%
+* Weekly quizzes: 10%
+* Exams (4 graded exams plus optional final): 45%
+    * Optional final can be taken at 9am on Tuesday, 15 December 2015 or
+      2pm on Tuesday, 15 December 2015
+* Best of individual work (average quiz grade, average exam grade, final): 5%
 
-The final examination for this course is *optional*.
-It can be used as a makeup for one examination.  I will count the
-final examination only if it is higher than your lowest examination, and
-it will replace the grade for that examination.  I have not yet received
-information from the registrar on the available times for our final
-examination.
+The final examination for this course is *optional*.  It can be used as
+a makeup for one examination.  I will count the final examination only
+if it is higher than your lowest examination, and it will replace the
+grade for that examination.  I have not yet received information from
+the registrar on the available times for our final examination.
 
 I will drop the grade on one quiz (the quiz with the lowest grade).
 
@@ -108,8 +106,8 @@ More information on grading can be found in the
 Computer science 151 is taught in a *collaborative workshop style*.
 Each day, you'll work on laboratory problems with other students in
 the class.  We may also start or end each class session with a short
-lecture/discussion.  Some labs will require short writeups, which you
-will normally do with your lab partner.
+lecture/discussion.  Most labs will require short writeups, which you
+will normally do with your lab partner.  
 
 *Extra Credit*:
 I will often offer one unit of extra credit for attending a specified
@@ -124,12 +122,13 @@ you must send me a short (one paragraph) note about the activity within
 two days of the activity.
 
 *Tutoring*:
-The CS department makes tutors for CSC 151 available from 7:00-10:00
-p.m. on Sunday through Thursday evening.  We also have individual and
-small group tutors available for students who feel that they would benefit
-from that extra support.  We generally do not assign individual tutors
-until after the first exam and are likely to encourage students to work
-with personal tutors in pairs or triplets rather than individually.
+The CS department makes tutors for CSC 151 (and other courses) available
+from 7:00-10:00 p.m. on Sunday through Thursday evening.  We also have
+individual and small group tutors available for students who feel that
+they would benefit from that extra support.  We generally do not assign
+individual tutors until after the first exam and are likely to encourage
+students to work with personal tutors in pairs or triplets rather than
+individually.
 
 *Good-Faith Grade Guarantee*: 
 Because I realize that computer science may require a transition in
@@ -148,8 +147,9 @@ some locally written extensions.  It will be hard to run the software
 outside of the Computer Science department's network (or the Math/Stats
 department's network).  We recommend that you work in our labs for the
 ability to get help.  Since some students have reasons to work away
-from our lab, we also provide a virtual machine that you can run on
-most computers.
+from our lab, we also provide a [virtual machine](../reference/virtual-machine) that you can run on
+most computers.  There are also some other options.  Talk to me for more
+information.
 
 *Appropriate Use of Technology*:
 A key aspect of Grinnell's culture of self-governance is that we treat
