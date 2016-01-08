@@ -6,8 +6,8 @@ schedule.html: overviews/*.xml
 overviews/%.xml: ../outlines/overviews/%.md
 	../tools/overview2xml $^ > $@
 
-schedule.sect: $(MKSCHEDULE)
-	$(MKSCHEDULE) mtwf-fall-writeups > $@
+schedule.sect: $(MKSCHEDULE) Makefile
+	$(MKSCHEDULE) mtwf-fall-review > $@
 
 # Hacks for generating a decent PDF of the schedule
 sched.sect: $(MKSCHEDULE)
